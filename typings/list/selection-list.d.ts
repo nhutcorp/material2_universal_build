@@ -32,7 +32,6 @@ export declare class MdListOption extends _MdListOptionMixinBase implements Afte
     selectionList: MdSelectionList;
     private _lineSetter;
     private _selected;
-    /** Whether the checkbox is disabled. */
     private _disabled;
     private _value;
     /** Whether the option has focus. */
@@ -59,7 +58,7 @@ export declare class MdListOption extends _MdListOptionMixinBase implements Afte
     /** Allows for programmatic focusing of the option. */
     focus(): void;
     /** Whether this list item should show a ripple effect when clicked.  */
-    _isRippleDisabled(): boolean;
+    _isRippleDisabled(): any;
     _handleClick(): void;
     _handleFocus(): void;
     _handleBlur(): void;
