@@ -6,10 +6,10 @@
  * found in the LICENSE file at https://angular.io/license
  */
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/cdk/a11y'), require('@angular/cdk/bidi'), require('@angular/cdk/observers'), require('@angular/cdk/overlay'), require('@angular/cdk/portal'), require('@angular/platform-browser'), require('@angular/common'), require('@angular/cdk/scrolling'), require('@angular/cdk/platform'), require('@angular/cdk/keycodes'), require('@angular/cdk/coercion'), require('@angular/cdk/collections'), require('rxjs/Subject'), require('rxjs/observable/of'), require('@angular/forms'), require('@angular/cdk/rxjs'), require('@angular/animations'), require('rxjs/observable/fromEvent'), require('rxjs/observable/merge'), require('rxjs/Subscription'), require('rxjs/observable/defer'), require('@angular/http'), require('rxjs/Observable'), require('rxjs/observable/throw'), require('rxjs/observable/forkJoin'), require('@angular/cdk/table'), require('@angular/cdk/stepper')) :
-	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/cdk/a11y', '@angular/cdk/bidi', '@angular/cdk/observers', '@angular/cdk/overlay', '@angular/cdk/portal', '@angular/platform-browser', '@angular/common', '@angular/cdk/scrolling', '@angular/cdk/platform', '@angular/cdk/keycodes', '@angular/cdk/coercion', '@angular/cdk/collections', 'rxjs/Subject', 'rxjs/observable/of', '@angular/forms', '@angular/cdk/rxjs', '@angular/animations', 'rxjs/observable/fromEvent', 'rxjs/observable/merge', 'rxjs/Subscription', 'rxjs/observable/defer', '@angular/http', 'rxjs/Observable', 'rxjs/observable/throw', 'rxjs/observable/forkJoin', '@angular/cdk/table', '@angular/cdk/stepper'], factory) :
-	(factory((global.ng = global.ng || {}, global.ng.material = global.ng.material || {}),global.ng.core,global.ng.cdk.a11y,global.ng.cdk.bidi,global.ng.cdk.observers,global.ng.cdk.overlay,global.ng.cdk.portal,global.ng.platformBrowser,global.ng.common,global.ng.cdk.scrolling,global.ng.cdk.platform,global.ng.cdk.keycodes,global.ng.cdk.coercion,global.ng.cdk.collections,global.Rx,global.Rx.Observable,global.ng.forms,global.ng.cdk.rxjs,global.ng.animations,global.Rx.Observable,global.Rx.Observable,global.Rx,global.Rx.Observable,global.ng.http,global.Rx,global.Rx.Observable,global.Rx.Observable,global.ng.cdk.table,global.ng.cdk.stepper));
-}(this, (function (exports,_angular_core,_angular_cdk_a11y,_angular_cdk_bidi,_angular_cdk_observers,_angular_cdk_overlay,_angular_cdk_portal,_angular_platformBrowser,_angular_common,_angular_cdk_scrolling,_angular_cdk_platform,_angular_cdk_keycodes,_angular_cdk_coercion,_angular_cdk_collections,rxjs_Subject,rxjs_observable_of,_angular_forms,_angular_cdk_rxjs,_angular_animations,rxjs_observable_fromEvent,rxjs_observable_merge,rxjs_Subscription,rxjs_observable_defer,_angular_http,rxjs_Observable,rxjs_observable_throw,rxjs_observable_forkJoin,_angular_cdk_table,_angular_cdk_stepper) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/platform-browser'), require('@angular/cdk/bidi'), require('@angular/cdk/coercion'), require('rxjs/Subject'), require('@angular/common'), require('@angular/cdk/scrolling'), require('@angular/cdk/platform'), require('@angular/cdk/keycodes'), require('@angular/cdk/a11y'), require('@angular/cdk/overlay'), require('@angular/cdk/portal'), require('@angular/cdk/rxjs'), require('@angular/forms'), require('@angular/animations'), require('rxjs/observable/fromEvent'), require('rxjs/observable/merge'), require('rxjs/observable/of'), require('@angular/cdk/observers'), require('@angular/cdk/collections'), require('rxjs/Subscription'), require('rxjs/observable/defer'), require('@angular/http'), require('rxjs/Observable'), require('rxjs/observable/forkJoin'), require('rxjs/observable/throw'), require('rxjs/operator/first'), require('rxjs/operator/startWith'), require('rxjs/operator/takeUntil'), require('@angular/cdk/table'), require('@angular/cdk/stepper')) :
+	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/platform-browser', '@angular/cdk/bidi', '@angular/cdk/coercion', 'rxjs/Subject', '@angular/common', '@angular/cdk/scrolling', '@angular/cdk/platform', '@angular/cdk/keycodes', '@angular/cdk/a11y', '@angular/cdk/overlay', '@angular/cdk/portal', '@angular/cdk/rxjs', '@angular/forms', '@angular/animations', 'rxjs/observable/fromEvent', 'rxjs/observable/merge', 'rxjs/observable/of', '@angular/cdk/observers', '@angular/cdk/collections', 'rxjs/Subscription', 'rxjs/observable/defer', '@angular/http', 'rxjs/Observable', 'rxjs/observable/forkJoin', 'rxjs/observable/throw', 'rxjs/operator/first', 'rxjs/operator/startWith', 'rxjs/operator/takeUntil', '@angular/cdk/table', '@angular/cdk/stepper'], factory) :
+	(factory((global.ng = global.ng || {}, global.ng.material = global.ng.material || {}),global.ng.core,global.ng.platformBrowser,global.ng.cdk.bidi,global.ng.cdk.coercion,global.Rx,global.ng.common,global.ng.cdk.scrolling,global.ng.cdk.platform,global.ng.cdk.keycodes,global.ng.cdk.a11y,global.ng.cdk.overlay,global.ng.cdk.portal,global.ng.cdk.rxjs,global.ng.forms,global.ng.animations,global.Rx.Observable,global.Rx.Observable,global.Rx.Observable,global.ng.cdk.observers,global.ng.cdk.collections,global.Rx,global.Rx.Observable,global.ng.http,global.Rx,global.Rx.Observable,global.Rx.Observable,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.Rx.Observable.prototype,global.ng.cdk.table,global.ng.cdk.stepper));
+}(this, (function (exports,_angular_core,_angular_platformBrowser,_angular_cdk_bidi,_angular_cdk_coercion,rxjs_Subject,_angular_common,_angular_cdk_scrolling,_angular_cdk_platform,_angular_cdk_keycodes,_angular_cdk_a11y,_angular_cdk_overlay,_angular_cdk_portal,_angular_cdk_rxjs,_angular_forms,_angular_animations,rxjs_observable_fromEvent,rxjs_observable_merge,rxjs_observable_of,_angular_cdk_observers,_angular_cdk_collections,rxjs_Subscription,rxjs_observable_defer,_angular_http,rxjs_Observable,rxjs_observable_forkJoin,rxjs_observable_throw,rxjs_operator_first,rxjs_operator_startWith,rxjs_operator_takeUntil,_angular_cdk_table,_angular_cdk_stepper) { 'use strict';
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -38,9 +38,28 @@ function __extends(d, b) {
 }
 
 /**
- * Current version of Angular Material.
+ * \@docs-private
  */
-var VERSION = new _angular_core.Version('2.0.0-beta.10');
+var AnimationCurves = (function () {
+    function AnimationCurves() {
+    }
+    return AnimationCurves;
+}());
+AnimationCurves.STANDARD_CURVE = 'cubic-bezier(0.4,0.0,0.2,1)';
+AnimationCurves.DECELERATION_CURVE = 'cubic-bezier(0.0,0.0,0.2,1)';
+AnimationCurves.ACCELERATION_CURVE = 'cubic-bezier(0.4,0.0,1,1)';
+AnimationCurves.SHARP_CURVE = 'cubic-bezier(0.4,0.0,0.6,1)';
+/**
+ * \@docs-private
+ */
+var AnimationDurations = (function () {
+    function AnimationDurations() {
+    }
+    return AnimationDurations;
+}());
+AnimationDurations.COMPLEX = '375ms';
+AnimationDurations.ENTERING = '225ms';
+AnimationDurations.EXITING = '195ms';
 var MATERIAL_COMPATIBILITY_MODE = new _angular_core.InjectionToken('md-compatibility-mode');
 /**
  * Returns an exception to be thrown if the consumer has used
@@ -222,6 +241,1058 @@ MdCommonModule.ctorParameters = function () { return [
     { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [_angular_platformBrowser.DOCUMENT,] },] },
     { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MATERIAL_SANITY_CHECKS,] },] },
 ]; };
+/**
+ * Mixin to augment a directive with a `disabled` property.
+ * @template T
+ * @param {?} base
+ * @return {?}
+ */
+function mixinDisabled(base) {
+    return (function (_super) {
+        __extends(class_1, _super);
+        /**
+         * @param {...?} args
+         */
+        function class_1() {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            var _this = _super.apply(this, args) || this;
+            _this._disabled = false;
+            return _this;
+        }
+        Object.defineProperty(class_1.prototype, "disabled", {
+            /**
+             * @return {?}
+             */
+            get: function () { return this._disabled; },
+            /**
+             * @param {?} value
+             * @return {?}
+             */
+            set: function (value) { this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value); },
+            enumerable: true,
+            configurable: true
+        });
+        return class_1;
+    }(base));
+}
+/**
+ * Mixin to augment a directive with a `color` property.
+ * @template T
+ * @param {?} base
+ * @param {?=} defaultColor
+ * @return {?}
+ */
+function mixinColor(base, defaultColor) {
+    return (function (_super) {
+        __extends(class_2, _super);
+        /**
+         * @param {...?} args
+         */
+        function class_2() {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            var _this = _super.apply(this, args) || this;
+            // Set the default color that can be specified from the mixin.
+            _this.color = defaultColor;
+            return _this;
+        }
+        Object.defineProperty(class_2.prototype, "color", {
+            /**
+             * @return {?}
+             */
+            get: function () { return this._color; },
+            /**
+             * @param {?} value
+             * @return {?}
+             */
+            set: function (value) {
+                var /** @type {?} */ colorPalette = value || defaultColor;
+                if (colorPalette !== this._color) {
+                    if (this._color) {
+                        this._renderer.removeClass(this._elementRef.nativeElement, "mat-" + this._color);
+                    }
+                    if (colorPalette) {
+                        this._renderer.addClass(this._elementRef.nativeElement, "mat-" + colorPalette);
+                    }
+                    this._color = colorPalette;
+                }
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return class_2;
+    }(base));
+}
+/**
+ * Mixin to augment a directive with a `disableRipple` property.
+ * @template T
+ * @param {?} base
+ * @return {?}
+ */
+function mixinDisableRipple(base) {
+    return (function (_super) {
+        __extends(class_3, _super);
+        /**
+         * @param {...?} args
+         */
+        function class_3() {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            var _this = _super.apply(this, args) || this;
+            _this._disableRipple = false;
+            return _this;
+        }
+        Object.defineProperty(class_3.prototype, "disableRipple", {
+            /**
+             * Whether the ripple effect is disabled or not.
+             * @return {?}
+             */
+            get: function () { return this._disableRipple; },
+            /**
+             * @param {?} value
+             * @return {?}
+             */
+            set: function (value) { this._disableRipple = _angular_cdk_coercion.coerceBooleanProperty(value); },
+            enumerable: true,
+            configurable: true
+        });
+        return class_3;
+    }(base));
+}
+/**
+ * Mixin to augment a directive with a `tabIndex` property.
+ * @template T
+ * @param {?} base
+ * @param {?=} defaultTabIndex
+ * @return {?}
+ */
+function mixinTabIndex(base, defaultTabIndex) {
+    if (defaultTabIndex === void 0) { defaultTabIndex = 0; }
+    return (function (_super) {
+        __extends(class_4, _super);
+        /**
+         * @param {...?} args
+         */
+        function class_4() {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            var _this = _super.apply(this, args) || this;
+            _this._tabIndex = defaultTabIndex;
+            return _this;
+        }
+        Object.defineProperty(class_4.prototype, "tabIndex", {
+            /**
+             * @return {?}
+             */
+            get: function () { return this.disabled ? -1 : this._tabIndex; },
+            /**
+             * @param {?} value
+             * @return {?}
+             */
+            set: function (value) {
+                // If the specified tabIndex value is null or undefined, fall back to the default value.
+                this._tabIndex = value != null ? value : defaultTabIndex;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        return class_4;
+    }(base));
+}
+/**
+ * Class to coordinate unique selection based on name.
+Intended to be consumed as an Angular service.
+This service is needed because native radio change events are only fired on the item currently
+being selected, and we still need to uncheck the previous selection.
+
+This service does not *store* any IDs and names because they may change at any time, so it is
+less error-prone if they are simply passed through when the events occur.
+ */
+var UniqueSelectionDispatcher = (function () {
+    function UniqueSelectionDispatcher() {
+        this._listeners = [];
+    }
+    /**
+     * Notify other items that selection for the given name has been set.
+    \@param id ID of the item.
+    \@param name Name of the item.
+     * @param {?} id
+     * @param {?} name
+     * @return {?}
+     */
+    UniqueSelectionDispatcher.prototype.notify = function (id, name) {
+        for (var _i = 0, _a = this._listeners; _i < _a.length; _i++) {
+            var listener = _a[_i];
+            listener(id, name);
+        }
+    };
+    /**
+     * Listen for future changes to item selection.
+    \@return Function used to deregister listener
+     * @param {?} listener
+     * @return {?}
+     */
+    UniqueSelectionDispatcher.prototype.listen = function (listener) {
+        var _this = this;
+        this._listeners.push(listener);
+        return function () {
+            _this._listeners = _this._listeners.filter(function (registered) {
+                return listener !== registered;
+            });
+        };
+    };
+    return UniqueSelectionDispatcher;
+}());
+UniqueSelectionDispatcher.decorators = [
+    { type: _angular_core.Injectable },
+];
+/**
+ * @nocollapse
+ */
+UniqueSelectionDispatcher.ctorParameters = function () { return []; };
+/**
+ * \@docs-private
+ * @param {?} parentDispatcher
+ * @return {?}
+ */
+function UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY(parentDispatcher) {
+    return parentDispatcher || new UniqueSelectionDispatcher();
+}
+/**
+ * \@docs-private
+ */
+var UNIQUE_SELECTION_DISPATCHER_PROVIDER = {
+    // If there is already a dispatcher available, use that. Otherwise, provide a new one.
+    provide: UniqueSelectionDispatcher,
+    deps: [[new _angular_core.Optional(), new _angular_core.SkipSelf(), UniqueSelectionDispatcher]],
+    useFactory: UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY
+};
+/**
+ * InjectionToken for datepicker that can be used to override default locale code.
+ */
+var MAT_DATE_LOCALE = new _angular_core.InjectionToken('MAT_DATE_LOCALE');
+/**
+ * Provider for MAT_DATE_LOCALE injection token.
+ */
+var MAT_DATE_LOCALE_PROVIDER = { provide: MAT_DATE_LOCALE, useExisting: _angular_core.LOCALE_ID };
+/**
+ * Adapts type `D` to be usable as a date by cdk-based components that work with dates.
+ * @abstract
+ */
+var DateAdapter = (function () {
+    function DateAdapter() {
+        this._localeChanges = new rxjs_Subject.Subject();
+    }
+    Object.defineProperty(DateAdapter.prototype, "localeChanges", {
+        /**
+         * A stream that emits when the locale changes.
+         * @return {?}
+         */
+        get: function () { return this._localeChanges; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Gets the year component of the given date.
+    \@param date The date to extract the year from.
+    \@returns The year component.
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getYear = function (date) { };
+    /**
+     * Gets the month component of the given date.
+    \@param date The date to extract the month from.
+    \@returns The month component (0-indexed, 0 = January).
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getMonth = function (date) { };
+    /**
+     * Gets the date of the month component of the given date.
+    \@param date The date to extract the date of the month from.
+    \@returns The month component (1-indexed, 1 = first of month).
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getDate = function (date) { };
+    /**
+     * Gets the day of the week component of the given date.
+    \@param date The date to extract the day of the week from.
+    \@returns The month component (0-indexed, 0 = Sunday).
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getDayOfWeek = function (date) { };
+    /**
+     * Gets a list of names for the months.
+    \@param style The naming style (e.g. long = 'January', short = 'Jan', narrow = 'J').
+    \@returns An ordered list of all month names, starting with January.
+     * @abstract
+     * @param {?} style
+     * @return {?}
+     */
+    DateAdapter.prototype.getMonthNames = function (style$$1) { };
+    /**
+     * Gets a list of names for the dates of the month.
+    \@returns An ordered list of all date of the month names, starting with '1'.
+     * @abstract
+     * @return {?}
+     */
+    DateAdapter.prototype.getDateNames = function () { };
+    /**
+     * Gets a list of names for the days of the week.
+    \@param style The naming style (e.g. long = 'Sunday', short = 'Sun', narrow = 'S').
+    \@returns An ordered list of all weekday names, starting with Sunday.
+     * @abstract
+     * @param {?} style
+     * @return {?}
+     */
+    DateAdapter.prototype.getDayOfWeekNames = function (style$$1) { };
+    /**
+     * Gets the name for the year of the given date.
+    \@param date The date to get the year name for.
+    \@returns The name of the given year (e.g. '2017').
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getYearName = function (date) { };
+    /**
+     * Gets the first day of the week.
+    \@returns The first day of the week (0-indexed, 0 = Sunday).
+     * @abstract
+     * @return {?}
+     */
+    DateAdapter.prototype.getFirstDayOfWeek = function () { };
+    /**
+     * Gets the number of days in the month of the given date.
+    \@param date The date whose month should be checked.
+    \@returns The number of days in the month of the given date.
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.getNumDaysInMonth = function (date) { };
+    /**
+     * Clones the given date.
+    \@param date The date to clone
+    \@returns A new date equal to the given date.
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.clone = function (date) { };
+    /**
+     * Creates a date with the given year, month, and date. Does not allow over/under-flow of the
+    month and date.
+    \@param year The full year of the date. (e.g. 89 means the year 89, not the year 1989).
+    \@param month The month of the date (0-indexed, 0 = January). Must be an integer 0 - 11.
+    \@param date The date of month of the date. Must be an integer 1 - length of the given month.
+    \@returns The new date, or null if invalid.
+     * @abstract
+     * @param {?} year
+     * @param {?} month
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.createDate = function (year, month, date) { };
+    /**
+     * Gets today's date.
+    \@returns Today's date.
+     * @abstract
+     * @return {?}
+     */
+    DateAdapter.prototype.today = function () { };
+    /**
+     * Parses a date from a value.
+    \@param value The value to parse.
+    \@param parseFormat The expected format of the value being parsed
+        (type is implementation-dependent).
+    \@returns The parsed date.
+     * @abstract
+     * @param {?} value
+     * @param {?} parseFormat
+     * @return {?}
+     */
+    DateAdapter.prototype.parse = function (value, parseFormat) { };
+    /**
+     * Formats a date as a string.
+    \@param date The value to format.
+    \@param displayFormat The format to use to display the date as a string.
+    \@returns The formatted date string.
+     * @abstract
+     * @param {?} date
+     * @param {?} displayFormat
+     * @return {?}
+     */
+    DateAdapter.prototype.format = function (date, displayFormat) { };
+    /**
+     * Adds the given number of years to the date. Years are counted as if flipping 12 pages on the
+    calendar for each year and then finding the closest date in the new month. For example when
+    adding 1 year to Feb 29, 2016, the resulting date will be Feb 28, 2017.
+    \@param date The date to add years to.
+    \@param years The number of years to add (may be negative).
+    \@returns A new date equal to the given one with the specified number of years added.
+     * @abstract
+     * @param {?} date
+     * @param {?} years
+     * @return {?}
+     */
+    DateAdapter.prototype.addCalendarYears = function (date, years) { };
+    /**
+     * Adds the given number of months to the date. Months are counted as if flipping a page on the
+    calendar for each month and then finding the closest date in the new month. For example when
+    adding 1 month to Jan 31, 2017, the resulting date will be Feb 28, 2017.
+    \@param date The date to add months to.
+    \@param months The number of months to add (may be negative).
+    \@returns A new date equal to the given one with the specified number of months added.
+     * @abstract
+     * @param {?} date
+     * @param {?} months
+     * @return {?}
+     */
+    DateAdapter.prototype.addCalendarMonths = function (date, months) { };
+    /**
+     * Adds the given number of days to the date. Days are counted as if moving one cell on the
+    calendar for each day.
+    \@param date The date to add days to.
+    \@param days The number of days to add (may be negative).
+    \@returns A new date equal to the given one with the specified number of days added.
+     * @abstract
+     * @param {?} date
+     * @param {?} days
+     * @return {?}
+     */
+    DateAdapter.prototype.addCalendarDays = function (date, days) { };
+    /**
+     * Gets the RFC 3339 compatible string (https://tools.ietf.org/html/rfc3339) for the given date.
+    \@param date The date to get the ISO date string for.
+    \@returns The ISO date string date string.
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.toIso8601 = function (date) { };
+    /**
+     * Creates a date from an RFC 3339 compatible string (https://tools.ietf.org/html/rfc3339).
+    \@param iso8601String The ISO date string to create a date from
+    \@returns The date created from the ISO date string.
+     * @abstract
+     * @param {?} iso8601String
+     * @return {?}
+     */
+    DateAdapter.prototype.fromIso8601 = function (iso8601String) { };
+    /**
+     * Checks whether the given object is considered a date instance by this DateAdapter.
+    \@param obj The object to check
+    \@returns Whether the object is a date instance.
+     * @abstract
+     * @param {?} obj
+     * @return {?}
+     */
+    DateAdapter.prototype.isDateInstance = function (obj) { };
+    /**
+     * Checks whether the given date is valid.
+    \@param date The date to check.
+    \@returns Whether the date is valid.
+     * @abstract
+     * @param {?} date
+     * @return {?}
+     */
+    DateAdapter.prototype.isValid = function (date) { };
+    /**
+     * Sets the locale used for all dates.
+    \@param locale The new locale.
+     * @param {?} locale
+     * @return {?}
+     */
+    DateAdapter.prototype.setLocale = function (locale) {
+        this.locale = locale;
+        this._localeChanges.next();
+    };
+    /**
+     * Compares two dates.
+    \@param first The first date to compare.
+    \@param second The second date to compare.
+    \@returns 0 if the dates are equal, a number less than 0 if the first date is earlier,
+        a number greater than 0 if the first date is later.
+     * @param {?} first
+     * @param {?} second
+     * @return {?}
+     */
+    DateAdapter.prototype.compareDate = function (first$$1, second) {
+        return this.getYear(first$$1) - this.getYear(second) ||
+            this.getMonth(first$$1) - this.getMonth(second) ||
+            this.getDate(first$$1) - this.getDate(second);
+    };
+    /**
+     * Checks if two dates are equal.
+    \@param first The first date to check.
+    \@param second The second date to check.
+    \@returns {boolean} Whether the two dates are equal.
+        Null dates are considered equal to other null dates.
+     * @param {?} first
+     * @param {?} second
+     * @return {?}
+     */
+    DateAdapter.prototype.sameDate = function (first$$1, second) {
+        return first$$1 && second ? !this.compareDate(first$$1, second) : first$$1 == second;
+    };
+    /**
+     * Clamp the given date between min and max dates.
+    \@param date The date to clamp.
+    \@param min The minimum value to allow. If null or omitted no min is enforced.
+    \@param max The maximum value to allow. If null or omitted no max is enforced.
+    \@returns `min` if `date` is less than `min`, `max` if date is greater than `max`,
+        otherwise `date`.
+     * @param {?} date
+     * @param {?=} min
+     * @param {?=} max
+     * @return {?}
+     */
+    DateAdapter.prototype.clampDate = function (date, min, max) {
+        if (min && this.compareDate(date, min) < 0) {
+            return min;
+        }
+        if (max && this.compareDate(date, max) > 0) {
+            return max;
+        }
+        return date;
+    };
+    return DateAdapter;
+}());
+/**
+ * Extends an object with the *enumerable* and *own* properties of one or more source objects,
+similar to Object.assign.
+
+\@param dest The object which will have properties copied to it.
+\@param sources The source objects from which properties will be copied.
+ * @param {?} dest
+ * @param {...?} sources
+ * @return {?}
+ */
+function extendObject(dest) {
+    var sources = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        sources[_i - 1] = arguments[_i];
+    }
+    if (dest == null) {
+        throw TypeError('Cannot convert undefined or null to object');
+    }
+    for (var _a = 0, sources_1 = sources; _a < sources_1.length; _a++) {
+        var source = sources_1[_a];
+        if (source != null) {
+            for (var /** @type {?} */ key in source) {
+                if (source.hasOwnProperty(key)) {
+                    dest[key] = source[key];
+                }
+            }
+        }
+    }
+    return dest;
+}
+/**
+ * Whether the browser supports the Intl API.
+ */
+var SUPPORTS_INTL_API = typeof Intl != 'undefined';
+/**
+ * The default month names to use if Intl API is not available.
+ */
+var DEFAULT_MONTH_NAMES = {
+    'long': [
+        'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+        'October', 'November', 'December'
+    ],
+    'short': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    'narrow': ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
+};
+/**
+ * The default date names to use if Intl API is not available.
+ */
+var DEFAULT_DATE_NAMES = range(31, function (i) { return String(i + 1); });
+/**
+ * The default day of the week names to use if Intl API is not available.
+ */
+var DEFAULT_DAY_OF_WEEK_NAMES = {
+    'long': ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    'short': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+    'narrow': ['S', 'M', 'T', 'W', 'T', 'F', 'S']
+};
+/**
+ * Matches strings that have the form of a valid RFC 3339 string
+(https://tools.ietf.org/html/rfc3339). Note that the string may not actually be a valid date
+because the regex will match strings an with out of bounds month, date, etc.
+ */
+var ISO_8601_REGEX = /^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|(?:(?:\+|-)\d{2}:\d{2}))?)?$/;
+/**
+ * Creates an array and fills it with values.
+ * @template T
+ * @param {?} length
+ * @param {?} valueFunction
+ * @return {?}
+ */
+function range(length, valueFunction) {
+    var /** @type {?} */ valuesArray = Array(length);
+    for (var /** @type {?} */ i = 0; i < length; i++) {
+        valuesArray[i] = valueFunction(i);
+    }
+    return valuesArray;
+}
+/**
+ * Adapts the native JS Date for use with cdk-based components that work with dates.
+ */
+var NativeDateAdapter = (function (_super) {
+    __extends(NativeDateAdapter, _super);
+    /**
+     * @param {?} matDateLocale
+     */
+    function NativeDateAdapter(matDateLocale) {
+        var _this = _super.call(this) || this;
+        /**
+         * Whether to use `timeZone: 'utc'` with `Intl.DateTimeFormat` when formatting dates.
+        Without this `Intl.DateTimeFormat` sometimes chooses the wrong timeZone, which can throw off
+        the result. (e.g. in the en-US locale `new Date(1800, 7, 14).toLocaleDateString()`
+        will produce `'8/13/1800'`.
+         */
+        _this.useUtcForDisplay = true;
+        _super.prototype.setLocale.call(_this, matDateLocale);
+        return _this;
+    }
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getYear = function (date) {
+        return date.getFullYear();
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getMonth = function (date) {
+        return date.getMonth();
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getDate = function (date) {
+        return date.getDate();
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getDayOfWeek = function (date) {
+        return date.getDay();
+    };
+    /**
+     * @param {?} style
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getMonthNames = function (style$$1) {
+        var _this = this;
+        if (SUPPORTS_INTL_API) {
+            var /** @type {?} */ dtf_1 = new Intl.DateTimeFormat(this.locale, { month: style$$1 });
+            return range(12, function (i) { return _this._stripDirectionalityCharacters(dtf_1.format(new Date(2017, i, 1))); });
+        }
+        return DEFAULT_MONTH_NAMES[style$$1];
+    };
+    /**
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getDateNames = function () {
+        var _this = this;
+        if (SUPPORTS_INTL_API) {
+            var /** @type {?} */ dtf_2 = new Intl.DateTimeFormat(this.locale, { day: 'numeric' });
+            return range(31, function (i) { return _this._stripDirectionalityCharacters(dtf_2.format(new Date(2017, 0, i + 1))); });
+        }
+        return DEFAULT_DATE_NAMES;
+    };
+    /**
+     * @param {?} style
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getDayOfWeekNames = function (style$$1) {
+        var _this = this;
+        if (SUPPORTS_INTL_API) {
+            var /** @type {?} */ dtf_3 = new Intl.DateTimeFormat(this.locale, { weekday: style$$1 });
+            return range(7, function (i) { return _this._stripDirectionalityCharacters(dtf_3.format(new Date(2017, 0, i + 1))); });
+        }
+        return DEFAULT_DAY_OF_WEEK_NAMES[style$$1];
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getYearName = function (date) {
+        if (SUPPORTS_INTL_API) {
+            var /** @type {?} */ dtf = new Intl.DateTimeFormat(this.locale, { year: 'numeric' });
+            return this._stripDirectionalityCharacters(dtf.format(date));
+        }
+        return String(this.getYear(date));
+    };
+    /**
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getFirstDayOfWeek = function () {
+        // We can't tell using native JS Date what the first day of the week is, we default to Sunday.
+        return 0;
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.getNumDaysInMonth = function (date) {
+        return this.getDate(this._createDateWithOverflow(this.getYear(date), this.getMonth(date) + 1, 0));
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.clone = function (date) {
+        return this.createDate(this.getYear(date), this.getMonth(date), this.getDate(date));
+    };
+    /**
+     * @param {?} year
+     * @param {?} month
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.createDate = function (year, month, date) {
+        // Check for invalid month and date (except upper bound on date which we have to check after
+        // creating the Date).
+        if (month < 0 || month > 11) {
+            throw Error("Invalid month index \"" + month + "\". Month index has to be between 0 and 11.");
+        }
+        if (date < 1) {
+            throw Error("Invalid date \"" + date + "\". Date has to be greater than 0.");
+        }
+        var /** @type {?} */ result = this._createDateWithOverflow(year, month, date);
+        // Check that the date wasn't above the upper bound for the month, causing the month to overflow
+        if (result.getMonth() != month) {
+            throw Error("Invalid date \"" + date + "\" for month with index \"" + month + "\".");
+        }
+        return result;
+    };
+    /**
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.today = function () {
+        return new Date();
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.parse = function (value) {
+        // We have no way using the native JS Date to set the parse format or locale, so we ignore these
+        // parameters.
+        if (typeof value == 'number') {
+            return new Date(value);
+        }
+        return value ? new Date(Date.parse(value)) : null;
+    };
+    /**
+     * @param {?} date
+     * @param {?} displayFormat
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.format = function (date, displayFormat) {
+        if (!this.isValid(date)) {
+            throw Error('NativeDateAdapter: Cannot format invalid date.');
+        }
+        if (SUPPORTS_INTL_API) {
+            if (this.useUtcForDisplay) {
+                date = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds(), date.getMilliseconds()));
+                displayFormat = extendObject({}, displayFormat, { timeZone: 'utc' });
+            }
+            var /** @type {?} */ dtf = new Intl.DateTimeFormat(this.locale, displayFormat);
+            return this._stripDirectionalityCharacters(dtf.format(date));
+        }
+        return this._stripDirectionalityCharacters(date.toDateString());
+    };
+    /**
+     * @param {?} date
+     * @param {?} years
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.addCalendarYears = function (date, years) {
+        return this.addCalendarMonths(date, years * 12);
+    };
+    /**
+     * @param {?} date
+     * @param {?} months
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.addCalendarMonths = function (date, months) {
+        var /** @type {?} */ newDate = this._createDateWithOverflow(this.getYear(date), this.getMonth(date) + months, this.getDate(date));
+        // It's possible to wind up in the wrong month if the original month has more days than the new
+        // month. In this case we want to go to the last day of the desired month.
+        // Note: the additional + 12 % 12 ensures we end up with a positive number, since JS % doesn't
+        // guarantee this.
+        if (this.getMonth(newDate) != ((this.getMonth(date) + months) % 12 + 12) % 12) {
+            newDate = this._createDateWithOverflow(this.getYear(newDate), this.getMonth(newDate), 0);
+        }
+        return newDate;
+    };
+    /**
+     * @param {?} date
+     * @param {?} days
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.addCalendarDays = function (date, days) {
+        return this._createDateWithOverflow(this.getYear(date), this.getMonth(date), this.getDate(date) + days);
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.toIso8601 = function (date) {
+        return [
+            date.getUTCFullYear(),
+            this._2digit(date.getUTCMonth() + 1),
+            this._2digit(date.getUTCDate())
+        ].join('-');
+    };
+    /**
+     * @param {?} iso8601String
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.fromIso8601 = function (iso8601String) {
+        // The `Date` constructor accepts formats other than ISO 8601, so we need to make sure the
+        // string is the right format first.
+        if (ISO_8601_REGEX.test(iso8601String)) {
+            var /** @type {?} */ d = new Date(iso8601String);
+            if (this.isValid(d)) {
+                return d;
+            }
+        }
+        return null;
+    };
+    /**
+     * @param {?} obj
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.isDateInstance = function (obj) {
+        return obj instanceof Date;
+    };
+    /**
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype.isValid = function (date) {
+        return !isNaN(date.getTime());
+    };
+    /**
+     * Creates a date but allows the month and date to overflow.
+     * @param {?} year
+     * @param {?} month
+     * @param {?} date
+     * @return {?}
+     */
+    NativeDateAdapter.prototype._createDateWithOverflow = function (year, month, date) {
+        var /** @type {?} */ result = new Date(year, month, date);
+        // We need to correct for the fact that JS native Date treats years in range [0, 99] as
+        // abbreviations for 19xx.
+        if (year >= 0 && year < 100) {
+            result.setFullYear(this.getYear(result) - 1900);
+        }
+        return result;
+    };
+    /**
+     * Pads a number to make it two digits.
+    \@param n The number to pad.
+    \@returns The padded number.
+     * @param {?} n
+     * @return {?}
+     */
+    NativeDateAdapter.prototype._2digit = function (n) {
+        return ('00' + n).slice(-2);
+    };
+    /**
+     * Strip out unicode LTR and RTL characters. Edge and IE insert these into formatted dates while
+    other browsers do not. We remove them to make output consistent and because they interfere with
+    date parsing.
+    \@param str The string to strip direction characters from.
+    \@returns The stripped string.
+     * @param {?} str
+     * @return {?}
+     */
+    NativeDateAdapter.prototype._stripDirectionalityCharacters = function (str) {
+        return str.replace(/[\u200e\u200f]/g, '');
+    };
+    return NativeDateAdapter;
+}(DateAdapter));
+NativeDateAdapter.decorators = [
+    { type: _angular_core.Injectable },
+];
+/**
+ * @nocollapse
+ */
+NativeDateAdapter.ctorParameters = function () { return [
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MAT_DATE_LOCALE,] },] },
+]; };
+var MD_DATE_FORMATS = new _angular_core.InjectionToken('md-date-formats');
+var MD_NATIVE_DATE_FORMATS = {
+    parse: {
+        dateInput: null,
+    },
+    display: {
+        dateInput: { year: 'numeric', month: 'numeric', day: 'numeric' },
+        monthYearLabel: { year: 'numeric', month: 'short' },
+        dateA11yLabel: { year: 'numeric', month: 'long', day: 'numeric' },
+        monthYearA11yLabel: { year: 'numeric', month: 'long' },
+    }
+};
+var NativeDateModule = (function () {
+    function NativeDateModule() {
+    }
+    return NativeDateModule;
+}());
+NativeDateModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                providers: [
+                    { provide: DateAdapter, useClass: NativeDateAdapter },
+                    MAT_DATE_LOCALE_PROVIDER
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+NativeDateModule.ctorParameters = function () { return []; };
+var MdNativeDateModule = (function () {
+    function MdNativeDateModule() {
+    }
+    return MdNativeDateModule;
+}());
+MdNativeDateModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                imports: [NativeDateModule],
+                providers: [{ provide: MD_DATE_FORMATS, useValue: MD_NATIVE_DATE_FORMATS }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdNativeDateModule.ctorParameters = function () { return []; };
+/**
+ * Injection token that can be used to specify the global error options.
+ */
+var MD_ERROR_GLOBAL_OPTIONS = new _angular_core.InjectionToken('md-error-global-options');
+/**
+ * Returns whether control is invalid and is either touched or is a part of a submitted form.
+ * @param {?} control
+ * @param {?} form
+ * @return {?}
+ */
+function defaultErrorStateMatcher(control, form) {
+    var /** @type {?} */ isSubmitted = form && form.submitted;
+    return !!(control.invalid && (control.touched || isSubmitted));
+}
+/**
+ * Returns whether control is invalid and is either dirty or is a part of a submitted form.
+ * @param {?} control
+ * @param {?} form
+ * @return {?}
+ */
+function showOnDirtyErrorStateMatcher(control, form) {
+    var /** @type {?} */ isSubmitted = form && form.submitted;
+    return !!(control.invalid && (control.dirty || isSubmitted));
+}
+var GestureConfig = (function (_super) {
+    __extends(GestureConfig, _super);
+    function GestureConfig() {
+        var _this = _super.call(this) || this;
+        _this._hammer = typeof window !== 'undefined' ? ((window)).Hammer : null;
+        /* List of new event names to add to the gesture support list */
+        _this.events = _this._hammer ? [
+            'longpress',
+            'slide',
+            'slidestart',
+            'slideend',
+            'slideright',
+            'slideleft'
+        ] : [];
+        if (!_this._hammer && _angular_core.isDevMode()) {
+            console.warn('Could not find HammerJS. Certain Angular Material ' +
+                'components may not work correctly.');
+        }
+        return _this;
+    }
+    /**
+     * Builds Hammer instance manually to add custom recognizers that match the Material Design spec.
+    
+    Our gesture names come from the Material Design gestures spec:
+    https://www.google.com/design/spec/patterns/gestures.html#gestures-touch-mechanics
+    
+    More information on default recognizers can be found in Hammer docs:
+    http://hammerjs.github.io/recognizer-pan/
+    http://hammerjs.github.io/recognizer-press/
+    
+    \@param element Element to which to assign the new HammerJS gestures.
+    \@returns Newly-created HammerJS instance.
+     * @param {?} element
+     * @return {?}
+     */
+    GestureConfig.prototype.buildHammer = function (element) {
+        var /** @type {?} */ mc = new this._hammer(element);
+        // Default Hammer Recognizers.
+        var /** @type {?} */ pan = new this._hammer.Pan();
+        var /** @type {?} */ swipe = new this._hammer.Swipe();
+        var /** @type {?} */ press = new this._hammer.Press();
+        // Notice that a HammerJS recognizer can only depend on one other recognizer once.
+        // Otherwise the previous `recognizeWith` will be dropped.
+        // TODO: Confirm threshold numbers with Material Design UX Team
+        var /** @type {?} */ slide = this._createRecognizer(pan, { event: 'slide', threshold: 0 }, swipe);
+        var /** @type {?} */ longpress = this._createRecognizer(press, { event: 'longpress', time: 500 });
+        // Overwrite the default `pan` event to use the swipe event.
+        pan.recognizeWith(swipe);
+        // Add customized gestures to Hammer manager
+        mc.add([swipe, press, pan, slide, longpress]);
+        return (mc);
+    };
+    /**
+     * Creates a new recognizer, without affecting the default recognizers of HammerJS
+     * @param {?} base
+     * @param {?} options
+     * @param {...?} inheritances
+     * @return {?}
+     */
+    GestureConfig.prototype._createRecognizer = function (base, options) {
+        var inheritances = [];
+        for (var _i = 2; _i < arguments.length; _i++) {
+            inheritances[_i - 2] = arguments[_i];
+        }
+        var /** @type {?} */ recognizer = new ((base.constructor))(options);
+        inheritances.push(base);
+        inheritances.forEach(function (item) { return recognizer.recognizeWith(item); });
+        return recognizer;
+    };
+    return GestureConfig;
+}(_angular_platformBrowser.HammerGestureConfig));
+GestureConfig.decorators = [
+    { type: _angular_core.Injectable },
+];
+/**
+ * @nocollapse
+ */
+GestureConfig.ctorParameters = function () { return []; };
 /**
  * Shared directive to count lines inside a text area, such as a list item.
 Line elements can be extracted with a \@ContentChildren(MdLine) query, then
@@ -701,7 +1772,7 @@ var MdRipple = (function () {
      * @return {?}
      */
     MdRipple.prototype.ngOnChanges = function (changes) {
-        if (changes['trigger'] && this.trigger) {
+        if ((changes['trigger'] || changes['_matRippleTrigger']) && this.trigger) {
             this._rippleRenderer.setTriggerElement(this.trigger);
         }
         this._updateRippleRenderer();
@@ -760,7 +1831,7 @@ var MdRipple = (function () {
 MdRipple.decorators = [
     { type: _angular_core.Directive, args: [{
                 selector: '[md-ripple], [mat-ripple], [mdRipple], [matRipple]',
-                exportAs: 'mdRipple',
+                exportAs: 'mdRipple, matRipple',
                 host: {
                     'class': 'mat-ripple',
                     '[class.mat-ripple-unbounded]': 'unbounded'
@@ -838,9 +1909,10 @@ var MdPseudoCheckbox = (function () {
 }());
 MdPseudoCheckbox.decorators = [
     { type: _angular_core.Component, args: [{ encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 selector: 'md-pseudo-checkbox, mat-pseudo-checkbox',
-                styles: [".mat-pseudo-checkbox{width:20px;height:20px;border:2px solid;border-radius:2px;cursor:pointer;display:inline-block;vertical-align:middle;box-sizing:border-box;position:relative;transition:border-color 90ms cubic-bezier(0,0,.2,.1),background-color 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox::after{position:absolute;opacity:0;content:'';border-bottom:2px solid currentColor;transition:opacity 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox.mat-pseudo-checkbox-checked,.mat-pseudo-checkbox.mat-pseudo-checkbox-indeterminate{border:none}.mat-pseudo-checkbox-disabled{cursor:default}.mat-pseudo-checkbox-indeterminate::after{top:9px;left:2px;width:16px;opacity:1}.mat-pseudo-checkbox-checked::after{top:5px;left:3px;width:12px;height:5px;border-left:2px solid currentColor;transform:rotate(-45deg);opacity:1}"],
+                styles: [".mat-pseudo-checkbox{width:20px;height:20px;border:2px solid;border-radius:2px;cursor:pointer;display:inline-block;vertical-align:middle;box-sizing:border-box;position:relative;flex-shrink:0;transition:border-color 90ms cubic-bezier(0,0,.2,.1),background-color 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox::after{position:absolute;opacity:0;content:'';border-bottom:2px solid currentColor;transition:opacity 90ms cubic-bezier(0,0,.2,.1)}.mat-pseudo-checkbox.mat-pseudo-checkbox-checked,.mat-pseudo-checkbox.mat-pseudo-checkbox-indeterminate{border:none}.mat-pseudo-checkbox-disabled{cursor:default}.mat-pseudo-checkbox-indeterminate::after{top:9px;left:2px;width:16px;opacity:1}.mat-pseudo-checkbox-checked::after{top:5px;left:3px;width:12px;height:5px;border-left:2px solid currentColor;transform:rotate(-45deg);opacity:1}"],
                 template: '',
                 host: {
                     'class': 'mat-pseudo-checkbox',
@@ -874,43 +1946,6 @@ MdPseudoCheckboxModule.decorators = [
  */
 MdPseudoCheckboxModule.ctorParameters = function () { return []; };
 /**
- * Mixin to augment a directive with a `disabled` property.
- * @template T
- * @param {?} base
- * @return {?}
- */
-function mixinDisabled(base) {
-    return (function (_super) {
-        __extends(class_1, _super);
-        /**
-         * @param {...?} args
-         */
-        function class_1() {
-            var args = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-            }
-            var _this = _super.apply(this, args) || this;
-            _this._disabled = false;
-            return _this;
-        }
-        Object.defineProperty(class_1.prototype, "disabled", {
-            /**
-             * @return {?}
-             */
-            get: function () { return this._disabled; },
-            /**
-             * @param {?} value
-             * @return {?}
-             */
-            set: function (value) { this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value); },
-            enumerable: true,
-            configurable: true
-        });
-        return class_1;
-    }(base));
-}
-/**
  * \@docs-private
  */
 var MdOptgroupBase = (function () {
@@ -940,6 +1975,7 @@ MdOptgroup.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-optgroup, mat-optgroup',
                 template: "<label class=\"mat-optgroup-label\" [id]=\"_labelId\">{{ label }}</label><ng-content select=\"md-option, mat-option\"></ng-content>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 inputs: ['disabled'],
                 host: {
@@ -986,13 +2022,11 @@ var MdOption = (function () {
      * @param {?} _element
      * @param {?} _changeDetectorRef
      * @param {?} group
-     * @param {?} _isCompatibilityMode
      */
-    function MdOption(_element, _changeDetectorRef, group, _isCompatibilityMode) {
+    function MdOption(_element, _changeDetectorRef, group) {
         this._element = _element;
         this._changeDetectorRef = _changeDetectorRef;
         this.group = group;
-        this._isCompatibilityMode = _isCompatibilityMode;
         this._selected = false;
         this._active = false;
         this._multiple = false;
@@ -1250,9 +2284,11 @@ MdOption.decorators = [
                     '(keydown)': '_handleKeydown($event)',
                     'class': 'mat-option',
                 },
-                template: "<span [ngSwitch]=\"_isCompatibilityMode\" *ngIf=\"multiple\"><mat-pseudo-checkbox class=\"mat-option-pseudo-checkbox\" *ngSwitchCase=\"true\" [state]=\"selected ? 'checked' : ''\" [disabled]=\"disabled\"></mat-pseudo-checkbox><md-pseudo-checkbox class=\"mat-option-pseudo-checkbox\" *ngSwitchDefault [state]=\"selected ? 'checked' : ''\" [disabled]=\"disabled\"></md-pseudo-checkbox></span><ng-content></ng-content><div class=\"mat-option-ripple\" md-ripple [mdRippleTrigger]=\"_getHostElement()\" [mdRippleDisabled]=\"disabled || disableRipple\"></div>",
+                template: "<span *ngIf=\"multiple\"><mat-pseudo-checkbox class=\"mat-option-pseudo-checkbox\" [state]=\"selected ? 'checked' : ''\" [disabled]=\"disabled\"></mat-pseudo-checkbox></span><span class=\"mat-option-text\"><ng-content></ng-content></span><div class=\"mat-option-ripple\" mat-ripple [matRippleTrigger]=\"_getHostElement()\" [matRippleDisabled]=\"disabled || disableRipple\"></div>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -1262,7 +2298,6 @@ MdOption.ctorParameters = function () { return [
     { type: _angular_core.ElementRef, },
     { type: _angular_core.ChangeDetectorRef, },
     { type: MdOptgroup, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MATERIAL_COMPATIBILITY_MODE,] },] },
 ]; };
 MdOption.propDecorators = {
     'value': [{ type: _angular_core.Input },],
@@ -1285,496 +2320,10 @@ MdOptionModule.decorators = [
  * @nocollapse
  */
 MdOptionModule.ctorParameters = function () { return []; };
-var GestureConfig = (function (_super) {
-    __extends(GestureConfig, _super);
-    function GestureConfig() {
-        var _this = _super.call(this) || this;
-        _this._hammer = typeof window !== 'undefined' ? ((window)).Hammer : null;
-        /* List of new event names to add to the gesture support list */
-        _this.events = _this._hammer ? [
-            'longpress',
-            'slide',
-            'slidestart',
-            'slideend',
-            'slideright',
-            'slideleft'
-        ] : [];
-        if (!_this._hammer && _angular_core.isDevMode()) {
-            console.warn('Could not find HammerJS. Certain Angular Material ' +
-                'components may not work correctly.');
-        }
-        return _this;
-    }
-    /**
-     * Builds Hammer instance manually to add custom recognizers that match the Material Design spec.
-    
-    Our gesture names come from the Material Design gestures spec:
-    https://www.google.com/design/spec/patterns/gestures.html#gestures-touch-mechanics
-    
-    More information on default recognizers can be found in Hammer docs:
-    http://hammerjs.github.io/recognizer-pan/
-    http://hammerjs.github.io/recognizer-press/
-    
-    \@param element Element to which to assign the new HammerJS gestures.
-    \@returns Newly-created HammerJS instance.
-     * @param {?} element
-     * @return {?}
-     */
-    GestureConfig.prototype.buildHammer = function (element) {
-        var /** @type {?} */ mc = new this._hammer(element);
-        // Default Hammer Recognizers.
-        var /** @type {?} */ pan = new this._hammer.Pan();
-        var /** @type {?} */ swipe = new this._hammer.Swipe();
-        var /** @type {?} */ press = new this._hammer.Press();
-        // Notice that a HammerJS recognizer can only depend on one other recognizer once.
-        // Otherwise the previous `recognizeWith` will be dropped.
-        // TODO: Confirm threshold numbers with Material Design UX Team
-        var /** @type {?} */ slide = this._createRecognizer(pan, { event: 'slide', threshold: 0 }, swipe);
-        var /** @type {?} */ longpress = this._createRecognizer(press, { event: 'longpress', time: 500 });
-        // Overwrite the default `pan` event to use the swipe event.
-        pan.recognizeWith(swipe);
-        // Add customized gestures to Hammer manager
-        mc.add([swipe, press, pan, slide, longpress]);
-        return (mc);
-    };
-    /**
-     * Creates a new recognizer, without affecting the default recognizers of HammerJS
-     * @param {?} base
-     * @param {?} options
-     * @param {...?} inheritances
-     * @return {?}
-     */
-    GestureConfig.prototype._createRecognizer = function (base, options) {
-        var inheritances = [];
-        for (var _i = 2; _i < arguments.length; _i++) {
-            inheritances[_i - 2] = arguments[_i];
-        }
-        var /** @type {?} */ recognizer = new ((base.constructor))(options);
-        inheritances.push(base);
-        inheritances.forEach(function (item) { return recognizer.recognizeWith(item); });
-        return recognizer;
-    };
-    return GestureConfig;
-}(_angular_platformBrowser.HammerGestureConfig));
-GestureConfig.decorators = [
-    { type: _angular_core.Injectable },
-];
 /**
- * @nocollapse
+ * InjectionToken that can be used to specify the global placeholder options.
  */
-GestureConfig.ctorParameters = function () { return []; };
-/**
- * Class to coordinate unique selection based on name.
-Intended to be consumed as an Angular service.
-This service is needed because native radio change events are only fired on the item currently
-being selected, and we still need to uncheck the previous selection.
-
-This service does not *store* any IDs and names because they may change at any time, so it is
-less error-prone if they are simply passed through when the events occur.
- */
-var UniqueSelectionDispatcher = (function () {
-    function UniqueSelectionDispatcher() {
-        this._listeners = [];
-    }
-    /**
-     * Notify other items that selection for the given name has been set.
-    \@param id ID of the item.
-    \@param name Name of the item.
-     * @param {?} id
-     * @param {?} name
-     * @return {?}
-     */
-    UniqueSelectionDispatcher.prototype.notify = function (id, name) {
-        for (var _i = 0, _a = this._listeners; _i < _a.length; _i++) {
-            var listener = _a[_i];
-            listener(id, name);
-        }
-    };
-    /**
-     * Listen for future changes to item selection.
-    \@return Function used to deregister listener
-     * @param {?} listener
-     * @return {?}
-     */
-    UniqueSelectionDispatcher.prototype.listen = function (listener) {
-        var _this = this;
-        this._listeners.push(listener);
-        return function () {
-            _this._listeners = _this._listeners.filter(function (registered) {
-                return listener !== registered;
-            });
-        };
-    };
-    return UniqueSelectionDispatcher;
-}());
-UniqueSelectionDispatcher.decorators = [
-    { type: _angular_core.Injectable },
-];
-/**
- * @nocollapse
- */
-UniqueSelectionDispatcher.ctorParameters = function () { return []; };
-/**
- * \@docs-private
- * @param {?} parentDispatcher
- * @return {?}
- */
-function UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY(parentDispatcher) {
-    return parentDispatcher || new UniqueSelectionDispatcher();
-}
-/**
- * \@docs-private
- */
-var UNIQUE_SELECTION_DISPATCHER_PROVIDER = {
-    // If there is already a dispatcher available, use that. Otherwise, provide a new one.
-    provide: UniqueSelectionDispatcher,
-    deps: [[new _angular_core.Optional(), new _angular_core.SkipSelf(), UniqueSelectionDispatcher]],
-    useFactory: UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY
-};
-// This is the value used by AngularJS Material. Through trial and error (on iPhone 6S) they found
-// that a value of around 650ms seems appropriate.
-var TOUCH_BUFFER_MS = 650;
-/**
- * Monitors mouse and keyboard events to determine the cause of focus events.
- */
-var FocusOriginMonitor = (function () {
-    /**
-     * @param {?} _ngZone
-     * @param {?} _platform
-     */
-    function FocusOriginMonitor(_ngZone, _platform) {
-        var _this = this;
-        this._ngZone = _ngZone;
-        this._platform = _platform;
-        /**
-         * The focus origin that the next focus event is a result of.
-         */
-        this._origin = null;
-        /**
-         * Whether the window has just been focused.
-         */
-        this._windowFocused = false;
-        /**
-         * Weak map of elements being monitored to their info.
-         */
-        this._elementInfo = new WeakMap();
-        this._ngZone.runOutsideAngular(function () { return _this._registerDocumentEvents(); });
-    }
-    /**
-     * Monitors focus on an element and applies appropriate CSS classes.
-    \@param element The element to monitor
-    \@param renderer The renderer to use to apply CSS classes to the element.
-    \@param checkChildren Whether to count the element as focused when its children are focused.
-    \@returns An observable that emits when the focus state of the element changes.
-        When the element is blurred, null will be emitted.
-     * @param {?} element
-     * @param {?} renderer
-     * @param {?} checkChildren
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype.monitor = function (element, renderer, checkChildren) {
-        var _this = this;
-        // Do nothing if we're not on the browser platform.
-        if (!this._platform.isBrowser) {
-            return rxjs_observable_of.of(null);
-        }
-        // Check if we're already monitoring this element.
-        if (this._elementInfo.has(element)) {
-            var /** @type {?} */ cachedInfo = this._elementInfo.get(element); /** @type {?} */
-            ((cachedInfo)).checkChildren = checkChildren;
-            return ((cachedInfo)).subject.asObservable();
-        }
-        // Create monitored element info.
-        var /** @type {?} */ info = {
-            unlisten: function () { },
-            checkChildren: checkChildren,
-            renderer: renderer,
-            subject: new rxjs_Subject.Subject()
-        };
-        this._elementInfo.set(element, info);
-        // Start listening. We need to listen in capture phase since focus events don't bubble.
-        var /** @type {?} */ focusListener = function (event) { return _this._onFocus(event, element); };
-        var /** @type {?} */ blurListener = function (event) { return _this._onBlur(event, element); };
-        this._ngZone.runOutsideAngular(function () {
-            element.addEventListener('focus', focusListener, true);
-            element.addEventListener('blur', blurListener, true);
-        });
-        // Create an unlisten function for later.
-        info.unlisten = function () {
-            element.removeEventListener('focus', focusListener, true);
-            element.removeEventListener('blur', blurListener, true);
-        };
-        return info.subject.asObservable();
-    };
-    /**
-     * Stops monitoring an element and removes all focus classes.
-    \@param element The element to stop monitoring.
-     * @param {?} element
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype.stopMonitoring = function (element) {
-        var /** @type {?} */ elementInfo = this._elementInfo.get(element);
-        if (elementInfo) {
-            elementInfo.unlisten();
-            elementInfo.subject.complete();
-            this._setClasses(element);
-            this._elementInfo.delete(element);
-        }
-    };
-    /**
-     * Focuses the element via the specified focus origin.
-    \@param element The element to focus.
-    \@param origin The focus origin.
-     * @param {?} element
-     * @param {?} origin
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype.focusVia = function (element, origin) {
-        this._setOriginForCurrentEventQueue(origin);
-        element.focus();
-    };
-    /**
-     * Register necessary event listeners on the document and window.
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._registerDocumentEvents = function () {
-        var _this = this;
-        // Do nothing if we're not on the browser platform.
-        if (!this._platform.isBrowser) {
-            return;
-        }
-        // Note: we listen to events in the capture phase so we can detect them even if the user stops
-        // propagation.
-        // On keydown record the origin and clear any touch event that may be in progress.
-        document.addEventListener('keydown', function () {
-            _this._lastTouchTarget = null;
-            _this._setOriginForCurrentEventQueue('keyboard');
-        }, true);
-        // On mousedown record the origin only if there is not touch target, since a mousedown can
-        // happen as a result of a touch event.
-        document.addEventListener('mousedown', function () {
-            if (!_this._lastTouchTarget) {
-                _this._setOriginForCurrentEventQueue('mouse');
-            }
-        }, true);
-        // When the touchstart event fires the focus event is not yet in the event queue. This means
-        // we can't rely on the trick used above (setting timeout of 0ms). Instead we wait 650ms to
-        // see if a focus happens.
-        document.addEventListener('touchstart', function (event) {
-            if (_this._touchTimeout != null) {
-                clearTimeout(_this._touchTimeout);
-            }
-            _this._lastTouchTarget = event.target;
-            _this._touchTimeout = setTimeout(function () { return _this._lastTouchTarget = null; }, TOUCH_BUFFER_MS);
-        }, true);
-        // Make a note of when the window regains focus, so we can restore the origin info for the
-        // focused element.
-        window.addEventListener('focus', function () {
-            _this._windowFocused = true;
-            setTimeout(function () { return _this._windowFocused = false; }, 0);
-        });
-    };
-    /**
-     * Sets the focus classes on the element based on the given focus origin.
-    \@param element The element to update the classes on.
-    \@param origin The focus origin.
-     * @param {?} element
-     * @param {?=} origin
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._setClasses = function (element, origin) {
-        var /** @type {?} */ elementInfo = this._elementInfo.get(element);
-        if (elementInfo) {
-            var /** @type {?} */ toggleClass = function (className, shouldSet) {
-                shouldSet ? elementInfo.renderer.addClass(element, className) :
-                    elementInfo.renderer.removeClass(element, className);
-            };
-            toggleClass('cdk-focused', !!origin);
-            toggleClass('cdk-touch-focused', origin === 'touch');
-            toggleClass('cdk-keyboard-focused', origin === 'keyboard');
-            toggleClass('cdk-mouse-focused', origin === 'mouse');
-            toggleClass('cdk-program-focused', origin === 'program');
-        }
-    };
-    /**
-     * Sets the origin and schedules an async function to clear it at the end of the event queue.
-    \@param origin The origin to set.
-     * @param {?} origin
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._setOriginForCurrentEventQueue = function (origin) {
-        var _this = this;
-        this._origin = origin;
-        setTimeout(function () { return _this._origin = null; }, 0);
-    };
-    /**
-     * Checks whether the given focus event was caused by a touchstart event.
-    \@param event The focus event to check.
-    \@returns Whether the event was caused by a touch.
-     * @param {?} event
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._wasCausedByTouch = function (event) {
-        // Note(mmalerba): This implementation is not quite perfect, there is a small edge case.
-        // Consider the following dom structure:
-        //
-        // <div #parent tabindex="0" cdkFocusClasses>
-        //   <div #child (click)="#parent.focus()"></div>
-        // </div>
-        //
-        // If the user touches the #child element and the #parent is programmatically focused as a
-        // result, this code will still consider it to have been caused by the touch event and will
-        // apply the cdk-touch-focused class rather than the cdk-program-focused class. This is a
-        // relatively small edge-case that can be worked around by using
-        // focusVia(parentEl, renderer,  'program') to focus the parent element.
-        //
-        // If we decide that we absolutely must handle this case correctly, we can do so by listening
-        // for the first focus event after the touchstart, and then the first blur event after that
-        // focus event. When that blur event fires we know that whatever follows is not a result of the
-        // touchstart.
-        var /** @type {?} */ focusTarget = event.target;
-        return this._lastTouchTarget instanceof Node && focusTarget instanceof Node &&
-            (focusTarget === this._lastTouchTarget || focusTarget.contains(this._lastTouchTarget));
-    };
-    /**
-     * Handles focus events on a registered element.
-    \@param event The focus event.
-    \@param element The monitored element.
-     * @param {?} event
-     * @param {?} element
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._onFocus = function (event, element) {
-        // NOTE(mmalerba): We currently set the classes based on the focus origin of the most recent
-        // focus event affecting the monitored element. If we want to use the origin of the first event
-        // instead we should check for the cdk-focused class here and return if the element already has
-        // it. (This only matters for elements that have includesChildren = true).
-        // If we are not counting child-element-focus as focused, make sure that the event target is the
-        // monitored element itself.
-        var /** @type {?} */ elementInfo = this._elementInfo.get(element);
-        if (!elementInfo || (!elementInfo.checkChildren && element !== event.target)) {
-            return;
-        }
-        // If we couldn't detect a cause for the focus event, it's due to one of three reasons:
-        // 1) The window has just regained focus, in which case we want to restore the focused state of
-        //    the element from before the window blurred.
-        // 2) It was caused by a touch event, in which case we mark the origin as 'touch'.
-        // 3) The element was programmatically focused, in which case we should mark the origin as
-        //    'program'.
-        if (!this._origin) {
-            if (this._windowFocused && this._lastFocusOrigin) {
-                this._origin = this._lastFocusOrigin;
-            }
-            else if (this._wasCausedByTouch(event)) {
-                this._origin = 'touch';
-            }
-            else {
-                this._origin = 'program';
-            }
-        }
-        this._setClasses(element, this._origin);
-        elementInfo.subject.next(this._origin);
-        this._lastFocusOrigin = this._origin;
-        this._origin = null;
-    };
-    /**
-     * Handles blur events on a registered element.
-    \@param event The blur event.
-    \@param element The monitored element.
-     * @param {?} event
-     * @param {?} element
-     * @return {?}
-     */
-    FocusOriginMonitor.prototype._onBlur = function (event, element) {
-        // If we are counting child-element-focus as focused, make sure that we aren't just blurring in
-        // order to focus another child of the monitored element.
-        var /** @type {?} */ elementInfo = this._elementInfo.get(element);
-        if (!elementInfo || (elementInfo.checkChildren && event.relatedTarget instanceof Node &&
-            element.contains(event.relatedTarget))) {
-            return;
-        }
-        this._setClasses(element);
-        elementInfo.subject.next(null);
-    };
-    return FocusOriginMonitor;
-}());
-FocusOriginMonitor.decorators = [
-    { type: _angular_core.Injectable },
-];
-/**
- * @nocollapse
- */
-FocusOriginMonitor.ctorParameters = function () { return [
-    { type: _angular_core.NgZone, },
-    { type: _angular_cdk_platform.Platform, },
-]; };
-/**
- * Directive that determines how a particular element was focused (via keyboard, mouse, touch, or
-programmatically) and adds corresponding classes to the element.
-
-There are two variants of this directive:
-1) cdkMonitorElementFocus: does not consider an element to be focused if one of its children is
-   focused.
-2) cdkMonitorSubtreeFocus: considers an element focused if it or any of its children are focused.
- */
-var CdkMonitorFocus = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _focusOriginMonitor
-     * @param {?} renderer
-     */
-    function CdkMonitorFocus(_elementRef, _focusOriginMonitor, renderer) {
-        var _this = this;
-        this._elementRef = _elementRef;
-        this._focusOriginMonitor = _focusOriginMonitor;
-        this.cdkFocusChange = new _angular_core.EventEmitter();
-        this._monitorSubscription = this._focusOriginMonitor.monitor(this._elementRef.nativeElement, renderer, this._elementRef.nativeElement.hasAttribute('cdkMonitorSubtreeFocus'))
-            .subscribe(function (origin) { return _this.cdkFocusChange.emit(origin); });
-    }
-    /**
-     * @return {?}
-     */
-    CdkMonitorFocus.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._elementRef.nativeElement);
-        this._monitorSubscription.unsubscribe();
-    };
-    return CdkMonitorFocus;
-}());
-CdkMonitorFocus.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[cdkMonitorElementFocus], [cdkMonitorSubtreeFocus]',
-            },] },
-];
-/**
- * @nocollapse
- */
-CdkMonitorFocus.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: FocusOriginMonitor, },
-    { type: _angular_core.Renderer2, },
-]; };
-CdkMonitorFocus.propDecorators = {
-    'cdkFocusChange': [{ type: _angular_core.Output },],
-};
-/**
- * \@docs-private
- * @param {?} parentDispatcher
- * @param {?} ngZone
- * @param {?} platform
- * @return {?}
- */
-function FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY(parentDispatcher, ngZone, platform) {
-    return parentDispatcher || new FocusOriginMonitor(ngZone, platform);
-}
-/**
- * \@docs-private
- */
-var FOCUS_ORIGIN_MONITOR_PROVIDER = {
-    // If there is already a FocusOriginMonitor available, use that. Otherwise, provide a new one.
-    provide: FocusOriginMonitor,
-    deps: [[new _angular_core.Optional(), new _angular_core.SkipSelf(), FocusOriginMonitor], _angular_core.NgZone, _angular_cdk_platform.Platform],
-    useFactory: FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY
-};
+var MD_PLACEHOLDER_GLOBAL_OPTIONS = new _angular_core.InjectionToken('md-placeholder-global-options');
 /**
  * Applies a CSS transform to an element, including browser-prefixed properties.
 \@param element
@@ -1790,911 +2339,23 @@ function applyCssTransform(element, transformValue) {
     element.style.transform = value;
     element.style.webkitTransform = value;
 }
-var StyleModule = (function () {
-    function StyleModule() {
-    }
-    return StyleModule;
-}());
-StyleModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [_angular_cdk_platform.PlatformModule],
-                declarations: [CdkMonitorFocus],
-                exports: [CdkMonitorFocus],
-                providers: [FOCUS_ORIGIN_MONITOR_PROVIDER],
-            },] },
-];
 /**
- * @nocollapse
+ * When constructing a Date, the month is zero-based. This can be confusing, since people are
+used to seeing them one-based. So we create these aliases to make writing the tests easier.
  */
-StyleModule.ctorParameters = function () { return []; };
-/**
- * \@docs-private
- */
-var AnimationCurves = (function () {
-    function AnimationCurves() {
-    }
-    return AnimationCurves;
-}());
-AnimationCurves.STANDARD_CURVE = 'cubic-bezier(0.4,0.0,0.2,1)';
-AnimationCurves.DECELERATION_CURVE = 'cubic-bezier(0.0,0.0,0.2,1)';
-AnimationCurves.ACCELERATION_CURVE = 'cubic-bezier(0.4,0.0,1,1)';
-AnimationCurves.SHARP_CURVE = 'cubic-bezier(0.4,0.0,0.6,1)';
-/**
- * \@docs-private
- */
-var AnimationDurations = (function () {
-    function AnimationDurations() {
-    }
-    return AnimationDurations;
-}());
-AnimationDurations.COMPLEX = '375ms';
-AnimationDurations.ENTERING = '225ms';
-AnimationDurations.EXITING = '195ms';
-/**
- * InjectionToken for datepicker that can be used to override default locale code.
- */
-var MAT_DATE_LOCALE = new _angular_core.InjectionToken('MAT_DATE_LOCALE');
-/**
- * Provider for MAT_DATE_LOCALE injection token.
- */
-var MAT_DATE_LOCALE_PROVIDER = { provide: MAT_DATE_LOCALE, useExisting: _angular_core.LOCALE_ID };
-/**
- * Adapts type `D` to be usable as a date by cdk-based components that work with dates.
- * @abstract
- */
-var DateAdapter = (function () {
-    function DateAdapter() {
-    }
-    /**
-     * Gets the year component of the given date.
-    \@param date The date to extract the year from.
-    \@returns The year component.
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getYear = function (date) { };
-    /**
-     * Gets the month component of the given date.
-    \@param date The date to extract the month from.
-    \@returns The month component (0-indexed, 0 = January).
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getMonth = function (date) { };
-    /**
-     * Gets the date of the month component of the given date.
-    \@param date The date to extract the date of the month from.
-    \@returns The month component (1-indexed, 1 = first of month).
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getDate = function (date) { };
-    /**
-     * Gets the day of the week component of the given date.
-    \@param date The date to extract the day of the week from.
-    \@returns The month component (0-indexed, 0 = Sunday).
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getDayOfWeek = function (date) { };
-    /**
-     * Gets a list of names for the months.
-    \@param style The naming style (e.g. long = 'January', short = 'Jan', narrow = 'J').
-    \@returns An ordered list of all month names, starting with January.
-     * @abstract
-     * @param {?} style
-     * @return {?}
-     */
-    DateAdapter.prototype.getMonthNames = function (style$$1) { };
-    /**
-     * Gets a list of names for the dates of the month.
-    \@returns An ordered list of all date of the month names, starting with '1'.
-     * @abstract
-     * @return {?}
-     */
-    DateAdapter.prototype.getDateNames = function () { };
-    /**
-     * Gets a list of names for the days of the week.
-    \@param style The naming style (e.g. long = 'Sunday', short = 'Sun', narrow = 'S').
-    \@returns An ordered list of all weekday names, starting with Sunday.
-     * @abstract
-     * @param {?} style
-     * @return {?}
-     */
-    DateAdapter.prototype.getDayOfWeekNames = function (style$$1) { };
-    /**
-     * Gets the name for the year of the given date.
-    \@param date The date to get the year name for.
-    \@returns The name of the given year (e.g. '2017').
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getYearName = function (date) { };
-    /**
-     * Gets the first day of the week.
-    \@returns The first day of the week (0-indexed, 0 = Sunday).
-     * @abstract
-     * @return {?}
-     */
-    DateAdapter.prototype.getFirstDayOfWeek = function () { };
-    /**
-     * Gets the number of days in the month of the given date.
-    \@param date The date whose month should be checked.
-    \@returns The number of days in the month of the given date.
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getNumDaysInMonth = function (date) { };
-    /**
-     * Clones the given date.
-    \@param date The date to clone
-    \@returns A new date equal to the given date.
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.clone = function (date) { };
-    /**
-     * Creates a date with the given year, month, and date. Does not allow over/under-flow of the
-    month and date.
-    \@param year The full year of the date. (e.g. 89 means the year 89, not the year 1989).
-    \@param month The month of the date (0-indexed, 0 = January). Must be an integer 0 - 11.
-    \@param date The date of month of the date. Must be an integer 1 - length of the given month.
-    \@returns The new date, or null if invalid.
-     * @abstract
-     * @param {?} year
-     * @param {?} month
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.createDate = function (year, month, date) { };
-    /**
-     * Gets today's date.
-    \@returns Today's date.
-     * @abstract
-     * @return {?}
-     */
-    DateAdapter.prototype.today = function () { };
-    /**
-     * Parses a date from a value.
-    \@param value The value to parse.
-    \@param parseFormat The expected format of the value being parsed
-        (type is implementation-dependent).
-    \@returns The parsed date.
-     * @abstract
-     * @param {?} value
-     * @param {?} parseFormat
-     * @return {?}
-     */
-    DateAdapter.prototype.parse = function (value, parseFormat) { };
-    /**
-     * Formats a date as a string.
-    \@param date The value to format.
-    \@param displayFormat The format to use to display the date as a string.
-    \@returns The formatted date string.
-     * @abstract
-     * @param {?} date
-     * @param {?} displayFormat
-     * @return {?}
-     */
-    DateAdapter.prototype.format = function (date, displayFormat) { };
-    /**
-     * Adds the given number of years to the date. Years are counted as if flipping 12 pages on the
-    calendar for each year and then finding the closest date in the new month. For example when
-    adding 1 year to Feb 29, 2016, the resulting date will be Feb 28, 2017.
-    \@param date The date to add years to.
-    \@param years The number of years to add (may be negative).
-    \@returns A new date equal to the given one with the specified number of years added.
-     * @abstract
-     * @param {?} date
-     * @param {?} years
-     * @return {?}
-     */
-    DateAdapter.prototype.addCalendarYears = function (date, years) { };
-    /**
-     * Adds the given number of months to the date. Months are counted as if flipping a page on the
-    calendar for each month and then finding the closest date in the new month. For example when
-    adding 1 month to Jan 31, 2017, the resulting date will be Feb 28, 2017.
-    \@param date The date to add months to.
-    \@param months The number of months to add (may be negative).
-    \@returns A new date equal to the given one with the specified number of months added.
-     * @abstract
-     * @param {?} date
-     * @param {?} months
-     * @return {?}
-     */
-    DateAdapter.prototype.addCalendarMonths = function (date, months) { };
-    /**
-     * Adds the given number of days to the date. Days are counted as if moving one cell on the
-    calendar for each day.
-    \@param date The date to add days to.
-    \@param days The number of days to add (may be negative).
-    \@returns A new date equal to the given one with the specified number of days added.
-     * @abstract
-     * @param {?} date
-     * @param {?} days
-     * @return {?}
-     */
-    DateAdapter.prototype.addCalendarDays = function (date, days) { };
-    /**
-     * Gets the RFC 3339 compatible date string (https://tools.ietf.org/html/rfc3339)  for the given
-    date.
-    \@param date The date to get the ISO date string for.
-    \@returns The ISO date string date string.
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.getISODateString = function (date) { };
-    /**
-     * Checks whether the given object is considered a date instance by this DateAdapter.
-    \@param obj The object to check
-    \@returns Whether the object is a date instance.
-     * @abstract
-     * @param {?} obj
-     * @return {?}
-     */
-    DateAdapter.prototype.isDateInstance = function (obj) { };
-    /**
-     * Checks whether the given date is valid.
-    \@param date The date to check.
-    \@returns Whether the date is valid.
-     * @abstract
-     * @param {?} date
-     * @return {?}
-     */
-    DateAdapter.prototype.isValid = function (date) { };
-    /**
-     * Sets the locale used for all dates.
-    \@param locale The new locale.
-     * @param {?} locale
-     * @return {?}
-     */
-    DateAdapter.prototype.setLocale = function (locale) {
-        this.locale = locale;
-    };
-    /**
-     * Compares two dates.
-    \@param first The first date to compare.
-    \@param second The second date to compare.
-    \@returns 0 if the dates are equal, a number less than 0 if the first date is earlier,
-        a number greater than 0 if the first date is later.
-     * @param {?} first
-     * @param {?} second
-     * @return {?}
-     */
-    DateAdapter.prototype.compareDate = function (first$$1, second) {
-        return this.getYear(first$$1) - this.getYear(second) ||
-            this.getMonth(first$$1) - this.getMonth(second) ||
-            this.getDate(first$$1) - this.getDate(second);
-    };
-    /**
-     * Checks if two dates are equal.
-    \@param first The first date to check.
-    \@param second The second date to check.
-    \@returns {boolean} Whether the two dates are equal.
-        Null dates are considered equal to other null dates.
-     * @param {?} first
-     * @param {?} second
-     * @return {?}
-     */
-    DateAdapter.prototype.sameDate = function (first$$1, second) {
-        return first$$1 && second ? !this.compareDate(first$$1, second) : first$$1 == second;
-    };
-    /**
-     * Clamp the given date between min and max dates.
-    \@param date The date to clamp.
-    \@param min The minimum value to allow. If null or omitted no min is enforced.
-    \@param max The maximum value to allow. If null or omitted no max is enforced.
-    \@returns `min` if `date` is less than `min`, `max` if date is greater than `max`,
-        otherwise `date`.
-     * @param {?} date
-     * @param {?=} min
-     * @param {?=} max
-     * @return {?}
-     */
-    DateAdapter.prototype.clampDate = function (date, min, max) {
-        if (min && this.compareDate(date, min) < 0) {
-            return min;
-        }
-        if (max && this.compareDate(date, max) > 0) {
-            return max;
-        }
-        return date;
-    };
-    return DateAdapter;
-}());
-/**
- * Extends an object with the *enumerable* and *own* properties of one or more source objects,
-similar to Object.assign.
+var JAN = 0;
+var FEB = 1;
+var MAR = 2;
+var APR = 3;
+var MAY = 4;
+var JUN = 5;
+var JUL = 6;
+var AUG = 7;
+var SEP = 8;
+var OCT = 9;
+var NOV = 10;
+var DEC = 11;
 
-\@param dest The object which will have properties copied to it.
-\@param sources The source objects from which properties will be copied.
- * @param {?} dest
- * @param {...?} sources
- * @return {?}
- */
-function extendObject(dest) {
-    var sources = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        sources[_i - 1] = arguments[_i];
-    }
-    if (dest == null) {
-        throw TypeError('Cannot convert undefined or null to object');
-    }
-    for (var _a = 0, sources_1 = sources; _a < sources_1.length; _a++) {
-        var source = sources_1[_a];
-        if (source != null) {
-            for (var /** @type {?} */ key in source) {
-                if (source.hasOwnProperty(key)) {
-                    dest[key] = source[key];
-                }
-            }
-        }
-    }
-    return dest;
-}
-/**
- * Whether the browser supports the Intl API.
- */
-var SUPPORTS_INTL_API = typeof Intl != 'undefined';
-/**
- * The default month names to use if Intl API is not available.
- */
-var DEFAULT_MONTH_NAMES = {
-    'long': [
-        'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
-        'October', 'November', 'December'
-    ],
-    'short': ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    'narrow': ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
-};
-/**
- * The default date names to use if Intl API is not available.
- */
-var DEFAULT_DATE_NAMES = range(31, function (i) { return String(i + 1); });
-/**
- * The default day of the week names to use if Intl API is not available.
- */
-var DEFAULT_DAY_OF_WEEK_NAMES = {
-    'long': ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-    'short': ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-    'narrow': ['S', 'M', 'T', 'W', 'T', 'F', 'S']
-};
-/**
- * Creates an array and fills it with values.
- * @template T
- * @param {?} length
- * @param {?} valueFunction
- * @return {?}
- */
-function range(length, valueFunction) {
-    var /** @type {?} */ valuesArray = Array(length);
-    for (var /** @type {?} */ i = 0; i < length; i++) {
-        valuesArray[i] = valueFunction(i);
-    }
-    return valuesArray;
-}
-/**
- * Adapts the native JS Date for use with cdk-based components that work with dates.
- */
-var NativeDateAdapter = (function (_super) {
-    __extends(NativeDateAdapter, _super);
-    /**
-     * @param {?} matDateLocale
-     */
-    function NativeDateAdapter(matDateLocale) {
-        var _this = _super.call(this) || this;
-        /**
-         * Whether to use `timeZone: 'utc'` with `Intl.DateTimeFormat` when formatting dates.
-        Without this `Intl.DateTimeFormat` sometimes chooses the wrong timeZone, which can throw off
-        the result. (e.g. in the en-US locale `new Date(1800, 7, 14).toLocaleDateString()`
-        will produce `'8/13/1800'`.
-         */
-        _this.useUtcForDisplay = true;
-        _super.prototype.setLocale.call(_this, matDateLocale);
-        return _this;
-    }
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getYear = function (date) {
-        return date.getFullYear();
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getMonth = function (date) {
-        return date.getMonth();
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getDate = function (date) {
-        return date.getDate();
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getDayOfWeek = function (date) {
-        return date.getDay();
-    };
-    /**
-     * @param {?} style
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getMonthNames = function (style$$1) {
-        var _this = this;
-        if (SUPPORTS_INTL_API) {
-            var /** @type {?} */ dtf_1 = new Intl.DateTimeFormat(this.locale, { month: style$$1 });
-            return range(12, function (i) { return _this._stripDirectionalityCharacters(dtf_1.format(new Date(2017, i, 1))); });
-        }
-        return DEFAULT_MONTH_NAMES[style$$1];
-    };
-    /**
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getDateNames = function () {
-        var _this = this;
-        if (SUPPORTS_INTL_API) {
-            var /** @type {?} */ dtf_2 = new Intl.DateTimeFormat(this.locale, { day: 'numeric' });
-            return range(31, function (i) { return _this._stripDirectionalityCharacters(dtf_2.format(new Date(2017, 0, i + 1))); });
-        }
-        return DEFAULT_DATE_NAMES;
-    };
-    /**
-     * @param {?} style
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getDayOfWeekNames = function (style$$1) {
-        var _this = this;
-        if (SUPPORTS_INTL_API) {
-            var /** @type {?} */ dtf_3 = new Intl.DateTimeFormat(this.locale, { weekday: style$$1 });
-            return range(7, function (i) { return _this._stripDirectionalityCharacters(dtf_3.format(new Date(2017, 0, i + 1))); });
-        }
-        return DEFAULT_DAY_OF_WEEK_NAMES[style$$1];
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getYearName = function (date) {
-        if (SUPPORTS_INTL_API) {
-            var /** @type {?} */ dtf = new Intl.DateTimeFormat(this.locale, { year: 'numeric' });
-            return this._stripDirectionalityCharacters(dtf.format(date));
-        }
-        return String(this.getYear(date));
-    };
-    /**
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getFirstDayOfWeek = function () {
-        // We can't tell using native JS Date what the first day of the week is, we default to Sunday.
-        return 0;
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getNumDaysInMonth = function (date) {
-        return this.getDate(this._createDateWithOverflow(this.getYear(date), this.getMonth(date) + 1, 0));
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.clone = function (date) {
-        return this.createDate(this.getYear(date), this.getMonth(date), this.getDate(date));
-    };
-    /**
-     * @param {?} year
-     * @param {?} month
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.createDate = function (year, month, date) {
-        // Check for invalid month and date (except upper bound on date which we have to check after
-        // creating the Date).
-        if (month < 0 || month > 11) {
-            throw Error("Invalid month index \"" + month + "\". Month index has to be between 0 and 11.");
-        }
-        if (date < 1) {
-            throw Error("Invalid date \"" + date + "\". Date has to be greater than 0.");
-        }
-        var /** @type {?} */ result = this._createDateWithOverflow(year, month, date);
-        // Check that the date wasn't above the upper bound for the month, causing the month to overflow
-        if (result.getMonth() != month) {
-            throw Error("Invalid date \"" + date + "\" for month with index \"" + month + "\".");
-        }
-        return result;
-    };
-    /**
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.today = function () {
-        return new Date();
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.parse = function (value) {
-        // We have no way using the native JS Date to set the parse format or locale, so we ignore these
-        // parameters.
-        if (typeof value == 'number') {
-            return new Date(value);
-        }
-        return value ? new Date(Date.parse(value)) : null;
-    };
-    /**
-     * @param {?} date
-     * @param {?} displayFormat
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.format = function (date, displayFormat) {
-        if (!this.isValid(date)) {
-            throw Error('NativeDateAdapter: Cannot format invalid date.');
-        }
-        if (SUPPORTS_INTL_API) {
-            if (this.useUtcForDisplay) {
-                date = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds(), date.getMilliseconds()));
-                displayFormat = extendObject({}, displayFormat, { timeZone: 'utc' });
-            }
-            var /** @type {?} */ dtf = new Intl.DateTimeFormat(this.locale, displayFormat);
-            return this._stripDirectionalityCharacters(dtf.format(date));
-        }
-        return this._stripDirectionalityCharacters(date.toDateString());
-    };
-    /**
-     * @param {?} date
-     * @param {?} years
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.addCalendarYears = function (date, years) {
-        return this.addCalendarMonths(date, years * 12);
-    };
-    /**
-     * @param {?} date
-     * @param {?} months
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.addCalendarMonths = function (date, months) {
-        var /** @type {?} */ newDate = this._createDateWithOverflow(this.getYear(date), this.getMonth(date) + months, this.getDate(date));
-        // It's possible to wind up in the wrong month if the original month has more days than the new
-        // month. In this case we want to go to the last day of the desired month.
-        // Note: the additional + 12 % 12 ensures we end up with a positive number, since JS % doesn't
-        // guarantee this.
-        if (this.getMonth(newDate) != ((this.getMonth(date) + months) % 12 + 12) % 12) {
-            newDate = this._createDateWithOverflow(this.getYear(newDate), this.getMonth(newDate), 0);
-        }
-        return newDate;
-    };
-    /**
-     * @param {?} date
-     * @param {?} days
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.addCalendarDays = function (date, days) {
-        return this._createDateWithOverflow(this.getYear(date), this.getMonth(date), this.getDate(date) + days);
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.getISODateString = function (date) {
-        return [
-            date.getUTCFullYear(),
-            this._2digit(date.getUTCMonth() + 1),
-            this._2digit(date.getUTCDate())
-        ].join('-');
-    };
-    /**
-     * @param {?} obj
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.isDateInstance = function (obj) {
-        return obj instanceof Date;
-    };
-    /**
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype.isValid = function (date) {
-        return !isNaN(date.getTime());
-    };
-    /**
-     * Creates a date but allows the month and date to overflow.
-     * @param {?} year
-     * @param {?} month
-     * @param {?} date
-     * @return {?}
-     */
-    NativeDateAdapter.prototype._createDateWithOverflow = function (year, month, date) {
-        var /** @type {?} */ result = new Date(year, month, date);
-        // We need to correct for the fact that JS native Date treats years in range [0, 99] as
-        // abbreviations for 19xx.
-        if (year >= 0 && year < 100) {
-            result.setFullYear(this.getYear(result) - 1900);
-        }
-        return result;
-    };
-    /**
-     * Pads a number to make it two digits.
-    \@param n The number to pad.
-    \@returns The padded number.
-     * @param {?} n
-     * @return {?}
-     */
-    NativeDateAdapter.prototype._2digit = function (n) {
-        return ('00' + n).slice(-2);
-    };
-    /**
-     * Strip out unicode LTR and RTL characters. Edge and IE insert these into formatted dates while
-    other browsers do not. We remove them to make output consistent and because they interfere with
-    date parsing.
-    \@param str The string to strip direction characters from.
-    \@returns The stripped string.
-     * @param {?} str
-     * @return {?}
-     */
-    NativeDateAdapter.prototype._stripDirectionalityCharacters = function (str) {
-        return str.replace(/[\u200e\u200f]/g, '');
-    };
-    return NativeDateAdapter;
-}(DateAdapter));
-NativeDateAdapter.decorators = [
-    { type: _angular_core.Injectable },
-];
-/**
- * @nocollapse
- */
-NativeDateAdapter.ctorParameters = function () { return [
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MAT_DATE_LOCALE,] },] },
-]; };
-var MD_DATE_FORMATS = new _angular_core.InjectionToken('md-date-formats');
-var MD_NATIVE_DATE_FORMATS = {
-    parse: {
-        dateInput: null,
-    },
-    display: {
-        dateInput: { year: 'numeric', month: 'numeric', day: 'numeric' },
-        monthYearLabel: { year: 'numeric', month: 'short' },
-        dateA11yLabel: { year: 'numeric', month: 'long', day: 'numeric' },
-        monthYearA11yLabel: { year: 'numeric', month: 'long' },
-    }
-};
-var NativeDateModule = (function () {
-    function NativeDateModule() {
-    }
-    return NativeDateModule;
-}());
-NativeDateModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                providers: [
-                    { provide: DateAdapter, useClass: NativeDateAdapter },
-                    MAT_DATE_LOCALE_PROVIDER
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-NativeDateModule.ctorParameters = function () { return []; };
-var MdNativeDateModule = (function () {
-    function MdNativeDateModule() {
-    }
-    return MdNativeDateModule;
-}());
-MdNativeDateModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [NativeDateModule],
-                providers: [{ provide: MD_DATE_FORMATS, useValue: MD_NATIVE_DATE_FORMATS }],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdNativeDateModule.ctorParameters = function () { return []; };
-/**
- * InjectionToken that can be used to specify the global placeholder options.
- */
-var MD_PLACEHOLDER_GLOBAL_OPTIONS = new _angular_core.InjectionToken('md-placeholder-global-options');
-/**
- * Injection token that can be used to specify the global error options.
- */
-var MD_ERROR_GLOBAL_OPTIONS = new _angular_core.InjectionToken('md-error-global-options');
-/**
- * Returns whether control is invalid and is either touched or is a part of a submitted form.
- * @param {?} control
- * @param {?} form
- * @return {?}
- */
-function defaultErrorStateMatcher(control, form) {
-    var /** @type {?} */ isSubmitted = form && form.submitted;
-    return !!(control.invalid && (control.touched || isSubmitted));
-}
-/**
- * Returns whether control is invalid and is either dirty or is a part of a submitted form.
- * @param {?} control
- * @param {?} form
- * @return {?}
- */
-function showOnDirtyErrorStateMatcher(control, form) {
-    var /** @type {?} */ isSubmitted = form && form.submitted;
-    return !!(control.invalid && (control.dirty || isSubmitted));
-}
-/**
- * @deprecated
- */
-var MdCoreModule = (function () {
-    function MdCoreModule() {
-    }
-    return MdCoreModule;
-}());
-MdCoreModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [
-                    MdLineModule,
-                    _angular_cdk_bidi.BidiModule,
-                    MdRippleModule,
-                    _angular_cdk_observers.ObserversModule,
-                    _angular_cdk_portal.PortalModule,
-                    _angular_cdk_overlay.OverlayModule,
-                    _angular_cdk_a11y.A11yModule,
-                    MdOptionModule,
-                    MdPseudoCheckboxModule,
-                ],
-                exports: [
-                    MdLineModule,
-                    _angular_cdk_bidi.BidiModule,
-                    MdRippleModule,
-                    _angular_cdk_observers.ObserversModule,
-                    _angular_cdk_portal.PortalModule,
-                    _angular_cdk_overlay.OverlayModule,
-                    _angular_cdk_a11y.A11yModule,
-                    MdOptionModule,
-                    MdPseudoCheckboxModule,
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdCoreModule.ctorParameters = function () { return []; };
-/**
- * Autocomplete IDs need to be unique across components, so this counter exists outside of
-the component definition.
- */
-var _uniqueAutocompleteIdCounter = 0;
-/**
- * Event object that is emitted when an autocomplete option is selected
- */
-var MdAutocompleteSelectedEvent = (function () {
-    /**
-     * @param {?} source
-     * @param {?} option
-     */
-    function MdAutocompleteSelectedEvent(source, option) {
-        this.source = source;
-        this.option = option;
-    }
-    return MdAutocompleteSelectedEvent;
-}());
-var MdAutocomplete = (function () {
-    /**
-     * @param {?} _changeDetectorRef
-     */
-    function MdAutocomplete(_changeDetectorRef) {
-        this._changeDetectorRef = _changeDetectorRef;
-        /**
-         * Whether the autocomplete panel should be visible, depending on option length.
-         */
-        this.showPanel = false;
-        /**
-         * Function that maps an option's control value to its display value in the trigger.
-         */
-        this.displayWith = null;
-        /**
-         * Event that is emitted whenever an option from the list is selected.
-         */
-        this.optionSelected = new _angular_core.EventEmitter();
-        /**
-         * Unique ID to be used by autocomplete trigger's "aria-owns" property.
-         */
-        this.id = "md-autocomplete-" + _uniqueAutocompleteIdCounter++;
-    }
-    /**
-     * @return {?}
-     */
-    MdAutocomplete.prototype.ngAfterContentInit = function () {
-        this._keyManager = new _angular_cdk_a11y.ActiveDescendantKeyManager(this.options).withWrap();
-    };
-    /**
-     * Sets the panel scrollTop. This allows us to manually scroll to display options
-    above or below the fold, as they are not actually being focused when active.
-     * @param {?} scrollTop
-     * @return {?}
-     */
-    MdAutocomplete.prototype._setScrollTop = function (scrollTop) {
-        if (this.panel) {
-            this.panel.nativeElement.scrollTop = scrollTop;
-        }
-    };
-    /**
-     * Returns the panel's scrollTop.
-     * @return {?}
-     */
-    MdAutocomplete.prototype._getScrollTop = function () {
-        return this.panel ? this.panel.nativeElement.scrollTop : 0;
-    };
-    /**
-     * Panel should hide itself when the option list is empty.
-     * @return {?}
-     */
-    MdAutocomplete.prototype._setVisibility = function () {
-        var _this = this;
-        Promise.resolve().then(function () {
-            _this.showPanel = !!_this.options.length;
-            _this._changeDetectorRef.markForCheck();
-        });
-    };
-    /**
-     * Emits the `select` event.
-     * @param {?} option
-     * @return {?}
-     */
-    MdAutocomplete.prototype._emitSelectEvent = function (option) {
-        var /** @type {?} */ event = new MdAutocompleteSelectedEvent(this, option);
-        this.optionSelected.emit(event);
-    };
-    /**
-     * Sets a class on the panel based on whether it is visible.
-     * @return {?}
-     */
-    MdAutocomplete.prototype._getClassList = function () {
-        return {
-            'mat-autocomplete-visible': this.showPanel,
-            'mat-autocomplete-hidden': !this.showPanel
-        };
-    };
-    return MdAutocomplete;
-}());
-MdAutocomplete.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-autocomplete, mat-autocomplete',
-                template: "<ng-template><div class=\"mat-autocomplete-panel\" role=\"listbox\" [id]=\"id\" [ngClass]=\"_getClassList()\" #panel><ng-content></ng-content></div></ng-template>",
-                styles: [".mat-autocomplete-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;visibility:hidden;max-width:none;max-height:256px;position:relative}.mat-autocomplete-panel:not([class*=mat-elevation-z]){box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}.mat-autocomplete-panel.mat-autocomplete-visible{visibility:visible}.mat-autocomplete-panel.mat-autocomplete-hidden{visibility:hidden}"],
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                exportAs: 'mdAutocomplete',
-                host: {
-                    'class': 'mat-autocomplete'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdAutocomplete.ctorParameters = function () { return [
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-MdAutocomplete.propDecorators = {
-    'template': [{ type: _angular_core.ViewChild, args: [_angular_core.TemplateRef,] },],
-    'panel': [{ type: _angular_core.ViewChild, args: ['panel',] },],
-    'options': [{ type: _angular_core.ContentChildren, args: [MdOption, { descendants: true },] },],
-    'optionGroups': [{ type: _angular_core.ContentChildren, args: [MdOptgroup,] },],
-    'displayWith': [{ type: _angular_core.Input },],
-    'optionSelected': [{ type: _angular_core.Output },],
-};
 var nextUniqueId = 0;
 /**
  * Single error message to be shown underneath the form field.
@@ -2723,6 +2384,29 @@ MdError.propDecorators = {
     'id': [{ type: _angular_core.Input },],
 };
 /**
+ * An interface which allows a control to work inside of a `MdFormField`.
+ * @abstract
+ */
+var MdFormFieldControl = (function () {
+    function MdFormFieldControl() {
+    }
+    /**
+     * Sets the list of element IDs that currently describe this control.
+     * @abstract
+     * @param {?} ids
+     * @return {?}
+     */
+    MdFormFieldControl.prototype.setDescribedByIds = function (ids) { };
+    /**
+     * Handles a click on the control's container.
+     * @abstract
+     * @param {?} event
+     * @return {?}
+     */
+    MdFormFieldControl.prototype.onContainerClick = function (event) { };
+    return MdFormFieldControl;
+}());
+/**
  * \@docs-private
  * @return {?}
  */
@@ -2745,28 +2429,6 @@ function getMdFormFieldMissingControlError() {
     return Error('md-form-field must contain a MdFormFieldControl. ' +
         'Did you forget to add mdInput to the native input or textarea element?');
 }
-/**
- * An interface which allows a control to work inside of a `MdFormField`.
- * @abstract
- */
-var MdFormFieldControl = (function () {
-    function MdFormFieldControl() {
-    }
-    /**
-     * Sets the list of element IDs that currently describe this control.
-     * @abstract
-     * @param {?} ids
-     * @return {?}
-     */
-    MdFormFieldControl.prototype.setDescribedByIds = function (ids) { };
-    /**
-     * Focuses this control.
-     * @abstract
-     * @return {?}
-     */
-    MdFormFieldControl.prototype.focus = function () { };
-    return MdFormFieldControl;
-}());
 var nextUniqueId$2 = 0;
 /**
  * Hint text to be shown underneath the form field control.
@@ -2862,11 +2524,13 @@ var nextUniqueId$1 = 0;
 var MdFormField = (function () {
     /**
      * @param {?} _elementRef
+     * @param {?} _renderer
      * @param {?} _changeDetectorRef
      * @param {?} placeholderOptions
      */
-    function MdFormField(_elementRef, _changeDetectorRef, placeholderOptions) {
+    function MdFormField(_elementRef, _renderer, _changeDetectorRef, placeholderOptions) {
         this._elementRef = _elementRef;
+        this._renderer = _renderer;
         this._changeDetectorRef = _changeDetectorRef;
         /**
          * Color of the form field underline, based on the theme.
@@ -2978,6 +2642,9 @@ var MdFormField = (function () {
     MdFormField.prototype.ngAfterContentInit = function () {
         var _this = this;
         this._validateControlChild();
+        if (this._control.controlType) {
+            this._renderer.addClass(this._elementRef.nativeElement, "mat-form-field-type-" + this._control.controlType);
+        }
         // Subscribe to changes in the child control state in order to update the form field UI.
         _angular_cdk_rxjs.startWith.call(this._control.stateChanges, null).subscribe(function () {
             _this._validatePlaceholders();
@@ -3141,11 +2808,11 @@ var MdFormField = (function () {
 MdFormField.decorators = [
     { type: _angular_core.Component, args: [{
                 selector: 'md-input-container, mat-input-container, md-form-field, mat-form-field',
-                template: "<div class=\"mat-input-wrapper mat-form-field-wrapper\"><div class=\"mat-input-flex mat-form-field-flex\" #connectionContainer><div class=\"mat-input-prefix mat-form-field-prefix\" *ngIf=\"_prefixChildren.length\"><ng-content select=\"[mdPrefix], [matPrefix]\"></ng-content></div><div class=\"mat-input-infix mat-form-field-infix\"><ng-content></ng-content><span class=\"mat-input-placeholder-wrapper mat-form-field-placeholder-wrapper\"><label class=\"mat-input-placeholder mat-form-field-placeholder\" [attr.for]=\"_control.id\" [attr.aria-owns]=\"_control.id\" [class.mat-empty]=\"_control.empty && !_shouldAlwaysFloat\" [class.mat-form-field-empty]=\"_control.empty && !_shouldAlwaysFloat\" [class.mat-float]=\"_canPlaceholderFloat\" [class.mat-form-field-float]=\"_canPlaceholderFloat\" [class.mat-accent]=\"color == 'accent'\" [class.mat-warn]=\"color == 'warn'\" #placeholder *ngIf=\"_hasPlaceholder()\"><ng-content select=\"md-placeholder, mat-placeholder\"></ng-content>{{_control.placeholder}} <span class=\"mat-placeholder-required mat-form-field-required-marker\" aria-hidden=\"true\" *ngIf=\"!hideRequiredMarker && _control.required\">*</span></label></span></div><div class=\"mat-input-suffix mat-form-field-suffix\" *ngIf=\"_suffixChildren.length\"><ng-content select=\"[mdSuffix], [matSuffix]\"></ng-content></div></div><div class=\"mat-input-underline mat-form-field-underline\" #underline [class.mat-disabled]=\"_control.disabled\"><span class=\"mat-input-ripple mat-form-field-ripple\" [class.mat-accent]=\"color == 'accent'\" [class.mat-warn]=\"color == 'warn'\"></span></div><div class=\"mat-input-subscript-wrapper mat-form-field-subscript-wrapper\" [ngSwitch]=\"_getDisplayedMessages()\"><div *ngSwitchCase=\"'error'\" [@transitionMessages]=\"_subscriptAnimationState\"><ng-content select=\"md-error, mat-error\"></ng-content></div><div class=\"mat-input-hint-wrapper mat-form-field-hint-wrapper\" *ngSwitchCase=\"'hint'\" [@transitionMessages]=\"_subscriptAnimationState\"><div *ngIf=\"hintLabel\" [id]=\"_hintLabelId\" class=\"mat-hint\">{{hintLabel}}</div><ng-content select=\"md-hint:not([align='end']), mat-hint:not([align='end'])\"></ng-content><div class=\"mat-input-hint-spacer mat-form-field-hint-spacer\"></div><ng-content select=\"md-hint[align='end'], mat-hint[align='end']\"></ng-content></div></div></div>",
+                template: "<div class=\"mat-input-wrapper mat-form-field-wrapper\"><div class=\"mat-input-flex mat-form-field-flex\" #connectionContainer (click)=\"_control.onContainerClick && _control.onContainerClick($event)\"><div class=\"mat-input-prefix mat-form-field-prefix\" *ngIf=\"_prefixChildren.length\"><ng-content select=\"[mdPrefix], [matPrefix]\"></ng-content></div><div class=\"mat-input-infix mat-form-field-infix\"><ng-content></ng-content><span class=\"mat-input-placeholder-wrapper mat-form-field-placeholder-wrapper\"><label class=\"mat-input-placeholder mat-form-field-placeholder\" [attr.for]=\"_control.id\" [attr.aria-owns]=\"_control.id\" [class.mat-empty]=\"_control.empty && !_shouldAlwaysFloat\" [class.mat-form-field-empty]=\"_control.empty && !_shouldAlwaysFloat\" [class.mat-accent]=\"color == 'accent'\" [class.mat-warn]=\"color == 'warn'\" #placeholder *ngIf=\"_hasPlaceholder()\"><ng-content select=\"md-placeholder, mat-placeholder\"></ng-content>{{_control.placeholder}} <span class=\"mat-placeholder-required mat-form-field-required-marker\" aria-hidden=\"true\" *ngIf=\"!hideRequiredMarker && _control.required\">*</span></label></span></div><div class=\"mat-input-suffix mat-form-field-suffix\" *ngIf=\"_suffixChildren.length\"><ng-content select=\"[mdSuffix], [matSuffix]\"></ng-content></div></div><div class=\"mat-input-underline mat-form-field-underline\" #underline [class.mat-disabled]=\"_control.disabled\"><span class=\"mat-input-ripple mat-form-field-ripple\" [class.mat-accent]=\"color == 'accent'\" [class.mat-warn]=\"color == 'warn'\"></span></div><div class=\"mat-input-subscript-wrapper mat-form-field-subscript-wrapper\" [ngSwitch]=\"_getDisplayedMessages()\"><div *ngSwitchCase=\"'error'\" [@transitionMessages]=\"_subscriptAnimationState\"><ng-content select=\"md-error, mat-error\"></ng-content></div><div class=\"mat-input-hint-wrapper mat-form-field-hint-wrapper\" *ngSwitchCase=\"'hint'\" [@transitionMessages]=\"_subscriptAnimationState\"><div *ngIf=\"hintLabel\" [id]=\"_hintLabelId\" class=\"mat-hint\">{{hintLabel}}</div><ng-content select=\"md-hint:not([align='end']), mat-hint:not([align='end'])\"></ng-content><div class=\"mat-input-hint-spacer mat-form-field-hint-spacer\"></div><ng-content select=\"md-hint[align='end'], mat-hint[align='end']\"></ng-content></div></div></div>",
                 // MdInput is a directive and can't have styles, so we need to include its styles here.
                 // The MdInput styles are fairly minimal so it shouldn't be a big deal for people who aren't using
                 // MdInput.
-                styles: [".mat-form-field{display:inline-block;position:relative;text-align:left}[dir=rtl] .mat-form-field{text-align:right}.mat-form-field-wrapper{position:relative}.mat-form-field-flex{display:inline-flex;align-items:baseline;width:100%}.mat-form-field-prefix,.mat-form-field-suffix{white-space:nowrap;flex:none}.mat-form-field-prefix .mat-icon,.mat-form-field-suffix .mat-icon{width:1em}.mat-form-field-prefix .mat-icon-button,.mat-form-field-suffix .mat-icon-button{font:inherit;vertical-align:baseline}.mat-form-field-prefix .mat-icon-button .mat-icon,.mat-form-field-suffix .mat-icon-button .mat-icon{font-size:inherit}.mat-form-field-infix{display:block;position:relative;flex:auto}.mat-form-field-autofill-float:-webkit-autofill+.mat-form-field-placeholder-wrapper .mat-form-field-placeholder{display:none}.mat-form-field-autofill-float:-webkit-autofill+.mat-form-field-placeholder-wrapper .mat-form-field-float{display:block;transition:none}.mat-form-field-placeholder-wrapper{position:absolute;left:0;box-sizing:content-box;width:100%;height:100%;overflow:hidden;pointer-events:none}.mat-form-field-placeholder{position:absolute;left:0;font:inherit;pointer-events:none;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;transform:perspective(100px);-ms-transform:none;transform-origin:0 0;transition:transform .4s cubic-bezier(.25,.8,.25,1),color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1);display:none}.mat-focused .mat-form-field-placeholder.mat-form-field-float,.mat-form-field-placeholder.mat-form-field-empty,.mat-form-field-placeholder.mat-form-field-float:not(.mat-form-field-empty){display:block}[dir=rtl] .mat-form-field-placeholder{transform-origin:100% 0;left:auto;right:0}.mat-form-field-placeholder:not(.mat-form-field-empty){transition:none}.mat-form-field-underline{position:absolute;height:1px;width:100%}.mat-form-field-underline.mat-disabled{background-position:0;background-color:transparent}.mat-form-field-underline .mat-form-field-ripple{position:absolute;height:1px;top:0;left:0;width:100%;transform-origin:50%;transform:scaleX(.5);visibility:hidden;transition:background-color .3s cubic-bezier(.55,0,.55,.2)}.mat-focused .mat-form-field-underline .mat-form-field-ripple{height:2px}.mat-focused .mat-form-field-underline .mat-form-field-ripple,.mat-form-field-invalid .mat-form-field-underline .mat-form-field-ripple{visibility:visible;transform:scaleX(1);transition:transform 150ms linear,background-color .3s cubic-bezier(.55,0,.55,.2)}.mat-form-field-subscript-wrapper{position:absolute;width:100%;overflow:hidden}.mat-form-field-placeholder-wrapper .mat-icon,.mat-form-field-subscript-wrapper .mat-icon{width:1em;height:1em;font-size:inherit;vertical-align:baseline}.mat-form-field-hint-wrapper{display:flex}.mat-form-field-hint-spacer{flex:1 0 1em}.mat-error{display:block} .mat-input-element{font:inherit;background:0 0;color:currentColor;border:none;outline:0;padding:0;margin:0;width:100%;max-width:100%;vertical-align:bottom}.mat-input-element:-moz-ui-invalid{box-shadow:none}.mat-input-element::placeholder{color:transparent!important}.mat-input-element::-moz-placeholder{color:transparent!important}.mat-input-element::-webkit-input-placeholder{color:transparent!important}.mat-input-element:-ms-input-placeholder{color:transparent!important}textarea.mat-input-element{resize:vertical;overflow:auto}"],
+                styles: [".mat-form-field{display:inline-block;position:relative;text-align:left}[dir=rtl] .mat-form-field{text-align:right}.mat-form-field-wrapper{position:relative}.mat-form-field-flex{display:inline-flex;align-items:baseline;width:100%}.mat-form-field-prefix,.mat-form-field-suffix{white-space:nowrap;flex:none}.mat-form-field-prefix .mat-icon,.mat-form-field-suffix .mat-icon{width:1em}.mat-form-field-prefix .mat-icon-button,.mat-form-field-suffix .mat-icon-button{font:inherit;vertical-align:baseline}.mat-form-field-prefix .mat-icon-button .mat-icon,.mat-form-field-suffix .mat-icon-button .mat-icon{font-size:inherit}.mat-form-field-infix{display:block;position:relative;flex:auto;min-width:0}.mat-form-field-placeholder-wrapper{position:absolute;left:0;box-sizing:content-box;width:100%;height:100%;overflow:hidden;pointer-events:none}.mat-form-field-placeholder{position:absolute;left:0;font:inherit;pointer-events:none;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;transform:perspective(100px);-ms-transform:none;transform-origin:0 0;transition:transform .4s cubic-bezier(.25,.8,.25,1),color .4s cubic-bezier(.25,.8,.25,1),width .4s cubic-bezier(.25,.8,.25,1);display:none}[dir=rtl] .mat-form-field-placeholder{transform-origin:100% 0;left:auto;right:0}.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-placeholder,.mat-form-field-empty.mat-form-field-placeholder{display:block}.mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-placeholder-wrapper .mat-form-field-placeholder{display:none}.mat-form-field-can-float .mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-placeholder-wrapper .mat-form-field-placeholder{display:block;transition:none}.mat-form-field-placeholder:not(.mat-form-field-empty){transition:none}.mat-form-field-underline{position:absolute;height:1px;width:100%}.mat-form-field-underline.mat-disabled{background-position:0;background-color:transparent}.mat-form-field-underline .mat-form-field-ripple{position:absolute;height:1px;top:0;left:0;width:100%;transform-origin:50%;transform:scaleX(.5);visibility:hidden;transition:background-color .3s cubic-bezier(.55,0,.55,.2)}.mat-focused .mat-form-field-underline .mat-form-field-ripple{height:2px}.mat-focused .mat-form-field-underline .mat-form-field-ripple,.mat-form-field-invalid .mat-form-field-underline .mat-form-field-ripple{visibility:visible;transform:scaleX(1);transition:transform 150ms linear,background-color .3s cubic-bezier(.55,0,.55,.2)}.mat-form-field-subscript-wrapper{position:absolute;width:100%;overflow:hidden}.mat-form-field-placeholder-wrapper .mat-icon,.mat-form-field-subscript-wrapper .mat-icon{width:1em;height:1em;font-size:inherit;vertical-align:baseline}.mat-form-field-hint-wrapper{display:flex}.mat-form-field-hint-spacer{flex:1 0 1em}.mat-error{display:block} .mat-input-element{font:inherit;background:0 0;color:currentColor;border:none;outline:0;padding:0;margin:0;width:100%;max-width:100%;vertical-align:bottom}.mat-input-element:-moz-ui-invalid{box-shadow:none}.mat-input-element::placeholder{color:transparent!important}.mat-input-element::-moz-placeholder{color:transparent!important}.mat-input-element::-webkit-input-placeholder{color:transparent!important}.mat-input-element:-ms-input-placeholder{color:transparent!important}textarea.mat-input-element{resize:vertical;overflow:auto}"],
                 animations: [
                     // TODO(mmalerba): Use angular animations for placeholder animation as well.
                     _angular_animations.trigger('transitionMessages', [
@@ -3160,7 +2827,12 @@ MdFormField.decorators = [
                     'class': 'mat-input-container mat-form-field',
                     '[class.mat-input-invalid]': '_control.errorState',
                     '[class.mat-form-field-invalid]': '_control.errorState',
+                    '[class.mat-form-field-can-float]': '_canPlaceholderFloat',
+                    '[class.mat-form-field-should-float]': '_control.shouldPlaceholderFloat || _shouldAlwaysFloat',
                     '[class.mat-focused]': '_control.focused',
+                    '[class.mat-primary]': 'color == "primary"',
+                    '[class.mat-accent]': 'color == "accent"',
+                    '[class.mat-warn]': 'color == "warn"',
                     '[class.ng-untouched]': '_shouldForward("untouched")',
                     '[class.ng-touched]': '_shouldForward("touched")',
                     '[class.ng-pristine]': '_shouldForward("pristine")',
@@ -3168,9 +2840,9 @@ MdFormField.decorators = [
                     '[class.ng-valid]': '_shouldForward("valid")',
                     '[class.ng-invalid]': '_shouldForward("invalid")',
                     '[class.ng-pending]': '_shouldForward("pending")',
-                    '(click)': '_control.focus()',
                 },
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -3179,6 +2851,7 @@ MdFormField.decorators = [
  */
 MdFormField.ctorParameters = function () { return [
     { type: _angular_core.ElementRef, },
+    { type: _angular_core.Renderer2, },
     { type: _angular_core.ChangeDetectorRef, },
     { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_PLACEHOLDER_GLOBAL_OPTIONS,] },] },
 ]; };
@@ -3231,6 +2904,132 @@ MdFormFieldModule.decorators = [
  * @nocollapse
  */
 MdFormFieldModule.ctorParameters = function () { return []; };
+
+/**
+ * Autocomplete IDs need to be unique across components, so this counter exists outside of
+the component definition.
+ */
+var _uniqueAutocompleteIdCounter = 0;
+/**
+ * Event object that is emitted when an autocomplete option is selected
+ */
+var MdAutocompleteSelectedEvent = (function () {
+    /**
+     * @param {?} source
+     * @param {?} option
+     */
+    function MdAutocompleteSelectedEvent(source, option) {
+        this.source = source;
+        this.option = option;
+    }
+    return MdAutocompleteSelectedEvent;
+}());
+var MdAutocomplete = (function () {
+    /**
+     * @param {?} _changeDetectorRef
+     */
+    function MdAutocomplete(_changeDetectorRef) {
+        this._changeDetectorRef = _changeDetectorRef;
+        /**
+         * Whether the autocomplete panel should be visible, depending on option length.
+         */
+        this.showPanel = false;
+        /**
+         * Function that maps an option's control value to its display value in the trigger.
+         */
+        this.displayWith = null;
+        /**
+         * Event that is emitted whenever an option from the list is selected.
+         */
+        this.optionSelected = new _angular_core.EventEmitter();
+        /**
+         * Unique ID to be used by autocomplete trigger's "aria-owns" property.
+         */
+        this.id = "md-autocomplete-" + _uniqueAutocompleteIdCounter++;
+    }
+    /**
+     * @return {?}
+     */
+    MdAutocomplete.prototype.ngAfterContentInit = function () {
+        this._keyManager = new _angular_cdk_a11y.ActiveDescendantKeyManager(this.options).withWrap();
+    };
+    /**
+     * Sets the panel scrollTop. This allows us to manually scroll to display options
+    above or below the fold, as they are not actually being focused when active.
+     * @param {?} scrollTop
+     * @return {?}
+     */
+    MdAutocomplete.prototype._setScrollTop = function (scrollTop) {
+        if (this.panel) {
+            this.panel.nativeElement.scrollTop = scrollTop;
+        }
+    };
+    /**
+     * Returns the panel's scrollTop.
+     * @return {?}
+     */
+    MdAutocomplete.prototype._getScrollTop = function () {
+        return this.panel ? this.panel.nativeElement.scrollTop : 0;
+    };
+    /**
+     * Panel should hide itself when the option list is empty.
+     * @return {?}
+     */
+    MdAutocomplete.prototype._setVisibility = function () {
+        var _this = this;
+        Promise.resolve().then(function () {
+            _this.showPanel = !!_this.options.length;
+            _this._changeDetectorRef.markForCheck();
+        });
+    };
+    /**
+     * Emits the `select` event.
+     * @param {?} option
+     * @return {?}
+     */
+    MdAutocomplete.prototype._emitSelectEvent = function (option) {
+        var /** @type {?} */ event = new MdAutocompleteSelectedEvent(this, option);
+        this.optionSelected.emit(event);
+    };
+    /**
+     * Sets a class on the panel based on whether it is visible.
+     * @return {?}
+     */
+    MdAutocomplete.prototype._getClassList = function () {
+        return {
+            'mat-autocomplete-visible': this.showPanel,
+            'mat-autocomplete-hidden': !this.showPanel
+        };
+    };
+    return MdAutocomplete;
+}());
+MdAutocomplete.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-autocomplete, mat-autocomplete',
+                template: "<ng-template><div class=\"mat-autocomplete-panel\" role=\"listbox\" [id]=\"id\" [ngClass]=\"_getClassList()\" #panel><ng-content></ng-content></div></ng-template>",
+                styles: [".mat-autocomplete-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;visibility:hidden;max-width:none;max-height:256px;position:relative}.mat-autocomplete-panel:not([class*=mat-elevation-z]){box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}.mat-autocomplete-panel.mat-autocomplete-visible{visibility:visible}.mat-autocomplete-panel.mat-autocomplete-hidden{visibility:hidden}"],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                exportAs: 'mdAutocomplete, matAutocomplete',
+                host: {
+                    'class': 'mat-autocomplete'
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdAutocomplete.ctorParameters = function () { return [
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+MdAutocomplete.propDecorators = {
+    'template': [{ type: _angular_core.ViewChild, args: [_angular_core.TemplateRef,] },],
+    'panel': [{ type: _angular_core.ViewChild, args: ['panel',] },],
+    'options': [{ type: _angular_core.ContentChildren, args: [MdOption, { descendants: true },] },],
+    'optionGroups': [{ type: _angular_core.ContentChildren, args: [MdOptgroup,] },],
+    'displayWith': [{ type: _angular_core.Input },],
+    'optionSelected': [{ type: _angular_core.Output },],
+};
 /**
  * The height of each autocomplete option.
  */
@@ -3584,7 +3383,7 @@ var MdAutocompleteTrigger = (function () {
      */
     MdAutocompleteTrigger.prototype._subscribeToClosingActions = function () {
         var _this = this;
-        var /** @type {?} */ firstStable = _angular_cdk_rxjs.first.call(this._zone.onStable);
+        var /** @type {?} */ firstStable = _angular_cdk_rxjs.first.call(this._zone.onStable.asObservable());
         var /** @type {?} */ optionChanges = _angular_cdk_rxjs.map.call(this.autocomplete.options.changes, function () { return _this._positionStrategy.recalculateLastPosition(); });
         // When the zone is stable initially, and when the option list changes...
         return _angular_cdk_rxjs.RxChain.from(rxjs_observable_merge.merge(firstStable, optionChanges))
@@ -3681,7 +3480,7 @@ var MdAutocompleteTrigger = (function () {
      * @return {?}
      */
     MdAutocompleteTrigger.prototype._getOverlayConfig = function () {
-        return new _angular_cdk_overlay.OverlayState({
+        return new _angular_cdk_overlay.OverlayConfig({
             positionStrategy: this._getOverlayPosition(),
             scrollStrategy: this._scrollStrategy(),
             width: this._getHostWidth(),
@@ -3774,94 +3573,7 @@ MdAutocompleteModule.decorators = [
  * @nocollapse
  */
 MdAutocompleteModule.ctorParameters = function () { return []; };
-/**
- * Mixin to augment a directive with a `color` property.
- * @template T
- * @param {?} base
- * @param {?=} defaultColor
- * @return {?}
- */
-function mixinColor(base, defaultColor) {
-    return (function (_super) {
-        __extends(class_2, _super);
-        /**
-         * @param {...?} args
-         */
-        function class_2() {
-            var args = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-            }
-            var _this = _super.apply(this, args) || this;
-            // Set the default color that can be specified from the mixin.
-            _this.color = defaultColor;
-            return _this;
-        }
-        Object.defineProperty(class_2.prototype, "color", {
-            /**
-             * @return {?}
-             */
-            get: function () { return this._color; },
-            /**
-             * @param {?} value
-             * @return {?}
-             */
-            set: function (value) {
-                var /** @type {?} */ colorPalette = value || defaultColor;
-                if (colorPalette !== this._color) {
-                    if (this._color) {
-                        this._renderer.removeClass(this._elementRef.nativeElement, "mat-" + this._color);
-                    }
-                    if (colorPalette) {
-                        this._renderer.addClass(this._elementRef.nativeElement, "mat-" + colorPalette);
-                    }
-                    this._color = colorPalette;
-                }
-            },
-            enumerable: true,
-            configurable: true
-        });
-        return class_2;
-    }(base));
-}
-/**
- * Mixin to augment a directive with a `disableRipple` property.
- * @template T
- * @param {?} base
- * @return {?}
- */
-function mixinDisableRipple(base) {
-    return (function (_super) {
-        __extends(class_3, _super);
-        /**
-         * @param {...?} args
-         */
-        function class_3() {
-            var args = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-            }
-            var _this = _super.apply(this, args) || this;
-            _this._disableRipple = false;
-            return _this;
-        }
-        Object.defineProperty(class_3.prototype, "disableRipple", {
-            /**
-             * Whether the ripple effect is disabled or not.
-             * @return {?}
-             */
-            get: function () { return this._disableRipple; },
-            /**
-             * @param {?} value
-             * @return {?}
-             */
-            set: function (value) { this._disableRipple = _angular_cdk_coercion.coerceBooleanProperty(value); },
-            enumerable: true,
-            configurable: true
-        });
-        return class_3;
-    }(base));
-}
+
 /**
  * Default color palette for round buttons (md-fab and md-mini-fab)
  */
@@ -4005,12 +3717,12 @@ var MdButton = (function (_super) {
      * @param {?} renderer
      * @param {?} elementRef
      * @param {?} _platform
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      */
-    function MdButton(renderer, elementRef, _platform, _focusOriginMonitor) {
+    function MdButton(renderer, elementRef, _platform, _focusMonitor) {
         var _this = _super.call(this, renderer, elementRef) || this;
         _this._platform = _platform;
-        _this._focusOriginMonitor = _focusOriginMonitor;
+        _this._focusMonitor = _focusMonitor;
         /**
          * Whether the button is round.
          */
@@ -4019,14 +3731,14 @@ var MdButton = (function (_super) {
          * Whether the button is icon button.
          */
         _this._isIconButton = _this._hasAttributeWithPrefix('icon-button');
-        _this._focusOriginMonitor.monitor(_this._elementRef.nativeElement, _this._renderer, true);
+        _this._focusMonitor.monitor(_this._elementRef.nativeElement, _this._renderer, true);
         return _this;
     }
     /**
      * @return {?}
      */
     MdButton.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._elementRef.nativeElement);
+        this._focusMonitor.stopMonitoring(this._elementRef.nativeElement);
     };
     /**
      * Focuses the button.
@@ -4077,11 +3789,13 @@ MdButton.decorators = [
                 host: {
                     '[disabled]': 'disabled || null',
                 },
-                template: "<span class=\"mat-button-wrapper\"><ng-content></ng-content></span><div md-ripple class=\"mat-button-ripple\" [class.mat-button-ripple-round]=\"_isRoundButton || _isIconButton\" [mdRippleDisabled]=\"_isRippleDisabled()\" [mdRippleCentered]=\"_isIconButton\" [mdRippleTrigger]=\"_getHostElement()\"></div><div class=\"mat-button-focus-overlay\"></div>",
+                template: "<span class=\"mat-button-wrapper\"><ng-content></ng-content></span><div mat-ripple class=\"mat-button-ripple\" [class.mat-button-ripple-round]=\"_isRoundButton || _isIconButton\" [matRippleDisabled]=\"_isRippleDisabled()\" [matRippleCentered]=\"_isIconButton\" [matRippleTrigger]=\"_getHostElement()\"></div><div class=\"mat-button-focus-overlay\"></div>",
                 styles: [".mat-button,.mat-fab,.mat-icon-button,.mat-mini-fab,.mat-raised-button{box-sizing:border-box;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;text-align:center;margin:0;min-width:88px;line-height:36px;padding:0 16px;border-radius:2px}[disabled].mat-button,[disabled].mat-fab,[disabled].mat-icon-button,[disabled].mat-mini-fab,[disabled].mat-raised-button{cursor:default}.cdk-keyboard-focused.mat-button .mat-button-focus-overlay,.cdk-keyboard-focused.mat-fab .mat-button-focus-overlay,.cdk-keyboard-focused.mat-icon-button .mat-button-focus-overlay,.cdk-keyboard-focused.mat-mini-fab .mat-button-focus-overlay,.cdk-keyboard-focused.mat-raised-button .mat-button-focus-overlay{opacity:1}.mat-button::-moz-focus-inner,.mat-fab::-moz-focus-inner,.mat-icon-button::-moz-focus-inner,.mat-mini-fab::-moz-focus-inner,.mat-raised-button::-moz-focus-inner{border:0}.mat-fab,.mat-mini-fab,.mat-raised-button{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);transform:translate3d(0,0,0);transition:background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1)}.mat-fab:not([disabled]):active,.mat-mini-fab:not([disabled]):active,.mat-raised-button:not([disabled]):active{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}[disabled].mat-fab,[disabled].mat-mini-fab,[disabled].mat-raised-button{box-shadow:none}.mat-button .mat-button-focus-overlay,.mat-icon-button .mat-button-focus-overlay{transition:none;opacity:0}.mat-button:hover .mat-button-focus-overlay{opacity:1}.mat-fab{box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);min-width:0;border-radius:50%;width:56px;height:56px;padding:0;flex-shrink:0}.mat-fab:not([disabled]):active{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 12px 17px 2px rgba(0,0,0,.14),0 5px 22px 4px rgba(0,0,0,.12)}.mat-fab .mat-button-wrapper{padding:16px 0;display:inline-block;line-height:24px}.mat-mini-fab{box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);min-width:0;border-radius:50%;width:40px;height:40px;padding:0;flex-shrink:0}.mat-mini-fab:not([disabled]):active{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 12px 17px 2px rgba(0,0,0,.14),0 5px 22px 4px rgba(0,0,0,.12)}.mat-mini-fab .mat-button-wrapper{padding:8px 0;display:inline-block;line-height:24px}.mat-icon-button{padding:0;min-width:0;width:40px;height:40px;flex-shrink:0;line-height:40px;border-radius:50%}.mat-icon-button .mat-icon,.mat-icon-button i{line-height:24px}.mat-button,.mat-icon-button,.mat-raised-button{color:currentColor}.mat-button .mat-button-wrapper>*,.mat-icon-button .mat-button-wrapper>*,.mat-raised-button .mat-button-wrapper>*{vertical-align:middle}.mat-button-focus-overlay,.mat-button-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-button-focus-overlay{background-color:rgba(0,0,0,.12);border-radius:inherit;opacity:0;transition:opacity .2s cubic-bezier(.35,0,.25,1),background-color .2s cubic-bezier(.35,0,.25,1)}@media screen and (-ms-high-contrast:active){.mat-button-focus-overlay{background-color:rgba(255,255,255,.5)}}.mat-button-ripple-round{border-radius:50%;z-index:1}@media screen and (-ms-high-contrast:active){.mat-button,.mat-fab,.mat-icon-button,.mat-mini-fab,.mat-raised-button{outline:solid 1px}}"],
                 inputs: ['disabled', 'disableRipple', 'color'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -4091,7 +3805,7 @@ MdButton.ctorParameters = function () { return [
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ElementRef, },
     { type: _angular_cdk_platform.Platform, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
 ]; };
 /**
  * Raised Material design button.
@@ -4100,12 +3814,12 @@ var MdAnchor = (function (_super) {
     __extends(MdAnchor, _super);
     /**
      * @param {?} platform
-     * @param {?} focusOriginMonitor
+     * @param {?} focusMonitor
      * @param {?} elementRef
      * @param {?} renderer
      */
-    function MdAnchor(platform, focusOriginMonitor, elementRef, renderer) {
-        return _super.call(this, renderer, elementRef, platform, focusOriginMonitor) || this;
+    function MdAnchor(platform, focusMonitor, elementRef, renderer) {
+        return _super.call(this, renderer, elementRef, platform, focusMonitor) || this;
     }
     /**
      * @param {?} event
@@ -4129,9 +3843,10 @@ MdAnchor.decorators = [
                     '(click)': '_haltDisabledEvents($event)',
                 },
                 inputs: ['disabled', 'disableRipple', 'color'],
-                template: "<span class=\"mat-button-wrapper\"><ng-content></ng-content></span><div md-ripple class=\"mat-button-ripple\" [class.mat-button-ripple-round]=\"_isRoundButton || _isIconButton\" [mdRippleDisabled]=\"_isRippleDisabled()\" [mdRippleCentered]=\"_isIconButton\" [mdRippleTrigger]=\"_getHostElement()\"></div><div class=\"mat-button-focus-overlay\"></div>",
+                template: "<span class=\"mat-button-wrapper\"><ng-content></ng-content></span><div mat-ripple class=\"mat-button-ripple\" [class.mat-button-ripple-round]=\"_isRoundButton || _isIconButton\" [matRippleDisabled]=\"_isRippleDisabled()\" [matRippleCentered]=\"_isIconButton\" [matRippleTrigger]=\"_getHostElement()\"></div><div class=\"mat-button-focus-overlay\"></div>",
                 styles: [".mat-button,.mat-fab,.mat-icon-button,.mat-mini-fab,.mat-raised-button{box-sizing:border-box;position:relative;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;text-align:center;margin:0;min-width:88px;line-height:36px;padding:0 16px;border-radius:2px}[disabled].mat-button,[disabled].mat-fab,[disabled].mat-icon-button,[disabled].mat-mini-fab,[disabled].mat-raised-button{cursor:default}.cdk-keyboard-focused.mat-button .mat-button-focus-overlay,.cdk-keyboard-focused.mat-fab .mat-button-focus-overlay,.cdk-keyboard-focused.mat-icon-button .mat-button-focus-overlay,.cdk-keyboard-focused.mat-mini-fab .mat-button-focus-overlay,.cdk-keyboard-focused.mat-raised-button .mat-button-focus-overlay{opacity:1}.mat-button::-moz-focus-inner,.mat-fab::-moz-focus-inner,.mat-icon-button::-moz-focus-inner,.mat-mini-fab::-moz-focus-inner,.mat-raised-button::-moz-focus-inner{border:0}.mat-fab,.mat-mini-fab,.mat-raised-button{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);transform:translate3d(0,0,0);transition:background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1)}.mat-fab:not([disabled]):active,.mat-mini-fab:not([disabled]):active,.mat-raised-button:not([disabled]):active{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}[disabled].mat-fab,[disabled].mat-mini-fab,[disabled].mat-raised-button{box-shadow:none}.mat-button .mat-button-focus-overlay,.mat-icon-button .mat-button-focus-overlay{transition:none;opacity:0}.mat-button:hover .mat-button-focus-overlay{opacity:1}.mat-fab{box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);min-width:0;border-radius:50%;width:56px;height:56px;padding:0;flex-shrink:0}.mat-fab:not([disabled]):active{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 12px 17px 2px rgba(0,0,0,.14),0 5px 22px 4px rgba(0,0,0,.12)}.mat-fab .mat-button-wrapper{padding:16px 0;display:inline-block;line-height:24px}.mat-mini-fab{box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 6px 10px 0 rgba(0,0,0,.14),0 1px 18px 0 rgba(0,0,0,.12);min-width:0;border-radius:50%;width:40px;height:40px;padding:0;flex-shrink:0}.mat-mini-fab:not([disabled]):active{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 12px 17px 2px rgba(0,0,0,.14),0 5px 22px 4px rgba(0,0,0,.12)}.mat-mini-fab .mat-button-wrapper{padding:8px 0;display:inline-block;line-height:24px}.mat-icon-button{padding:0;min-width:0;width:40px;height:40px;flex-shrink:0;line-height:40px;border-radius:50%}.mat-icon-button .mat-icon,.mat-icon-button i{line-height:24px}.mat-button,.mat-icon-button,.mat-raised-button{color:currentColor}.mat-button .mat-button-wrapper>*,.mat-icon-button .mat-button-wrapper>*,.mat-raised-button .mat-button-wrapper>*{vertical-align:middle}.mat-button-focus-overlay,.mat-button-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-button-focus-overlay{background-color:rgba(0,0,0,.12);border-radius:inherit;opacity:0;transition:opacity .2s cubic-bezier(.35,0,.25,1),background-color .2s cubic-bezier(.35,0,.25,1)}@media screen and (-ms-high-contrast:active){.mat-button-focus-overlay{background-color:rgba(255,255,255,.5)}}.mat-button-ripple-round{border-radius:50%;z-index:1}@media screen and (-ms-high-contrast:active){.mat-button,.mat-fab,.mat-icon-button,.mat-mini-fab,.mat-raised-button{outline:solid 1px}}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -4140,7 +3855,7 @@ MdAnchor.decorators = [
  */
 MdAnchor.ctorParameters = function () { return [
     { type: _angular_cdk_platform.Platform, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
     { type: _angular_core.ElementRef, },
     { type: _angular_core.Renderer2, },
 ]; };
@@ -4155,7 +3870,7 @@ MdButtonModule.decorators = [
                     _angular_common.CommonModule,
                     MdRippleModule,
                     MdCommonModule,
-                    StyleModule,
+                    _angular_cdk_a11y.A11yModule,
                 ],
                 exports: [
                     MdButton,
@@ -4182,6 +3897,7 @@ MdButtonModule.decorators = [
  * @nocollapse
  */
 MdButtonModule.ctorParameters = function () { return []; };
+
 /**
  * \@docs-private
  */
@@ -4424,7 +4140,7 @@ MdButtonToggleGroup.decorators = [
                     'class': 'mat-button-toggle-group',
                     '[class.mat-button-toggle-vertical]': 'vertical'
                 },
-                exportAs: 'mdButtonToggleGroup',
+                exportAs: 'mdButtonToggleGroup, matButtonToggleGroup',
             },] },
 ];
 /**
@@ -4477,7 +4193,7 @@ var MdButtonToggleGroupMultiple = (function (_super) {
 MdButtonToggleGroupMultiple.decorators = [
     { type: _angular_core.Directive, args: [{
                 selector: 'md-button-toggle-group[multiple], mat-button-toggle-group[multiple]',
-                exportAs: 'mdButtonToggleGroup',
+                exportAs: 'mdButtonToggleGroup, matButtonToggleGroup',
                 inputs: ['disabled'],
                 host: {
                     'class': 'mat-button-toggle-group',
@@ -4504,15 +4220,15 @@ var MdButtonToggle = (function () {
      * @param {?} _buttonToggleDispatcher
      * @param {?} _renderer
      * @param {?} _elementRef
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      */
-    function MdButtonToggle(toggleGroup, toggleGroupMultiple, _changeDetectorRef, _buttonToggleDispatcher, _renderer, _elementRef, _focusOriginMonitor) {
+    function MdButtonToggle(toggleGroup, toggleGroupMultiple, _changeDetectorRef, _buttonToggleDispatcher, _renderer, _elementRef, _focusMonitor) {
         var _this = this;
         this._changeDetectorRef = _changeDetectorRef;
         this._buttonToggleDispatcher = _buttonToggleDispatcher;
         this._renderer = _renderer;
         this._elementRef = _elementRef;
-        this._focusOriginMonitor = _focusOriginMonitor;
+        this._focusMonitor = _focusMonitor;
         /**
          * Attached to the aria-label attribute of the host element. In most cases, arial-labelledby will
         take precedence so this may be omitted.
@@ -4654,7 +4370,7 @@ var MdButtonToggle = (function () {
         if (this.buttonToggleGroup && this._value == this.buttonToggleGroup.value) {
             this._checked = true;
         }
-        this._focusOriginMonitor.monitor(this._elementRef.nativeElement, this._renderer, true);
+        this._focusMonitor.monitor(this._elementRef.nativeElement, this._renderer, true);
     };
     /**
      * Focuses the button.
@@ -4731,6 +4447,7 @@ MdButtonToggle.decorators = [
                 template: "<label [attr.for]=\"inputId\" class=\"mat-button-toggle-label\"><input #input class=\"mat-button-toggle-input cdk-visually-hidden\" [type]=\"_type\" [id]=\"inputId\" [checked]=\"checked\" [disabled]=\"disabled || null\" [name]=\"name\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onInputChange($event)\" (click)=\"_onInputClick($event)\"><div class=\"mat-button-toggle-label-content\"><ng-content></ng-content></div></label><div class=\"mat-button-toggle-focus-overlay\"></div>",
                 styles: [".mat-button-toggle-group,.mat-button-toggle-standalone{box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);position:relative;display:inline-flex;flex-direction:row;border-radius:2px;cursor:pointer;white-space:nowrap;overflow:hidden}.mat-button-toggle-vertical{flex-direction:column}.mat-button-toggle-vertical .mat-button-toggle-label-content{display:block}.mat-button-toggle-disabled .mat-button-toggle-label-content{cursor:default}.mat-button-toggle{white-space:nowrap;position:relative}.mat-button-toggle.cdk-keyboard-focused .mat-button-toggle-focus-overlay{opacity:1}.mat-button-toggle-label-content{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;line-height:36px;padding:0 16px;cursor:pointer}.mat-button-toggle-label-content>*{vertical-align:middle}.mat-button-toggle-focus-overlay{border-radius:inherit;pointer-events:none;opacity:0;top:0;left:0;right:0;bottom:0;position:absolute}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: {
                     '[class.mat-button-toggle-standalone]': '!buttonToggleGroup && !buttonToggleGroupMultiple',
@@ -4751,7 +4468,7 @@ MdButtonToggle.ctorParameters = function () { return [
     { type: UniqueSelectionDispatcher, },
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ElementRef, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
 ]; };
 MdButtonToggle.propDecorators = {
     'ariaLabel': [{ type: _angular_core.Input, args: ['aria-label',] },],
@@ -4771,7 +4488,7 @@ var MdButtonToggleModule = (function () {
 }());
 MdButtonToggleModule.decorators = [
     { type: _angular_core.NgModule, args: [{
-                imports: [MdCommonModule, StyleModule],
+                imports: [MdCommonModule, _angular_cdk_a11y.A11yModule],
                 exports: [
                     MdButtonToggleGroup,
                     MdButtonToggleGroupMultiple,
@@ -4786,6 +4503,7 @@ MdButtonToggleModule.decorators = [
  * @nocollapse
  */
 MdButtonToggleModule.ctorParameters = function () { return []; };
+
 /**
  * Content of a card, needed as it's used as a selector in the API.
 \@docs-private
@@ -5030,6 +4748,7 @@ MdCard.decorators = [
                 template: "<ng-content></ng-content><ng-content select=\"md-card-footer, mat-card-footer\"></ng-content>",
                 styles: [".mat-card{transition:box-shadow 280ms cubic-bezier(.4,0,.2,1);display:block;position:relative;padding:24px;border-radius:2px}.mat-card:not([class*=mat-elevation-z]){box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)}@media screen and (-ms-high-contrast:active){.mat-card{outline:solid 1px}}.mat-card-flat{box-shadow:none}.mat-card-actions,.mat-card-content,.mat-card-subtitle,.mat-card-title{display:block;margin-bottom:16px}.mat-card-actions{margin-left:-16px;margin-right:-16px;padding:8px 0}.mat-card-actions-align-end{display:flex;justify-content:flex-end}.mat-card-image{width:calc(100% + 48px);margin:0 -24px 16px -24px}.mat-card-xl-image{width:240px;height:240px;margin:-8px}.mat-card-footer{display:block;margin:0 -24px -24px -24px}.mat-card-actions .mat-button,.mat-card-actions .mat-raised-button{margin:0 4px}.mat-card-header{display:flex;flex-direction:row}.mat-card-header-text{margin:0 8px}.mat-card-avatar{height:40px;width:40px;border-radius:50%;flex-shrink:0}.mat-card-lg-image,.mat-card-md-image,.mat-card-sm-image{margin:-8px 0}.mat-card-title-group{display:flex;justify-content:space-between;margin:0 -8px}.mat-card-sm-image{width:80px;height:80px}.mat-card-md-image{width:112px;height:112px}.mat-card-lg-image{width:152px;height:152px}@media (max-width:600px){.mat-card{padding:24px 16px}.mat-card-actions{margin-left:-8px;margin-right:-8px}.mat-card-image{width:calc(100% + 32px);margin:16px -16px}.mat-card-title-group{margin:0}.mat-card-xl-image{margin-left:0;margin-right:0}.mat-card-header{margin:-8px 0 0 0}.mat-card-footer{margin-left:-16px;margin-right:-16px}}.mat-card-content>:first-child,.mat-card>:first-child{margin-top:0}.mat-card-content>:last-child:not(.mat-card-footer),.mat-card>:last-child:not(.mat-card-footer){margin-bottom:0}.mat-card-image:first-child{margin-top:-24px}.mat-card>.mat-card-actions:last-child{margin-bottom:-16px;padding-bottom:0}.mat-card-actions .mat-button:first-child,.mat-card-actions .mat-raised-button:first-child{margin-left:0;margin-right:0}.mat-card-subtitle:not(:first-child),.mat-card-title:not(:first-child){margin-top:-4px}.mat-card-header .mat-card-subtitle:not(:first-child){margin-top:-8px}.mat-card>.mat-card-xl-image:first-child{margin-top:-8px}.mat-card>.mat-card-xl-image:last-child{margin-bottom:-8px}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: { 'class': 'mat-card' }
             },] },
@@ -5052,6 +4771,7 @@ MdCardHeader.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-card-header, mat-card-header',
                 template: "<ng-content select=\"[md-card-avatar], [mat-card-avatar], [mdCardAvatar], [matCardAvatar]\"></ng-content><div class=\"mat-card-header-text\"><ng-content select=\"md-card-title, mat-card-title, md-card-subtitle, mat-card-subtitle, [md-card-title], [mat-card-title], [md-card-subtitle], [mat-card-subtitle]\"></ng-content></div><ng-content></ng-content>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: { 'class': 'mat-card-header' }
             },] },
@@ -5074,6 +4794,7 @@ MdCardTitleGroup.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-card-title-group, mat-card-title-group',
                 template: "<div><ng-content select=\"md-card-title, mat-card-title, md-card-subtitle, mat-card-subtitle, [md-card-title], [mat-card-title], [md-card-subtitle], [mat-card-subtitle]\"></ng-content></div><ng-content select=\"img\"></ng-content><ng-content></ng-content>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: { 'class': 'mat-card-title-group' }
             },] },
@@ -5118,784 +4839,9 @@ MdCardModule.decorators = [
  * @nocollapse
  */
 MdCardModule.ctorParameters = function () { return []; };
-/**
- * \@docs-private
- */
-var MdChipBase = (function () {
-    /**
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     */
-    function MdChipBase(_renderer, _elementRef) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-    }
-    return MdChipBase;
-}());
-var _MdChipMixinBase = mixinColor(mixinDisabled(MdChipBase), 'primary');
-/**
- * Dummy directive to add CSS class to basic chips.
-\@docs-private
- */
-var MdBasicChip = (function () {
-    function MdBasicChip() {
-    }
-    return MdBasicChip;
-}());
-MdBasicChip.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: "md-basic-chip, [md-basic-chip], mat-basic-chip, [mat-basic-chip]",
-                host: { 'class': 'mat-basic-chip' }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdBasicChip.ctorParameters = function () { return []; };
-/**
- * Material design styled Chip component. Used inside the MdChipList component.
- */
-var MdChip = (function (_super) {
-    __extends(MdChip, _super);
-    /**
-     * @param {?} renderer
-     * @param {?} elementRef
-     */
-    function MdChip(renderer, elementRef) {
-        var _this = _super.call(this, renderer, elementRef) || this;
-        _this._selected = false;
-        _this._selectable = true;
-        _this._removable = true;
-        /**
-         * Whether the chip has focus.
-         */
-        _this._hasFocus = false;
-        /**
-         * Emits when the chip is focused.
-         */
-        _this._onFocus = new rxjs_Subject.Subject();
-        /**
-         * Emitted when the chip is selected.
-         */
-        _this.select = new _angular_core.EventEmitter();
-        /**
-         * Emitted when the chip is deselected.
-         */
-        _this.deselect = new _angular_core.EventEmitter();
-        /**
-         * Emitted when the chip is destroyed.
-         */
-        _this.destroy = new _angular_core.EventEmitter();
-        /**
-         * Emitted when a chip is to be removed.
-         */
-        _this.onRemove = new _angular_core.EventEmitter();
-        return _this;
-    }
-    Object.defineProperty(MdChip.prototype, "selected", {
-        /**
-         * Whether the chip is selected.
-         * @return {?}
-         */
-        get: function () { return this._selected; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selected = _angular_cdk_coercion.coerceBooleanProperty(value);
-            (this.selected ? this.select : this.deselect).emit({ chip: this });
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChip.prototype, "selectable", {
-        /**
-         * Whether or not the chips are selectable. When a chip is not selectable,
-        changes to it's selected state are always ignored.
-         * @return {?}
-         */
-        get: function () {
-            return this._selectable;
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selectable = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChip.prototype, "removable", {
-        /**
-         * Determines whether or not the chip displays the remove styling and emits (remove) events.
-         * @return {?}
-         */
-        get: function () {
-            return this._removable;
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._removable = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChip.prototype, "ariaSelected", {
-        /**
-         * @return {?}
-         */
-        get: function () {
-            return this.selectable ? this.selected.toString() : null;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdChip.prototype.ngOnDestroy = function () {
-        this.destroy.emit({ chip: this });
-    };
-    /**
-     * Toggles the current selected state of this chip.
-     * @return {?}
-     */
-    MdChip.prototype.toggleSelected = function () {
-        this.selected = !this.selected;
-        return this.selected;
-    };
-    /**
-     * Allows for programmatic focusing of the chip.
-     * @return {?}
-     */
-    MdChip.prototype.focus = function () {
-        this._elementRef.nativeElement.focus();
-        this._onFocus.next({ chip: this });
-    };
-    /**
-     * Allows for programmatic removal of the chip. Called by the MdChipList when the DELETE or
-    BACKSPACE keys are pressed.
-    
-    Informs any listeners of the removal request. Does not remove the chip from the DOM.
-     * @return {?}
-     */
-    MdChip.prototype.remove = function () {
-        if (this.removable) {
-            this.onRemove.emit({ chip: this });
-        }
-    };
-    /**
-     * Ensures events fire properly upon click.
-     * @param {?} event
-     * @return {?}
-     */
-    MdChip.prototype._handleClick = function (event) {
-        // Check disabled
-        if (this.disabled) {
-            return;
-        }
-        event.preventDefault();
-        event.stopPropagation();
-        this.focus();
-    };
-    /**
-     * Handle custom key presses.
-     * @param {?} event
-     * @return {?}
-     */
-    MdChip.prototype._handleKeydown = function (event) {
-        if (this.disabled) {
-            return;
-        }
-        switch (event.keyCode) {
-            case _angular_cdk_keycodes.DELETE:
-            case _angular_cdk_keycodes.BACKSPACE:
-                // If we are removable, remove the focused chip
-                this.remove();
-                // Always prevent so page navigation does not occur
-                event.preventDefault();
-                break;
-            case _angular_cdk_keycodes.SPACE:
-                // If we are selectable, toggle the focused chip
-                if (this.selectable) {
-                    this.toggleSelected();
-                }
-                // Always prevent space from scrolling the page since the list has focus
-                event.preventDefault();
-                break;
-        }
-    };
-    return MdChip;
-}(_MdChipMixinBase));
-MdChip.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: "md-basic-chip, [md-basic-chip], md-chip, [md-chip],\n             mat-basic-chip, [mat-basic-chip], mat-chip, [mat-chip]",
-                inputs: ['color', 'disabled'],
-                exportAs: 'mdChip',
-                host: {
-                    'class': 'mat-chip',
-                    'tabindex': '-1',
-                    'role': 'option',
-                    '[class.mat-chip-selected]': 'selected',
-                    '[attr.disabled]': 'disabled || null',
-                    '[attr.aria-disabled]': 'disabled.toString()',
-                    '[attr.aria-selected]': 'ariaSelected',
-                    '(click)': '_handleClick($event)',
-                    '(keydown)': '_handleKeydown($event)',
-                    '(focus)': '_hasFocus = true',
-                    '(blur)': '_hasFocus = false',
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdChip.ctorParameters = function () { return [
-    { type: _angular_core.Renderer2, },
-    { type: _angular_core.ElementRef, },
-]; };
-MdChip.propDecorators = {
-    '_chipRemove': [{ type: _angular_core.ContentChild, args: [_angular_core.forwardRef(function () { return MdChipRemove; }),] },],
-    'selected': [{ type: _angular_core.Input },],
-    'selectable': [{ type: _angular_core.Input },],
-    'removable': [{ type: _angular_core.Input },],
-    'select': [{ type: _angular_core.Output },],
-    'deselect': [{ type: _angular_core.Output },],
-    'destroy': [{ type: _angular_core.Output },],
-    'onRemove': [{ type: _angular_core.Output, args: ['remove',] },],
-};
-/**
- * Applies proper (click) support and adds styling for use with the Material Design "cancel" icon
-available at https://material.io/icons/#ic_cancel.
 
-Example:
-
-    <md-chip>
-      <md-icon mdChipRemove>cancel</md-icon>
-    </md-chip>
-
-You *may* use a custom icon, but you may need to override the `md-chip-remove` positioning styles
-to properly center the icon within the chip.
- */
-var MdChipRemove = (function () {
-    /**
-     * @param {?} _parentChip
-     */
-    function MdChipRemove(_parentChip) {
-        this._parentChip = _parentChip;
-    }
-    /**
-     * Calls the parent chip's public `remove()` method if applicable.
-     * @return {?}
-     */
-    MdChipRemove.prototype._handleClick = function () {
-        if (this._parentChip.removable) {
-            this._parentChip.remove();
-        }
-    };
-    return MdChipRemove;
-}());
-MdChipRemove.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[mdChipRemove], [matChipRemove]',
-                host: {
-                    'class': 'mat-chip-remove',
-                    '(click)': '_handleClick($event)'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdChipRemove.ctorParameters = function () { return [
-    { type: MdChip, },
-]; };
-/**
- * A material design chips component (named ChipList for it's similarity to the List component).
-
-Example:
-
-    <md-chip-list>
-      <md-chip>Chip 1<md-chip>
-      <md-chip>Chip 2<md-chip>
-    </md-chip-list>
- */
-var MdChipList = (function () {
-    /**
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     * @param {?} _dir
-     */
-    function MdChipList(_renderer, _elementRef, _dir) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-        this._dir = _dir;
-        /**
-         * When a chip is destroyed, we track the index so we can focus the appropriate next chip.
-         */
-        this._lastDestroyedIndex = null;
-        /**
-         * Track which chips we're listening to for focus/destruction.
-         */
-        this._chipSet = new WeakMap();
-        /**
-         * Subscription to tabbing out from the chip list.
-         */
-        this._tabOutSubscription = rxjs_Subscription.Subscription.EMPTY;
-        /**
-         * Whether or not the chip is selectable.
-         */
-        this._selectable = true;
-        /**
-         * Tab index for the chip list.
-         */
-        this._tabIndex = 0;
-        /**
-         * User defined tab index.
-        When it is not null, use user defined tab index. Otherwise use _tabIndex
-         */
-        this._userTabIndex = null;
-    }
-    /**
-     * @return {?}
-     */
-    MdChipList.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        this._keyManager = new _angular_cdk_a11y.FocusKeyManager(this.chips).withWrap();
-        // Prevents the chip list from capturing focus and redirecting
-        // it back to the first chip when the user tabs out.
-        this._tabOutSubscription = this._keyManager.tabOut.subscribe(function () {
-            _this._tabIndex = -1;
-            setTimeout(function () { return _this._tabIndex = _this._userTabIndex || 0; });
-        });
-        // Go ahead and subscribe all of the initial chips
-        this._subscribeChips(this.chips);
-        // Make sure we set our tab index at the start
-        this._updateTabIndex();
-        // When the list changes, re-subscribe
-        this.chips.changes.subscribe(function (chips) {
-            _this._subscribeChips(chips);
-            // If we have 0 chips, attempt to focus an input (if available)
-            if (chips.length === 0) {
-                _this._focusInput();
-            }
-            // Check to see if we need to update our tab index
-            _this._updateTabIndex();
-            // Check to see if we have a destroyed chip and need to refocus
-            _this._updateFocusForDestroyedChips();
-        });
-    };
-    /**
-     * @return {?}
-     */
-    MdChipList.prototype.ngOnDestroy = function () {
-        this._tabOutSubscription.unsubscribe();
-    };
-    Object.defineProperty(MdChipList.prototype, "selectable", {
-        /**
-         * Whether or not this chip is selectable. When a chip is not selectable,
-        it's selected state is always ignored.
-         * @return {?}
-         */
-        get: function () {
-            return this._selectable;
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selectable = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChipList.prototype, "tabIndex", {
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._userTabIndex = value;
-            this._tabIndex = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Associates an HTML input element with this chip list.
-     * @param {?} inputElement
-     * @return {?}
-     */
-    MdChipList.prototype.registerInput = function (inputElement) {
-        this._inputElement = inputElement;
-    };
-    /**
-     * Focuses the the first non-disabled chip in this chip list, or the associated input when there
-    are no eligible chips.
-     * @return {?}
-     */
-    MdChipList.prototype.focus = function () {
-        // TODO: ARIA says this should focus the first `selected` chip if any are selected.
-        if (this.chips.length > 0) {
-            this._keyManager.setFirstItemActive();
-        }
-        else {
-            this._focusInput();
-        }
-    };
-    /**
-     * Attempt to focus an input if we have one.
-     * @return {?}
-     */
-    MdChipList.prototype._focusInput = function () {
-        if (this._inputElement) {
-            this._inputElement.focus();
-        }
-    };
-    /**
-     * Pass events to the keyboard manager. Available here for tests.
-     * @param {?} event
-     * @return {?}
-     */
-    MdChipList.prototype._keydown = function (event) {
-        var /** @type {?} */ code = event.keyCode;
-        var /** @type {?} */ target = (event.target);
-        var /** @type {?} */ isInputEmpty = this._isInputEmpty(target);
-        var /** @type {?} */ isRtl = this._dir && this._dir.value == 'rtl';
-        var /** @type {?} */ isPrevKey = (code === (isRtl ? _angular_cdk_keycodes.RIGHT_ARROW : _angular_cdk_keycodes.LEFT_ARROW));
-        var /** @type {?} */ isNextKey = (code === (isRtl ? _angular_cdk_keycodes.LEFT_ARROW : _angular_cdk_keycodes.RIGHT_ARROW));
-        var /** @type {?} */ isBackKey = (code === _angular_cdk_keycodes.BACKSPACE || code == _angular_cdk_keycodes.DELETE || code == _angular_cdk_keycodes.UP_ARROW || isPrevKey);
-        // If they are on an empty input and hit backspace/delete/left arrow, focus the last chip
-        if (isInputEmpty && isBackKey) {
-            this._keyManager.setLastItemActive();
-            event.preventDefault();
-            return;
-        }
-        // If they are on a chip, check for space/left/right, otherwise pass to our key manager (like
-        // up/down keys)
-        if (target && target.classList.contains('mat-chip')) {
-            if (isPrevKey) {
-                this._keyManager.setPreviousItemActive();
-                event.preventDefault();
-            }
-            else if (isNextKey) {
-                this._keyManager.setNextItemActive();
-                event.preventDefault();
-            }
-            else {
-                this._keyManager.onKeydown(event);
-            }
-        }
-    };
-    /**
-     * Iterate through the list of chips and add them to our list of
-    subscribed chips.
-    
-    \@param chips The list of chips to be subscribed.
-     * @param {?} chips
-     * @return {?}
-     */
-    MdChipList.prototype._subscribeChips = function (chips) {
-        var _this = this;
-        chips.forEach(function (chip) { return _this._addChip(chip); });
-    };
-    /**
-     * Check the tab index as you should not be allowed to focus an empty list.
-     * @return {?}
-     */
-    MdChipList.prototype._updateTabIndex = function () {
-        // If we have 0 chips, we should not allow keyboard focus
-        this._tabIndex = this._userTabIndex || (this.chips.length === 0 ? -1 : 0);
-    };
-    /**
-     * Add a specific chip to our subscribed list. If the chip has
-    already been subscribed, this ensures it is only subscribed
-    once.
-    
-    \@param chip The chip to be subscribed (or checked for existing
-    subscription).
-     * @param {?} chip
-     * @return {?}
-     */
-    MdChipList.prototype._addChip = function (chip) {
-        var _this = this;
-        // If we've already been subscribed to a parent, do nothing
-        if (this._chipSet.has(chip)) {
-            return;
-        }
-        // Watch for focus events outside of the keyboard navigation
-        chip._onFocus.subscribe(function () {
-            var /** @type {?} */ chipIndex = _this.chips.toArray().indexOf(chip);
-            if (_this._isValidIndex(chipIndex)) {
-                _this._keyManager.updateActiveItemIndex(chipIndex);
-            }
-        });
-        // On destroy, remove the item from our list, and setup our destroyed focus check
-        chip.destroy.subscribe(function () {
-            var /** @type {?} */ chipIndex = _this.chips.toArray().indexOf(chip);
-            if (_this._isValidIndex(chipIndex)) {
-                if (chip._hasFocus) {
-                    // Check whether the chip is the last item
-                    if (chipIndex < _this.chips.length - 1) {
-                        _this._keyManager.setActiveItem(chipIndex);
-                    }
-                    else if (chipIndex - 1 >= 0) {
-                        _this._keyManager.setActiveItem(chipIndex - 1);
-                    }
-                }
-                if (_this._keyManager.activeItemIndex === chipIndex) {
-                    _this._lastDestroyedIndex = chipIndex;
-                }
-            }
-            _this._chipSet.delete(chip);
-            chip.destroy.unsubscribe();
-        });
-        this._chipSet.set(chip, true);
-    };
-    /**
-     * Checks to see if a focus chip was recently destroyed so that we can refocus the next closest
-    one.
-     * @return {?}
-     */
-    MdChipList.prototype._updateFocusForDestroyedChips = function () {
-        var /** @type {?} */ chipsArray = this.chips;
-        if (this._lastDestroyedIndex != null && chipsArray.length > 0) {
-            // Check whether the destroyed chip was the last item
-            var /** @type {?} */ newFocusIndex = Math.min(this._lastDestroyedIndex, chipsArray.length - 1);
-            this._keyManager.setActiveItem(newFocusIndex);
-            var /** @type {?} */ focusChip = this._keyManager.activeItem;
-            // Focus the chip
-            if (focusChip) {
-                focusChip.focus();
-            }
-        }
-        // Reset our destroyed index
-        this._lastDestroyedIndex = null;
-    };
-    /**
-     * Utility to ensure all indexes are valid.
-    
-    \@param index The index to be checked.
-    \@returns True if the index is valid for our list of chips.
-     * @param {?} index
-     * @return {?}
-     */
-    MdChipList.prototype._isValidIndex = function (index) {
-        return index >= 0 && index < this.chips.length;
-    };
-    /**
-     * @param {?} element
-     * @return {?}
-     */
-    MdChipList.prototype._isInputEmpty = function (element) {
-        if (element && element.nodeName.toLowerCase() === 'input') {
-            var /** @type {?} */ input = (element);
-            return !input.value;
-        }
-        return false;
-    };
-    return MdChipList;
-}());
-MdChipList.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-chip-list, mat-chip-list',
-                template: "<div class=\"mat-chip-list-wrapper\"><ng-content></ng-content></div>",
-                exportAs: 'mdChipList',
-                host: {
-                    '[attr.tabindex]': '_tabIndex',
-                    'role': 'listbox',
-                    'class': 'mat-chip-list',
-                    '(focus)': 'focus()',
-                    '(keydown)': '_keydown($event)'
-                },
-                queries: {
-                    chips: new _angular_core.ContentChildren(MdChip)
-                },
-                styles: [".mat-chip-list-wrapper{display:flex;flex-direction:row;flex-wrap:wrap;align-items:flex-start}.mat-chip:not(.mat-basic-chip){transition:box-shadow 280ms cubic-bezier(.4,0,.2,1);display:inline-flex;padding:7px 12px;border-radius:24px;align-items:center;cursor:default}.mat-chip:not(.mat-basic-chip)+.mat-chip:not(.mat-basic-chip){margin:0 0 0 8px}[dir=rtl] .mat-chip:not(.mat-basic-chip)+.mat-chip:not(.mat-basic-chip){margin:0 8px 0 0}.mat-form-field-prefix .mat-chip:not(.mat-basic-chip):last-child{margin-right:8px}[dir=rtl] .mat-form-field-prefix .mat-chip:not(.mat-basic-chip):last-child{margin-left:8px}.mat-chip:not(.mat-basic-chip) .mat-chip-remove.mat-icon{width:1em;height:1em}.mat-chip:not(.mat-basic-chip):focus{box-shadow:0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12);outline:0}@media screen and (-ms-high-contrast:active){.mat-chip:not(.mat-basic-chip){outline:solid 1px}}.mat-chip-list-stacked .mat-chip-list-wrapper{display:block}.mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip){display:block;margin:0;margin-bottom:8px}[dir=rtl] .mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip){margin:0;margin-bottom:8px}.mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip):last-child,[dir=rtl] .mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip):last-child{margin-bottom:0}.mat-form-field-prefix .mat-chip-list-wrapper{margin-bottom:8px}.mat-chip-remove{margin-right:-4px;margin-left:6px;cursor:pointer}[dir=rtl] .mat-chip-remove{margin-right:6px;margin-left:-4px}"],
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush
-            },] },
-];
-/**
- * @nocollapse
- */
-MdChipList.ctorParameters = function () { return [
-    { type: _angular_core.Renderer2, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-]; };
-MdChipList.propDecorators = {
-    'selectable': [{ type: _angular_core.Input },],
-    'tabIndex': [{ type: _angular_core.Input },],
-};
-var MdChipInput = (function () {
-    /**
-     * @param {?} _elementRef
-     */
-    function MdChipInput(_elementRef) {
-        this._elementRef = _elementRef;
-        this._addOnBlur = false;
-        /**
-         * The list of key codes that will trigger a chipEnd event.
-         *
-         * Defaults to `[ENTER]`.
-         */
-        // TODO(tinayuangao): Support Set here
-        this.separatorKeyCodes = [_angular_cdk_keycodes.ENTER];
-        /**
-         * Emitted when a chip is to be added.
-         */
-        this.chipEnd = new _angular_core.EventEmitter();
-        this._inputElement = this._elementRef.nativeElement;
-    }
-    Object.defineProperty(MdChipInput.prototype, "chipList", {
-        /**
-         * Register input for chip list
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            if (value) {
-                this._chipList = value;
-                this._chipList.registerInput(this._inputElement);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChipInput.prototype, "addOnBlur", {
-        /**
-         * Whether or not the chipEnd event will be emitted when the input is blurred.
-         * @return {?}
-         */
-        get: function () { return this._addOnBlur; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._addOnBlur = _angular_cdk_coercion.coerceBooleanProperty(value); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChipInput.prototype, "matChipList", {
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this.chipList = value; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChipInput.prototype, "matAddOnBlur", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this._addOnBlur; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this.addOnBlur = value; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdChipInput.prototype, "matSeparatorKeyCodes", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.separatorKeyCodes; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.separatorKeyCodes = v; },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Utility method to make host definition/tests more clear.
-     * @param {?=} event
-     * @return {?}
-     */
-    MdChipInput.prototype._keydown = function (event) {
-        this._emitChipEnd(event);
-    };
-    /**
-     * Checks to see if the blur should emit the (chipEnd) event.
-     * @return {?}
-     */
-    MdChipInput.prototype._blur = function () {
-        if (this.addOnBlur) {
-            this._emitChipEnd();
-        }
-    };
-    /**
-     * Checks to see if the (chipEnd) event needs to be emitted.
-     * @param {?=} event
-     * @return {?}
-     */
-    MdChipInput.prototype._emitChipEnd = function (event) {
-        if (!this._inputElement.value && !!event) {
-            this._chipList._keydown(event);
-        }
-        if (!event || this.separatorKeyCodes.indexOf(event.keyCode) > -1) {
-            this.chipEnd.emit({ input: this._inputElement, value: this._inputElement.value });
-            if (event) {
-                event.preventDefault();
-            }
-        }
-    };
-    return MdChipInput;
-}());
-MdChipInput.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: 'input[mdChipInputFor], input[matChipInputFor]',
-                host: {
-                    'class': 'mat-chip-input',
-                    '(keydown)': '_keydown($event)',
-                    '(blur)': '_blur()'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdChipInput.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-]; };
-MdChipInput.propDecorators = {
-    'chipList': [{ type: _angular_core.Input, args: ['mdChipInputFor',] },],
-    'addOnBlur': [{ type: _angular_core.Input, args: ['mdChipInputAddOnBlur',] },],
-    'separatorKeyCodes': [{ type: _angular_core.Input, args: ['mdChipInputSeparatorKeyCodes',] },],
-    'chipEnd': [{ type: _angular_core.Output, args: ['mdChipInputTokenEnd',] },],
-    'matChipList': [{ type: _angular_core.Input, args: ['matChipInputFor',] },],
-    'matAddOnBlur': [{ type: _angular_core.Input, args: ['matChipInputAddOnBlur',] },],
-    'matSeparatorKeyCodes': [{ type: _angular_core.Input, args: ['matChipInputSeparatorKeyCodes',] },],
-};
-var MdChipsModule = (function () {
-    function MdChipsModule() {
-    }
-    return MdChipsModule;
-}());
-MdChipsModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [],
-                exports: [MdChipList, MdChip, MdChipInput, MdChipRemove, MdChipRemove, MdBasicChip],
-                declarations: [MdChipList, MdChip, MdChipInput, MdChipRemove, MdChipRemove, MdBasicChip]
-            },] },
-];
-/**
- * @nocollapse
- */
-MdChipsModule.ctorParameters = function () { return []; };
 // Increasing integer for generating unique ids for checkbox components.
-var nextUniqueId$3 = 0;
+var nextUniqueId$1$1 = 0;
 /**
  * Provider Expression that allows md-checkbox to register as a ControlValueAccessor.
 This allows it to support [(ngModel)].
@@ -5952,12 +4898,12 @@ var MdCheckbox = (function (_super) {
      * @param {?} renderer
      * @param {?} elementRef
      * @param {?} _changeDetectorRef
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      */
-    function MdCheckbox(renderer, elementRef, _changeDetectorRef, _focusOriginMonitor) {
+    function MdCheckbox(renderer, elementRef, _changeDetectorRef, _focusMonitor) {
         var _this = _super.call(this, renderer, elementRef) || this;
         _this._changeDetectorRef = _changeDetectorRef;
-        _this._focusOriginMonitor = _focusOriginMonitor;
+        _this._focusMonitor = _focusMonitor;
         /**
          * Attached to the aria-label attribute of the host element. In most cases, arial-labelledby will
         take precedence so this may be omitted.
@@ -5967,7 +4913,7 @@ var MdCheckbox = (function (_super) {
          * Users can specify the `aria-labelledby` attribute which will be forwarded to the input element
          */
         _this.ariaLabelledby = null;
-        _this._uniqueId = "md-checkbox-" + ++nextUniqueId$3;
+        _this._uniqueId = "md-checkbox-" + ++nextUniqueId$1$1;
         /**
          * A unique id for the checkbox input. If none is supplied, it will be auto-generated.
          */
@@ -6053,7 +4999,7 @@ var MdCheckbox = (function (_super) {
      */
     MdCheckbox.prototype.ngAfterViewInit = function () {
         var _this = this;
-        this._focusOriginMonitor
+        this._focusMonitor
             .monitor(this._inputElement.nativeElement, this._renderer, false)
             .subscribe(function (focusOrigin) { return _this._onInputFocusChange(focusOrigin); });
     };
@@ -6061,7 +5007,7 @@ var MdCheckbox = (function (_super) {
      * @return {?}
      */
     MdCheckbox.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._inputElement.nativeElement);
+        this._focusMonitor.stopMonitoring(this._inputElement.nativeElement);
     };
     Object.defineProperty(MdCheckbox.prototype, "checked", {
         /**
@@ -6262,7 +5208,7 @@ var MdCheckbox = (function (_super) {
      * @return {?}
      */
     MdCheckbox.prototype.focus = function () {
-        this._focusOriginMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
+        this._focusMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
     };
     /**
      * @param {?} event
@@ -6324,7 +5270,7 @@ var MdCheckbox = (function (_super) {
 }(_MdCheckboxMixinBase));
 MdCheckbox.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-checkbox, mat-checkbox',
-                template: "<label [attr.for]=\"inputId\" class=\"mat-checkbox-layout\" #label><div class=\"mat-checkbox-inner-container\" [class.mat-checkbox-inner-container-no-side-margin]=\"!checkboxLabel.textContent || !checkboxLabel.textContent.trim()\"><input #input class=\"mat-checkbox-input cdk-visually-hidden\" type=\"checkbox\" [id]=\"inputId\" [required]=\"required\" [checked]=\"checked\" [value]=\"value\" [disabled]=\"disabled\" [name]=\"name\" [tabIndex]=\"tabIndex\" [indeterminate]=\"indeterminate\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onInteractionEvent($event)\" (click)=\"_onInputClick($event)\"><div md-ripple class=\"mat-checkbox-ripple\" [mdRippleTrigger]=\"label\" [mdRippleDisabled]=\"_isRippleDisabled()\" [mdRippleCentered]=\"true\"></div><div class=\"mat-checkbox-frame\"></div><div class=\"mat-checkbox-background\"><svg version=\"1.1\" focusable=\"false\" class=\"mat-checkbox-checkmark\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" xml:space=\"preserve\"><path class=\"mat-checkbox-checkmark-path\" fill=\"none\" stroke=\"white\" d=\"M4.1,12.7 9,17.6 20.3,6.3\"/></svg><div class=\"mat-checkbox-mixedmark\"></div></div></div><span class=\"mat-checkbox-label\" #checkboxLabel (cdkObserveContent)=\"_onLabelTextChange()\"><span style=\"display:none\">&nbsp;</span><ng-content></ng-content></span></label>",
+                template: "<label [attr.for]=\"inputId\" class=\"mat-checkbox-layout\" #label><div class=\"mat-checkbox-inner-container\" [class.mat-checkbox-inner-container-no-side-margin]=\"!checkboxLabel.textContent || !checkboxLabel.textContent.trim()\"><input #input class=\"mat-checkbox-input cdk-visually-hidden\" type=\"checkbox\" [id]=\"inputId\" [required]=\"required\" [checked]=\"checked\" [value]=\"value\" [disabled]=\"disabled\" [name]=\"name\" [tabIndex]=\"tabIndex\" [indeterminate]=\"indeterminate\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onInteractionEvent($event)\" (click)=\"_onInputClick($event)\"><div mat-ripple class=\"mat-checkbox-ripple\" [matRippleTrigger]=\"label\" [matRippleDisabled]=\"_isRippleDisabled()\" [matRippleCentered]=\"true\"></div><div class=\"mat-checkbox-frame\"></div><div class=\"mat-checkbox-background\"><svg version=\"1.1\" focusable=\"false\" class=\"mat-checkbox-checkmark\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" xml:space=\"preserve\"><path class=\"mat-checkbox-checkmark-path\" fill=\"none\" stroke=\"white\" d=\"M4.1,12.7 9,17.6 20.3,6.3\"/></svg><div class=\"mat-checkbox-mixedmark\"></div></div></div><span class=\"mat-checkbox-label\" #checkboxLabel (cdkObserveContent)=\"_onLabelTextChange()\"><span style=\"display:none\">&nbsp;</span><ng-content></ng-content></span></label>",
                 styles: ["@keyframes mat-checkbox-fade-in-background{0%{opacity:0}50%{opacity:1}}@keyframes mat-checkbox-fade-out-background{0%,50%{opacity:1}100%{opacity:0}}@keyframes mat-checkbox-unchecked-checked-checkmark-path{0%,50%{stroke-dashoffset:22.91026}50%{animation-timing-function:cubic-bezier(0,0,.2,.1)}100%{stroke-dashoffset:0}}@keyframes mat-checkbox-unchecked-indeterminate-mixedmark{0%,68.2%{transform:scaleX(0)}68.2%{animation-timing-function:cubic-bezier(0,0,0,1)}100%{transform:scaleX(1)}}@keyframes mat-checkbox-checked-unchecked-checkmark-path{from{animation-timing-function:cubic-bezier(.4,0,1,1);stroke-dashoffset:0}to{stroke-dashoffset:-22.91026}}@keyframes mat-checkbox-checked-indeterminate-checkmark{from{animation-timing-function:cubic-bezier(0,0,.2,.1);opacity:1;transform:rotate(0)}to{opacity:0;transform:rotate(45deg)}}@keyframes mat-checkbox-indeterminate-checked-checkmark{from{animation-timing-function:cubic-bezier(.14,0,0,1);opacity:0;transform:rotate(45deg)}to{opacity:1;transform:rotate(360deg)}}@keyframes mat-checkbox-checked-indeterminate-mixedmark{from{animation-timing-function:cubic-bezier(0,0,.2,.1);opacity:0;transform:rotate(-45deg)}to{opacity:1;transform:rotate(0)}}@keyframes mat-checkbox-indeterminate-checked-mixedmark{from{animation-timing-function:cubic-bezier(.14,0,0,1);opacity:1;transform:rotate(0)}to{opacity:0;transform:rotate(315deg)}}@keyframes mat-checkbox-indeterminate-unchecked-mixedmark{0%{animation-timing-function:linear;opacity:1;transform:scaleX(1)}100%,32.8%{opacity:0;transform:scaleX(0)}}.mat-checkbox-checkmark,.mat-checkbox-mixedmark{width:calc(100% - 4px)}.mat-checkbox-background,.mat-checkbox-frame{top:0;left:0;right:0;bottom:0;position:absolute;border-radius:2px;box-sizing:border-box;pointer-events:none}.mat-checkbox{transition:background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);cursor:pointer}.mat-checkbox-layout{cursor:inherit;align-items:baseline;vertical-align:middle;display:inline-flex;white-space:nowrap}.mat-checkbox-inner-container{display:inline-block;height:20px;line-height:0;margin:auto;margin-right:8px;order:0;position:relative;vertical-align:middle;white-space:nowrap;width:20px;flex-shrink:0}[dir=rtl] .mat-checkbox-inner-container{margin-left:8px;margin-right:auto}.mat-checkbox-inner-container-no-side-margin{margin-left:0;margin-right:0}.mat-checkbox-frame{background-color:transparent;transition:border-color 90ms cubic-bezier(0,0,.2,.1);border-width:2px;border-style:solid}.mat-checkbox-background{align-items:center;display:inline-flex;justify-content:center;transition:background-color 90ms cubic-bezier(0,0,.2,.1),opacity 90ms cubic-bezier(0,0,.2,.1)}.mat-checkbox-checkmark{top:0;left:0;right:0;bottom:0;position:absolute;width:100%}.mat-checkbox-checkmark-path{stroke-dashoffset:22.91026;stroke-dasharray:22.91026;stroke-width:2.66667px}.mat-checkbox-mixedmark{height:2px;opacity:0;transform:scaleX(0) rotate(0)}.mat-checkbox-label-before .mat-checkbox-inner-container{order:1;margin-left:8px;margin-right:auto}[dir=rtl] .mat-checkbox-label-before .mat-checkbox-inner-container{margin-left:auto;margin-right:8px}.mat-checkbox-checked .mat-checkbox-checkmark{opacity:1}.mat-checkbox-checked .mat-checkbox-checkmark-path{stroke-dashoffset:0}.mat-checkbox-checked .mat-checkbox-mixedmark{transform:scaleX(1) rotate(-45deg)}.mat-checkbox-indeterminate .mat-checkbox-checkmark{opacity:0;transform:rotate(45deg)}.mat-checkbox-indeterminate .mat-checkbox-checkmark-path{stroke-dashoffset:0}.mat-checkbox-indeterminate .mat-checkbox-mixedmark{opacity:1;transform:scaleX(1) rotate(0)}.mat-checkbox-unchecked .mat-checkbox-background{background-color:transparent}.mat-checkbox-disabled{cursor:default}.mat-checkbox-anim-unchecked-checked .mat-checkbox-background{animation:180ms linear 0s mat-checkbox-fade-in-background}.mat-checkbox-anim-unchecked-checked .mat-checkbox-checkmark-path{animation:180ms linear 0s mat-checkbox-unchecked-checked-checkmark-path}.mat-checkbox-anim-unchecked-indeterminate .mat-checkbox-background{animation:180ms linear 0s mat-checkbox-fade-in-background}.mat-checkbox-anim-unchecked-indeterminate .mat-checkbox-mixedmark{animation:90ms linear 0s mat-checkbox-unchecked-indeterminate-mixedmark}.mat-checkbox-anim-checked-unchecked .mat-checkbox-background{animation:180ms linear 0s mat-checkbox-fade-out-background}.mat-checkbox-anim-checked-unchecked .mat-checkbox-checkmark-path{animation:90ms linear 0s mat-checkbox-checked-unchecked-checkmark-path}.mat-checkbox-anim-checked-indeterminate .mat-checkbox-checkmark{animation:90ms linear 0s mat-checkbox-checked-indeterminate-checkmark}.mat-checkbox-anim-checked-indeterminate .mat-checkbox-mixedmark{animation:90ms linear 0s mat-checkbox-checked-indeterminate-mixedmark}.mat-checkbox-anim-indeterminate-checked .mat-checkbox-checkmark{animation:.5s linear 0s mat-checkbox-indeterminate-checked-checkmark}.mat-checkbox-anim-indeterminate-checked .mat-checkbox-mixedmark{animation:.5s linear 0s mat-checkbox-indeterminate-checked-mixedmark}.mat-checkbox-anim-indeterminate-unchecked .mat-checkbox-background{animation:180ms linear 0s mat-checkbox-fade-out-background}.mat-checkbox-anim-indeterminate-unchecked .mat-checkbox-mixedmark{animation:.3s linear 0s mat-checkbox-indeterminate-unchecked-mixedmark}.mat-checkbox-input{bottom:0;left:50%}.mat-checkbox-ripple{position:absolute;left:-15px;top:-15px;right:-15px;bottom:-15px;border-radius:50%;z-index:1;pointer-events:none}"],
                 host: {
                     'class': 'mat-checkbox',
@@ -6335,8 +5281,10 @@ MdCheckbox.decorators = [
                     '[class.mat-checkbox-label-before]': 'labelPosition == "before"',
                 },
                 providers: [MD_CHECKBOX_CONTROL_VALUE_ACCESSOR],
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
                 inputs: ['disabled', 'disableRipple', 'color'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush
             },] },
 ];
@@ -6347,7 +5295,7 @@ MdCheckbox.ctorParameters = function () { return [
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ElementRef, },
     { type: _angular_core.ChangeDetectorRef, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
 ]; };
 MdCheckbox.propDecorators = {
     'ariaLabel': [{ type: _angular_core.Input, args: ['aria-label',] },],
@@ -6402,487 +5350,1492 @@ var MdCheckboxModule = (function () {
 }());
 MdCheckboxModule.decorators = [
     { type: _angular_core.NgModule, args: [{
-                imports: [_angular_common.CommonModule, MdRippleModule, MdCommonModule, _angular_cdk_observers.ObserversModule],
+                imports: [_angular_common.CommonModule, MdRippleModule, MdCommonModule, _angular_cdk_observers.ObserversModule, _angular_cdk_a11y.A11yModule],
                 exports: [MdCheckbox, MdCheckboxRequiredValidator, MdCommonModule],
                 declarations: [MdCheckbox, MdCheckboxRequiredValidator],
-                providers: [FocusOriginMonitor]
             },] },
 ];
 /**
  * @nocollapse
  */
 MdCheckboxModule.ctorParameters = function () { return []; };
+
 /**
- * An internal class that represents the data corresponding to a single calendar cell.
-\@docs-private
+ * Event object emitted by MdChip when selected or deselected.
  */
-var MdCalendarCell = (function () {
+var MdChipSelectionChange = (function () {
     /**
-     * @param {?} value
-     * @param {?} displayValue
-     * @param {?} ariaLabel
-     * @param {?} enabled
+     * @param {?} source
+     * @param {?} selected
+     * @param {?=} isUserInput
      */
-    function MdCalendarCell(value, displayValue, ariaLabel, enabled) {
-        this.value = value;
-        this.displayValue = displayValue;
-        this.ariaLabel = ariaLabel;
-        this.enabled = enabled;
+    function MdChipSelectionChange(source, selected, isUserInput) {
+        if (isUserInput === void 0) { isUserInput = false; }
+        this.source = source;
+        this.selected = selected;
+        this.isUserInput = isUserInput;
     }
-    return MdCalendarCell;
+    return MdChipSelectionChange;
 }());
 /**
- * An internal component used to display calendar data in a table.
+ * \@docs-private
+ */
+var MdChipBase = (function () {
+    /**
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     */
+    function MdChipBase(_renderer, _elementRef) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+    }
+    return MdChipBase;
+}());
+var _MdChipMixinBase = mixinColor(mixinDisabled(MdChipBase), 'primary');
+/**
+ * Dummy directive to add CSS class to basic chips.
 \@docs-private
  */
-var MdCalendarBody = (function () {
-    function MdCalendarBody() {
-        /**
-         * The number of columns in the table.
-         */
-        this.numCols = 7;
-        /**
-         * Whether to allow selection of disabled cells.
-         */
-        this.allowDisabledSelection = false;
-        /**
-         * The cell number of the active cell in the table.
-         */
-        this.activeCell = 0;
-        /**
-         * The aspect ratio (width / height) to use for the cells in the table. This aspect ratio will be
-        maintained even as the table resizes.
-         */
-        this.cellAspectRatio = 1;
-        /**
-         * Emits when a new value is selected.
-         */
-        this.selectedValueChange = new _angular_core.EventEmitter();
+var MdBasicChip = (function () {
+    function MdBasicChip() {
     }
+    return MdBasicChip;
+}());
+MdBasicChip.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: "md-basic-chip, [md-basic-chip], mat-basic-chip, [mat-basic-chip]",
+                host: { 'class': 'mat-basic-chip' },
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdBasicChip.ctorParameters = function () { return []; };
+/**
+ * Material design styled Chip component. Used inside the MdChipList component.
+ */
+var MdChip = (function (_super) {
+    __extends(MdChip, _super);
     /**
-     * @param {?} cell
-     * @return {?}
+     * @param {?} renderer
+     * @param {?} _elementRef
      */
-    MdCalendarBody.prototype._cellClicked = function (cell) {
-        if (!this.allowDisabledSelection && !cell.enabled) {
-            return;
-        }
-        this.selectedValueChange.emit(cell.value);
-    };
-    Object.defineProperty(MdCalendarBody.prototype, "_firstRowOffset", {
+    function MdChip(renderer, _elementRef) {
+        var _this = _super.call(this, renderer, _elementRef) || this;
+        _this._elementRef = _elementRef;
+        _this._selected = false;
+        _this._selectable = true;
+        _this._removable = true;
         /**
-         * The number of blank cells to put at the beginning for the first row.
+         * Whether the chip has focus.
+         */
+        _this._hasFocus = false;
+        /**
+         * Emits when the chip is focused.
+         */
+        _this._onFocus = new rxjs_Subject.Subject();
+        /**
+         * Emits when the chip is blured.
+         */
+        _this._onBlur = new rxjs_Subject.Subject();
+        /**
+         * Emitted when the chip is selected or deselected.
+         */
+        _this.selectionChange = new _angular_core.EventEmitter();
+        /**
+         * Emitted when the chip is destroyed.
+         */
+        _this.destroyed = new _angular_core.EventEmitter();
+        /**
+         * Emitted when the chip is destroyed.
+        \@deprecated Use 'destroyed' instead.
+         */
+        _this.destroy = _this.destroyed;
+        /**
+         * Emitted when a chip is to be removed.
+         */
+        _this.removed = new _angular_core.EventEmitter();
+        /**
+         * Emitted when a chip is to be removed.
+        \@deprecated Use `removed` instead.
+         */
+        _this.onRemove = _this.removed;
+        return _this;
+    }
+    Object.defineProperty(MdChip.prototype, "selected", {
+        /**
+         * Whether the chip is selected.
          * @return {?}
          */
         get: function () {
-            return this.rows && this.rows.length && this.rows[0].length ?
-                this.numCols - this.rows[0].length : 0;
+            return this._selected;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._selected = _angular_cdk_coercion.coerceBooleanProperty(value);
+            this.selectionChange.emit({
+                source: this,
+                isUserInput: false,
+                selected: value
+            });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "value", {
+        /**
+         * The value of the chip. Defaults to the content inside <md-chip> tags.
+         * @return {?}
+         */
+        get: function () {
+            return this._value != undefined
+                ? this._value
+                : this._elementRef.nativeElement.textContent;
+        },
+        /**
+         * @param {?} newValue
+         * @return {?}
+         */
+        set: function (newValue) {
+            this._value = newValue;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "selectable", {
+        /**
+         * Whether or not the chips are selectable. When a chip is not selectable,
+        changes to it's selected state are always ignored.
+         * @return {?}
+         */
+        get: function () {
+            return this._selectable;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._selectable = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "removable", {
+        /**
+         * Determines whether or not the chip displays the remove styling and emits (remove) events.
+         * @return {?}
+         */
+        get: function () {
+            return this._removable;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._removable = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChip.prototype, "ariaSelected", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this.selectable ? this.selected.toString() : null;
         },
         enumerable: true,
         configurable: true
     });
     /**
-     * @param {?} rowIndex
-     * @param {?} colIndex
      * @return {?}
      */
-    MdCalendarBody.prototype._isActiveCell = function (rowIndex, colIndex) {
-        var /** @type {?} */ cellNumber = rowIndex * this.numCols + colIndex;
-        // Account for the fact that the first row may not have as many cells.
-        if (rowIndex) {
-            cellNumber -= this._firstRowOffset;
-        }
-        return cellNumber == this.activeCell;
+    MdChip.prototype.ngOnDestroy = function () {
+        this.destroyed.emit({ chip: this });
     };
-    return MdCalendarBody;
-}());
-MdCalendarBody.decorators = [
-    { type: _angular_core.Component, args: [{ selector: '[md-calendar-body], [mat-calendar-body]',
-                template: "<tr *ngIf=\"_firstRowOffset < labelMinRequiredCells\" aria-hidden=\"true\"><td class=\"mat-calendar-body-label\" [attr.colspan]=\"numCols\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\">{{label}}</td></tr><tr *ngFor=\"let row of rows; let rowIndex = index\" role=\"row\"><td *ngIf=\"rowIndex === 0 && _firstRowOffset\" aria-hidden=\"true\" class=\"mat-calendar-body-label\" [attr.colspan]=\"_firstRowOffset\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\">{{_firstRowOffset >= labelMinRequiredCells ? label : ''}}</td><td *ngFor=\"let item of row; let colIndex = index\" role=\"gridcell\" class=\"mat-calendar-body-cell\" [tabindex]=\"_isActiveCell(rowIndex, colIndex) ? 0 : -1\" [class.mat-calendar-body-disabled]=\"!item.enabled\" [class.mat-calendar-body-active]=\"_isActiveCell(rowIndex, colIndex)\" [attr.aria-label]=\"item.ariaLabel\" [attr.aria-disabled]=\"!item.enabled || null\" (click)=\"_cellClicked(item)\" [style.width.%]=\"100 / numCols\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\"><div class=\"mat-calendar-body-cell-content\" [class.mat-calendar-body-selected]=\"selectedValue === item.value\" [class.mat-calendar-body-today]=\"todayValue === item.value\">{{item.displayValue}}</div></td></tr>",
-                styles: [".mat-calendar-body{min-width:224px}.mat-calendar-body-label{height:0;line-height:0;text-align:left;padding-left:4.71429%;padding-right:4.71429%}.mat-calendar-body-cell{position:relative;height:0;line-height:0;text-align:center;outline:0;cursor:pointer}.mat-calendar-body-disabled{cursor:default}.mat-calendar-body-cell-content{position:absolute;top:5%;left:5%;display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:90%;height:90%;line-height:1;border-width:1px;border-style:solid;border-radius:999px}[dir=rtl] .mat-calendar-body-label{text-align:right}"],
-                host: {
-                    'class': 'mat-calendar-body',
-                },
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdCalendarBody.ctorParameters = function () { return []; };
-MdCalendarBody.propDecorators = {
-    'label': [{ type: _angular_core.Input },],
-    'rows': [{ type: _angular_core.Input },],
-    'todayValue': [{ type: _angular_core.Input },],
-    'selectedValue': [{ type: _angular_core.Input },],
-    'labelMinRequiredCells': [{ type: _angular_core.Input },],
-    'numCols': [{ type: _angular_core.Input },],
-    'allowDisabledSelection': [{ type: _angular_core.Input },],
-    'activeCell': [{ type: _angular_core.Input },],
-    'cellAspectRatio': [{ type: _angular_core.Input },],
-    'selectedValueChange': [{ type: _angular_core.Output },],
-};
-/**
- * \@docs-private
- * @param {?} provider
- * @return {?}
- */
-function createMissingDateImplError(provider) {
-    return Error("MdDatepicker: No provider found for " + provider + ". You must import one of the following " +
-        "modules at your application root: MdNativeDateModule, or provide a custom implementation.");
-}
-var DAYS_PER_WEEK = 7;
-/**
- * An internal component used to display a single month in the datepicker.
-\@docs-private
- */
-var MdMonthView = (function () {
     /**
-     * @param {?} _dateAdapter
-     * @param {?} _dateFormats
+     * Selects the chip.
+     * @return {?}
      */
-    function MdMonthView(_dateAdapter, _dateFormats) {
-        this._dateAdapter = _dateAdapter;
-        this._dateFormats = _dateFormats;
-        /**
-         * Emits when a new date is selected.
-         */
-        this.selectedChange = new _angular_core.EventEmitter();
-        /**
-         * Emits when any date is selected.
-         */
-        this.userSelection = new _angular_core.EventEmitter();
-        if (!this._dateAdapter) {
-            throw createMissingDateImplError('DateAdapter');
-        }
-        if (!this._dateFormats) {
-            throw createMissingDateImplError('MD_DATE_FORMATS');
-        }
-        var firstDayOfWeek = this._dateAdapter.getFirstDayOfWeek();
-        var narrowWeekdays = this._dateAdapter.getDayOfWeekNames('narrow');
-        var longWeekdays = this._dateAdapter.getDayOfWeekNames('long');
-        // Rotate the labels for days of the week based on the configured first day of the week.
-        var weekdays = longWeekdays.map(function (long, i) {
-            return { long: long, narrow: narrowWeekdays[i] };
+    MdChip.prototype.select = function () {
+        this._selected = true;
+        this.selectionChange.emit({
+            source: this,
+            isUserInput: false,
+            selected: true
         });
-        this._weekdays = weekdays.slice(firstDayOfWeek).concat(weekdays.slice(0, firstDayOfWeek));
-        this._activeDate = this._dateAdapter.today();
-    }
-    Object.defineProperty(MdMonthView.prototype, "activeDate", {
-        /**
-         * The date to display in this month view (everything other than the month and year is ignored).
-         * @return {?}
-         */
-        get: function () { return this._activeDate; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            var /** @type {?} */ oldActiveDate = this._activeDate;
-            this._activeDate = value || this._dateAdapter.today();
-            if (!this._hasSameMonthAndYear(oldActiveDate, this._activeDate)) {
-                this._init();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdMonthView.prototype, "selected", {
-        /**
-         * The currently selected date.
-         * @return {?}
-         */
-        get: function () { return this._selected; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selected = value;
-            this._selectedDate = this._getDateInCurrentMonth(this.selected);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdMonthView.prototype.ngAfterContentInit = function () {
-        this._init();
     };
     /**
-     * Handles when a new date is selected.
-     * @param {?} date
+     * Deselects the chip.
      * @return {?}
      */
-    MdMonthView.prototype._dateSelected = function (date) {
-        if (this._selectedDate != date) {
-            var /** @type {?} */ selectedYear = this._dateAdapter.getYear(this.activeDate);
-            var /** @type {?} */ selectedMonth = this._dateAdapter.getMonth(this.activeDate);
-            var /** @type {?} */ selectedDate = this._dateAdapter.createDate(selectedYear, selectedMonth, date);
-            this.selectedChange.emit(selectedDate);
-        }
-        this.userSelection.emit();
+    MdChip.prototype.deselect = function () {
+        this._selected = false;
+        this.selectionChange.emit({
+            source: this,
+            isUserInput: false,
+            selected: false
+        });
     };
     /**
-     * Initializes this month view.
+     * Select this chip and emit selected event
      * @return {?}
      */
-    MdMonthView.prototype._init = function () {
-        this._selectedDate = this._getDateInCurrentMonth(this.selected);
-        this._todayDate = this._getDateInCurrentMonth(this._dateAdapter.today());
-        this._monthLabel =
-            this._dateAdapter.getMonthNames('short')[this._dateAdapter.getMonth(this.activeDate)]
-                .toLocaleUpperCase();
-        var /** @type {?} */ firstOfMonth = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), this._dateAdapter.getMonth(this.activeDate), 1);
-        this._firstWeekOffset =
-            (DAYS_PER_WEEK + this._dateAdapter.getDayOfWeek(firstOfMonth) -
-                this._dateAdapter.getFirstDayOfWeek()) % DAYS_PER_WEEK;
-        this._createWeekCells();
+    MdChip.prototype.selectViaInteraction = function () {
+        this._selected = true;
+        // Emit select event when selected changes.
+        this.selectionChange.emit({
+            source: this,
+            isUserInput: true,
+            selected: true
+        });
     };
     /**
-     * Creates MdCalendarCells for the dates in this month.
+     * Toggles the current selected state of this chip.
+     * @param {?=} isUserInput
      * @return {?}
      */
-    MdMonthView.prototype._createWeekCells = function () {
-        var /** @type {?} */ daysInMonth = this._dateAdapter.getNumDaysInMonth(this.activeDate);
-        var /** @type {?} */ dateNames = this._dateAdapter.getDateNames();
-        this._weeks = [[]];
-        for (var /** @type {?} */ i = 0, /** @type {?} */ cell = this._firstWeekOffset; i < daysInMonth; i++, cell++) {
-            if (cell == DAYS_PER_WEEK) {
-                this._weeks.push([]);
-                cell = 0;
-            }
-            var /** @type {?} */ date = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), this._dateAdapter.getMonth(this.activeDate), i + 1);
-            var /** @type {?} */ enabled = !this.dateFilter ||
-                this.dateFilter(date);
-            var /** @type {?} */ ariaLabel = this._dateAdapter.format(date, this._dateFormats.display.dateA11yLabel);
-            this._weeks[this._weeks.length - 1]
-                .push(new MdCalendarCell(i + 1, dateNames[i], ariaLabel, enabled));
+    MdChip.prototype.toggleSelected = function (isUserInput) {
+        if (isUserInput === void 0) { isUserInput = false; }
+        this._selected = !this.selected;
+        this.selectionChange.emit({
+            source: this,
+            isUserInput: isUserInput,
+            selected: this._selected
+        });
+        return this.selected;
+    };
+    /**
+     * Allows for programmatic focusing of the chip.
+     * @return {?}
+     */
+    MdChip.prototype.focus = function () {
+        this._elementRef.nativeElement.focus();
+        this._onFocus.next({ chip: this });
+    };
+    /**
+     * Allows for programmatic removal of the chip. Called by the MdChipList when the DELETE or
+    BACKSPACE keys are pressed.
+    
+    Informs any listeners of the removal request. Does not remove the chip from the DOM.
+     * @return {?}
+     */
+    MdChip.prototype.remove = function () {
+        if (this.removable) {
+            this.removed.emit({ chip: this });
         }
     };
     /**
-     * Gets the date in this month that the given Date falls on.
-    Returns null if the given Date is in another month.
-     * @param {?} date
+     * Ensures events fire properly upon click.
+     * @param {?} event
      * @return {?}
      */
-    MdMonthView.prototype._getDateInCurrentMonth = function (date) {
-        return this._hasSameMonthAndYear(date, this.activeDate) ?
-            this._dateAdapter.getDate(date) : null;
+    MdChip.prototype._handleClick = function (event) {
+        // Check disabled
+        if (this.disabled) {
+            return;
+        }
+        event.preventDefault();
+        event.stopPropagation();
+        this.focus();
     };
     /**
-     * Checks whether the 2 dates are non-null and fall within the same month of the same year.
-     * @param {?} d1
-     * @param {?} d2
+     * Handle custom key presses.
+     * @param {?} event
      * @return {?}
      */
-    MdMonthView.prototype._hasSameMonthAndYear = function (d1, d2) {
-        return !!(d1 && d2 && this._dateAdapter.getMonth(d1) == this._dateAdapter.getMonth(d2) &&
-            this._dateAdapter.getYear(d1) == this._dateAdapter.getYear(d2));
+    MdChip.prototype._handleKeydown = function (event) {
+        if (this.disabled) {
+            return;
+        }
+        switch (event.keyCode) {
+            case _angular_cdk_keycodes.DELETE:
+            case _angular_cdk_keycodes.BACKSPACE:
+                // If we are removable, remove the focused chip
+                this.remove();
+                // Always prevent so page navigation does not occur
+                event.preventDefault();
+                break;
+            case _angular_cdk_keycodes.SPACE:
+                // If we are selectable, toggle the focused chip
+                if (this.selectable) {
+                    this.toggleSelected(true);
+                }
+                // Always prevent space from scrolling the page since the list has focus
+                event.preventDefault();
+                break;
+        }
     };
-    return MdMonthView;
-}());
-MdMonthView.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-month-view',
-                template: "<table class=\"mat-calendar-table\"><thead class=\"mat-calendar-table-header\"><tr><th *ngFor=\"let day of _weekdays\" [attr.aria-label]=\"day.long\">{{day.narrow}}</th></tr><tr><th class=\"mat-calendar-table-header-divider\" colspan=\"7\" aria-hidden=\"true\"></th></tr></thead><tbody md-calendar-body role=\"grid\" [label]=\"_monthLabel\" [rows]=\"_weeks\" [todayValue]=\"_todayDate\" [selectedValue]=\"_selectedDate\" [labelMinRequiredCells]=\"3\" [activeCell]=\"_dateAdapter.getDate(activeDate) - 1\" (selectedValueChange)=\"_dateSelected($event)\"></tbody></table>",
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+    /**
+     * @return {?}
+     */
+    MdChip.prototype._blur = function () {
+        this._hasFocus = false;
+        this._onBlur.next({ chip: this });
+    };
+    return MdChip;
+}(_MdChipMixinBase));
+MdChip.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: "md-basic-chip, [md-basic-chip], md-chip, [md-chip],\n             mat-basic-chip, [mat-basic-chip], mat-chip, [mat-chip]",
+                inputs: ['color', 'disabled'],
+                exportAs: 'mdChip, matChip',
+                host: {
+                    'class': 'mat-chip',
+                    'tabindex': '-1',
+                    'role': 'option',
+                    '[class.mat-chip-selected]': 'selected',
+                    '[attr.disabled]': 'disabled || null',
+                    '[attr.aria-disabled]': 'disabled.toString()',
+                    '[attr.aria-selected]': 'ariaSelected',
+                    '(click)': '_handleClick($event)',
+                    '(keydown)': '_handleKeydown($event)',
+                    '(focus)': '_hasFocus = true',
+                    '(blur)': '_blur()',
+                },
             },] },
 ];
 /**
  * @nocollapse
  */
-MdMonthView.ctorParameters = function () { return [
-    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+MdChip.ctorParameters = function () { return [
+    { type: _angular_core.Renderer2, },
+    { type: _angular_core.ElementRef, },
 ]; };
-MdMonthView.propDecorators = {
-    'activeDate': [{ type: _angular_core.Input },],
+MdChip.propDecorators = {
     'selected': [{ type: _angular_core.Input },],
-    'dateFilter': [{ type: _angular_core.Input },],
-    'selectedChange': [{ type: _angular_core.Output },],
-    'userSelection': [{ type: _angular_core.Output },],
+    'value': [{ type: _angular_core.Input },],
+    'selectable': [{ type: _angular_core.Input },],
+    'removable': [{ type: _angular_core.Input },],
+    'selectionChange': [{ type: _angular_core.Output },],
+    'destroyed': [{ type: _angular_core.Output },],
+    'destroy': [{ type: _angular_core.Output },],
+    'removed': [{ type: _angular_core.Output },],
+    'onRemove': [{ type: _angular_core.Output, args: ['remove',] },],
 };
 /**
- * An internal component used to display a single year in the datepicker.
-\@docs-private
+ * Applies proper (click) support and adds styling for use with the Material Design "cancel" icon
+available at https://material.io/icons/#ic_cancel.
+
+Example:
+
+    <md-chip>
+      <md-icon mdChipRemove>cancel</md-icon>
+    </md-chip>
+
+You *may* use a custom icon, but you may need to override the `md-chip-remove` positioning styles
+to properly center the icon within the chip.
  */
-var MdYearView = (function () {
+var MdChipRemove = (function () {
     /**
-     * @param {?} _dateAdapter
-     * @param {?} _dateFormats
+     * @param {?} _parentChip
      */
-    function MdYearView(_dateAdapter, _dateFormats) {
-        this._dateAdapter = _dateAdapter;
-        this._dateFormats = _dateFormats;
-        /**
-         * Emits when a new month is selected.
-         */
-        this.selectedChange = new _angular_core.EventEmitter();
-        if (!this._dateAdapter) {
-            throw createMissingDateImplError('DateAdapter');
-        }
-        if (!this._dateFormats) {
-            throw createMissingDateImplError('MD_DATE_FORMATS');
-        }
-        this._activeDate = this._dateAdapter.today();
+    function MdChipRemove(_parentChip) {
+        this._parentChip = _parentChip;
     }
-    Object.defineProperty(MdYearView.prototype, "activeDate", {
-        /**
-         * The date to display in this year view (everything other than the year is ignored).
-         * @return {?}
-         */
-        get: function () { return this._activeDate; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            var /** @type {?} */ oldActiveDate = this._activeDate;
-            this._activeDate = value || this._dateAdapter.today();
-            if (this._dateAdapter.getYear(oldActiveDate) != this._dateAdapter.getYear(this._activeDate)) {
-                this._init();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdYearView.prototype, "selected", {
-        /**
-         * The currently selected date.
-         * @return {?}
-         */
-        get: function () { return this._selected; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selected = value;
-            this._selectedMonth = this._getMonthInCurrentYear(this.selected);
-        },
-        enumerable: true,
-        configurable: true
-    });
     /**
+     * Calls the parent chip's public `remove()` method if applicable.
      * @return {?}
      */
-    MdYearView.prototype.ngAfterContentInit = function () {
-        this._init();
-    };
-    /**
-     * Handles when a new month is selected.
-     * @param {?} month
-     * @return {?}
-     */
-    MdYearView.prototype._monthSelected = function (month) {
-        var /** @type {?} */ daysInMonth = this._dateAdapter.getNumDaysInMonth(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1));
-        this.selectedChange.emit(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, Math.min(this._dateAdapter.getDate(this.activeDate), daysInMonth)));
-    };
-    /**
-     * Initializes this month view.
-     * @return {?}
-     */
-    MdYearView.prototype._init = function () {
-        var _this = this;
-        this._selectedMonth = this._getMonthInCurrentYear(this.selected);
-        this._todayMonth = this._getMonthInCurrentYear(this._dateAdapter.today());
-        this._yearLabel = this._dateAdapter.getYearName(this.activeDate);
-        var /** @type {?} */ monthNames = this._dateAdapter.getMonthNames('short');
-        // First row of months only contains 5 elements so we can fit the year label on the same row.
-        this._months = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]].map(function (row) { return row.map(function (month) { return _this._createCellForMonth(month, monthNames[month]); }); });
-    };
-    /**
-     * Gets the month in this year that the given Date falls on.
-    Returns null if the given Date is in another year.
-     * @param {?} date
-     * @return {?}
-     */
-    MdYearView.prototype._getMonthInCurrentYear = function (date) {
-        return date && this._dateAdapter.getYear(date) == this._dateAdapter.getYear(this.activeDate) ?
-            this._dateAdapter.getMonth(date) : null;
-    };
-    /**
-     * Creates an MdCalendarCell for the given month.
-     * @param {?} month
-     * @param {?} monthName
-     * @return {?}
-     */
-    MdYearView.prototype._createCellForMonth = function (month, monthName) {
-        var /** @type {?} */ ariaLabel = this._dateAdapter.format(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1), this._dateFormats.display.monthYearA11yLabel);
-        return new MdCalendarCell(month, monthName.toLocaleUpperCase(), ariaLabel, this._isMonthEnabled(month));
-    };
-    /**
-     * Whether the given month is enabled.
-     * @param {?} month
-     * @return {?}
-     */
-    MdYearView.prototype._isMonthEnabled = function (month) {
-        if (!this.dateFilter) {
-            return true;
+    MdChipRemove.prototype._handleClick = function () {
+        if (this._parentChip.removable) {
+            this._parentChip.remove();
         }
-        var /** @type {?} */ firstOfMonth = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1);
-        // If any date in the month is enabled count the month as enabled.
-        for (var /** @type {?} */ date = firstOfMonth; this._dateAdapter.getMonth(date) == month; date = this._dateAdapter.addCalendarDays(date, 1)) {
-            if (this.dateFilter(date)) {
-                return true;
+    };
+    return MdChipRemove;
+}());
+MdChipRemove.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: '[mdChipRemove], [matChipRemove]',
+                host: {
+                    'class': 'mat-chip-remove',
+                    '(click)': '_handleClick($event)',
+                },
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdChipRemove.ctorParameters = function () { return [
+    { type: MdChip, },
+]; };
+// Increasing integer for generating unique ids for chip-list components.
+var nextUniqueId$2$1 = 0;
+/**
+ * Change event object that is emitted when the chip list value has changed.
+ */
+var MdChipListChange = (function () {
+    /**
+     * @param {?} source
+     * @param {?} value
+     */
+    function MdChipListChange(source, value) {
+        this.source = source;
+        this.value = value;
+    }
+    return MdChipListChange;
+}());
+/**
+ * A material design chips component (named ChipList for it's similarity to the List component).
+ */
+var MdChipList = (function () {
+    /**
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     * @param {?} _changeDetectorRef
+     * @param {?} _dir
+     * @param {?} _parentForm
+     * @param {?} _parentFormGroup
+     * @param {?} ngControl
+     */
+    function MdChipList(_renderer, _elementRef, _changeDetectorRef, _dir, _parentForm, _parentFormGroup, ngControl) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._changeDetectorRef = _changeDetectorRef;
+        this._dir = _dir;
+        this._parentForm = _parentForm;
+        this._parentFormGroup = _parentFormGroup;
+        this.ngControl = ngControl;
+        this.controlType = 'mat-chip-list';
+        /**
+         * Stream that emits whenever the state of the input changes such that the wrapping `MdFormField`
+        needs to run change detection.
+         */
+        this.stateChanges = new rxjs_Subject.Subject();
+        /**
+         * When a chip is destroyed, we track the index so we can focus the appropriate next chip.
+         */
+        this._lastDestroyedIndex = null;
+        /**
+         * Track which chips we're listening to for focus/destruction.
+         */
+        this._chipSet = new WeakMap();
+        /**
+         * Subscription to tabbing out from the chip list.
+         */
+        this._tabOutSubscription = rxjs_Subscription.Subscription.EMPTY;
+        /**
+         * Whether or not the chip is selectable.
+         */
+        this._selectable = true;
+        /**
+         * Whether the component is in multiple selection mode.
+         */
+        this._multiple = false;
+        /**
+         * Uid of the chip list
+         */
+        this._uid = "md-chip-list-" + nextUniqueId$2$1++;
+        /**
+         * Whether this is required
+         */
+        this._required = false;
+        /**
+         * Whether this is disabled
+         */
+        this._disabled = false;
+        /**
+         * Tab index for the chip list.
+         */
+        this._tabIndex = 0;
+        /**
+         * User defined tab index.
+        When it is not null, use user defined tab index. Otherwise use _tabIndex
+         */
+        this._userTabIndex = null;
+        /**
+         * Function when touched
+         */
+        this._onTouched = function () { };
+        /**
+         * Function when changed
+         */
+        this._onChange = function () { };
+        /**
+         * Comparison function to specify which option is displayed. Defaults to object equality.
+         */
+        this._compareWith = function (o1, o2) { return o1 === o2; };
+        /**
+         * Orientation of the chip list.
+         */
+        this.ariaOrientation = 'horizontal';
+        /**
+         * Event emitted when the selected chip list value has been changed by the user.
+         */
+        this.change = new _angular_core.EventEmitter();
+        /**
+         * Event that emits whenever the raw value of the chip-list changes. This is here primarily
+        to facilitate the two-way binding for the `value` input.
+        \@docs-private
+         */
+        this.valueChange = new _angular_core.EventEmitter();
+        if (this.ngControl) {
+            this.ngControl.valueAccessor = this;
+        }
+    }
+    Object.defineProperty(MdChipList.prototype, "selected", {
+        /**
+         * The array of selected chips inside chip list.
+         * @return {?}
+         */
+        get: function () {
+            return this.multiple ? this._selectionModel.selected : this._selectionModel.selected[0];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "multiple", {
+        /**
+         * Whether the user should be allowed to select multiple chips.
+         * @return {?}
+         */
+        get: function () { return this._multiple; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._multiple = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "compareWith", {
+        /**
+         * A function to compare the option values with the selected values. The first argument
+        is a value from an option. The second is a value from the selection. A boolean
+        should be returned.
+         * @return {?}
+         */
+        get: function () { return this._compareWith; },
+        /**
+         * @param {?} fn
+         * @return {?}
+         */
+        set: function (fn) {
+            this._compareWith = fn;
+            if (this._selectionModel) {
+                // A different comparator means the selection could change.
+                this._initializeSelection();
             }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "value", {
+        /**
+         * Required for FormFieldControl
+         * @return {?}
+         */
+        get: function () { return this._value; },
+        /**
+         * @param {?} newValue
+         * @return {?}
+         */
+        set: function (newValue) {
+            this.writeValue(newValue);
+            this._value = newValue;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "id", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this._id || this._uid; },
+        /**
+         * Required for FormFieldControl. The ID of the chip list
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._id = value;
+            this.stateChanges.next();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "required", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._required;
+        },
+        /**
+         * Required for FormFieldControl. Whether the chip list is required.
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._required = _angular_cdk_coercion.coerceBooleanProperty(value);
+            this.stateChanges.next();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "placeholder", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._chipInput ? this._chipInput.placeholder : this._placeholder;
+        },
+        /**
+         * For FormFieldControl. Use chip input's placholder if there's a chip input
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._placeholder = value;
+            this.stateChanges.next();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "focused", {
+        /**
+         * Whether any chips or the mdChipInput inside of this chip-list has focus.
+         * @return {?}
+         */
+        get: function () {
+            return this.chips.some(function (chip) { return chip._hasFocus; }) ||
+                (this._chipInput && this._chipInput.focused);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "empty", {
+        /**
+         * Whether this chip-list contains no chips and no mdChipInput.
+         * @return {?}
+         */
+        get: function () {
+            return (!this._chipInput || this._chipInput.empty) && this.chips.length === 0;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "shouldPlaceholderFloat", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this.empty;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "disabled", {
+        /**
+         * Whether this chip-list is disabled.
+         * @return {?}
+         */
+        get: function () { return this.ngControl ? this.ngControl.disabled : this._disabled; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "errorState", {
+        /**
+         * Whether the chip list is in an error state.
+         * @return {?}
+         */
+        get: function () {
+            var /** @type {?} */ isInvalid = this.ngControl && this.ngControl.invalid;
+            var /** @type {?} */ isTouched = this.ngControl && this.ngControl.touched;
+            var /** @type {?} */ isSubmitted = (this._parentFormGroup && this._parentFormGroup.submitted) ||
+                (this._parentForm && this._parentForm.submitted);
+            return !!(isInvalid && (isTouched || isSubmitted));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "selectable", {
+        /**
+         * Whether or not this chip is selectable. When a chip is not selectable,
+        its selected state is always ignored.
+         * @return {?}
+         */
+        get: function () { return this._selectable; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._selectable = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "tabIndex", {
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._userTabIndex = value;
+            this._tabIndex = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "chipSelectionChanges", {
+        /**
+         * Combined stream of all of the child chips' selection change events.
+         * @return {?}
+         */
+        get: function () {
+            return rxjs_observable_merge.merge.apply(void 0, this.chips.map(function (chip) { return chip.selectionChange; }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "chipFocusChanges", {
+        /**
+         * Combined stream of all of the child chips' focus change events.
+         * @return {?}
+         */
+        get: function () {
+            return rxjs_observable_merge.merge.apply(void 0, this.chips.map(function (chip) { return chip._onFocus; }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "chipBlurChanges", {
+        /**
+         * Combined stream of all of the child chips' blur change events.
+         * @return {?}
+         */
+        get: function () {
+            return rxjs_observable_merge.merge.apply(void 0, this.chips.map(function (chip) { return chip._onBlur; }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipList.prototype, "chipRemoveChanges", {
+        /**
+         * Combined stream of all of the child chips' remove change events.
+         * @return {?}
+         */
+        get: function () {
+            return rxjs_observable_merge.merge.apply(void 0, this.chips.map(function (chip) { return chip.destroy; }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this._keyManager = new _angular_cdk_a11y.FocusKeyManager(this.chips).withWrap();
+        // Prevents the chip list from capturing focus and redirecting
+        // it back to the first chip when the user tabs out.
+        this._tabOutSubscription = this._keyManager.tabOut.subscribe(function () {
+            _this._tabIndex = -1;
+            setTimeout(function () { return _this._tabIndex = _this._userTabIndex || 0; });
+        });
+        // When the list changes, re-subscribe
+        this._changeSubscription = _angular_cdk_rxjs.startWith.call(this.chips.changes, null).subscribe(function () {
+            _this._resetChips();
+            // Reset chips selected/deselected status
+            _this._initializeSelection();
+            // Check to see if we need to update our tab index
+            _this._updateTabIndex();
+            // Check to see if we have a destroyed chip and need to refocus
+            _this._updateFocusForDestroyedChips();
+        });
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype.ngOnInit = function () {
+        this._selectionModel = new _angular_cdk_collections.SelectionModel(this.multiple, undefined, false);
+        this.stateChanges.next();
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype.ngOnDestroy = function () {
+        this._tabOutSubscription.unsubscribe();
+        if (this._changeSubscription) {
+            this._changeSubscription.unsubscribe();
+        }
+        this._dropSubscriptions();
+    };
+    /**
+     * Associates an HTML input element with this chip list.
+     * @param {?} inputElement
+     * @return {?}
+     */
+    MdChipList.prototype.registerInput = function (inputElement) {
+        this._chipInput = inputElement;
+    };
+    /**
+     * @param {?} ids
+     * @return {?}
+     */
+    MdChipList.prototype.setDescribedByIds = function (ids) { this._ariaDescribedby = ids.join(' '); };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    MdChipList.prototype.writeValue = function (value) {
+        if (this.chips) {
+            this._setSelectionByValue(value, false);
+        }
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    MdChipList.prototype.registerOnChange = function (fn) {
+        this._onChange = fn;
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    MdChipList.prototype.registerOnTouched = function (fn) {
+        this._onTouched = fn;
+    };
+    /**
+     * @param {?} disabled
+     * @return {?}
+     */
+    MdChipList.prototype.setDisabledState = function (disabled) {
+        this.disabled = disabled;
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', disabled);
+        this.stateChanges.next();
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype.onContainerClick = function () {
+        this.focus();
+    };
+    /**
+     * Focuses the the first non-disabled chip in this chip list, or the associated input when there
+    are no eligible chips.
+     * @return {?}
+     */
+    MdChipList.prototype.focus = function () {
+        // TODO: ARIA says this should focus the first `selected` chip if any are selected.
+        // Focus on first element if there's no chipInput inside chip-list
+        if (this._chipInput && this._chipInput.focused) {
+            // do nothing
+        }
+        else if (this.chips.length > 0) {
+            this._keyManager.setFirstItemActive();
+            this.stateChanges.next();
+        }
+        else {
+            this._focusInput();
+            this.stateChanges.next();
+        }
+    };
+    /**
+     * Attempt to focus an input if we have one.
+     * @return {?}
+     */
+    MdChipList.prototype._focusInput = function () {
+        if (this._chipInput) {
+            this._chipInput.focus();
+        }
+    };
+    /**
+     * Pass events to the keyboard manager. Available here for tests.
+     * @param {?} event
+     * @return {?}
+     */
+    MdChipList.prototype._keydown = function (event) {
+        var /** @type {?} */ code = event.keyCode;
+        var /** @type {?} */ target = (event.target);
+        var /** @type {?} */ isInputEmpty = this._isInputEmpty(target);
+        var /** @type {?} */ isRtl = this._dir && this._dir.value == 'rtl';
+        var /** @type {?} */ isPrevKey = (code === (isRtl ? _angular_cdk_keycodes.RIGHT_ARROW : _angular_cdk_keycodes.LEFT_ARROW));
+        var /** @type {?} */ isNextKey = (code === (isRtl ? _angular_cdk_keycodes.LEFT_ARROW : _angular_cdk_keycodes.RIGHT_ARROW));
+        var /** @type {?} */ isBackKey = (code === _angular_cdk_keycodes.BACKSPACE || code == _angular_cdk_keycodes.DELETE || code == _angular_cdk_keycodes.UP_ARROW || isPrevKey);
+        // If they are on an empty input and hit backspace/delete/left arrow, focus the last chip
+        if (isInputEmpty && isBackKey) {
+            this._keyManager.setLastItemActive();
+            event.preventDefault();
+            return;
+        }
+        // If they are on a chip, check for space/left/right, otherwise pass to our key manager (like
+        // up/down keys)
+        if (target && target.classList.contains('mat-chip')) {
+            if (isPrevKey) {
+                this._keyManager.setPreviousItemActive();
+                event.preventDefault();
+            }
+            else if (isNextKey) {
+                this._keyManager.setNextItemActive();
+                event.preventDefault();
+            }
+            else {
+                this._keyManager.onKeydown(event);
+            }
+        }
+        this.stateChanges.next();
+    };
+    /**
+     * Check the tab index as you should not be allowed to focus an empty list.
+     * @return {?}
+     */
+    MdChipList.prototype._updateTabIndex = function () {
+        // If we have 0 chips, we should not allow keyboard focus
+        this._tabIndex = this._userTabIndex || (this.chips.length === 0 ? -1 : 0);
+    };
+    /**
+     * Update key manager's active item when chip is deleted.
+    If the deleted chip is the last chip in chip list, focus the new last chip.
+    Otherwise focus the next chip in the list.
+    Save `_lastDestroyedIndex` so we can set the correct focus.
+     * @param {?} chip
+     * @return {?}
+     */
+    MdChipList.prototype._updateKeyManager = function (chip) {
+        var /** @type {?} */ chipIndex = this.chips.toArray().indexOf(chip);
+        if (this._isValidIndex(chipIndex)) {
+            if (chip._hasFocus) {
+                // Check whether the chip is not the last item
+                if (chipIndex < this.chips.length - 1) {
+                    this._keyManager.setActiveItem(chipIndex);
+                }
+                else if (chipIndex - 1 >= 0) {
+                    this._keyManager.setActiveItem(chipIndex - 1);
+                }
+            }
+            if (this._keyManager.activeItemIndex === chipIndex) {
+                this._lastDestroyedIndex = chipIndex;
+            }
+        }
+    };
+    /**
+     * Checks to see if a focus chip was recently destroyed so that we can refocus the next closest
+    one.
+     * @return {?}
+     */
+    MdChipList.prototype._updateFocusForDestroyedChips = function () {
+        var /** @type {?} */ chipsArray = this.chips;
+        if (this._lastDestroyedIndex != null && chipsArray.length > 0) {
+            // Check whether the destroyed chip was the last item
+            var /** @type {?} */ newFocusIndex = Math.min(this._lastDestroyedIndex, chipsArray.length - 1);
+            this._keyManager.setActiveItem(newFocusIndex);
+            var /** @type {?} */ focusChip = this._keyManager.activeItem;
+            // Focus the chip
+            if (focusChip) {
+                focusChip.focus();
+            }
+        }
+        else if (chipsArray.length === 0) {
+            this._focusInput();
+        }
+        // Reset our destroyed index
+        this._lastDestroyedIndex = null;
+    };
+    /**
+     * Utility to ensure all indexes are valid.
+    
+    \@param index The index to be checked.
+    \@returns True if the index is valid for our list of chips.
+     * @param {?} index
+     * @return {?}
+     */
+    MdChipList.prototype._isValidIndex = function (index) {
+        return index >= 0 && index < this.chips.length;
+    };
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    MdChipList.prototype._isInputEmpty = function (element) {
+        if (element && element.nodeName.toLowerCase() === 'input') {
+            var /** @type {?} */ input = (element);
+            return !input.value;
         }
         return false;
     };
-    return MdYearView;
+    /**
+     * @param {?} value
+     * @param {?=} isUserInput
+     * @return {?}
+     */
+    MdChipList.prototype._setSelectionByValue = function (value, isUserInput) {
+        var _this = this;
+        if (isUserInput === void 0) { isUserInput = true; }
+        this._clearSelection();
+        this.chips.forEach(function (chip) { return chip.deselect(); });
+        if (Array.isArray(value)) {
+            value.forEach(function (currentValue) { return _this._selectValue(currentValue, isUserInput); });
+            this._sortValues();
+        }
+        else {
+            var /** @type {?} */ correspondingChip = this._selectValue(value, isUserInput);
+            // Shift focus to the active item. Note that we shouldn't do this in multiple
+            // mode, because we don't know what chip the user interacted with last.
+            if (correspondingChip) {
+                this._keyManager.setActiveItem(this.chips.toArray().indexOf(correspondingChip));
+            }
+        }
+    };
+    /**
+     * Finds and selects the chip based on its value.
+    \@returns Chip that has the corresponding value.
+     * @param {?} value
+     * @param {?=} isUserInput
+     * @return {?}
+     */
+    MdChipList.prototype._selectValue = function (value, isUserInput) {
+        var _this = this;
+        if (isUserInput === void 0) { isUserInput = true; }
+        var /** @type {?} */ correspondingChip = this.chips.find(function (chip) {
+            return chip.value != null && _this._compareWith(chip.value, value);
+        });
+        if (correspondingChip) {
+            isUserInput ? correspondingChip.selectViaInteraction() : correspondingChip.select();
+            this._selectionModel.select(correspondingChip);
+        }
+        return correspondingChip;
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype._initializeSelection = function () {
+        var _this = this;
+        // Defer setting the value in order to avoid the "Expression
+        // has changed after it was checked" errors from Angular.
+        Promise.resolve().then(function () {
+            _this._setSelectionByValue(_this.ngControl ? _this.ngControl.value : _this._value, false);
+            _this.stateChanges.next();
+        });
+    };
+    /**
+     * Deselects every chip in the list.
+    \@param skip Chip that should not be deselected.
+     * @param {?=} skip
+     * @return {?}
+     */
+    MdChipList.prototype._clearSelection = function (skip) {
+        this._selectionModel.clear();
+        this.chips.forEach(function (chip) {
+            if (chip !== skip) {
+                chip.deselect();
+            }
+        });
+        this.stateChanges.next();
+    };
+    /**
+     * Sorts the model values, ensuring that they keep the same
+    order that they have in the panel.
+     * @return {?}
+     */
+    MdChipList.prototype._sortValues = function () {
+        var _this = this;
+        if (this._multiple) {
+            this._selectionModel.clear();
+            this.chips.forEach(function (chip) {
+                if (chip.selected) {
+                    _this._selectionModel.select(chip);
+                }
+            });
+            this.stateChanges.next();
+        }
+    };
+    /**
+     * Emits change event to set the model value.
+     * @param {?=} fallbackValue
+     * @return {?}
+     */
+    MdChipList.prototype._propagateChanges = function (fallbackValue) {
+        var /** @type {?} */ valueToEmit = null;
+        if (Array.isArray(this.selected)) {
+            valueToEmit = this.selected.map(function (chip) { return chip.value; });
+        }
+        else {
+            valueToEmit = this.selected ? this.selected.value : fallbackValue;
+        }
+        this._value = valueToEmit;
+        this.change.emit(new MdChipListChange(this, valueToEmit));
+        this.valueChange.emit(valueToEmit);
+        this._onChange(valueToEmit);
+        this._changeDetectorRef.markForCheck();
+    };
+    /**
+     * When blurred, mark the field as touched when focus moved outside the chip list.
+     * @return {?}
+     */
+    MdChipList.prototype._blur = function () {
+        var _this = this;
+        if (!this.disabled) {
+            if (this._chipInput) {
+                // If there's a chip input, we should check whether the focus moved to chip input.
+                // If the focus is not moved to chip input, mark the field as touched. If the focus moved
+                // to chip input, do nothing.
+                // Timeout is needed to wait for the focus() event trigger on chip input.
+                setTimeout(function () {
+                    if (!_this.focused) {
+                        _this._markAsTouched();
+                    }
+                });
+            }
+            else {
+                // If there's no chip input, then mark the field as touched.
+                this._markAsTouched();
+            }
+        }
+    };
+    /**
+     * Mark the field as touched
+     * @return {?}
+     */
+    MdChipList.prototype._markAsTouched = function () {
+        this._onTouched();
+        this._changeDetectorRef.markForCheck();
+        this.stateChanges.next();
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype._resetChips = function () {
+        this._dropSubscriptions();
+        this._listenToChipsFocus();
+        this._listenToChipsSelection();
+        this._listenToChipsRemoved();
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype._dropSubscriptions = function () {
+        if (this._chipFocusSubscription) {
+            this._chipFocusSubscription.unsubscribe();
+            this._chipFocusSubscription = null;
+        }
+        if (this._chipBlurSubscription) {
+            this._chipBlurSubscription.unsubscribe();
+            this._chipBlurSubscription = null;
+        }
+        if (this._chipSelectionSubscription) {
+            this._chipSelectionSubscription.unsubscribe();
+            this._chipSelectionSubscription = null;
+        }
+    };
+    /**
+     * Listens to user-generated selection events on each chip.
+     * @return {?}
+     */
+    MdChipList.prototype._listenToChipsSelection = function () {
+        var _this = this;
+        this._chipSelectionSubscription = this.chipSelectionChanges.subscribe(function (event) {
+            event.source.selected
+                ? _this._selectionModel.select(event.source)
+                : _this._selectionModel.deselect(event.source);
+            // For single selection chip list, make sure the deselected value is unselected.
+            if (!_this.multiple) {
+                _this.chips.forEach(function (chip) {
+                    if (!_this._selectionModel.isSelected(chip) && chip.selected) {
+                        chip.deselect();
+                    }
+                });
+            }
+            if (event.isUserInput) {
+                _this._propagateChanges();
+            }
+        });
+    };
+    /**
+     * Listens to user-generated selection events on each chip.
+     * @return {?}
+     */
+    MdChipList.prototype._listenToChipsFocus = function () {
+        var _this = this;
+        this._chipFocusSubscription = this.chipFocusChanges.subscribe(function (event) {
+            var /** @type {?} */ chipIndex = _this.chips.toArray().indexOf(event.chip);
+            if (_this._isValidIndex(chipIndex)) {
+                _this._keyManager.updateActiveItemIndex(chipIndex);
+            }
+            _this.stateChanges.next();
+        });
+        this._chipBlurSubscription = this.chipBlurChanges.subscribe(function (_) {
+            _this._blur();
+            _this.stateChanges.next();
+        });
+    };
+    /**
+     * @return {?}
+     */
+    MdChipList.prototype._listenToChipsRemoved = function () {
+        var _this = this;
+        this._chipRemoveSubscription = this.chipRemoveChanges.subscribe(function (event) {
+            _this._updateKeyManager(event.chip);
+        });
+    };
+    return MdChipList;
 }());
-MdYearView.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-year-view, mat-year-view',
-                template: "<table class=\"mat-calendar-table\"><thead class=\"mat-calendar-table-header\"><tr><th class=\"mat-calendar-table-header-divider\" colspan=\"4\"></th></tr></thead><tbody md-calendar-body role=\"grid\" allowDisabledSelection=\"true\" [label]=\"_yearLabel\" [rows]=\"_months\" [todayValue]=\"_todayMonth\" [selectedValue]=\"_selectedMonth\" [labelMinRequiredCells]=\"2\" [numCols]=\"4\" [cellAspectRatio]=\"4 / 7\" [activeCell]=\"_dateAdapter.getMonth(activeDate)\" (selectedValueChange)=\"_monthSelected($event)\"></tbody></table>",
+MdChipList.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-chip-list, mat-chip-list',
+                template: "<div class=\"mat-chip-list-wrapper\"><ng-content></ng-content></div>",
+                exportAs: 'mdChipList, matChipList',
+                host: {
+                    '[attr.tabindex]': '_tabIndex',
+                    '[attr.aria-describedby]': '_ariaDescribedby || null',
+                    '[attr.aria-required]': 'required.toString()',
+                    '[attr.aria-disabled]': 'disabled.toString()',
+                    '[attr.aria-invalid]': 'errorState',
+                    '[attr.aria-multiselectable]': 'multiple',
+                    '[class.mat-chip-list-disabled]': 'disabled',
+                    '[class.mat-chip-list-invalid]': 'errorState',
+                    '[class.mat-chip-list-required]': 'required',
+                    'role': 'listbox',
+                    '[attr.aria-orientation]': 'ariaOrientation',
+                    'class': 'mat-chip-list',
+                    '(focus)': 'focus()',
+                    '(blur)': '_blur()',
+                    '(keydown)': '_keydown($event)'
+                },
+                providers: [{ provide: MdFormFieldControl, useExisting: MdChipList }],
+                styles: [".mat-chip-list-wrapper{display:flex;flex-direction:row;flex-wrap:wrap;align-items:baseline}.mat-chip:not(.mat-basic-chip){transition:box-shadow 280ms cubic-bezier(.4,0,.2,1);display:inline-flex;padding:7px 12px;border-radius:24px;align-items:center;cursor:default}.mat-chip:not(.mat-basic-chip)+.mat-chip:not(.mat-basic-chip){margin:0 0 3px 8px}[dir=rtl] .mat-chip:not(.mat-basic-chip)+.mat-chip:not(.mat-basic-chip){margin:0 8px 3px 0}.mat-form-field-prefix .mat-chip:not(.mat-basic-chip):last-child{margin-right:8px}[dir=rtl] .mat-form-field-prefix .mat-chip:not(.mat-basic-chip):last-child{margin-left:8px}.mat-chip:not(.mat-basic-chip) .mat-chip-remove.mat-icon{width:1em;height:1em}.mat-chip:not(.mat-basic-chip):focus{box-shadow:0 3px 3px -2px rgba(0,0,0,.2),0 3px 4px 0 rgba(0,0,0,.14),0 1px 8px 0 rgba(0,0,0,.12);outline:0}@media screen and (-ms-high-contrast:active){.mat-chip:not(.mat-basic-chip){outline:solid 1px}}.mat-chip-list-stacked .mat-chip-list-wrapper{display:block}.mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip){display:block;margin:0;margin-bottom:8px}[dir=rtl] .mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip){margin:0;margin-bottom:8px}.mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip):last-child,[dir=rtl] .mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip):last-child{margin-bottom:0}.mat-form-field-prefix .mat-chip-list-wrapper{margin-bottom:8px}.mat-chip-remove{margin-right:-4px;margin-left:6px;cursor:pointer}[dir=rtl] .mat-chip-remove{margin-right:6px;margin-left:-4px}input.mat-chip-input{width:150px;margin:3px}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush
             },] },
 ];
 /**
  * @nocollapse
  */
-MdYearView.ctorParameters = function () { return [
-    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+MdChipList.ctorParameters = function () { return [
+    { type: _angular_core.Renderer2, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.ChangeDetectorRef, },
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_forms.NgForm, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_forms.FormGroupDirective, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_forms.NgControl, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Self },] },
 ]; };
-MdYearView.propDecorators = {
-    'activeDate': [{ type: _angular_core.Input },],
-    'selected': [{ type: _angular_core.Input },],
-    'dateFilter': [{ type: _angular_core.Input },],
-    'selectedChange': [{ type: _angular_core.Output },],
+MdChipList.propDecorators = {
+    'multiple': [{ type: _angular_core.Input },],
+    'compareWith': [{ type: _angular_core.Input },],
+    'value': [{ type: _angular_core.Input },],
+    'id': [{ type: _angular_core.Input },],
+    'required': [{ type: _angular_core.Input },],
+    'placeholder': [{ type: _angular_core.Input },],
+    'disabled': [{ type: _angular_core.Input },],
+    'ariaOrientation': [{ type: _angular_core.Input, args: ['aria-orientation',] },],
+    'selectable': [{ type: _angular_core.Input },],
+    'tabIndex': [{ type: _angular_core.Input },],
+    'change': [{ type: _angular_core.Output },],
+    'valueChange': [{ type: _angular_core.Output },],
+    'chips': [{ type: _angular_core.ContentChildren, args: [MdChip,] },],
 };
 /**
- * Custom injector to be used when providing custom
-injection tokens to components inside a portal.
-\@docs-private
+ * Directive that adds chip-specific behaviors to an input element inside <md-form-field>.
+May be placed inside or outside of an <md-chip-list>.
  */
-var PortalInjector = (function () {
+var MdChipInput = (function () {
     /**
-     * @param {?} _parentInjector
-     * @param {?} _customTokens
+     * @param {?} _elementRef
      */
-    function PortalInjector(_parentInjector, _customTokens) {
-        this._parentInjector = _parentInjector;
-        this._customTokens = _customTokens;
+    function MdChipInput(_elementRef) {
+        this._elementRef = _elementRef;
+        this.focused = false;
+        this._addOnBlur = false;
+        /**
+         * The list of key codes that will trigger a chipEnd event.
+         *
+         * Defaults to `[ENTER]`.
+         */
+        // TODO(tinayuangao): Support Set here
+        this.separatorKeyCodes = [_angular_cdk_keycodes.ENTER];
+        /**
+         * Emitted when a chip is to be added.
+         */
+        this.chipEnd = new _angular_core.EventEmitter();
+        this._matChipInputTokenEnd = this.chipEnd;
+        this.placeholder = '';
+        this._inputElement = this._elementRef.nativeElement;
     }
+    Object.defineProperty(MdChipInput.prototype, "chipList", {
+        /**
+         * Register input for chip list
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            if (value) {
+                this._chipList = value;
+                this._chipList.registerInput(this);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipInput.prototype, "addOnBlur", {
+        /**
+         * Whether or not the chipEnd event will be emitted when the input is blurred.
+         * @return {?}
+         */
+        get: function () { return this._addOnBlur; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._addOnBlur = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipInput.prototype, "matChipList", {
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this.chipList = value; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipInput.prototype, "matAddOnBlur", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this._addOnBlur; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this.addOnBlur = value; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipInput.prototype, "matSeparatorKeyCodes", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.separatorKeyCodes; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.separatorKeyCodes = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdChipInput.prototype, "empty", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            var /** @type {?} */ value = this._inputElement.value;
+            return value == null || value === '';
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**
-     * @param {?} token
-     * @param {?=} notFoundValue
+     * Utility method to make host definition/tests more clear.
+     * @param {?=} event
      * @return {?}
      */
-    PortalInjector.prototype.get = function (token, notFoundValue) {
-        var /** @type {?} */ value = this._customTokens.get(token);
-        if (typeof value !== 'undefined') {
-            return value;
-        }
-        return this._parentInjector.get(token, notFoundValue);
+    MdChipInput.prototype._keydown = function (event) {
+        this._emitChipEnd(event);
     };
-    return PortalInjector;
+    /**
+     * Checks to see if the blur should emit the (chipEnd) event.
+     * @return {?}
+     */
+    MdChipInput.prototype._blur = function () {
+        if (this.addOnBlur) {
+            this._emitChipEnd();
+        }
+        this.focused = false;
+        // Blur the chip list if it is not focused
+        if (!this._chipList.focused) {
+            this._chipList._blur();
+        }
+        this._chipList.stateChanges.next();
+    };
+    /**
+     * @return {?}
+     */
+    MdChipInput.prototype._focus = function () {
+        this.focused = true;
+        this._chipList.stateChanges.next();
+    };
+    /**
+     * Checks to see if the (chipEnd) event needs to be emitted.
+     * @param {?=} event
+     * @return {?}
+     */
+    MdChipInput.prototype._emitChipEnd = function (event) {
+        if (!this._inputElement.value && !!event) {
+            this._chipList._keydown(event);
+        }
+        if (!event || this.separatorKeyCodes.indexOf(event.keyCode) > -1) {
+            this.chipEnd.emit({ input: this._inputElement, value: this._inputElement.value });
+            if (event) {
+                event.preventDefault();
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdChipInput.prototype.focus = function () { this._inputElement.focus(); };
+    return MdChipInput;
 }());
+MdChipInput.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: 'input[mdChipInputFor], input[matChipInputFor]',
+                host: {
+                    'class': 'mat-chip-input mat-input-element',
+                    '(keydown)': '_keydown($event)',
+                    '(blur)': '_blur()',
+                    '(focus)': '_focus()',
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdChipInput.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+]; };
+MdChipInput.propDecorators = {
+    'chipList': [{ type: _angular_core.Input, args: ['mdChipInputFor',] },],
+    'addOnBlur': [{ type: _angular_core.Input, args: ['mdChipInputAddOnBlur',] },],
+    'separatorKeyCodes': [{ type: _angular_core.Input, args: ['mdChipInputSeparatorKeyCodes',] },],
+    'chipEnd': [{ type: _angular_core.Output, args: ['mdChipInputTokenEnd',] },],
+    '_matChipInputTokenEnd': [{ type: _angular_core.Output, args: ['matChipInputTokenEnd',] },],
+    'matChipList': [{ type: _angular_core.Input, args: ['matChipInputFor',] },],
+    'matAddOnBlur': [{ type: _angular_core.Input, args: ['matChipInputAddOnBlur',] },],
+    'matSeparatorKeyCodes': [{ type: _angular_core.Input, args: ['matChipInputSeparatorKeyCodes',] },],
+    'placeholder': [{ type: _angular_core.Input },],
+};
+var MdChipsModule = (function () {
+    function MdChipsModule() {
+    }
+    return MdChipsModule;
+}());
+MdChipsModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                imports: [],
+                exports: [MdChipList, MdChip, MdChipInput, MdChipRemove, MdChipRemove, MdBasicChip],
+                declarations: [MdChipList, MdChip, MdChipInput, MdChipRemove, MdChipRemove, MdBasicChip]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdChipsModule.ctorParameters = function () { return []; };
+
 /**
  * Configuration for opening a modal dialog with the MdDialog service.
  */
@@ -6931,142 +6884,6 @@ var MdDialogConfig = (function () {
         // TODO(jelbourn): add configuration for lifecycle hooks, ARIA labelling.
     }
     return MdDialogConfig;
-}());
-// TODO(jelbourn): resizing
-// TODO(jelbourn): afterOpen
-// Counter for unique dialog ids.
-var uniqueId = 0;
-/**
- * Reference to a dialog opened via the MdDialog service.
- */
-var MdDialogRef = (function () {
-    /**
-     * @param {?} _overlayRef
-     * @param {?} _containerInstance
-     * @param {?=} id
-     */
-    function MdDialogRef(_overlayRef, _containerInstance, id) {
-        if (id === void 0) { id = "md-dialog-" + uniqueId++; }
-        var _this = this;
-        this._overlayRef = _overlayRef;
-        this._containerInstance = _containerInstance;
-        this.id = id;
-        /**
-         * Whether the user is allowed to close the dialog.
-         */
-        this.disableClose = this._containerInstance._config.disableClose;
-        /**
-         * Subject for notifying the user that the dialog has finished closing.
-         */
-        this._afterClosed = new rxjs_Subject.Subject();
-        /**
-         * Subject for notifying the user that the dialog has started closing.
-         */
-        this._beforeClose = new rxjs_Subject.Subject();
-        _angular_cdk_rxjs.RxChain.from(_containerInstance._animationStateChanged)
-            .call(_angular_cdk_rxjs.filter, function (event) { return event.phaseName === 'done' && event.toState === 'exit'; })
-            .call(_angular_cdk_rxjs.first)
-            .subscribe(function () {
-            _this._overlayRef.dispose();
-            _this._afterClosed.next(_this._result);
-            _this._afterClosed.complete();
-            _this.componentInstance = null;
-        });
-    }
-    /**
-     * Close the dialog.
-    \@param dialogResult Optional result to return to the dialog opener.
-     * @param {?=} dialogResult
-     * @return {?}
-     */
-    MdDialogRef.prototype.close = function (dialogResult) {
-        var _this = this;
-        this._result = dialogResult;
-        // Transition the backdrop in parallel to the dialog.
-        _angular_cdk_rxjs.RxChain.from(this._containerInstance._animationStateChanged)
-            .call(_angular_cdk_rxjs.filter, function (event) { return event.phaseName === 'start'; })
-            .call(_angular_cdk_rxjs.first)
-            .subscribe(function () {
-            _this._beforeClose.next(dialogResult);
-            _this._beforeClose.complete();
-            _this._overlayRef.detachBackdrop();
-        });
-        this._containerInstance._startExitAnimation();
-    };
-    /**
-     * Gets an observable that is notified when the dialog is finished closing.
-     * @return {?}
-     */
-    MdDialogRef.prototype.afterClosed = function () {
-        return this._afterClosed.asObservable();
-    };
-    /**
-     * Gets an observable that is notified when the dialog has started closing.
-     * @return {?}
-     */
-    MdDialogRef.prototype.beforeClose = function () {
-        return this._beforeClose.asObservable();
-    };
-    /**
-     * Gets an observable that emits when the overlay's backdrop has been clicked.
-     * @return {?}
-     */
-    MdDialogRef.prototype.backdropClick = function () {
-        return this._overlayRef.backdropClick();
-    };
-    /**
-     * Updates the dialog's position.
-    \@param position New dialog position.
-     * @param {?=} position
-     * @return {?}
-     */
-    MdDialogRef.prototype.updatePosition = function (position) {
-        var /** @type {?} */ strategy = this._getPositionStrategy();
-        if (position && (position.left || position.right)) {
-            position.left ? strategy.left(position.left) : strategy.right(position.right);
-        }
-        else {
-            strategy.centerHorizontally();
-        }
-        if (position && (position.top || position.bottom)) {
-            position.top ? strategy.top(position.top) : strategy.bottom(position.bottom);
-        }
-        else {
-            strategy.centerVertically();
-        }
-        this._overlayRef.updatePosition();
-        return this;
-    };
-    /**
-     * Updates the dialog's width and height.
-    \@param width New width of the dialog.
-    \@param height New height of the dialog.
-     * @param {?=} width
-     * @param {?=} height
-     * @return {?}
-     */
-    MdDialogRef.prototype.updateSize = function (width, height) {
-        if (width === void 0) { width = 'auto'; }
-        if (height === void 0) { height = 'auto'; }
-        this._getPositionStrategy().width(width).height(height);
-        this._overlayRef.updatePosition();
-        return this;
-    };
-    /**
-     * Returns whether the dialog is animating.
-     * @return {?}
-     */
-    MdDialogRef.prototype._isAnimating = function () {
-        return this._containerInstance._isAnimating;
-    };
-    /**
-     * Fetches the position strategy object from the overlay ref.
-     * @return {?}
-     */
-    MdDialogRef.prototype._getPositionStrategy = function () {
-        return (this._overlayRef.getState().positionStrategy);
-    };
-    return MdDialogRef;
 }());
 /**
  * Throws an exception for the case when a ComponentPortal is
@@ -7228,8 +7045,9 @@ var MdDialogContainer = (function (_super) {
 MdDialogContainer.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-dialog-container, mat-dialog-container',
                 template: "<ng-template cdkPortalHost></ng-template>",
-                styles: [".mat-dialog-container{box-shadow:0 11px 15px -7px rgba(0,0,0,.2),0 24px 38px 3px rgba(0,0,0,.14),0 9px 46px 8px rgba(0,0,0,.12);display:block;padding:24px;border-radius:2px;box-sizing:border-box;overflow:auto;max-width:80vw;outline:0;width:100%;height:100%}@media screen and (-ms-high-contrast:active){.mat-dialog-container{outline:solid 1px}}.mat-dialog-content{display:block;margin:0 -24px;padding:0 24px;max-height:65vh;overflow:auto;-webkit-overflow-scrolling:touch}.mat-dialog-title{margin:0 0 20px;display:block}.mat-dialog-actions{padding:12px 0;display:flex;flex-wrap:wrap}.mat-dialog-actions:last-child{margin-bottom:-24px}.mat-dialog-actions[align=end]{justify-content:flex-end}.mat-dialog-actions[align=center]{justify-content:center}.mat-dialog-actions .mat-button+.mat-button,.mat-dialog-actions .mat-button+.mat-raised-button,.mat-dialog-actions .mat-raised-button+.mat-button,.mat-dialog-actions .mat-raised-button+.mat-raised-button{margin-left:8px}[dir=rtl] .mat-dialog-actions .mat-button+.mat-button,[dir=rtl] .mat-dialog-actions .mat-button+.mat-raised-button,[dir=rtl] .mat-dialog-actions .mat-raised-button+.mat-button,[dir=rtl] .mat-dialog-actions .mat-raised-button+.mat-raised-button{margin-left:0;margin-right:8px}"],
+                styles: [".mat-dialog-container{box-shadow:0 11px 15px -7px rgba(0,0,0,.2),0 24px 38px 3px rgba(0,0,0,.14),0 9px 46px 8px rgba(0,0,0,.12);display:block;padding:24px;border-radius:2px;box-sizing:border-box;overflow:auto;max-width:80vw;outline:0;width:100%;height:100%}@media screen and (-ms-high-contrast:active){.mat-dialog-container{outline:solid 1px}}.mat-dialog-content{display:block;margin:0 -24px;padding:0 24px;max-height:65vh;overflow:auto;-webkit-overflow-scrolling:touch;-webkit-backface-visibility:hidden;backface-visibility:hidden}.mat-dialog-title{margin:0 0 20px;display:block}.mat-dialog-actions{padding:12px 0;display:flex;flex-wrap:wrap}.mat-dialog-actions:last-child{margin-bottom:-24px}.mat-dialog-actions[align=end]{justify-content:flex-end}.mat-dialog-actions[align=center]{justify-content:center}.mat-dialog-actions .mat-button+.mat-button,.mat-dialog-actions .mat-button+.mat-raised-button,.mat-dialog-actions .mat-raised-button+.mat-button,.mat-dialog-actions .mat-raised-button+.mat-raised-button{margin-left:8px}[dir=rtl] .mat-dialog-actions .mat-button+.mat-button,[dir=rtl] .mat-dialog-actions .mat-button+.mat-raised-button,[dir=rtl] .mat-dialog-actions .mat-raised-button+.mat-button,[dir=rtl] .mat-dialog-actions .mat-raised-button+.mat-raised-button{margin-left:0;margin-right:8px}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 animations: [
                     _angular_animations.trigger('slideDialog', [
                         // Note: The `enter` animation doesn't transition to something like `translate3d(0, 0, 0)
@@ -7266,6 +7084,161 @@ MdDialogContainer.ctorParameters = function () { return [
 MdDialogContainer.propDecorators = {
     '_portalHost': [{ type: _angular_core.ViewChild, args: [_angular_cdk_portal.PortalHostDirective,] },],
 };
+// TODO(jelbourn): resizing
+// Counter for unique dialog ids.
+var uniqueId = 0;
+/**
+ * Reference to a dialog opened via the MdDialog service.
+ */
+var MdDialogRef = (function () {
+    /**
+     * @param {?} _overlayRef
+     * @param {?} _containerInstance
+     * @param {?=} id
+     */
+    function MdDialogRef(_overlayRef, _containerInstance, id) {
+        if (id === void 0) { id = "md-dialog-" + uniqueId++; }
+        var _this = this;
+        this._overlayRef = _overlayRef;
+        this._containerInstance = _containerInstance;
+        this.id = id;
+        /**
+         * Whether the user is allowed to close the dialog.
+         */
+        this.disableClose = this._containerInstance._config.disableClose;
+        /**
+         * Subject for notifying the user that the dialog has finished opening.
+         */
+        this._afterOpen = new rxjs_Subject.Subject();
+        /**
+         * Subject for notifying the user that the dialog has finished closing.
+         */
+        this._afterClosed = new rxjs_Subject.Subject();
+        /**
+         * Subject for notifying the user that the dialog has started closing.
+         */
+        this._beforeClose = new rxjs_Subject.Subject();
+        // Emit when opening animation completes
+        _angular_cdk_rxjs.RxChain.from(_containerInstance._animationStateChanged)
+            .call(_angular_cdk_rxjs.filter, function (event) { return event.phaseName === 'done' && event.toState === 'enter'; })
+            .call(_angular_cdk_rxjs.first)
+            .subscribe(function () {
+            _this._afterOpen.next();
+            _this._afterOpen.complete();
+        });
+        // Dispose overlay when closing animation is complete
+        _angular_cdk_rxjs.RxChain.from(_containerInstance._animationStateChanged)
+            .call(_angular_cdk_rxjs.filter, function (event) { return event.phaseName === 'done' && event.toState === 'exit'; })
+            .call(_angular_cdk_rxjs.first)
+            .subscribe(function () {
+            _this._overlayRef.dispose();
+            _this._afterClosed.next(_this._result);
+            _this._afterClosed.complete();
+            _this.componentInstance = null;
+        });
+    }
+    /**
+     * Close the dialog.
+    \@param dialogResult Optional result to return to the dialog opener.
+     * @param {?=} dialogResult
+     * @return {?}
+     */
+    MdDialogRef.prototype.close = function (dialogResult) {
+        var _this = this;
+        this._result = dialogResult;
+        // Transition the backdrop in parallel to the dialog.
+        _angular_cdk_rxjs.RxChain.from(this._containerInstance._animationStateChanged)
+            .call(_angular_cdk_rxjs.filter, function (event) { return event.phaseName === 'start'; })
+            .call(_angular_cdk_rxjs.first)
+            .subscribe(function () {
+            _this._beforeClose.next(dialogResult);
+            _this._beforeClose.complete();
+            _this._overlayRef.detachBackdrop();
+        });
+        this._containerInstance._startExitAnimation();
+    };
+    /**
+     * Gets an observable that is notified when the dialog is finished opening.
+     * @return {?}
+     */
+    MdDialogRef.prototype.afterOpen = function () {
+        return this._afterOpen.asObservable();
+    };
+    /**
+     * Gets an observable that is notified when the dialog is finished closing.
+     * @return {?}
+     */
+    MdDialogRef.prototype.afterClosed = function () {
+        return this._afterClosed.asObservable();
+    };
+    /**
+     * Gets an observable that is notified when the dialog has started closing.
+     * @return {?}
+     */
+    MdDialogRef.prototype.beforeClose = function () {
+        return this._beforeClose.asObservable();
+    };
+    /**
+     * Gets an observable that emits when the overlay's backdrop has been clicked.
+     * @return {?}
+     */
+    MdDialogRef.prototype.backdropClick = function () {
+        return this._overlayRef.backdropClick();
+    };
+    /**
+     * Updates the dialog's position.
+    \@param position New dialog position.
+     * @param {?=} position
+     * @return {?}
+     */
+    MdDialogRef.prototype.updatePosition = function (position) {
+        var /** @type {?} */ strategy = this._getPositionStrategy();
+        if (position && (position.left || position.right)) {
+            position.left ? strategy.left(position.left) : strategy.right(position.right);
+        }
+        else {
+            strategy.centerHorizontally();
+        }
+        if (position && (position.top || position.bottom)) {
+            position.top ? strategy.top(position.top) : strategy.bottom(position.bottom);
+        }
+        else {
+            strategy.centerVertically();
+        }
+        this._overlayRef.updatePosition();
+        return this;
+    };
+    /**
+     * Updates the dialog's width and height.
+    \@param width New width of the dialog.
+    \@param height New height of the dialog.
+     * @param {?=} width
+     * @param {?=} height
+     * @return {?}
+     */
+    MdDialogRef.prototype.updateSize = function (width, height) {
+        if (width === void 0) { width = 'auto'; }
+        if (height === void 0) { height = 'auto'; }
+        this._getPositionStrategy().width(width).height(height);
+        this._overlayRef.updatePosition();
+        return this;
+    };
+    /**
+     * Returns whether the dialog is animating.
+     * @return {?}
+     */
+    MdDialogRef.prototype._isAnimating = function () {
+        return this._containerInstance._isAnimating;
+    };
+    /**
+     * Fetches the position strategy object from the overlay ref.
+     * @return {?}
+     */
+    MdDialogRef.prototype._getPositionStrategy = function () {
+        return (this._overlayRef.getState().positionStrategy);
+    };
+    return MdDialogRef;
+}());
 var MD_DIALOG_DATA = new _angular_core.InjectionToken('MdDialogData');
 /**
  * Injection token that determines the scroll handling while the dialog is open.
@@ -7430,7 +7403,7 @@ var MdDialog = (function () {
      * @return {?}
      */
     MdDialog.prototype._getOverlayState = function (dialogConfig) {
-        var /** @type {?} */ state$$1 = new _angular_cdk_overlay.OverlayState({
+        var /** @type {?} */ state$$1 = new _angular_cdk_overlay.OverlayConfig({
             positionStrategy: this._overlay.position().global(),
             scrollStrategy: this._scrollStrategy(),
             panelClass: dialogConfig.panelClass,
@@ -7516,7 +7489,7 @@ var MdDialog = (function () {
         injectionTokens.set(MdDialogRef, dialogRef);
         injectionTokens.set(MdDialogContainer, dialogContainer);
         injectionTokens.set(MD_DIALOG_DATA, config.data);
-        return new PortalInjector(userInjector || this._injector, injectionTokens);
+        return new _angular_cdk_portal.PortalInjector(userInjector || this._injector, injectionTokens);
     };
     /**
      * Removes a dialog from the array of open dialogs.
@@ -7573,1204 +7546,6 @@ MdDialog.ctorParameters = function () { return [
 function _applyConfigDefaults(config) {
     return extendObject(new MdDialogConfig(), config);
 }
-/**
- * Datepicker data that requires internationalization.
- */
-var MdDatepickerIntl = (function () {
-    function MdDatepickerIntl() {
-        /**
-         * Stream that emits whenever the labels here are changed. Use this to notify
-        components if the labels have changed after initialization.
-         */
-        this.changes = new rxjs_Subject.Subject();
-        /**
-         * A label for the calendar popup (used by screen readers).
-         */
-        this.calendarLabel = 'Calendar';
-        /**
-         * A label for the button used to open the calendar popup (used by screen readers).
-         */
-        this.openCalendarLabel = 'Open calendar';
-        /**
-         * A label for the previous month button (used by screen readers).
-         */
-        this.prevMonthLabel = 'Previous month';
-        /**
-         * A label for the next month button (used by screen readers).
-         */
-        this.nextMonthLabel = 'Next month';
-        /**
-         * A label for the previous year button (used by screen readers).
-         */
-        this.prevYearLabel = 'Previous year';
-        /**
-         * A label for the next year button (used by screen readers).
-         */
-        this.nextYearLabel = 'Next year';
-        /**
-         * A label for the 'switch to month view' button (used by screen readers).
-         */
-        this.switchToMonthViewLabel = 'Change to month view';
-        /**
-         * A label for the 'switch to year view' button (used by screen readers).
-         */
-        this.switchToYearViewLabel = 'Change to year view';
-    }
-    return MdDatepickerIntl;
-}());
-MdDatepickerIntl.decorators = [
-    { type: _angular_core.Injectable },
-];
-/**
- * @nocollapse
- */
-MdDatepickerIntl.ctorParameters = function () { return []; };
-/**
- * A calendar that is used as part of the datepicker.
-\@docs-private
- */
-var MdCalendar = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _intl
-     * @param {?} _ngZone
-     * @param {?} _isCompatibilityMode
-     * @param {?} _dateAdapter
-     * @param {?} _dateFormats
-     * @param {?} changeDetectorRef
-     */
-    function MdCalendar(_elementRef, _intl, _ngZone, _isCompatibilityMode, _dateAdapter, _dateFormats, changeDetectorRef) {
-        var _this = this;
-        this._elementRef = _elementRef;
-        this._intl = _intl;
-        this._ngZone = _ngZone;
-        this._isCompatibilityMode = _isCompatibilityMode;
-        this._dateAdapter = _dateAdapter;
-        this._dateFormats = _dateFormats;
-        /**
-         * Whether the calendar should be started in month or year view.
-         */
-        this.startView = 'month';
-        /**
-         * Emits when the currently selected date changes.
-         */
-        this.selectedChange = new _angular_core.EventEmitter();
-        /**
-         * Emits when any date is selected.
-         */
-        this.userSelection = new _angular_core.EventEmitter();
-        /**
-         * Date filter for the month and year views.
-         */
-        this._dateFilterForViews = function (date) {
-            return !!date &&
-                (!_this.dateFilter || _this.dateFilter(date)) &&
-                (!_this.minDate || _this._dateAdapter.compareDate(date, _this.minDate) >= 0) &&
-                (!_this.maxDate || _this._dateAdapter.compareDate(date, _this.maxDate) <= 0);
-        };
-        if (!this._dateAdapter) {
-            throw createMissingDateImplError('DateAdapter');
-        }
-        if (!this._dateFormats) {
-            throw createMissingDateImplError('MD_DATE_FORMATS');
-        }
-        this._intlChanges = _intl.changes.subscribe(function () { return changeDetectorRef.markForCheck(); });
-    }
-    Object.defineProperty(MdCalendar.prototype, "_activeDate", {
-        /**
-         * The current active date. This determines which time period is shown and which date is
-        highlighted when using keyboard navigation.
-         * @return {?}
-         */
-        get: function () { return this._clampedActiveDate; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._clampedActiveDate = this._dateAdapter.clampDate(value, this.minDate, this.maxDate);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdCalendar.prototype, "_periodButtonText", {
-        /**
-         * The label for the current calendar view.
-         * @return {?}
-         */
-        get: function () {
-            return this._monthView ?
-                this._dateAdapter.format(this._activeDate, this._dateFormats.display.monthYearLabel)
-                    .toLocaleUpperCase() :
-                this._dateAdapter.getYearName(this._activeDate);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdCalendar.prototype, "_periodButtonLabel", {
-        /**
-         * @return {?}
-         */
-        get: function () {
-            return this._monthView ? this._intl.switchToYearViewLabel : this._intl.switchToMonthViewLabel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdCalendar.prototype, "_prevButtonLabel", {
-        /**
-         * The label for the the previous button.
-         * @return {?}
-         */
-        get: function () {
-            return this._monthView ? this._intl.prevMonthLabel : this._intl.prevYearLabel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdCalendar.prototype, "_nextButtonLabel", {
-        /**
-         * The label for the the next button.
-         * @return {?}
-         */
-        get: function () {
-            return this._monthView ? this._intl.nextMonthLabel : this._intl.nextYearLabel;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdCalendar.prototype.ngAfterContentInit = function () {
-        this._activeDate = this.startAt || this._dateAdapter.today();
-        this._focusActiveCell();
-        this._monthView = this.startView != 'year';
-    };
-    /**
-     * @return {?}
-     */
-    MdCalendar.prototype.ngOnDestroy = function () {
-        this._intlChanges.unsubscribe();
-    };
-    /**
-     * Handles date selection in the month view.
-     * @param {?} date
-     * @return {?}
-     */
-    MdCalendar.prototype._dateSelected = function (date) {
-        if (!this._dateAdapter.sameDate(date, this.selected)) {
-            this.selectedChange.emit(date);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdCalendar.prototype._userSelected = function () {
-        this.userSelection.emit();
-    };
-    /**
-     * Handles month selection in the year view.
-     * @param {?} month
-     * @return {?}
-     */
-    MdCalendar.prototype._monthSelected = function (month) {
-        this._activeDate = month;
-        this._monthView = true;
-    };
-    /**
-     * Handles user clicks on the period label.
-     * @return {?}
-     */
-    MdCalendar.prototype._currentPeriodClicked = function () {
-        this._monthView = !this._monthView;
-    };
-    /**
-     * Handles user clicks on the previous button.
-     * @return {?}
-     */
-    MdCalendar.prototype._previousClicked = function () {
-        this._activeDate = this._monthView ?
-            this._dateAdapter.addCalendarMonths(this._activeDate, -1) :
-            this._dateAdapter.addCalendarYears(this._activeDate, -1);
-    };
-    /**
-     * Handles user clicks on the next button.
-     * @return {?}
-     */
-    MdCalendar.prototype._nextClicked = function () {
-        this._activeDate = this._monthView ?
-            this._dateAdapter.addCalendarMonths(this._activeDate, 1) :
-            this._dateAdapter.addCalendarYears(this._activeDate, 1);
-    };
-    /**
-     * Whether the previous period button is enabled.
-     * @return {?}
-     */
-    MdCalendar.prototype._previousEnabled = function () {
-        if (!this.minDate) {
-            return true;
-        }
-        return !this.minDate || !this._isSameView(this._activeDate, this.minDate);
-    };
-    /**
-     * Whether the next period button is enabled.
-     * @return {?}
-     */
-    MdCalendar.prototype._nextEnabled = function () {
-        return !this.maxDate || !this._isSameView(this._activeDate, this.maxDate);
-    };
-    /**
-     * Handles keydown events on the calendar body.
-     * @param {?} event
-     * @return {?}
-     */
-    MdCalendar.prototype._handleCalendarBodyKeydown = function (event) {
-        // TODO(mmalerba): We currently allow keyboard navigation to disabled dates, but just prevent
-        // disabled ones from being selected. This may not be ideal, we should look into whether
-        // navigation should skip over disabled dates, and if so, how to implement that efficiently.
-        if (this._monthView) {
-            this._handleCalendarBodyKeydownInMonthView(event);
-        }
-        else {
-            this._handleCalendarBodyKeydownInYearView(event);
-        }
-    };
-    /**
-     * Focuses the active cell after the microtask queue is empty.
-     * @return {?}
-     */
-    MdCalendar.prototype._focusActiveCell = function () {
-        var _this = this;
-        this._ngZone.runOutsideAngular(function () { return _angular_cdk_rxjs.first.call(_this._ngZone.onStable).subscribe(function () {
-            _this._elementRef.nativeElement.querySelector('.mat-calendar-body-active').focus();
-        }); });
-    };
-    /**
-     * Whether the two dates represent the same view in the current view mode (month or year).
-     * @param {?} date1
-     * @param {?} date2
-     * @return {?}
-     */
-    MdCalendar.prototype._isSameView = function (date1, date2) {
-        return this._monthView ?
-            this._dateAdapter.getYear(date1) == this._dateAdapter.getYear(date2) &&
-                this._dateAdapter.getMonth(date1) == this._dateAdapter.getMonth(date2) :
-            this._dateAdapter.getYear(date1) == this._dateAdapter.getYear(date2);
-    };
-    /**
-     * Handles keydown events on the calendar body when calendar is in month view.
-     * @param {?} event
-     * @return {?}
-     */
-    MdCalendar.prototype._handleCalendarBodyKeydownInMonthView = function (event) {
-        switch (event.keyCode) {
-            case _angular_cdk_keycodes.LEFT_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, -1);
-                break;
-            case _angular_cdk_keycodes.RIGHT_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 1);
-                break;
-            case _angular_cdk_keycodes.UP_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, -7);
-                break;
-            case _angular_cdk_keycodes.DOWN_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 7);
-                break;
-            case _angular_cdk_keycodes.HOME:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 1 - this._dateAdapter.getDate(this._activeDate));
-                break;
-            case _angular_cdk_keycodes.END:
-                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, (this._dateAdapter.getNumDaysInMonth(this._activeDate) -
-                    this._dateAdapter.getDate(this._activeDate)));
-                break;
-            case _angular_cdk_keycodes.PAGE_UP:
-                this._activeDate = event.altKey ?
-                    this._dateAdapter.addCalendarYears(this._activeDate, -1) :
-                    this._dateAdapter.addCalendarMonths(this._activeDate, -1);
-                break;
-            case _angular_cdk_keycodes.PAGE_DOWN:
-                this._activeDate = event.altKey ?
-                    this._dateAdapter.addCalendarYears(this._activeDate, 1) :
-                    this._dateAdapter.addCalendarMonths(this._activeDate, 1);
-                break;
-            case _angular_cdk_keycodes.ENTER:
-                if (this._dateFilterForViews(this._activeDate)) {
-                    this._dateSelected(this._activeDate);
-                    // Prevent unexpected default actions such as form submission.
-                    event.preventDefault();
-                }
-                return;
-            default:
-                // Don't prevent default or focus active cell on keys that we don't explicitly handle.
-                return;
-        }
-        this._focusActiveCell();
-        // Prevent unexpected default actions such as form submission.
-        event.preventDefault();
-    };
-    /**
-     * Handles keydown events on the calendar body when calendar is in year view.
-     * @param {?} event
-     * @return {?}
-     */
-    MdCalendar.prototype._handleCalendarBodyKeydownInYearView = function (event) {
-        switch (event.keyCode) {
-            case _angular_cdk_keycodes.LEFT_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, -1);
-                break;
-            case _angular_cdk_keycodes.RIGHT_ARROW:
-                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, 1);
-                break;
-            case _angular_cdk_keycodes.UP_ARROW:
-                this._activeDate = this._prevMonthInSameCol(this._activeDate);
-                break;
-            case _angular_cdk_keycodes.DOWN_ARROW:
-                this._activeDate = this._nextMonthInSameCol(this._activeDate);
-                break;
-            case _angular_cdk_keycodes.HOME:
-                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, -this._dateAdapter.getMonth(this._activeDate));
-                break;
-            case _angular_cdk_keycodes.END:
-                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, 11 - this._dateAdapter.getMonth(this._activeDate));
-                break;
-            case _angular_cdk_keycodes.PAGE_UP:
-                this._activeDate =
-                    this._dateAdapter.addCalendarYears(this._activeDate, event.altKey ? -10 : -1);
-                break;
-            case _angular_cdk_keycodes.PAGE_DOWN:
-                this._activeDate =
-                    this._dateAdapter.addCalendarYears(this._activeDate, event.altKey ? 10 : 1);
-                break;
-            case _angular_cdk_keycodes.ENTER:
-                this._monthSelected(this._activeDate);
-                break;
-            default:
-                // Don't prevent default or focus active cell on keys that we don't explicitly handle.
-                return;
-        }
-        this._focusActiveCell();
-        // Prevent unexpected default actions such as form submission.
-        event.preventDefault();
-    };
-    /**
-     * Determine the date for the month that comes before the given month in the same column in the
-    calendar table.
-     * @param {?} date
-     * @return {?}
-     */
-    MdCalendar.prototype._prevMonthInSameCol = function (date) {
-        // Determine how many months to jump forward given that there are 2 empty slots at the beginning
-        // of each year.
-        var /** @type {?} */ increment = this._dateAdapter.getMonth(date) <= 4 ? -5 :
-            (this._dateAdapter.getMonth(date) >= 7 ? -7 : -12);
-        return this._dateAdapter.addCalendarMonths(date, increment);
-    };
-    /**
-     * Determine the date for the month that comes after the given month in the same column in the
-    calendar table.
-     * @param {?} date
-     * @return {?}
-     */
-    MdCalendar.prototype._nextMonthInSameCol = function (date) {
-        // Determine how many months to jump forward given that there are 2 empty slots at the beginning
-        // of each year.
-        var /** @type {?} */ increment = this._dateAdapter.getMonth(date) <= 4 ? 7 :
-            (this._dateAdapter.getMonth(date) >= 7 ? 5 : 12);
-        return this._dateAdapter.addCalendarMonths(date, increment);
-    };
-    return MdCalendar;
-}());
-MdCalendar.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-calendar, mat-calendar',
-                template: "<div class=\"mat-calendar-header\"><div class=\"mat-calendar-controls\"><button *ngIf=\"!_isCompatibilityMode\" md-button class=\"mat-calendar-period-button\" (click)=\"_currentPeriodClicked()\" [attr.aria-label]=\"_periodButtonLabel\">{{_periodButtonText}}<div class=\"mat-calendar-arrow\" [class.mat-calendar-invert]=\"!_monthView\"></div></button> <button *ngIf=\"_isCompatibilityMode\" mat-button class=\"mat-calendar-period-button\" (click)=\"_currentPeriodClicked()\" [attr.aria-label]=\"_periodButtonLabel\">{{_periodButtonText}}<div class=\"mat-calendar-arrow\" [class.mat-calendar-invert]=\"!_monthView\"></div></button><div class=\"mat-calendar-spacer\"></div><button *ngIf=\"!_isCompatibilityMode\" md-icon-button class=\"mat-calendar-previous-button\" [disabled]=\"!_previousEnabled()\" (click)=\"_previousClicked()\" [attr.aria-label]=\"_prevButtonLabel\"></button> <button *ngIf=\"_isCompatibilityMode\" mat-icon-button class=\"mat-calendar-previous-button\" [disabled]=\"!_previousEnabled()\" (click)=\"_previousClicked()\" [attr.aria-label]=\"_prevButtonLabel\"></button> <button *ngIf=\"!_isCompatibilityMode\" md-icon-button class=\"mat-calendar-next-button\" [disabled]=\"!_nextEnabled()\" (click)=\"_nextClicked()\" [attr.aria-label]=\"_nextButtonLabel\"></button> <button *ngIf=\"_isCompatibilityMode\" mat-icon-button class=\"mat-calendar-next-button\" [disabled]=\"!_nextEnabled()\" (click)=\"_nextClicked()\" [attr.aria-label]=\"_nextButtonLabel\"></button></div></div><div class=\"mat-calendar-content\" (keydown)=\"_handleCalendarBodyKeydown($event)\" [ngSwitch]=\"_monthView\" cdkMonitorSubtreeFocus><md-month-view *ngSwitchCase=\"true\" [activeDate]=\"_activeDate\" [selected]=\"selected\" [dateFilter]=\"_dateFilterForViews\" (selectedChange)=\"_dateSelected($event)\" (userSelection)=\"_userSelected()\"></md-month-view><md-year-view *ngSwitchDefault [activeDate]=\"_activeDate\" [selected]=\"selected\" [dateFilter]=\"_dateFilterForViews\" (selectedChange)=\"_monthSelected($event)\"></md-year-view></div>",
-                styles: [".mat-calendar{display:block}.mat-calendar-header{padding:8px 8px 0 8px}.mat-calendar-content{padding:0 8px 8px 8px;outline:0}.mat-calendar-controls{display:flex;margin:5% calc(33% / 7 - 16px)}.mat-calendar-spacer{flex:1 1 auto}.mat-calendar-period-button{min-width:0}.mat-calendar-arrow{display:inline-block;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top-width:5px;border-top-style:solid;margin:0 0 0 5px;vertical-align:middle}.mat-calendar-arrow.mat-calendar-invert{transform:rotate(180deg)}[dir=rtl] .mat-calendar-arrow{margin:0 5px 0 0}.mat-calendar-next-button,.mat-calendar-previous-button{position:relative}.mat-calendar-next-button::after,.mat-calendar-previous-button::after{top:0;left:0;right:0;bottom:0;position:absolute;content:'';margin:15.5px;border:0 solid currentColor;border-top-width:2px}[dir=rtl] .mat-calendar-next-button,[dir=rtl] .mat-calendar-previous-button{transform:rotate(180deg)}.mat-calendar-previous-button::after{border-left-width:2px;transform:translateX(2px) rotate(-45deg)}.mat-calendar-next-button::after{border-right-width:2px;transform:translateX(-2px) rotate(45deg)}.mat-calendar-table{border-spacing:0;border-collapse:collapse;width:100%}.mat-calendar-table-header th{text-align:center;padding:0 0 8px 0}.mat-calendar-table-header-divider{position:relative;height:1px}.mat-calendar-table-header-divider::after{content:'';position:absolute;top:0;left:-8px;right:-8px;height:1px}"],
-                host: {
-                    'class': 'mat-calendar',
-                },
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdCalendar.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: MdDatepickerIntl, },
-    { type: _angular_core.NgZone, },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MATERIAL_COMPATIBILITY_MODE,] },] },
-    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-MdCalendar.propDecorators = {
-    'startAt': [{ type: _angular_core.Input },],
-    'startView': [{ type: _angular_core.Input },],
-    'selected': [{ type: _angular_core.Input },],
-    'minDate': [{ type: _angular_core.Input },],
-    'maxDate': [{ type: _angular_core.Input },],
-    'dateFilter': [{ type: _angular_core.Input },],
-    'selectedChange': [{ type: _angular_core.Output },],
-    'userSelection': [{ type: _angular_core.Output },],
-};
-/**
- * Used to generate a unique ID for each datepicker instance.
- */
-var datepickerUid = 0;
-/**
- * Injection token that determines the scroll handling while the calendar is open.
- */
-var MD_DATEPICKER_SCROLL_STRATEGY = new _angular_core.InjectionToken('md-datepicker-scroll-strategy');
-/**
- * \@docs-private
- * @param {?} overlay
- * @return {?}
- */
-function MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY(overlay) {
-    return function () { return overlay.scrollStrategies.reposition(); };
-}
-/**
- * \@docs-private
- */
-var MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER = {
-    provide: MD_DATEPICKER_SCROLL_STRATEGY,
-    deps: [_angular_cdk_overlay.Overlay],
-    useFactory: MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY,
-};
-/**
- * Component used as the content for the datepicker dialog and popup. We use this instead of using
-MdCalendar directly as the content so we can control the initial focus. This also gives us a
-place to put additional features of the popup that are not part of the calendar itself in the
-future. (e.g. confirmation buttons).
-\@docs-private
- */
-var MdDatepickerContent = (function () {
-    function MdDatepickerContent() {
-    }
-    /**
-     * @return {?}
-     */
-    MdDatepickerContent.prototype.ngAfterContentInit = function () {
-        this._calendar._focusActiveCell();
-    };
-    /**
-     * Handles keydown event on datepicker content.
-    \@param event The event.
-     * @param {?} event
-     * @return {?}
-     */
-    MdDatepickerContent.prototype._handleKeydown = function (event) {
-        if (event.keyCode === _angular_cdk_keycodes.ESCAPE) {
-            this.datepicker.close();
-            event.preventDefault();
-            event.stopPropagation();
-        }
-    };
-    return MdDatepickerContent;
-}());
-MdDatepickerContent.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-datepicker-content, mat-datepicker-content',
-                template: "<md-calendar cdkTrapFocus [id]=\"datepicker.id\" [startAt]=\"datepicker.startAt\" [startView]=\"datepicker.startView\" [minDate]=\"datepicker._minDate\" [maxDate]=\"datepicker._maxDate\" [dateFilter]=\"datepicker._dateFilter\" [selected]=\"datepicker._selected\" (selectedChange)=\"datepicker._select($event)\" (userSelection)=\"datepicker.close()\"></md-calendar>",
-                styles: [".mat-datepicker-content{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);display:block}.mat-calendar{width:296px;height:354px}.mat-datepicker-content-touch{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0 0 0 rgba(0,0,0,.14),0 0 0 0 rgba(0,0,0,.12);display:block;max-height:80vh;overflow:auto;margin:-24px}.mat-datepicker-content-touch .mat-calendar{min-width:250px;min-height:312px;max-width:750px;max-height:788px}@media all and (orientation:landscape){.mat-datepicker-content-touch .mat-calendar{width:64vh;height:80vh}}@media all and (orientation:portrait){.mat-datepicker-content-touch .mat-calendar{width:80vw;height:100vw}}"],
-                host: {
-                    'class': 'mat-datepicker-content',
-                    '[class.mat-datepicker-content-touch]': 'datepicker.touchUi',
-                    '(keydown)': '_handleKeydown($event)',
-                },
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdDatepickerContent.ctorParameters = function () { return []; };
-MdDatepickerContent.propDecorators = {
-    '_calendar': [{ type: _angular_core.ViewChild, args: [MdCalendar,] },],
-};
-/**
- * Component responsible for managing the datepicker popup/dialog.
- */
-var MdDatepicker = (function () {
-    /**
-     * @param {?} _dialog
-     * @param {?} _overlay
-     * @param {?} _ngZone
-     * @param {?} _viewContainerRef
-     * @param {?} _scrollStrategy
-     * @param {?} _dateAdapter
-     * @param {?} _dir
-     * @param {?} _document
-     */
-    function MdDatepicker(_dialog, _overlay, _ngZone, _viewContainerRef, _scrollStrategy, _dateAdapter, _dir, _document) {
-        this._dialog = _dialog;
-        this._overlay = _overlay;
-        this._ngZone = _ngZone;
-        this._viewContainerRef = _viewContainerRef;
-        this._scrollStrategy = _scrollStrategy;
-        this._dateAdapter = _dateAdapter;
-        this._dir = _dir;
-        this._document = _document;
-        /**
-         * The view that the calendar should start in.
-         */
-        this.startView = 'month';
-        /**
-         * Whether the calendar UI is in touch mode. In touch mode the calendar opens in a dialog rather
-        than a popup and elements have more padding to allow for bigger touch targets.
-         */
-        this.touchUi = false;
-        /**
-         * Emits new selected date when selected date changes.
-        \@deprecated Switch to the `dateChange` and `dateInput` binding on the input element.
-         */
-        this.selectedChanged = new _angular_core.EventEmitter();
-        /**
-         * Whether the calendar is open.
-         */
-        this.opened = false;
-        /**
-         * The id for the datepicker calendar.
-         */
-        this.id = "md-datepicker-" + datepickerUid++;
-        this._validSelected = null;
-        /**
-         * The element that was focused before the datepicker was opened.
-         */
-        this._focusedElementBeforeOpen = null;
-        this._inputSubscription = rxjs_Subscription.Subscription.EMPTY;
-        if (!this._dateAdapter) {
-            throw createMissingDateImplError('DateAdapter');
-        }
-    }
-    Object.defineProperty(MdDatepicker.prototype, "startAt", {
-        /**
-         * The date to open the calendar to initially.
-         * @return {?}
-         */
-        get: function () {
-            // If an explicit startAt is set we start there, otherwise we start at whatever the currently
-            // selected value is.
-            return this._startAt || (this._datepickerInput ? this._datepickerInput.value : null);
-        },
-        /**
-         * @param {?} date
-         * @return {?}
-         */
-        set: function (date) { this._startAt = date; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepicker.prototype, "disabled", {
-        /**
-         * Whether the datepicker pop-up should be disabled.
-         * @return {?}
-         */
-        get: function () {
-            return this._disabled === undefined ? this._datepickerInput.disabled : this._disabled;
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepicker.prototype, "_selected", {
-        /**
-         * The currently selected date.
-         * @return {?}
-         */
-        get: function () { return this._validSelected; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._validSelected = value; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepicker.prototype, "_minDate", {
-        /**
-         * The minimum selectable date.
-         * @return {?}
-         */
-        get: function () {
-            return this._datepickerInput && this._datepickerInput.min;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepicker.prototype, "_maxDate", {
-        /**
-         * The maximum selectable date.
-         * @return {?}
-         */
-        get: function () {
-            return this._datepickerInput && this._datepickerInput.max;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepicker.prototype, "_dateFilter", {
-        /**
-         * @return {?}
-         */
-        get: function () {
-            return this._datepickerInput && this._datepickerInput._dateFilter;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdDatepicker.prototype.ngOnDestroy = function () {
-        this.close();
-        this._inputSubscription.unsubscribe();
-        if (this._popupRef) {
-            this._popupRef.dispose();
-        }
-    };
-    /**
-     * Selects the given date
-     * @param {?} date
-     * @return {?}
-     */
-    MdDatepicker.prototype._select = function (date) {
-        var /** @type {?} */ oldValue = this._selected;
-        this._selected = date;
-        if (!this._dateAdapter.sameDate(oldValue, this._selected)) {
-            this.selectedChanged.emit(date);
-        }
-    };
-    /**
-     * Register an input with this datepicker.
-    \@param input The datepicker input to register with this datepicker.
-     * @param {?} input
-     * @return {?}
-     */
-    MdDatepicker.prototype._registerInput = function (input) {
-        var _this = this;
-        if (this._datepickerInput) {
-            throw Error('An MdDatepicker can only be associated with a single input.');
-        }
-        this._datepickerInput = input;
-        this._inputSubscription =
-            this._datepickerInput._valueChange.subscribe(function (value) { return _this._selected = value; });
-    };
-    /**
-     * Open the calendar.
-     * @return {?}
-     */
-    MdDatepicker.prototype.open = function () {
-        if (this.opened || this.disabled) {
-            return;
-        }
-        if (!this._datepickerInput) {
-            throw Error('Attempted to open an MdDatepicker with no associated input.');
-        }
-        if (this._document) {
-            this._focusedElementBeforeOpen = this._document.activeElement;
-        }
-        this.touchUi ? this._openAsDialog() : this._openAsPopup();
-        this.opened = true;
-    };
-    /**
-     * Close the calendar.
-     * @return {?}
-     */
-    MdDatepicker.prototype.close = function () {
-        if (!this.opened) {
-            return;
-        }
-        if (this._popupRef && this._popupRef.hasAttached()) {
-            this._popupRef.detach();
-        }
-        if (this._dialogRef) {
-            this._dialogRef.close();
-            this._dialogRef = null;
-        }
-        if (this._calendarPortal && this._calendarPortal.isAttached) {
-            this._calendarPortal.detach();
-        }
-        if (this._focusedElementBeforeOpen &&
-            typeof this._focusedElementBeforeOpen.focus === 'function') {
-            this._focusedElementBeforeOpen.focus();
-            this._focusedElementBeforeOpen = null;
-        }
-        this.opened = false;
-    };
-    /**
-     * Open the calendar as a dialog.
-     * @return {?}
-     */
-    MdDatepicker.prototype._openAsDialog = function () {
-        var _this = this;
-        this._dialogRef = this._dialog.open(MdDatepickerContent, {
-            direction: this._dir ? this._dir.value : 'ltr',
-            viewContainerRef: this._viewContainerRef,
-        });
-        this._dialogRef.afterClosed().subscribe(function () { return _this.close(); });
-        this._dialogRef.componentInstance.datepicker = this;
-    };
-    /**
-     * Open the calendar as a popup.
-     * @return {?}
-     */
-    MdDatepicker.prototype._openAsPopup = function () {
-        var _this = this;
-        if (!this._calendarPortal) {
-            this._calendarPortal = new _angular_cdk_portal.ComponentPortal(MdDatepickerContent, this._viewContainerRef);
-        }
-        if (!this._popupRef) {
-            this._createPopup();
-        }
-        if (!this._popupRef.hasAttached()) {
-            var /** @type {?} */ componentRef = this._popupRef.attach(this._calendarPortal);
-            componentRef.instance.datepicker = this;
-            // Update the position once the calendar has rendered.
-            _angular_cdk_rxjs.first.call(this._ngZone.onStable).subscribe(function () { return _this._popupRef.updatePosition(); });
-        }
-        this._popupRef.backdropClick().subscribe(function () { return _this.close(); });
-    };
-    /**
-     * Create the popup.
-     * @return {?}
-     */
-    MdDatepicker.prototype._createPopup = function () {
-        var /** @type {?} */ overlayState = new _angular_cdk_overlay.OverlayState({
-            positionStrategy: this._createPopupPositionStrategy(),
-            hasBackdrop: true,
-            backdropClass: 'md-overlay-transparent-backdrop',
-            direction: this._dir ? this._dir.value : 'ltr',
-            scrollStrategy: this._scrollStrategy()
-        });
-        this._popupRef = this._overlay.create(overlayState);
-    };
-    /**
-     * Create the popup PositionStrategy.
-     * @return {?}
-     */
-    MdDatepicker.prototype._createPopupPositionStrategy = function () {
-        return this._overlay.position()
-            .connectedTo(this._datepickerInput.getPopupConnectionElementRef(), { originX: 'start', originY: 'bottom' }, { overlayX: 'start', overlayY: 'top' })
-            .withFallbackPosition({ originX: 'start', originY: 'top' }, { overlayX: 'start', overlayY: 'bottom' })
-            .withFallbackPosition({ originX: 'end', originY: 'bottom' }, { overlayX: 'end', overlayY: 'top' })
-            .withFallbackPosition({ originX: 'end', originY: 'top' }, { overlayX: 'end', overlayY: 'bottom' });
-    };
-    return MdDatepicker;
-}());
-MdDatepicker.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-datepicker, mat-datepicker',
-                template: '',
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                encapsulation: _angular_core.ViewEncapsulation.None,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdDatepicker.ctorParameters = function () { return [
-    { type: MdDialog, },
-    { type: _angular_cdk_overlay.Overlay, },
-    { type: _angular_core.NgZone, },
-    { type: _angular_core.ViewContainerRef, },
-    { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_DATEPICKER_SCROLL_STRATEGY,] },] },
-    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [_angular_platformBrowser.DOCUMENT,] },] },
-]; };
-MdDatepicker.propDecorators = {
-    'startAt': [{ type: _angular_core.Input },],
-    'startView': [{ type: _angular_core.Input },],
-    'touchUi': [{ type: _angular_core.Input },],
-    'disabled': [{ type: _angular_core.Input },],
-    'selectedChanged': [{ type: _angular_core.Output },],
-};
-var MD_DATEPICKER_VALUE_ACCESSOR = {
-    provide: _angular_forms.NG_VALUE_ACCESSOR,
-    useExisting: _angular_core.forwardRef(function () { return MdDatepickerInput; }),
-    multi: true
-};
-var MD_DATEPICKER_VALIDATORS = {
-    provide: _angular_forms.NG_VALIDATORS,
-    useExisting: _angular_core.forwardRef(function () { return MdDatepickerInput; }),
-    multi: true
-};
-/**
- * An event used for datepicker input and change events. We don't always have access to a native
-input or change event because the event may have been triggered by the user clicking on the
-calendar popup. For consistency, we always use MdDatepickerInputEvent instead.
- */
-var MdDatepickerInputEvent = (function () {
-    /**
-     * @param {?} target
-     * @param {?} targetElement
-     */
-    function MdDatepickerInputEvent(target, targetElement) {
-        this.target = target;
-        this.targetElement = targetElement;
-        this.value = this.target.value;
-    }
-    return MdDatepickerInputEvent;
-}());
-/**
- * Directive used to connect an input to a MdDatepicker.
- */
-var MdDatepickerInput = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _renderer
-     * @param {?} _dateAdapter
-     * @param {?} _dateFormats
-     * @param {?} _mdFormField
-     */
-    function MdDatepickerInput(_elementRef, _renderer, _dateAdapter, _dateFormats, _mdFormField) {
-        var _this = this;
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-        this._dateAdapter = _dateAdapter;
-        this._dateFormats = _dateFormats;
-        this._mdFormField = _mdFormField;
-        /**
-         * Emits when a `change` event is fired on this `<input>`.
-         */
-        this.dateChange = new _angular_core.EventEmitter();
-        /**
-         * Emits when an `input` event is fired on this `<input>`.
-         */
-        this.dateInput = new _angular_core.EventEmitter();
-        /**
-         * Emits when the value changes (either due to user input or programmatic change).
-         */
-        this._valueChange = new _angular_core.EventEmitter();
-        this._onTouched = function () { };
-        this._cvaOnChange = function () { };
-        this._validatorOnChange = function () { };
-        this._datepickerSubscription = rxjs_Subscription.Subscription.EMPTY;
-        /**
-         * The form control validator for whether the input parses.
-         */
-        this._parseValidator = function () {
-            return _this._lastValueValid ?
-                null : { 'mdDatepickerParse': { 'text': _this._elementRef.nativeElement.value } };
-        };
-        /**
-         * The form control validator for the min date.
-         */
-        this._minValidator = function (control) {
-            return (!_this.min || !control.value ||
-                _this._dateAdapter.compareDate(_this.min, control.value) <= 0) ?
-                null : { 'mdDatepickerMin': { 'min': _this.min, 'actual': control.value } };
-        };
-        /**
-         * The form control validator for the max date.
-         */
-        this._maxValidator = function (control) {
-            return (!_this.max || !control.value ||
-                _this._dateAdapter.compareDate(_this.max, control.value) >= 0) ?
-                null : { 'mdDatepickerMax': { 'max': _this.max, 'actual': control.value } };
-        };
-        /**
-         * The form control validator for the date filter.
-         */
-        this._filterValidator = function (control) {
-            return !_this._dateFilter || !control.value || _this._dateFilter(control.value) ?
-                null : { 'mdDatepickerFilter': true };
-        };
-        /**
-         * The combined form control validator for this input.
-         */
-        this._validator = _angular_forms.Validators.compose([this._parseValidator, this._minValidator, this._maxValidator, this._filterValidator]);
-        /**
-         * Whether the last value set on the input was valid.
-         */
-        this._lastValueValid = false;
-        if (!this._dateAdapter) {
-            throw createMissingDateImplError('DateAdapter');
-        }
-        if (!this._dateFormats) {
-            throw createMissingDateImplError('MD_DATE_FORMATS');
-        }
-    }
-    Object.defineProperty(MdDatepickerInput.prototype, "mdDatepicker", {
-        /**
-         * The datepicker that this input is associated with.
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            if (value) {
-                this._datepicker = value;
-                this._datepicker._registerInput(this);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "matDatepicker", {
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this.mdDatepicker = value; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "mdDatepickerFilter", {
-        /**
-         * @param {?} filter
-         * @return {?}
-         */
-        set: function (filter$$1) {
-            this._dateFilter = filter$$1;
-            this._validatorOnChange();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "matDatepickerFilter", {
-        /**
-         * @param {?} filter
-         * @return {?}
-         */
-        set: function (filter$$1) {
-            this.mdDatepickerFilter = filter$$1;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "value", {
-        /**
-         * The value of the input.
-         * @return {?}
-         */
-        get: function () {
-            return this._getValidDateOrNull(this._dateAdapter.parse(this._elementRef.nativeElement.value, this._dateFormats.parse.dateInput));
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            if (value != null && !this._dateAdapter.isDateInstance(value)) {
-                throw Error('Datepicker: value not recognized as a date object by DateAdapter.');
-            }
-            this._lastValueValid = !value || this._dateAdapter.isValid(value);
-            value = this._getValidDateOrNull(value);
-            var /** @type {?} */ oldDate = this.value;
-            this._renderer.setProperty(this._elementRef.nativeElement, 'value', value ? this._dateAdapter.format(value, this._dateFormats.display.dateInput) : '');
-            if (!this._dateAdapter.sameDate(oldDate, value)) {
-                this._valueChange.emit(value);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "min", {
-        /**
-         * The minimum valid date.
-         * @return {?}
-         */
-        get: function () { return this._min; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._min = value;
-            this._validatorOnChange();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "max", {
-        /**
-         * The maximum valid date.
-         * @return {?}
-         */
-        get: function () { return this._max; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._max = value;
-            this._validatorOnChange();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdDatepickerInput.prototype, "disabled", {
-        /**
-         * Whether the datepicker-input is disabled.
-         * @return {?}
-         */
-        get: function () { return this._disabled; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        if (this._datepicker) {
-            this._datepickerSubscription =
-                this._datepicker.selectedChanged.subscribe(function (selected) {
-                    _this.value = selected;
-                    _this._cvaOnChange(selected);
-                    _this._onTouched();
-                    _this.dateInput.emit(new MdDatepickerInputEvent(_this, _this._elementRef.nativeElement));
-                    _this.dateChange.emit(new MdDatepickerInputEvent(_this, _this._elementRef.nativeElement));
-                });
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.ngOnDestroy = function () {
-        this._datepickerSubscription.unsubscribe();
-    };
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.registerOnValidatorChange = function (fn) {
-        this._validatorOnChange = fn;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.validate = function (c) {
-        return this._validator ? this._validator(c) : null;
-    };
-    /**
-     * Gets the element that the datepicker popup should be connected to.
-    \@return The element to connect the popup to.
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.getPopupConnectionElementRef = function () {
-        return this._mdFormField ? this._mdFormField.underlineRef : this._elementRef;
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.writeValue = function (value) {
-        this.value = value;
-    };
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.registerOnChange = function (fn) {
-        this._cvaOnChange = fn;
-    };
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.registerOnTouched = function (fn) {
-        this._onTouched = fn;
-    };
-    /**
-     * @param {?} disabled
-     * @return {?}
-     */
-    MdDatepickerInput.prototype.setDisabledState = function (disabled) {
-        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', disabled);
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    MdDatepickerInput.prototype._onKeydown = function (event) {
-        if (event.altKey && event.keyCode === _angular_cdk_keycodes.DOWN_ARROW) {
-            this._datepicker.open();
-            event.preventDefault();
-        }
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    MdDatepickerInput.prototype._onInput = function (value) {
-        var /** @type {?} */ date = this._dateAdapter.parse(value, this._dateFormats.parse.dateInput);
-        this._lastValueValid = !date || this._dateAdapter.isValid(date);
-        date = this._getValidDateOrNull(date);
-        this._cvaOnChange(date);
-        this._valueChange.emit(date);
-        this.dateInput.emit(new MdDatepickerInputEvent(this, this._elementRef.nativeElement));
-    };
-    /**
-     * @return {?}
-     */
-    MdDatepickerInput.prototype._onChange = function () {
-        this.dateChange.emit(new MdDatepickerInputEvent(this, this._elementRef.nativeElement));
-    };
-    /**
-     * @param {?} obj The object to check.
-     * @return {?}
-     */
-    MdDatepickerInput.prototype._getValidDateOrNull = function (obj) {
-        return (this._dateAdapter.isDateInstance(obj) && this._dateAdapter.isValid(obj)) ? obj : null;
-    };
-    return MdDatepickerInput;
-}());
-MdDatepickerInput.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: 'input[mdDatepicker], input[matDatepicker]',
-                providers: [MD_DATEPICKER_VALUE_ACCESSOR, MD_DATEPICKER_VALIDATORS],
-                host: {
-                    '[attr.aria-haspopup]': 'true',
-                    '[attr.aria-owns]': '(_datepicker?.opened && _datepicker.id) || null',
-                    '[attr.min]': 'min ? _dateAdapter.getISODateString(min) : null',
-                    '[attr.max]': 'max ? _dateAdapter.getISODateString(max) : null',
-                    '[disabled]': 'disabled',
-                    '(input)': '_onInput($event.target.value)',
-                    '(change)': '_onChange()',
-                    '(blur)': '_onTouched()',
-                    '(keydown)': '_onKeydown($event)',
-                },
-                exportAs: 'mdDatepickerInput',
-            },] },
-];
-/**
- * @nocollapse
- */
-MdDatepickerInput.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.Renderer2, },
-    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
-    { type: MdFormField, decorators: [{ type: _angular_core.Optional },] },
-]; };
-MdDatepickerInput.propDecorators = {
-    'mdDatepicker': [{ type: _angular_core.Input },],
-    'matDatepicker': [{ type: _angular_core.Input },],
-    'mdDatepickerFilter': [{ type: _angular_core.Input },],
-    'matDatepickerFilter': [{ type: _angular_core.Input },],
-    'value': [{ type: _angular_core.Input },],
-    'min': [{ type: _angular_core.Input },],
-    'max': [{ type: _angular_core.Input },],
-    'disabled': [{ type: _angular_core.Input },],
-    'dateChange': [{ type: _angular_core.Output },],
-    'dateInput': [{ type: _angular_core.Output },],
-};
 /**
  * Counter used to generate unique IDs for dialog elements.
  */
@@ -8942,72 +7717,7 @@ MdDialogModule.decorators = [
  * @nocollapse
  */
 MdDialogModule.ctorParameters = function () { return []; };
-var MdDatepickerToggle = (function () {
-    /**
-     * @param {?} _intl
-     * @param {?} changeDetectorRef
-     */
-    function MdDatepickerToggle(_intl, changeDetectorRef) {
-        this._intl = _intl;
-        this._intlChanges = _intl.changes.subscribe(function () { return changeDetectorRef.markForCheck(); });
-    }
-    Object.defineProperty(MdDatepickerToggle.prototype, "disabled", {
-        /**
-         * Whether the toggle button is disabled.
-         * @return {?}
-         */
-        get: function () {
-            return this._disabled === undefined ? this.datepicker.disabled : this._disabled;
-        },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdDatepickerToggle.prototype.ngOnDestroy = function () {
-        this._intlChanges.unsubscribe();
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    MdDatepickerToggle.prototype._open = function (event) {
-        if (this.datepicker && !this.disabled) {
-            this.datepicker.open();
-            event.stopPropagation();
-        }
-    };
-    return MdDatepickerToggle;
-}());
-MdDatepickerToggle.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-datepicker-toggle, mat-datepicker-toggle',
-                template: "<button md-icon-button type=\"button\" [attr.aria-label]=\"_intl.openCalendarLabel\" [disabled]=\"disabled\" (click)=\"_open($event)\"><md-icon><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"100%\" height=\"100%\" fill=\"currentColor\" style=\"vertical-align: top\" focusable=\"false\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z\"/></svg></md-icon></button>",
-                host: {
-                    'class': 'mat-datepicker-toggle',
-                },
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdDatepickerToggle.ctorParameters = function () { return [
-    { type: MdDatepickerIntl, },
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-MdDatepickerToggle.propDecorators = {
-    'datepicker': [{ type: _angular_core.Input, args: ['for',] },],
-    'disabled': [{ type: _angular_core.Input },],
-};
+
 /**
  * Returns an exception to be thrown in the case when attempting to
 load an icon with a name that cannot be found.
@@ -9713,6 +8423,7 @@ MdIcon.decorators = [
                     'class': 'mat-icon',
                 },
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -9747,6 +8458,1868 @@ MdIconModule.decorators = [
  * @nocollapse
  */
 MdIconModule.ctorParameters = function () { return []; };
+
+/**
+ * Function that attempts to coerce a value to a date using a DateAdapter. Date instances, null,
+and undefined will be passed through. Empty strings will be coerced to null. Valid ISO 8601
+strings (https://www.ietf.org/rfc/rfc3339.txt) will be coerced to dates. All other values will
+result in an error being thrown.
+\@param adapter The date adapter to use for coercion
+\@param value The value to coerce.
+\@return A date object coerced from the value.
+\@throws Throws when the value cannot be coerced.
+ * @template D
+ * @param {?} adapter
+ * @param {?} value
+ * @return {?}
+ */
+function coerceDateProperty(adapter, value) {
+    if (typeof value === 'string') {
+        if (value == '') {
+            value = null;
+        }
+        else {
+            value = adapter.fromIso8601(value) || value;
+        }
+    }
+    if (value == null || adapter.isDateInstance(value)) {
+        return value;
+    }
+    throw Error("Datepicker: Value must be either a date object recognized by the DateAdapter or " +
+        ("an ISO 8601 string. Instead got: " + value));
+}
+/**
+ * \@docs-private
+ * @param {?} provider
+ * @return {?}
+ */
+function createMissingDateImplError(provider) {
+    return Error("MdDatepicker: No provider found for " + provider + ". You must import one of the following " +
+        "modules at your application root: MdNativeDateModule, or provide a custom implementation.");
+}
+/**
+ * Datepicker data that requires internationalization.
+ */
+var MdDatepickerIntl = (function () {
+    function MdDatepickerIntl() {
+        /**
+         * Stream that emits whenever the labels here are changed. Use this to notify
+        components if the labels have changed after initialization.
+         */
+        this.changes = new rxjs_Subject.Subject();
+        /**
+         * A label for the calendar popup (used by screen readers).
+         */
+        this.calendarLabel = 'Calendar';
+        /**
+         * A label for the button used to open the calendar popup (used by screen readers).
+         */
+        this.openCalendarLabel = 'Open calendar';
+        /**
+         * A label for the previous month button (used by screen readers).
+         */
+        this.prevMonthLabel = 'Previous month';
+        /**
+         * A label for the next month button (used by screen readers).
+         */
+        this.nextMonthLabel = 'Next month';
+        /**
+         * A label for the previous year button (used by screen readers).
+         */
+        this.prevYearLabel = 'Previous year';
+        /**
+         * A label for the next year button (used by screen readers).
+         */
+        this.nextYearLabel = 'Next year';
+        /**
+         * A label for the 'switch to month view' button (used by screen readers).
+         */
+        this.switchToMonthViewLabel = 'Change to month view';
+        /**
+         * A label for the 'switch to year view' button (used by screen readers).
+         */
+        this.switchToYearViewLabel = 'Change to year view';
+    }
+    return MdDatepickerIntl;
+}());
+MdDatepickerIntl.decorators = [
+    { type: _angular_core.Injectable },
+];
+/**
+ * @nocollapse
+ */
+MdDatepickerIntl.ctorParameters = function () { return []; };
+/**
+ * A calendar that is used as part of the datepicker.
+\@docs-private
+ */
+var MdCalendar = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _intl
+     * @param {?} _ngZone
+     * @param {?} _dateAdapter
+     * @param {?} _dateFormats
+     * @param {?} changeDetectorRef
+     */
+    function MdCalendar(_elementRef, _intl, _ngZone, _dateAdapter, _dateFormats, changeDetectorRef) {
+        var _this = this;
+        this._elementRef = _elementRef;
+        this._intl = _intl;
+        this._ngZone = _ngZone;
+        this._dateAdapter = _dateAdapter;
+        this._dateFormats = _dateFormats;
+        /**
+         * Whether the calendar should be started in month or year view.
+         */
+        this.startView = 'month';
+        /**
+         * Emits when the currently selected date changes.
+         */
+        this.selectedChange = new _angular_core.EventEmitter();
+        /**
+         * Emits when any date is selected.
+         */
+        this.userSelection = new _angular_core.EventEmitter();
+        /**
+         * Date filter for the month and year views.
+         */
+        this._dateFilterForViews = function (date) {
+            return !!date &&
+                (!_this.dateFilter || _this.dateFilter(date)) &&
+                (!_this.minDate || _this._dateAdapter.compareDate(date, _this.minDate) >= 0) &&
+                (!_this.maxDate || _this._dateAdapter.compareDate(date, _this.maxDate) <= 0);
+        };
+        if (!this._dateAdapter) {
+            throw createMissingDateImplError('DateAdapter');
+        }
+        if (!this._dateFormats) {
+            throw createMissingDateImplError('MD_DATE_FORMATS');
+        }
+        this._intlChanges = _intl.changes.subscribe(function () { return changeDetectorRef.markForCheck(); });
+    }
+    Object.defineProperty(MdCalendar.prototype, "startAt", {
+        /**
+         * A date representing the period (month or year) to start the calendar in.
+         * @return {?}
+         */
+        get: function () { return this._startAt; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._startAt = coerceDateProperty(this._dateAdapter, value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "selected", {
+        /**
+         * The currently selected date.
+         * @return {?}
+         */
+        get: function () { return this._selected; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._selected = coerceDateProperty(this._dateAdapter, value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "minDate", {
+        /**
+         * The minimum selectable date.
+         * @return {?}
+         */
+        get: function () { return this._minDate; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._minDate = coerceDateProperty(this._dateAdapter, value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "maxDate", {
+        /**
+         * The maximum selectable date.
+         * @return {?}
+         */
+        get: function () { return this._maxDate; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._maxDate = coerceDateProperty(this._dateAdapter, value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "_activeDate", {
+        /**
+         * The current active date. This determines which time period is shown and which date is
+        highlighted when using keyboard navigation.
+         * @return {?}
+         */
+        get: function () { return this._clampedActiveDate; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._clampedActiveDate = this._dateAdapter.clampDate(value, this.minDate, this.maxDate);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "_periodButtonText", {
+        /**
+         * The label for the current calendar view.
+         * @return {?}
+         */
+        get: function () {
+            return this._monthView ?
+                this._dateAdapter.format(this._activeDate, this._dateFormats.display.monthYearLabel)
+                    .toLocaleUpperCase() :
+                this._dateAdapter.getYearName(this._activeDate);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "_periodButtonLabel", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._monthView ? this._intl.switchToYearViewLabel : this._intl.switchToMonthViewLabel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "_prevButtonLabel", {
+        /**
+         * The label for the the previous button.
+         * @return {?}
+         */
+        get: function () {
+            return this._monthView ? this._intl.prevMonthLabel : this._intl.prevYearLabel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdCalendar.prototype, "_nextButtonLabel", {
+        /**
+         * The label for the the next button.
+         * @return {?}
+         */
+        get: function () {
+            return this._monthView ? this._intl.nextMonthLabel : this._intl.nextYearLabel;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdCalendar.prototype.ngAfterContentInit = function () {
+        this._activeDate = this.startAt || this._dateAdapter.today();
+        this._focusActiveCell();
+        this._monthView = this.startView != 'year';
+    };
+    /**
+     * @return {?}
+     */
+    MdCalendar.prototype.ngOnDestroy = function () {
+        this._intlChanges.unsubscribe();
+    };
+    /**
+     * Handles date selection in the month view.
+     * @param {?} date
+     * @return {?}
+     */
+    MdCalendar.prototype._dateSelected = function (date) {
+        if (!this._dateAdapter.sameDate(date, this.selected)) {
+            this.selectedChange.emit(date);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdCalendar.prototype._userSelected = function () {
+        this.userSelection.emit();
+    };
+    /**
+     * Handles month selection in the year view.
+     * @param {?} month
+     * @return {?}
+     */
+    MdCalendar.prototype._monthSelected = function (month) {
+        this._activeDate = month;
+        this._monthView = true;
+    };
+    /**
+     * Handles user clicks on the period label.
+     * @return {?}
+     */
+    MdCalendar.prototype._currentPeriodClicked = function () {
+        this._monthView = !this._monthView;
+    };
+    /**
+     * Handles user clicks on the previous button.
+     * @return {?}
+     */
+    MdCalendar.prototype._previousClicked = function () {
+        this._activeDate = this._monthView ?
+            this._dateAdapter.addCalendarMonths(this._activeDate, -1) :
+            this._dateAdapter.addCalendarYears(this._activeDate, -1);
+    };
+    /**
+     * Handles user clicks on the next button.
+     * @return {?}
+     */
+    MdCalendar.prototype._nextClicked = function () {
+        this._activeDate = this._monthView ?
+            this._dateAdapter.addCalendarMonths(this._activeDate, 1) :
+            this._dateAdapter.addCalendarYears(this._activeDate, 1);
+    };
+    /**
+     * Whether the previous period button is enabled.
+     * @return {?}
+     */
+    MdCalendar.prototype._previousEnabled = function () {
+        if (!this.minDate) {
+            return true;
+        }
+        return !this.minDate || !this._isSameView(this._activeDate, this.minDate);
+    };
+    /**
+     * Whether the next period button is enabled.
+     * @return {?}
+     */
+    MdCalendar.prototype._nextEnabled = function () {
+        return !this.maxDate || !this._isSameView(this._activeDate, this.maxDate);
+    };
+    /**
+     * Handles keydown events on the calendar body.
+     * @param {?} event
+     * @return {?}
+     */
+    MdCalendar.prototype._handleCalendarBodyKeydown = function (event) {
+        // TODO(mmalerba): We currently allow keyboard navigation to disabled dates, but just prevent
+        // disabled ones from being selected. This may not be ideal, we should look into whether
+        // navigation should skip over disabled dates, and if so, how to implement that efficiently.
+        if (this._monthView) {
+            this._handleCalendarBodyKeydownInMonthView(event);
+        }
+        else {
+            this._handleCalendarBodyKeydownInYearView(event);
+        }
+    };
+    /**
+     * Focuses the active cell after the microtask queue is empty.
+     * @return {?}
+     */
+    MdCalendar.prototype._focusActiveCell = function () {
+        var _this = this;
+        this._ngZone.runOutsideAngular(function () {
+            rxjs_operator_first.first.call(_this._ngZone.onStable.asObservable()).subscribe(function () {
+                _this._elementRef.nativeElement.querySelector('.mat-calendar-body-active').focus();
+            });
+        });
+    };
+    /**
+     * Whether the two dates represent the same view in the current view mode (month or year).
+     * @param {?} date1
+     * @param {?} date2
+     * @return {?}
+     */
+    MdCalendar.prototype._isSameView = function (date1, date2) {
+        return this._monthView ?
+            this._dateAdapter.getYear(date1) == this._dateAdapter.getYear(date2) &&
+                this._dateAdapter.getMonth(date1) == this._dateAdapter.getMonth(date2) :
+            this._dateAdapter.getYear(date1) == this._dateAdapter.getYear(date2);
+    };
+    /**
+     * Handles keydown events on the calendar body when calendar is in month view.
+     * @param {?} event
+     * @return {?}
+     */
+    MdCalendar.prototype._handleCalendarBodyKeydownInMonthView = function (event) {
+        switch (event.keyCode) {
+            case _angular_cdk_keycodes.LEFT_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, -1);
+                break;
+            case _angular_cdk_keycodes.RIGHT_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 1);
+                break;
+            case _angular_cdk_keycodes.UP_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, -7);
+                break;
+            case _angular_cdk_keycodes.DOWN_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 7);
+                break;
+            case _angular_cdk_keycodes.HOME:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, 1 - this._dateAdapter.getDate(this._activeDate));
+                break;
+            case _angular_cdk_keycodes.END:
+                this._activeDate = this._dateAdapter.addCalendarDays(this._activeDate, (this._dateAdapter.getNumDaysInMonth(this._activeDate) -
+                    this._dateAdapter.getDate(this._activeDate)));
+                break;
+            case _angular_cdk_keycodes.PAGE_UP:
+                this._activeDate = event.altKey ?
+                    this._dateAdapter.addCalendarYears(this._activeDate, -1) :
+                    this._dateAdapter.addCalendarMonths(this._activeDate, -1);
+                break;
+            case _angular_cdk_keycodes.PAGE_DOWN:
+                this._activeDate = event.altKey ?
+                    this._dateAdapter.addCalendarYears(this._activeDate, 1) :
+                    this._dateAdapter.addCalendarMonths(this._activeDate, 1);
+                break;
+            case _angular_cdk_keycodes.ENTER:
+                if (this._dateFilterForViews(this._activeDate)) {
+                    this._dateSelected(this._activeDate);
+                    // Prevent unexpected default actions such as form submission.
+                    event.preventDefault();
+                }
+                return;
+            default:
+                // Don't prevent default or focus active cell on keys that we don't explicitly handle.
+                return;
+        }
+        this._focusActiveCell();
+        // Prevent unexpected default actions such as form submission.
+        event.preventDefault();
+    };
+    /**
+     * Handles keydown events on the calendar body when calendar is in year view.
+     * @param {?} event
+     * @return {?}
+     */
+    MdCalendar.prototype._handleCalendarBodyKeydownInYearView = function (event) {
+        switch (event.keyCode) {
+            case _angular_cdk_keycodes.LEFT_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, -1);
+                break;
+            case _angular_cdk_keycodes.RIGHT_ARROW:
+                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, 1);
+                break;
+            case _angular_cdk_keycodes.UP_ARROW:
+                this._activeDate = this._prevMonthInSameCol(this._activeDate);
+                break;
+            case _angular_cdk_keycodes.DOWN_ARROW:
+                this._activeDate = this._nextMonthInSameCol(this._activeDate);
+                break;
+            case _angular_cdk_keycodes.HOME:
+                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, -this._dateAdapter.getMonth(this._activeDate));
+                break;
+            case _angular_cdk_keycodes.END:
+                this._activeDate = this._dateAdapter.addCalendarMonths(this._activeDate, 11 - this._dateAdapter.getMonth(this._activeDate));
+                break;
+            case _angular_cdk_keycodes.PAGE_UP:
+                this._activeDate =
+                    this._dateAdapter.addCalendarYears(this._activeDate, event.altKey ? -10 : -1);
+                break;
+            case _angular_cdk_keycodes.PAGE_DOWN:
+                this._activeDate =
+                    this._dateAdapter.addCalendarYears(this._activeDate, event.altKey ? 10 : 1);
+                break;
+            case _angular_cdk_keycodes.ENTER:
+                this._monthSelected(this._activeDate);
+                break;
+            default:
+                // Don't prevent default or focus active cell on keys that we don't explicitly handle.
+                return;
+        }
+        this._focusActiveCell();
+        // Prevent unexpected default actions such as form submission.
+        event.preventDefault();
+    };
+    /**
+     * Determine the date for the month that comes before the given month in the same column in the
+    calendar table.
+     * @param {?} date
+     * @return {?}
+     */
+    MdCalendar.prototype._prevMonthInSameCol = function (date) {
+        // Determine how many months to jump forward given that there are 2 empty slots at the beginning
+        // of each year.
+        var /** @type {?} */ increment = this._dateAdapter.getMonth(date) <= 4 ? -5 :
+            (this._dateAdapter.getMonth(date) >= 7 ? -7 : -12);
+        return this._dateAdapter.addCalendarMonths(date, increment);
+    };
+    /**
+     * Determine the date for the month that comes after the given month in the same column in the
+    calendar table.
+     * @param {?} date
+     * @return {?}
+     */
+    MdCalendar.prototype._nextMonthInSameCol = function (date) {
+        // Determine how many months to jump forward given that there are 2 empty slots at the beginning
+        // of each year.
+        var /** @type {?} */ increment = this._dateAdapter.getMonth(date) <= 4 ? 7 :
+            (this._dateAdapter.getMonth(date) >= 7 ? 5 : 12);
+        return this._dateAdapter.addCalendarMonths(date, increment);
+    };
+    return MdCalendar;
+}());
+MdCalendar.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-calendar, mat-calendar',
+                template: "<div class=\"mat-calendar-header\"><div class=\"mat-calendar-controls\"><button mat-button class=\"mat-calendar-period-button\" (click)=\"_currentPeriodClicked()\" [attr.aria-label]=\"_periodButtonLabel\">{{_periodButtonText}}<div class=\"mat-calendar-arrow\" [class.mat-calendar-invert]=\"!_monthView\"></div></button><div class=\"mat-calendar-spacer\"></div><button mat-icon-button class=\"mat-calendar-previous-button\" [disabled]=\"!_previousEnabled()\" (click)=\"_previousClicked()\" [attr.aria-label]=\"_prevButtonLabel\"></button> <button mat-icon-button class=\"mat-calendar-next-button\" [disabled]=\"!_nextEnabled()\" (click)=\"_nextClicked()\" [attr.aria-label]=\"_nextButtonLabel\"></button></div></div><div class=\"mat-calendar-content\" (keydown)=\"_handleCalendarBodyKeydown($event)\" [ngSwitch]=\"_monthView\" cdkMonitorSubtreeFocus><md-month-view *ngSwitchCase=\"true\" [activeDate]=\"_activeDate\" [selected]=\"selected\" [dateFilter]=\"_dateFilterForViews\" (selectedChange)=\"_dateSelected($event)\" (userSelection)=\"_userSelected()\"></md-month-view><mat-year-view *ngSwitchDefault [activeDate]=\"_activeDate\" [selected]=\"selected\" [dateFilter]=\"_dateFilterForViews\" (selectedChange)=\"_monthSelected($event)\"></mat-year-view></div>",
+                styles: [".mat-calendar{display:block}.mat-calendar-header{padding:8px 8px 0 8px}.mat-calendar-content{padding:0 8px 8px 8px;outline:0}.mat-calendar-controls{display:flex;margin:5% calc(33% / 7 - 16px)}.mat-calendar-spacer{flex:1 1 auto}.mat-calendar-period-button{min-width:0}.mat-calendar-arrow{display:inline-block;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top-width:5px;border-top-style:solid;margin:0 0 0 5px;vertical-align:middle}.mat-calendar-arrow.mat-calendar-invert{transform:rotate(180deg)}[dir=rtl] .mat-calendar-arrow{margin:0 5px 0 0}.mat-calendar-next-button,.mat-calendar-previous-button{position:relative}.mat-calendar-next-button::after,.mat-calendar-previous-button::after{top:0;left:0;right:0;bottom:0;position:absolute;content:'';margin:15.5px;border:0 solid currentColor;border-top-width:2px}[dir=rtl] .mat-calendar-next-button,[dir=rtl] .mat-calendar-previous-button{transform:rotate(180deg)}.mat-calendar-previous-button::after{border-left-width:2px;transform:translateX(2px) rotate(-45deg)}.mat-calendar-next-button::after{border-right-width:2px;transform:translateX(-2px) rotate(45deg)}.mat-calendar-table{border-spacing:0;border-collapse:collapse;width:100%}.mat-calendar-table-header th{text-align:center;padding:0 0 8px 0}.mat-calendar-table-header-divider{position:relative;height:1px}.mat-calendar-table-header-divider::after{content:'';position:absolute;top:0;left:-8px;right:-8px;height:1px}"],
+                host: {
+                    'class': 'mat-calendar',
+                },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdCalendar.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+    { type: MdDatepickerIntl, },
+    { type: _angular_core.NgZone, },
+    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+MdCalendar.propDecorators = {
+    'startAt': [{ type: _angular_core.Input },],
+    'startView': [{ type: _angular_core.Input },],
+    'selected': [{ type: _angular_core.Input },],
+    'minDate': [{ type: _angular_core.Input },],
+    'maxDate': [{ type: _angular_core.Input },],
+    'dateFilter': [{ type: _angular_core.Input },],
+    'selectedChange': [{ type: _angular_core.Output },],
+    'userSelection': [{ type: _angular_core.Output },],
+};
+/**
+ * An internal class that represents the data corresponding to a single calendar cell.
+\@docs-private
+ */
+var MdCalendarCell = (function () {
+    /**
+     * @param {?} value
+     * @param {?} displayValue
+     * @param {?} ariaLabel
+     * @param {?} enabled
+     */
+    function MdCalendarCell(value, displayValue, ariaLabel, enabled) {
+        this.value = value;
+        this.displayValue = displayValue;
+        this.ariaLabel = ariaLabel;
+        this.enabled = enabled;
+    }
+    return MdCalendarCell;
+}());
+/**
+ * An internal component used to display calendar data in a table.
+\@docs-private
+ */
+var MdCalendarBody = (function () {
+    function MdCalendarBody() {
+        /**
+         * The number of columns in the table.
+         */
+        this.numCols = 7;
+        /**
+         * Whether to allow selection of disabled cells.
+         */
+        this.allowDisabledSelection = false;
+        /**
+         * The cell number of the active cell in the table.
+         */
+        this.activeCell = 0;
+        /**
+         * The aspect ratio (width / height) to use for the cells in the table. This aspect ratio will be
+        maintained even as the table resizes.
+         */
+        this.cellAspectRatio = 1;
+        /**
+         * Emits when a new value is selected.
+         */
+        this.selectedValueChange = new _angular_core.EventEmitter();
+    }
+    /**
+     * @param {?} cell
+     * @return {?}
+     */
+    MdCalendarBody.prototype._cellClicked = function (cell) {
+        if (!this.allowDisabledSelection && !cell.enabled) {
+            return;
+        }
+        this.selectedValueChange.emit(cell.value);
+    };
+    Object.defineProperty(MdCalendarBody.prototype, "_firstRowOffset", {
+        /**
+         * The number of blank cells to put at the beginning for the first row.
+         * @return {?}
+         */
+        get: function () {
+            return this.rows && this.rows.length && this.rows[0].length ?
+                this.numCols - this.rows[0].length : 0;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} rowIndex
+     * @param {?} colIndex
+     * @return {?}
+     */
+    MdCalendarBody.prototype._isActiveCell = function (rowIndex, colIndex) {
+        var /** @type {?} */ cellNumber = rowIndex * this.numCols + colIndex;
+        // Account for the fact that the first row may not have as many cells.
+        if (rowIndex) {
+            cellNumber -= this._firstRowOffset;
+        }
+        return cellNumber == this.activeCell;
+    };
+    return MdCalendarBody;
+}());
+MdCalendarBody.decorators = [
+    { type: _angular_core.Component, args: [{ selector: '[md-calendar-body], [mat-calendar-body]',
+                template: "<tr *ngIf=\"_firstRowOffset < labelMinRequiredCells\" aria-hidden=\"true\"><td class=\"mat-calendar-body-label\" [attr.colspan]=\"numCols\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\">{{label}}</td></tr><tr *ngFor=\"let row of rows; let rowIndex = index\" role=\"row\"><td *ngIf=\"rowIndex === 0 && _firstRowOffset\" aria-hidden=\"true\" class=\"mat-calendar-body-label\" [attr.colspan]=\"_firstRowOffset\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\">{{_firstRowOffset >= labelMinRequiredCells ? label : ''}}</td><td *ngFor=\"let item of row; let colIndex = index\" role=\"gridcell\" class=\"mat-calendar-body-cell\" [tabindex]=\"_isActiveCell(rowIndex, colIndex) ? 0 : -1\" [class.mat-calendar-body-disabled]=\"!item.enabled\" [class.mat-calendar-body-active]=\"_isActiveCell(rowIndex, colIndex)\" [attr.aria-label]=\"item.ariaLabel\" [attr.aria-disabled]=\"!item.enabled || null\" (click)=\"_cellClicked(item)\" [style.width.%]=\"100 / numCols\" [style.paddingTop.%]=\"50 * cellAspectRatio / numCols\" [style.paddingBottom.%]=\"50 * cellAspectRatio / numCols\"><div class=\"mat-calendar-body-cell-content\" [class.mat-calendar-body-selected]=\"selectedValue === item.value\" [class.mat-calendar-body-today]=\"todayValue === item.value\">{{item.displayValue}}</div></td></tr>",
+                styles: [".mat-calendar-body{min-width:224px}.mat-calendar-body-label{height:0;line-height:0;text-align:left;padding-left:4.71429%;padding-right:4.71429%}.mat-calendar-body-cell{position:relative;height:0;line-height:0;text-align:center;outline:0;cursor:pointer}.mat-calendar-body-disabled{cursor:default}.mat-calendar-body-cell-content{position:absolute;top:5%;left:5%;display:flex;align-items:center;justify-content:center;box-sizing:border-box;width:90%;height:90%;line-height:1;border-width:1px;border-style:solid;border-radius:999px}[dir=rtl] .mat-calendar-body-label{text-align:right}"],
+                host: {
+                    'class': 'mat-calendar-body',
+                },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdCalendarBody.ctorParameters = function () { return []; };
+MdCalendarBody.propDecorators = {
+    'label': [{ type: _angular_core.Input },],
+    'rows': [{ type: _angular_core.Input },],
+    'todayValue': [{ type: _angular_core.Input },],
+    'selectedValue': [{ type: _angular_core.Input },],
+    'labelMinRequiredCells': [{ type: _angular_core.Input },],
+    'numCols': [{ type: _angular_core.Input },],
+    'allowDisabledSelection': [{ type: _angular_core.Input },],
+    'activeCell': [{ type: _angular_core.Input },],
+    'cellAspectRatio': [{ type: _angular_core.Input },],
+    'selectedValueChange': [{ type: _angular_core.Output },],
+};
+/**
+ * Used to generate a unique ID for each datepicker instance.
+ */
+var datepickerUid = 0;
+/**
+ * Injection token that determines the scroll handling while the calendar is open.
+ */
+var MD_DATEPICKER_SCROLL_STRATEGY = new _angular_core.InjectionToken('md-datepicker-scroll-strategy');
+/**
+ * \@docs-private
+ * @param {?} overlay
+ * @return {?}
+ */
+function MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY(overlay) {
+    return function () { return overlay.scrollStrategies.reposition(); };
+}
+/**
+ * \@docs-private
+ */
+var MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER = {
+    provide: MD_DATEPICKER_SCROLL_STRATEGY,
+    deps: [_angular_cdk_overlay.Overlay],
+    useFactory: MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY,
+};
+/**
+ * Component used as the content for the datepicker dialog and popup. We use this instead of using
+MdCalendar directly as the content so we can control the initial focus. This also gives us a
+place to put additional features of the popup that are not part of the calendar itself in the
+future. (e.g. confirmation buttons).
+\@docs-private
+ */
+var MdDatepickerContent = (function () {
+    function MdDatepickerContent() {
+    }
+    /**
+     * @return {?}
+     */
+    MdDatepickerContent.prototype.ngAfterContentInit = function () {
+        this._calendar._focusActiveCell();
+    };
+    /**
+     * Handles keydown event on datepicker content.
+    \@param event The event.
+     * @param {?} event
+     * @return {?}
+     */
+    MdDatepickerContent.prototype._handleKeydown = function (event) {
+        if (event.keyCode === _angular_cdk_keycodes.ESCAPE) {
+            this.datepicker.close();
+            event.preventDefault();
+            event.stopPropagation();
+        }
+    };
+    return MdDatepickerContent;
+}());
+MdDatepickerContent.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-datepicker-content, mat-datepicker-content',
+                template: "<mat-calendar cdkTrapFocus [id]=\"datepicker.id\" [startAt]=\"datepicker.startAt\" [startView]=\"datepicker.startView\" [minDate]=\"datepicker._minDate\" [maxDate]=\"datepicker._maxDate\" [dateFilter]=\"datepicker._dateFilter\" [selected]=\"datepicker._selected\" (selectedChange)=\"datepicker._select($event)\" (userSelection)=\"datepicker.close()\"></mat-calendar>",
+                styles: [".mat-datepicker-content{box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12);display:block}.mat-calendar{width:296px;height:354px}.mat-datepicker-content-touch{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0 0 0 rgba(0,0,0,.14),0 0 0 0 rgba(0,0,0,.12);display:block;max-height:80vh;overflow:auto;margin:-24px}.mat-datepicker-content-touch .mat-calendar{min-width:250px;min-height:312px;max-width:750px;max-height:788px}@media all and (orientation:landscape){.mat-datepicker-content-touch .mat-calendar{width:64vh;height:80vh}}@media all and (orientation:portrait){.mat-datepicker-content-touch .mat-calendar{width:80vw;height:100vw}}"],
+                host: {
+                    'class': 'mat-datepicker-content',
+                    '[class.mat-datepicker-content-touch]': 'datepicker.touchUi',
+                    '(keydown)': '_handleKeydown($event)',
+                },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdDatepickerContent.ctorParameters = function () { return []; };
+MdDatepickerContent.propDecorators = {
+    '_calendar': [{ type: _angular_core.ViewChild, args: [MdCalendar,] },],
+};
+/**
+ * Component responsible for managing the datepicker popup/dialog.
+ */
+var MdDatepicker = (function () {
+    /**
+     * @param {?} _dialog
+     * @param {?} _overlay
+     * @param {?} _ngZone
+     * @param {?} _viewContainerRef
+     * @param {?} _scrollStrategy
+     * @param {?} _dateAdapter
+     * @param {?} _dir
+     * @param {?} _document
+     */
+    function MdDatepicker(_dialog, _overlay, _ngZone, _viewContainerRef, _scrollStrategy, _dateAdapter, _dir, _document) {
+        this._dialog = _dialog;
+        this._overlay = _overlay;
+        this._ngZone = _ngZone;
+        this._viewContainerRef = _viewContainerRef;
+        this._scrollStrategy = _scrollStrategy;
+        this._dateAdapter = _dateAdapter;
+        this._dir = _dir;
+        this._document = _document;
+        /**
+         * The view that the calendar should start in.
+         */
+        this.startView = 'month';
+        /**
+         * Whether the calendar UI is in touch mode. In touch mode the calendar opens in a dialog rather
+        than a popup and elements have more padding to allow for bigger touch targets.
+         */
+        this.touchUi = false;
+        /**
+         * Emits new selected date when selected date changes.
+        \@deprecated Switch to the `dateChange` and `dateInput` binding on the input element.
+         */
+        this.selectedChanged = new _angular_core.EventEmitter();
+        /**
+         * Whether the calendar is open.
+         */
+        this.opened = false;
+        /**
+         * The id for the datepicker calendar.
+         */
+        this.id = "md-datepicker-" + datepickerUid++;
+        this._validSelected = null;
+        /**
+         * The element that was focused before the datepicker was opened.
+         */
+        this._focusedElementBeforeOpen = null;
+        this._inputSubscription = rxjs_Subscription.Subscription.EMPTY;
+        /**
+         * Emits when the datepicker is disabled.
+         */
+        this._disabledChange = new rxjs_Subject.Subject();
+        if (!this._dateAdapter) {
+            throw createMissingDateImplError('DateAdapter');
+        }
+    }
+    Object.defineProperty(MdDatepicker.prototype, "startAt", {
+        /**
+         * The date to open the calendar to initially.
+         * @return {?}
+         */
+        get: function () {
+            // If an explicit startAt is set we start there, otherwise we start at whatever the currently
+            // selected value is.
+            return this._startAt || (this._datepickerInput ? this._datepickerInput.value : null);
+        },
+        /**
+         * @param {?} date
+         * @return {?}
+         */
+        set: function (date) { this._startAt = coerceDateProperty(this._dateAdapter, date); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepicker.prototype, "disabled", {
+        /**
+         * Whether the datepicker pop-up should be disabled.
+         * @return {?}
+         */
+        get: function () {
+            return this._disabled === undefined ? this._datepickerInput.disabled : this._disabled;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            var /** @type {?} */ newValue = _angular_cdk_coercion.coerceBooleanProperty(value);
+            if (newValue !== this._disabled) {
+                this._disabled = newValue;
+                this._disabledChange.next(newValue);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepicker.prototype, "_selected", {
+        /**
+         * The currently selected date.
+         * @return {?}
+         */
+        get: function () { return this._validSelected; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._validSelected = value; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepicker.prototype, "_minDate", {
+        /**
+         * The minimum selectable date.
+         * @return {?}
+         */
+        get: function () {
+            return this._datepickerInput && this._datepickerInput.min;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepicker.prototype, "_maxDate", {
+        /**
+         * The maximum selectable date.
+         * @return {?}
+         */
+        get: function () {
+            return this._datepickerInput && this._datepickerInput.max;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepicker.prototype, "_dateFilter", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._datepickerInput && this._datepickerInput._dateFilter;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdDatepicker.prototype.ngOnDestroy = function () {
+        this.close();
+        this._inputSubscription.unsubscribe();
+        this._disabledChange.complete();
+        if (this._popupRef) {
+            this._popupRef.dispose();
+        }
+    };
+    /**
+     * Selects the given date
+     * @param {?} date
+     * @return {?}
+     */
+    MdDatepicker.prototype._select = function (date) {
+        var /** @type {?} */ oldValue = this._selected;
+        this._selected = date;
+        if (!this._dateAdapter.sameDate(oldValue, this._selected)) {
+            this.selectedChanged.emit(date);
+        }
+    };
+    /**
+     * Register an input with this datepicker.
+    \@param input The datepicker input to register with this datepicker.
+     * @param {?} input
+     * @return {?}
+     */
+    MdDatepicker.prototype._registerInput = function (input) {
+        var _this = this;
+        if (this._datepickerInput) {
+            throw Error('An MdDatepicker can only be associated with a single input.');
+        }
+        this._datepickerInput = input;
+        this._inputSubscription =
+            this._datepickerInput._valueChange.subscribe(function (value) { return _this._selected = value; });
+    };
+    /**
+     * Open the calendar.
+     * @return {?}
+     */
+    MdDatepicker.prototype.open = function () {
+        if (this.opened || this.disabled) {
+            return;
+        }
+        if (!this._datepickerInput) {
+            throw Error('Attempted to open an MdDatepicker with no associated input.');
+        }
+        if (this._document) {
+            this._focusedElementBeforeOpen = this._document.activeElement;
+        }
+        this.touchUi ? this._openAsDialog() : this._openAsPopup();
+        this.opened = true;
+    };
+    /**
+     * Close the calendar.
+     * @return {?}
+     */
+    MdDatepicker.prototype.close = function () {
+        if (!this.opened) {
+            return;
+        }
+        if (this._popupRef && this._popupRef.hasAttached()) {
+            this._popupRef.detach();
+        }
+        if (this._dialogRef) {
+            this._dialogRef.close();
+            this._dialogRef = null;
+        }
+        if (this._calendarPortal && this._calendarPortal.isAttached) {
+            this._calendarPortal.detach();
+        }
+        if (this._focusedElementBeforeOpen &&
+            typeof this._focusedElementBeforeOpen.focus === 'function') {
+            this._focusedElementBeforeOpen.focus();
+            this._focusedElementBeforeOpen = null;
+        }
+        this.opened = false;
+    };
+    /**
+     * Open the calendar as a dialog.
+     * @return {?}
+     */
+    MdDatepicker.prototype._openAsDialog = function () {
+        var _this = this;
+        this._dialogRef = this._dialog.open(MdDatepickerContent, {
+            direction: this._dir ? this._dir.value : 'ltr',
+            viewContainerRef: this._viewContainerRef,
+        });
+        this._dialogRef.afterClosed().subscribe(function () { return _this.close(); });
+        this._dialogRef.componentInstance.datepicker = this;
+    };
+    /**
+     * Open the calendar as a popup.
+     * @return {?}
+     */
+    MdDatepicker.prototype._openAsPopup = function () {
+        var _this = this;
+        if (!this._calendarPortal) {
+            this._calendarPortal = new _angular_cdk_portal.ComponentPortal(MdDatepickerContent, this._viewContainerRef);
+        }
+        if (!this._popupRef) {
+            this._createPopup();
+        }
+        if (!this._popupRef.hasAttached()) {
+            var /** @type {?} */ componentRef = this._popupRef.attach(this._calendarPortal);
+            componentRef.instance.datepicker = this;
+            // Update the position once the calendar has rendered.
+            _angular_cdk_rxjs.first.call(this._ngZone.onStable.asObservable()).subscribe(function () {
+                _this._popupRef.updatePosition();
+            });
+        }
+        this._popupRef.backdropClick().subscribe(function () { return _this.close(); });
+    };
+    /**
+     * Create the popup.
+     * @return {?}
+     */
+    MdDatepicker.prototype._createPopup = function () {
+        var /** @type {?} */ overlayState = new _angular_cdk_overlay.OverlayConfig({
+            positionStrategy: this._createPopupPositionStrategy(),
+            hasBackdrop: true,
+            backdropClass: 'mat-overlay-transparent-backdrop',
+            direction: this._dir ? this._dir.value : 'ltr',
+            scrollStrategy: this._scrollStrategy()
+        });
+        this._popupRef = this._overlay.create(overlayState);
+    };
+    /**
+     * Create the popup PositionStrategy.
+     * @return {?}
+     */
+    MdDatepicker.prototype._createPopupPositionStrategy = function () {
+        return this._overlay.position()
+            .connectedTo(this._datepickerInput.getPopupConnectionElementRef(), { originX: 'start', originY: 'bottom' }, { overlayX: 'start', overlayY: 'top' })
+            .withFallbackPosition({ originX: 'start', originY: 'top' }, { overlayX: 'start', overlayY: 'bottom' })
+            .withFallbackPosition({ originX: 'end', originY: 'bottom' }, { overlayX: 'end', overlayY: 'top' })
+            .withFallbackPosition({ originX: 'end', originY: 'top' }, { overlayX: 'end', overlayY: 'bottom' });
+    };
+    return MdDatepicker;
+}());
+MdDatepicker.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-datepicker, mat-datepicker',
+                template: '',
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdDatepicker.ctorParameters = function () { return [
+    { type: MdDialog, },
+    { type: _angular_cdk_overlay.Overlay, },
+    { type: _angular_core.NgZone, },
+    { type: _angular_core.ViewContainerRef, },
+    { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_DATEPICKER_SCROLL_STRATEGY,] },] },
+    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [_angular_platformBrowser.DOCUMENT,] },] },
+]; };
+MdDatepicker.propDecorators = {
+    'startAt': [{ type: _angular_core.Input },],
+    'startView': [{ type: _angular_core.Input },],
+    'touchUi': [{ type: _angular_core.Input },],
+    'disabled': [{ type: _angular_core.Input },],
+    'selectedChanged': [{ type: _angular_core.Output },],
+};
+var MD_DATEPICKER_VALUE_ACCESSOR = {
+    provide: _angular_forms.NG_VALUE_ACCESSOR,
+    useExisting: _angular_core.forwardRef(function () { return MdDatepickerInput; }),
+    multi: true
+};
+var MD_DATEPICKER_VALIDATORS = {
+    provide: _angular_forms.NG_VALIDATORS,
+    useExisting: _angular_core.forwardRef(function () { return MdDatepickerInput; }),
+    multi: true
+};
+/**
+ * An event used for datepicker input and change events. We don't always have access to a native
+input or change event because the event may have been triggered by the user clicking on the
+calendar popup. For consistency, we always use MdDatepickerInputEvent instead.
+ */
+var MdDatepickerInputEvent = (function () {
+    /**
+     * @param {?} target
+     * @param {?} targetElement
+     */
+    function MdDatepickerInputEvent(target, targetElement) {
+        this.target = target;
+        this.targetElement = targetElement;
+        this.value = this.target.value;
+    }
+    return MdDatepickerInputEvent;
+}());
+/**
+ * Directive used to connect an input to a MdDatepicker.
+ */
+var MdDatepickerInput = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _renderer
+     * @param {?} _dateAdapter
+     * @param {?} _dateFormats
+     * @param {?} _mdFormField
+     */
+    function MdDatepickerInput(_elementRef, _renderer, _dateAdapter, _dateFormats, _mdFormField) {
+        var _this = this;
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+        this._dateAdapter = _dateAdapter;
+        this._dateFormats = _dateFormats;
+        this._mdFormField = _mdFormField;
+        /**
+         * Emits when a `change` event is fired on this `<input>`.
+         */
+        this.dateChange = new _angular_core.EventEmitter();
+        /**
+         * Emits when an `input` event is fired on this `<input>`.
+         */
+        this.dateInput = new _angular_core.EventEmitter();
+        /**
+         * Emits when the value changes (either due to user input or programmatic change).
+         */
+        this._valueChange = new _angular_core.EventEmitter();
+        /**
+         * Emits when the disabled state has changed
+         */
+        this._disabledChange = new _angular_core.EventEmitter();
+        this._onTouched = function () { };
+        this._cvaOnChange = function () { };
+        this._validatorOnChange = function () { };
+        this._datepickerSubscription = rxjs_Subscription.Subscription.EMPTY;
+        this._localeSubscription = rxjs_Subscription.Subscription.EMPTY;
+        /**
+         * The form control validator for whether the input parses.
+         */
+        this._parseValidator = function () {
+            return _this._lastValueValid ?
+                null : { 'mdDatepickerParse': { 'text': _this._elementRef.nativeElement.value } };
+        };
+        /**
+         * The form control validator for the min date.
+         */
+        this._minValidator = function (control) {
+            var controlValue = coerceDateProperty(_this._dateAdapter, control.value);
+            return (!_this.min || !controlValue ||
+                _this._dateAdapter.compareDate(_this.min, controlValue) <= 0) ?
+                null : { 'mdDatepickerMin': { 'min': _this.min, 'actual': controlValue } };
+        };
+        /**
+         * The form control validator for the max date.
+         */
+        this._maxValidator = function (control) {
+            var controlValue = coerceDateProperty(_this._dateAdapter, control.value);
+            return (!_this.max || !controlValue ||
+                _this._dateAdapter.compareDate(_this.max, controlValue) >= 0) ?
+                null : { 'mdDatepickerMax': { 'max': _this.max, 'actual': controlValue } };
+        };
+        /**
+         * The form control validator for the date filter.
+         */
+        this._filterValidator = function (control) {
+            var controlValue = coerceDateProperty(_this._dateAdapter, control.value);
+            return !_this._dateFilter || !controlValue || _this._dateFilter(controlValue) ?
+                null : { 'mdDatepickerFilter': true };
+        };
+        /**
+         * The combined form control validator for this input.
+         */
+        this._validator = _angular_forms.Validators.compose([this._parseValidator, this._minValidator, this._maxValidator, this._filterValidator]);
+        /**
+         * Whether the last value set on the input was valid.
+         */
+        this._lastValueValid = false;
+        if (!this._dateAdapter) {
+            throw createMissingDateImplError('DateAdapter');
+        }
+        if (!this._dateFormats) {
+            throw createMissingDateImplError('MD_DATE_FORMATS');
+        }
+        // Update the displayed date when the locale changes.
+        this._localeSubscription = _dateAdapter.localeChanges.subscribe(function () {
+            _this.value = _this.value;
+        });
+    }
+    Object.defineProperty(MdDatepickerInput.prototype, "mdDatepicker", {
+        /**
+         * The datepicker that this input is associated with.
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this.registerDatepicker(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.registerDatepicker = function (value) {
+        if (value) {
+            this._datepicker = value;
+            this._datepicker._registerInput(this);
+        }
+    };
+    Object.defineProperty(MdDatepickerInput.prototype, "matDatepicker", {
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            // Note that we don't set `this.mdDatepicker = value` here,
+            // because that line gets stripped by the JS compiler.
+            this.registerDatepicker(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "mdDatepickerFilter", {
+        /**
+         * @param {?} filter
+         * @return {?}
+         */
+        set: function (filter$$1) {
+            this._dateFilter = filter$$1;
+            this._validatorOnChange();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "matDatepickerFilter", {
+        /**
+         * @param {?} filter
+         * @return {?}
+         */
+        set: function (filter$$1) {
+            this.mdDatepickerFilter = filter$$1;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "value", {
+        /**
+         * The value of the input.
+         * @return {?}
+         */
+        get: function () {
+            return this._value;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            value = coerceDateProperty(this._dateAdapter, value);
+            this._lastValueValid = !value || this._dateAdapter.isValid(value);
+            value = this._getValidDateOrNull(value);
+            var /** @type {?} */ oldDate = this.value;
+            this._value = value;
+            this._renderer.setProperty(this._elementRef.nativeElement, 'value', value ? this._dateAdapter.format(value, this._dateFormats.display.dateInput) : '');
+            if (!this._dateAdapter.sameDate(oldDate, value)) {
+                this._valueChange.emit(value);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "min", {
+        /**
+         * The minimum valid date.
+         * @return {?}
+         */
+        get: function () { return this._min; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._min = coerceDateProperty(this._dateAdapter, value);
+            this._validatorOnChange();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "max", {
+        /**
+         * The maximum valid date.
+         * @return {?}
+         */
+        get: function () { return this._max; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._max = coerceDateProperty(this._dateAdapter, value);
+            this._validatorOnChange();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdDatepickerInput.prototype, "disabled", {
+        /**
+         * Whether the datepicker-input is disabled.
+         * @return {?}
+         */
+        get: function () { return this._disabled; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            var /** @type {?} */ newValue = _angular_cdk_coercion.coerceBooleanProperty(value);
+            if (this._disabled !== newValue) {
+                this._disabled = newValue;
+                this._disabledChange.emit(newValue);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        if (this._datepicker) {
+            this._datepickerSubscription =
+                this._datepicker.selectedChanged.subscribe(function (selected) {
+                    _this.value = selected;
+                    _this._cvaOnChange(selected);
+                    _this._onTouched();
+                    _this.dateInput.emit(new MdDatepickerInputEvent(_this, _this._elementRef.nativeElement));
+                    _this.dateChange.emit(new MdDatepickerInputEvent(_this, _this._elementRef.nativeElement));
+                });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.ngOnDestroy = function () {
+        this._datepickerSubscription.unsubscribe();
+        this._localeSubscription.unsubscribe();
+        this._valueChange.complete();
+        this._disabledChange.complete();
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.registerOnValidatorChange = function (fn) {
+        this._validatorOnChange = fn;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.validate = function (c) {
+        return this._validator ? this._validator(c) : null;
+    };
+    /**
+     * Gets the element that the datepicker popup should be connected to.
+    \@return The element to connect the popup to.
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.getPopupConnectionElementRef = function () {
+        return this._mdFormField ? this._mdFormField.underlineRef : this._elementRef;
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.writeValue = function (value) {
+        this.value = value;
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.registerOnChange = function (fn) {
+        this._cvaOnChange = fn;
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.registerOnTouched = function (fn) {
+        this._onTouched = fn;
+    };
+    /**
+     * @param {?} disabled
+     * @return {?}
+     */
+    MdDatepickerInput.prototype.setDisabledState = function (disabled) {
+        this._renderer.setProperty(this._elementRef.nativeElement, 'disabled', disabled);
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    MdDatepickerInput.prototype._onKeydown = function (event) {
+        if (event.altKey && event.keyCode === _angular_cdk_keycodes.DOWN_ARROW) {
+            this._datepicker.open();
+            event.preventDefault();
+        }
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    MdDatepickerInput.prototype._onInput = function (value) {
+        var /** @type {?} */ date = this._dateAdapter.parse(value, this._dateFormats.parse.dateInput);
+        this._lastValueValid = !date || this._dateAdapter.isValid(date);
+        date = this._getValidDateOrNull(date);
+        this._value = date;
+        this._cvaOnChange(date);
+        this._valueChange.emit(date);
+        this.dateInput.emit(new MdDatepickerInputEvent(this, this._elementRef.nativeElement));
+    };
+    /**
+     * @return {?}
+     */
+    MdDatepickerInput.prototype._onChange = function () {
+        this.dateChange.emit(new MdDatepickerInputEvent(this, this._elementRef.nativeElement));
+    };
+    /**
+     * @param {?} obj The object to check.
+     * @return {?}
+     */
+    MdDatepickerInput.prototype._getValidDateOrNull = function (obj) {
+        return (this._dateAdapter.isDateInstance(obj) && this._dateAdapter.isValid(obj)) ? obj : null;
+    };
+    return MdDatepickerInput;
+}());
+MdDatepickerInput.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: 'input[mdDatepicker], input[matDatepicker]',
+                providers: [MD_DATEPICKER_VALUE_ACCESSOR, MD_DATEPICKER_VALIDATORS],
+                host: {
+                    '[attr.aria-haspopup]': 'true',
+                    '[attr.aria-owns]': '(_datepicker?.opened && _datepicker.id) || null',
+                    '[attr.min]': 'min ? _dateAdapter.toIso8601(min) : null',
+                    '[attr.max]': 'max ? _dateAdapter.toIso8601(max) : null',
+                    '[disabled]': 'disabled',
+                    '(input)': '_onInput($event.target.value)',
+                    '(change)': '_onChange()',
+                    '(blur)': '_onTouched()',
+                    '(keydown)': '_onKeydown($event)',
+                },
+                exportAs: 'mdDatepickerInput, matDatepickerInput',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdDatepickerInput.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.Renderer2, },
+    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+    { type: MdFormField, decorators: [{ type: _angular_core.Optional },] },
+]; };
+MdDatepickerInput.propDecorators = {
+    'mdDatepicker': [{ type: _angular_core.Input },],
+    'matDatepicker': [{ type: _angular_core.Input },],
+    'mdDatepickerFilter': [{ type: _angular_core.Input },],
+    'matDatepickerFilter': [{ type: _angular_core.Input },],
+    'value': [{ type: _angular_core.Input },],
+    'min': [{ type: _angular_core.Input },],
+    'max': [{ type: _angular_core.Input },],
+    'disabled': [{ type: _angular_core.Input },],
+    'dateChange': [{ type: _angular_core.Output },],
+    'dateInput': [{ type: _angular_core.Output },],
+};
+var MdDatepickerToggle = (function () {
+    /**
+     * @param {?} _intl
+     * @param {?} _changeDetectorRef
+     */
+    function MdDatepickerToggle(_intl, _changeDetectorRef) {
+        this._intl = _intl;
+        this._changeDetectorRef = _changeDetectorRef;
+        this._stateChanges = rxjs_Subscription.Subscription.EMPTY;
+    }
+    Object.defineProperty(MdDatepickerToggle.prototype, "disabled", {
+        /**
+         * Whether the toggle button is disabled.
+         * @return {?}
+         */
+        get: function () {
+            return this._disabled === undefined ? this.datepicker.disabled : this._disabled;
+        },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} changes
+     * @return {?}
+     */
+    MdDatepickerToggle.prototype.ngOnChanges = function (changes) {
+        var _this = this;
+        if (changes.datepicker) {
+            var /** @type {?} */ datepicker = changes.datepicker.currentValue;
+            var /** @type {?} */ datepickerDisabled = datepicker ? datepicker._disabledChange : rxjs_observable_of.of();
+            var /** @type {?} */ inputDisabled = datepicker && datepicker._datepickerInput ?
+                datepicker._datepickerInput._disabledChange :
+                rxjs_observable_of.of();
+            this._stateChanges.unsubscribe();
+            this._stateChanges = rxjs_observable_merge.merge(this._intl.changes, datepickerDisabled, inputDisabled)
+                .subscribe(function () { return _this._changeDetectorRef.markForCheck(); });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdDatepickerToggle.prototype.ngOnDestroy = function () {
+        this._stateChanges.unsubscribe();
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    MdDatepickerToggle.prototype._open = function (event) {
+        if (this.datepicker && !this.disabled) {
+            this.datepicker.open();
+            event.stopPropagation();
+        }
+    };
+    return MdDatepickerToggle;
+}());
+MdDatepickerToggle.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-datepicker-toggle, mat-datepicker-toggle',
+                template: "<button mat-icon-button type=\"button\" [attr.aria-label]=\"_intl.openCalendarLabel\" [disabled]=\"disabled\" (click)=\"_open($event)\"><mat-icon><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"100%\" height=\"100%\" fill=\"currentColor\" style=\"vertical-align: top\" focusable=\"false\"><path d=\"M0 0h24v24H0z\" fill=\"none\"/><path d=\"M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z\"/></svg></mat-icon></button>",
+                host: {
+                    'class': 'mat-datepicker-toggle',
+                },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdDatepickerToggle.ctorParameters = function () { return [
+    { type: MdDatepickerIntl, },
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+MdDatepickerToggle.propDecorators = {
+    'datepicker': [{ type: _angular_core.Input, args: ['for',] },],
+    'disabled': [{ type: _angular_core.Input },],
+};
+var DAYS_PER_WEEK = 7;
+/**
+ * An internal component used to display a single month in the datepicker.
+\@docs-private
+ */
+var MdMonthView = (function () {
+    /**
+     * @param {?} _dateAdapter
+     * @param {?} _dateFormats
+     */
+    function MdMonthView(_dateAdapter, _dateFormats) {
+        this._dateAdapter = _dateAdapter;
+        this._dateFormats = _dateFormats;
+        /**
+         * Emits when a new date is selected.
+         */
+        this.selectedChange = new _angular_core.EventEmitter();
+        /**
+         * Emits when any date is selected.
+         */
+        this.userSelection = new _angular_core.EventEmitter();
+        if (!this._dateAdapter) {
+            throw createMissingDateImplError('DateAdapter');
+        }
+        if (!this._dateFormats) {
+            throw createMissingDateImplError('MD_DATE_FORMATS');
+        }
+        var firstDayOfWeek = this._dateAdapter.getFirstDayOfWeek();
+        var narrowWeekdays = this._dateAdapter.getDayOfWeekNames('narrow');
+        var longWeekdays = this._dateAdapter.getDayOfWeekNames('long');
+        // Rotate the labels for days of the week based on the configured first day of the week.
+        var weekdays = longWeekdays.map(function (long, i) {
+            return { long: long, narrow: narrowWeekdays[i] };
+        });
+        this._weekdays = weekdays.slice(firstDayOfWeek).concat(weekdays.slice(0, firstDayOfWeek));
+        this._activeDate = this._dateAdapter.today();
+    }
+    Object.defineProperty(MdMonthView.prototype, "activeDate", {
+        /**
+         * The date to display in this month view (everything other than the month and year is ignored).
+         * @return {?}
+         */
+        get: function () { return this._activeDate; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            var /** @type {?} */ oldActiveDate = this._activeDate;
+            this._activeDate = coerceDateProperty(this._dateAdapter, value) || this._dateAdapter.today();
+            if (!this._hasSameMonthAndYear(oldActiveDate, this._activeDate)) {
+                this._init();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdMonthView.prototype, "selected", {
+        /**
+         * The currently selected date.
+         * @return {?}
+         */
+        get: function () { return this._selected; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._selected = coerceDateProperty(this._dateAdapter, value);
+            this._selectedDate = this._getDateInCurrentMonth(this._selected);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdMonthView.prototype.ngAfterContentInit = function () {
+        this._init();
+    };
+    /**
+     * Handles when a new date is selected.
+     * @param {?} date
+     * @return {?}
+     */
+    MdMonthView.prototype._dateSelected = function (date) {
+        if (this._selectedDate != date) {
+            var /** @type {?} */ selectedYear = this._dateAdapter.getYear(this.activeDate);
+            var /** @type {?} */ selectedMonth = this._dateAdapter.getMonth(this.activeDate);
+            var /** @type {?} */ selectedDate = this._dateAdapter.createDate(selectedYear, selectedMonth, date);
+            this.selectedChange.emit(selectedDate);
+        }
+        this.userSelection.emit();
+    };
+    /**
+     * Initializes this month view.
+     * @return {?}
+     */
+    MdMonthView.prototype._init = function () {
+        this._selectedDate = this._getDateInCurrentMonth(this.selected);
+        this._todayDate = this._getDateInCurrentMonth(this._dateAdapter.today());
+        this._monthLabel =
+            this._dateAdapter.getMonthNames('short')[this._dateAdapter.getMonth(this.activeDate)]
+                .toLocaleUpperCase();
+        var /** @type {?} */ firstOfMonth = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), this._dateAdapter.getMonth(this.activeDate), 1);
+        this._firstWeekOffset =
+            (DAYS_PER_WEEK + this._dateAdapter.getDayOfWeek(firstOfMonth) -
+                this._dateAdapter.getFirstDayOfWeek()) % DAYS_PER_WEEK;
+        this._createWeekCells();
+    };
+    /**
+     * Creates MdCalendarCells for the dates in this month.
+     * @return {?}
+     */
+    MdMonthView.prototype._createWeekCells = function () {
+        var /** @type {?} */ daysInMonth = this._dateAdapter.getNumDaysInMonth(this.activeDate);
+        var /** @type {?} */ dateNames = this._dateAdapter.getDateNames();
+        this._weeks = [[]];
+        for (var /** @type {?} */ i = 0, /** @type {?} */ cell = this._firstWeekOffset; i < daysInMonth; i++, cell++) {
+            if (cell == DAYS_PER_WEEK) {
+                this._weeks.push([]);
+                cell = 0;
+            }
+            var /** @type {?} */ date = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), this._dateAdapter.getMonth(this.activeDate), i + 1);
+            var /** @type {?} */ enabled = !this.dateFilter ||
+                this.dateFilter(date);
+            var /** @type {?} */ ariaLabel = this._dateAdapter.format(date, this._dateFormats.display.dateA11yLabel);
+            this._weeks[this._weeks.length - 1]
+                .push(new MdCalendarCell(i + 1, dateNames[i], ariaLabel, enabled));
+        }
+    };
+    /**
+     * Gets the date in this month that the given Date falls on.
+    Returns null if the given Date is in another month.
+     * @param {?} date
+     * @return {?}
+     */
+    MdMonthView.prototype._getDateInCurrentMonth = function (date) {
+        return date && this._hasSameMonthAndYear(date, this.activeDate) ?
+            this._dateAdapter.getDate(date) : null;
+    };
+    /**
+     * Checks whether the 2 dates are non-null and fall within the same month of the same year.
+     * @param {?} d1
+     * @param {?} d2
+     * @return {?}
+     */
+    MdMonthView.prototype._hasSameMonthAndYear = function (d1, d2) {
+        return !!(d1 && d2 && this._dateAdapter.getMonth(d1) == this._dateAdapter.getMonth(d2) &&
+            this._dateAdapter.getYear(d1) == this._dateAdapter.getYear(d2));
+    };
+    return MdMonthView;
+}());
+MdMonthView.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-month-view',
+                template: "<table class=\"mat-calendar-table\"><thead class=\"mat-calendar-table-header\"><tr><th *ngFor=\"let day of _weekdays\" [attr.aria-label]=\"day.long\">{{day.narrow}}</th></tr><tr><th class=\"mat-calendar-table-header-divider\" colspan=\"7\" aria-hidden=\"true\"></th></tr></thead><tbody mat-calendar-body role=\"grid\" [label]=\"_monthLabel\" [rows]=\"_weeks\" [todayValue]=\"_todayDate\" [selectedValue]=\"_selectedDate\" [labelMinRequiredCells]=\"3\" [activeCell]=\"_dateAdapter.getDate(activeDate) - 1\" (selectedValueChange)=\"_dateSelected($event)\"></tbody></table>",
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdMonthView.ctorParameters = function () { return [
+    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+]; };
+MdMonthView.propDecorators = {
+    'activeDate': [{ type: _angular_core.Input },],
+    'selected': [{ type: _angular_core.Input },],
+    'dateFilter': [{ type: _angular_core.Input },],
+    'selectedChange': [{ type: _angular_core.Output },],
+    'userSelection': [{ type: _angular_core.Output },],
+};
+/**
+ * An internal component used to display a single year in the datepicker.
+\@docs-private
+ */
+var MdYearView = (function () {
+    /**
+     * @param {?} _dateAdapter
+     * @param {?} _dateFormats
+     */
+    function MdYearView(_dateAdapter, _dateFormats) {
+        this._dateAdapter = _dateAdapter;
+        this._dateFormats = _dateFormats;
+        /**
+         * Emits when a new month is selected.
+         */
+        this.selectedChange = new _angular_core.EventEmitter();
+        if (!this._dateAdapter) {
+            throw createMissingDateImplError('DateAdapter');
+        }
+        if (!this._dateFormats) {
+            throw createMissingDateImplError('MD_DATE_FORMATS');
+        }
+        this._activeDate = this._dateAdapter.today();
+    }
+    Object.defineProperty(MdYearView.prototype, "activeDate", {
+        /**
+         * The date to display in this year view (everything other than the year is ignored).
+         * @return {?}
+         */
+        get: function () { return this._activeDate; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            var /** @type {?} */ oldActiveDate = this._activeDate;
+            this._activeDate = coerceDateProperty(this._dateAdapter, value) || this._dateAdapter.today();
+            if (this._dateAdapter.getYear(oldActiveDate) != this._dateAdapter.getYear(this._activeDate)) {
+                this._init();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdYearView.prototype, "selected", {
+        /**
+         * The currently selected date.
+         * @return {?}
+         */
+        get: function () { return this._selected; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._selected = coerceDateProperty(this._dateAdapter, value);
+            this._selectedMonth = this._getMonthInCurrentYear(this._selected);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdYearView.prototype.ngAfterContentInit = function () {
+        this._init();
+    };
+    /**
+     * Handles when a new month is selected.
+     * @param {?} month
+     * @return {?}
+     */
+    MdYearView.prototype._monthSelected = function (month) {
+        var /** @type {?} */ daysInMonth = this._dateAdapter.getNumDaysInMonth(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1));
+        this.selectedChange.emit(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, Math.min(this._dateAdapter.getDate(this.activeDate), daysInMonth)));
+    };
+    /**
+     * Initializes this month view.
+     * @return {?}
+     */
+    MdYearView.prototype._init = function () {
+        var _this = this;
+        this._selectedMonth = this._getMonthInCurrentYear(this.selected);
+        this._todayMonth = this._getMonthInCurrentYear(this._dateAdapter.today());
+        this._yearLabel = this._dateAdapter.getYearName(this.activeDate);
+        var /** @type {?} */ monthNames = this._dateAdapter.getMonthNames('short');
+        // First row of months only contains 5 elements so we can fit the year label on the same row.
+        this._months = [[0, 1, 2, 3], [4, 5, 6, 7], [8, 9, 10, 11]].map(function (row) { return row.map(function (month) { return _this._createCellForMonth(month, monthNames[month]); }); });
+    };
+    /**
+     * Gets the month in this year that the given Date falls on.
+    Returns null if the given Date is in another year.
+     * @param {?} date
+     * @return {?}
+     */
+    MdYearView.prototype._getMonthInCurrentYear = function (date) {
+        return date && this._dateAdapter.getYear(date) == this._dateAdapter.getYear(this.activeDate) ?
+            this._dateAdapter.getMonth(date) : null;
+    };
+    /**
+     * Creates an MdCalendarCell for the given month.
+     * @param {?} month
+     * @param {?} monthName
+     * @return {?}
+     */
+    MdYearView.prototype._createCellForMonth = function (month, monthName) {
+        var /** @type {?} */ ariaLabel = this._dateAdapter.format(this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1), this._dateFormats.display.monthYearA11yLabel);
+        return new MdCalendarCell(month, monthName.toLocaleUpperCase(), ariaLabel, this._isMonthEnabled(month));
+    };
+    /**
+     * Whether the given month is enabled.
+     * @param {?} month
+     * @return {?}
+     */
+    MdYearView.prototype._isMonthEnabled = function (month) {
+        if (!this.dateFilter) {
+            return true;
+        }
+        var /** @type {?} */ firstOfMonth = this._dateAdapter.createDate(this._dateAdapter.getYear(this.activeDate), month, 1);
+        // If any date in the month is enabled count the month as enabled.
+        for (var /** @type {?} */ date = firstOfMonth; this._dateAdapter.getMonth(date) == month; date = this._dateAdapter.addCalendarDays(date, 1)) {
+            if (this.dateFilter(date)) {
+                return true;
+            }
+        }
+        return false;
+    };
+    return MdYearView;
+}());
+MdYearView.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-year-view, mat-year-view',
+                template: "<table class=\"mat-calendar-table\"><thead class=\"mat-calendar-table-header\"><tr><th class=\"mat-calendar-table-header-divider\" colspan=\"4\"></th></tr></thead><tbody mat-calendar-body role=\"grid\" allowDisabledSelection=\"true\" [label]=\"_yearLabel\" [rows]=\"_months\" [todayValue]=\"_todayMonth\" [selectedValue]=\"_selectedMonth\" [labelMinRequiredCells]=\"2\" [numCols]=\"4\" [cellAspectRatio]=\"4 / 7\" [activeCell]=\"_dateAdapter.getMonth(activeDate)\" (selectedValueChange)=\"_monthSelected($event)\"></tbody></table>",
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdYearView.ctorParameters = function () { return [
+    { type: DateAdapter, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_DATE_FORMATS,] },] },
+]; };
+MdYearView.propDecorators = {
+    'activeDate': [{ type: _angular_core.Input },],
+    'selected': [{ type: _angular_core.Input },],
+    'dateFilter': [{ type: _angular_core.Input },],
+    'selectedChange': [{ type: _angular_core.Output },],
+};
 var MdDatepickerModule = (function () {
     function MdDatepickerModule() {
     }
@@ -9760,7 +10333,6 @@ MdDatepickerModule.decorators = [
                     MdDialogModule,
                     MdIconModule,
                     _angular_cdk_overlay.OverlayModule,
-                    StyleModule,
                     _angular_cdk_a11y.A11yModule,
                 ],
                 exports: [
@@ -9796,6 +10368,7 @@ MdDatepickerModule.decorators = [
  * @nocollapse
  */
 MdDatepickerModule.ctorParameters = function () { return []; };
+
 /**
  * Unique ID counter
  */
@@ -9892,62 +10465,51 @@ MdAccordion.ctorParameters = function () { return []; };
  */
 var nextId$1 = 0;
 /**
- * \@docs-private
- */
-var AccordionItemBase = (function () {
-    function AccordionItemBase() {
-    }
-    return AccordionItemBase;
-}());
-var _AccordionItemMixinBase = mixinDisabled(AccordionItemBase);
-/**
  * An abstract class to be extended and decorated as a component.  Sets up all
 events and attributes needed to be managed by a CdkAccordion parent.
  */
-var AccordionItem = (function (_super) {
-    __extends(AccordionItem, _super);
+var AccordionItem = (function () {
     /**
      * @param {?} accordion
      * @param {?} _changeDetectorRef
      * @param {?} _expansionDispatcher
      */
     function AccordionItem(accordion, _changeDetectorRef, _expansionDispatcher) {
-        var _this = _super.call(this) || this;
-        _this.accordion = accordion;
-        _this._changeDetectorRef = _changeDetectorRef;
-        _this._expansionDispatcher = _expansionDispatcher;
+        var _this = this;
+        this.accordion = accordion;
+        this._changeDetectorRef = _changeDetectorRef;
+        this._expansionDispatcher = _expansionDispatcher;
         /**
-         * Event emitted every time the MdAccordionChild is closed.
+         * Event emitted every time the AccordionItem is closed.
          */
-        _this.closed = new _angular_core.EventEmitter();
+        this.closed = new _angular_core.EventEmitter();
         /**
-         * Event emitted every time the MdAccordionChild is opened.
+         * Event emitted every time the AccordionItem is opened.
          */
-        _this.opened = new _angular_core.EventEmitter();
+        this.opened = new _angular_core.EventEmitter();
         /**
-         * Event emitted when the MdAccordionChild is destroyed.
+         * Event emitted when the AccordionItem is destroyed.
          */
-        _this.destroyed = new _angular_core.EventEmitter();
+        this.destroyed = new _angular_core.EventEmitter();
         /**
-         * The unique MdAccordionChild id.
+         * The unique AccordionItem id.
          */
-        _this.id = "cdk-accordion-child-" + nextId$1++;
+        this.id = "cdk-accordion-child-" + nextId$1++;
         /**
          * Unregister function for _expansionDispatcher *
          */
-        _this._removeUniqueSelectionListener = function () { };
-        _this._removeUniqueSelectionListener =
+        this._removeUniqueSelectionListener = function () { };
+        this._removeUniqueSelectionListener =
             _expansionDispatcher.listen(function (id, accordionId) {
                 if (_this.accordion && !_this.accordion.multi &&
                     _this.accordion.id === accordionId && _this.id !== id) {
                     _this.expanded = false;
                 }
             });
-        return _this;
     }
     Object.defineProperty(AccordionItem.prototype, "expanded", {
         /**
-         * Whether the MdAccordionChild is expanded.
+         * Whether the AccordionItem is expanded.
          * @return {?}
          */
         get: function () { return this._expanded; },
@@ -10009,7 +10571,7 @@ var AccordionItem = (function (_super) {
         this.expanded = true;
     };
     return AccordionItem;
-}(_AccordionItemMixinBase));
+}());
 AccordionItem.decorators = [
     { type: _angular_core.Injectable },
 ];
@@ -10027,6 +10589,22 @@ AccordionItem.propDecorators = {
     'destroyed': [{ type: _angular_core.Output },],
     'expanded': [{ type: _angular_core.Input },],
 };
+/**
+ * \@docs-private
+ */
+var MdExpansionPanelBase = (function (_super) {
+    __extends(MdExpansionPanelBase, _super);
+    /**
+     * @param {?} accordion
+     * @param {?} _changeDetectorRef
+     * @param {?} _uniqueSelectionDispatcher
+     */
+    function MdExpansionPanelBase(accordion, _changeDetectorRef, _uniqueSelectionDispatcher) {
+        return _super.call(this, accordion, _changeDetectorRef, _uniqueSelectionDispatcher) || this;
+    }
+    return MdExpansionPanelBase;
+}(AccordionItem));
+var _MdExpansionPanelMixinBase = mixinDisabled(MdExpansionPanelBase);
 /**
  * Time and timing curve for expansion panel animations.
  */
@@ -10100,14 +10678,15 @@ var MdExpansionPanel = (function (_super) {
         this._inputChanges.complete();
     };
     return MdExpansionPanel;
-}(AccordionItem));
+}(_MdExpansionPanelMixinBase));
 MdExpansionPanel.decorators = [
     { type: _angular_core.Component, args: [{ styles: [".mat-expansion-panel{transition:box-shadow 280ms cubic-bezier(.4,0,.2,1);box-sizing:content-box;display:block;margin:0;transition:margin 225ms cubic-bezier(.4,0,.2,1)}.mat-expansion-panel:not([class*=mat-elevation-z]){box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)}.mat-expansion-panel-content{overflow:hidden}.mat-expansion-panel-body{padding:0 24px 16px}.mat-expansion-panel-spacing{margin:16px 0}.mat-accordion .mat-expansion-panel-spacing:first-child{margin-top:0}.mat-accordion .mat-expansion-panel-spacing:last-child{margin-bottom:0}.mat-action-row{border-top-style:solid;border-top-width:1px;display:flex;flex-direction:row;justify-content:flex-end;padding:16px 8px 16px 24px}.mat-action-row button.mat-button{margin-left:8px}[dir=rtl] .mat-action-row button.mat-button{margin-left:0;margin-right:8px}"],
                 selector: 'md-expansion-panel, mat-expansion-panel',
                 template: "<ng-content select=\"mat-expansion-panel-header, md-expansion-panel-header\"></ng-content><div [class.mat-expanded]=\"expanded\" class=\"mat-expansion-panel-content\" [@bodyExpansion]=\"_getExpandedState()\" [id]=\"id\"><div class=\"mat-expansion-panel-body\"><ng-content></ng-content></div><ng-content select=\"mat-action-row, md-action-row\"></ng-content></div>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                inputs: ['disabled'],
+                inputs: ['disabled', 'expanded'],
                 host: {
                     'class': 'mat-expansion-panel',
                     '[class.mat-expanded]': 'expanded',
@@ -10165,21 +10744,21 @@ var MdExpansionPanelHeader = (function () {
      * @param {?} renderer
      * @param {?} panel
      * @param {?} _element
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      * @param {?} _changeDetectorRef
      */
-    function MdExpansionPanelHeader(renderer, panel, _element, _focusOriginMonitor, _changeDetectorRef) {
+    function MdExpansionPanelHeader(renderer, panel, _element, _focusMonitor, _changeDetectorRef) {
         var _this = this;
         this.panel = panel;
         this._element = _element;
-        this._focusOriginMonitor = _focusOriginMonitor;
+        this._focusMonitor = _focusMonitor;
         this._changeDetectorRef = _changeDetectorRef;
         this._parentChangeSubscription = rxjs_Subscription.Subscription.EMPTY;
         // Since the toggle state depends on an @Input on the panel, we
         // need to  subscribe and trigger change detection manually.
         this._parentChangeSubscription = rxjs_observable_merge.merge(panel.opened, panel.closed, _angular_cdk_rxjs.filter.call(panel._inputChanges, function (changes) { return !!(changes.hideToggle || changes.disabled); }))
             .subscribe(function () { return _this._changeDetectorRef.markForCheck(); });
-        _focusOriginMonitor.monitor(_element.nativeElement, renderer, false);
+        _focusMonitor.monitor(_element.nativeElement, renderer, false);
     }
     /**
      * Toggles the expanded state of the panel.
@@ -10240,7 +10819,7 @@ var MdExpansionPanelHeader = (function () {
      */
     MdExpansionPanelHeader.prototype.ngOnDestroy = function () {
         this._parentChangeSubscription.unsubscribe();
-        this._focusOriginMonitor.stopMonitoring(this._element.nativeElement);
+        this._focusMonitor.stopMonitoring(this._element.nativeElement);
     };
     return MdExpansionPanelHeader;
 }());
@@ -10249,6 +10828,7 @@ MdExpansionPanelHeader.decorators = [
                 styles: [".mat-expansion-panel-header{display:flex;flex-direction:row;align-items:center;padding:0 24px}.mat-expansion-panel-header:focus,.mat-expansion-panel-header:hover{outline:0}.mat-expansion-panel-header.mat-expanded:focus,.mat-expansion-panel-header.mat-expanded:hover{background:inherit}.mat-expansion-panel-header:not([aria-disabled=true]){cursor:pointer}.mat-content{display:flex;flex:1;flex-direction:row;overflow:hidden}.mat-expansion-panel-header-description,.mat-expansion-panel-header-title{display:flex;flex-grow:1;margin-right:16px}[dir=rtl] .mat-expansion-panel-header-description,[dir=rtl] .mat-expansion-panel-header-title{margin-right:0;margin-left:16px}.mat-expansion-panel-header-description{flex-grow:2}.mat-expansion-indicator::after{border-style:solid;border-width:0 2px 2px 0;content:'';display:inline-block;padding:3px;transform:rotate(45deg);vertical-align:middle}"],
                 template: "<span class=\"mat-content\"><ng-content select=\"md-panel-title, mat-panel-title\"></ng-content><ng-content select=\"md-panel-description, mat-panel-description\"></ng-content><ng-content></ng-content></span><span [@indicatorRotate]=\"_getExpandedState()\" *ngIf=\"_showToggle()\" class=\"mat-expansion-indicator\"></span>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: {
                     'class': 'mat-expansion-panel-header',
@@ -10291,7 +10871,7 @@ MdExpansionPanelHeader.ctorParameters = function () { return [
     { type: _angular_core.Renderer2, },
     { type: MdExpansionPanel, decorators: [{ type: _angular_core.Host },] },
     { type: _angular_core.ElementRef, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
     { type: _angular_core.ChangeDetectorRef, },
 ]; };
 MdExpansionPanelHeader.propDecorators = {
@@ -10349,7 +10929,7 @@ var MdExpansionModule = (function () {
 }());
 MdExpansionModule.decorators = [
     { type: _angular_core.NgModule, args: [{
-                imports: [CompatibilityModule, _angular_common.CommonModule, StyleModule],
+                imports: [CompatibilityModule, _angular_common.CommonModule, _angular_cdk_a11y.A11yModule],
                 exports: [
                     CdkAccordion,
                     MdAccordion,
@@ -10375,6 +10955,7 @@ MdExpansionModule.decorators = [
  * @nocollapse
  */
 MdExpansionModule.ctorParameters = function () { return []; };
+
 /**
  * Converts values into strings. Falsy values become empty strings.
 \@docs-private
@@ -10452,6 +11033,7 @@ MdGridTile.decorators = [
                 template: "<figure class=\"mat-figure\"><ng-content></ng-content></figure>",
                 styles: [".mat-grid-list{display:block;position:relative}.mat-grid-tile{display:block;position:absolute;overflow:hidden}.mat-grid-tile .mat-figure{top:0;left:0;right:0;bottom:0;position:absolute;display:flex;align-items:center;justify-content:center;height:100%;padding:0;margin:0}.mat-grid-tile .mat-grid-tile-footer,.mat-grid-tile .mat-grid-tile-header{display:flex;align-items:center;height:48px;color:#fff;background:rgba(0,0,0,.38);overflow:hidden;padding:0 16px;position:absolute;left:0;right:0}.mat-grid-tile .mat-grid-tile-footer>*,.mat-grid-tile .mat-grid-tile-header>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-grid-tile .mat-grid-tile-footer.mat-2-line,.mat-grid-tile .mat-grid-tile-header.mat-2-line{height:68px}.mat-grid-tile .mat-grid-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden}.mat-grid-tile .mat-grid-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-grid-tile .mat-grid-list-text:empty{display:none}.mat-grid-tile .mat-grid-tile-header{top:0}.mat-grid-tile .mat-grid-tile-footer{bottom:0}.mat-grid-tile .mat-grid-avatar{padding-right:16px}[dir=rtl] .mat-grid-tile .mat-grid-avatar{padding-right:0;padding-left:16px}.mat-grid-tile .mat-grid-avatar:empty{display:none}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -10488,6 +11070,7 @@ MdGridTileText.decorators = [
                 template: "<ng-content select=\"[md-grid-avatar], [mat-grid-avatar], [mdGridAvatar], [matGridAvatar]\"></ng-content><div class=\"mat-grid-list-text\"><ng-content select=\"[md-line], [mat-line], [mdLine], [matLine]\"></ng-content></div><ng-content></ng-content>",
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -11203,6 +11786,7 @@ MdGridList.decorators = [
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -11251,365 +11835,7 @@ MdGridListModule.decorators = [
  * @nocollapse
  */
 MdGridListModule.ctorParameters = function () { return []; };
-/**
- * \@docs-private
- * @param {?} type
- * @return {?}
- */
-function getMdInputUnsupportedTypeError(type) {
-    return Error("Input type \"" + type + "\" isn't supported by mdInput.");
-}
-// Invalid input type. Using one of these will throw an MdInputUnsupportedTypeError.
-var MD_INPUT_INVALID_TYPES = [
-    'button',
-    'checkbox',
-    'color',
-    'file',
-    'hidden',
-    'image',
-    'radio',
-    'range',
-    'reset',
-    'submit'
-];
-var nextUniqueId$4 = 0;
-/**
- * Directive that allows a native input to work inside a `MdFormField`.
- */
-var MdInput = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _renderer
-     * @param {?} _platform
-     * @param {?} ngControl
-     * @param {?} _parentForm
-     * @param {?} _parentFormGroup
-     * @param {?} errorOptions
-     */
-    function MdInput(_elementRef, _renderer, _platform, ngControl, _parentForm, _parentFormGroup, errorOptions) {
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-        this._platform = _platform;
-        this.ngControl = ngControl;
-        this._parentForm = _parentForm;
-        this._parentFormGroup = _parentFormGroup;
-        /**
-         * Variables used as cache for getters and setters.
-         */
-        this._type = 'text';
-        this._disabled = false;
-        this._required = false;
-        this._uid = "md-input-" + nextUniqueId$4++;
-        this._previousNativeValue = this.value;
-        /**
-         * Whether the input is focused.
-         */
-        this.focused = false;
-        /**
-         * Whether the input is in an error state.
-         */
-        this.errorState = false;
-        /**
-         * Stream that emits whenever the state of the input changes such that the wrapping `MdFormField`
-        needs to run change detection.
-         */
-        this.stateChanges = new rxjs_Subject.Subject();
-        /**
-         * Placeholder attribute of the element.
-         */
-        this.placeholder = '';
-        this._neverEmptyInputTypes = [
-            'date',
-            'datetime',
-            'datetime-local',
-            'month',
-            'time',
-            'week'
-        ].filter(function (t) { return _angular_cdk_platform.getSupportedInputTypes().has(t); });
-        // Force setter to be called in case id was not specified.
-        this.id = this.id;
-        this._errorOptions = errorOptions ? errorOptions : {};
-        this.errorStateMatcher = this._errorOptions.errorStateMatcher || defaultErrorStateMatcher;
-        // On some versions of iOS the caret gets stuck in the wrong place when holding down the delete
-        // key. In order to get around this we need to "jiggle" the caret loose. Since this bug only
-        // exists on iOS, we only bother to install the listener on iOS.
-        if (_platform.IOS) {
-            _renderer.listen(_elementRef.nativeElement, 'keyup', function (event) {
-                var el = event.target;
-                if (!el.value && !el.selectionStart && !el.selectionEnd) {
-                    // Note: Just setting `0, 0` doesn't fix the issue. Setting `1, 1` fixes it for the first
-                    // time that you type text and then hold delete. Toggling to `1, 1` and then back to
-                    // `0, 0` seems to completely fix it.
-                    el.setSelectionRange(1, 1);
-                    el.setSelectionRange(0, 0);
-                }
-            });
-        }
-    }
-    Object.defineProperty(MdInput.prototype, "disabled", {
-        /**
-         * Whether the element is disabled.
-         * @return {?}
-         */
-        get: function () { return this.ngControl ? this.ngControl.disabled : this._disabled; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdInput.prototype, "id", {
-        /**
-         * Unique id of the element.
-         * @return {?}
-         */
-        get: function () { return this._id; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._id = value || this._uid; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdInput.prototype, "required", {
-        /**
-         * Whether the element is required.
-         * @return {?}
-         */
-        get: function () { return this._required; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._required = _angular_cdk_coercion.coerceBooleanProperty(value); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdInput.prototype, "type", {
-        /**
-         * Input type of the element.
-         * @return {?}
-         */
-        get: function () { return this._type; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._type = value || 'text';
-            this._validateType();
-            // When using Angular inputs, developers are no longer able to set the properties on the native
-            // input element. To ensure that bindings for `type` work, we need to sync the setter
-            // with the native property. Textarea elements don't support the type property or attribute.
-            if (!this._isTextarea() && _angular_cdk_platform.getSupportedInputTypes().has(this._type)) {
-                this._renderer.setProperty(this._elementRef.nativeElement, 'type', this._type);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdInput.prototype, "value", {
-        /**
-         * The input element's value.
-         * @return {?}
-         */
-        get: function () { return this._elementRef.nativeElement.value; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            if (value !== this.value) {
-                this._elementRef.nativeElement.value = value;
-                this.stateChanges.next();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdInput.prototype.ngOnChanges = function () {
-        this.stateChanges.next();
-    };
-    /**
-     * @return {?}
-     */
-    MdInput.prototype.ngOnDestroy = function () {
-        this.stateChanges.complete();
-    };
-    /**
-     * @return {?}
-     */
-    MdInput.prototype.ngDoCheck = function () {
-        if (this.ngControl) {
-            // We need to re-evaluate this on every change detection cycle, because there are some
-            // error triggers that we can't subscribe to (e.g. parent form submissions). This means
-            // that whatever logic is in here has to be super lean or we risk destroying the performance.
-            this._updateErrorState();
-        }
-        else {
-            // When the input isn't used together with `@angular/forms`, we need to check manually for
-            // changes to the native `value` property in order to update the floating label.
-            this._dirtyCheckNativeValue();
-        }
-    };
-    /**
-     * Callback for the cases where the focused state of the input changes.
-     * @param {?} isFocused
-     * @return {?}
-     */
-    MdInput.prototype._focusChanged = function (isFocused) {
-        if (isFocused !== this.focused) {
-            this.focused = isFocused;
-            this.stateChanges.next();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdInput.prototype._onInput = function () {
-        // This is a noop function and is used to let Angular know whenever the value changes.
-        // Angular will run a new change detection each time the `input` event has been dispatched.
-        // It's necessary that Angular recognizes the value change, because when floatingLabel
-        // is set to false and Angular forms aren't used, the placeholder won't recognize the
-        // value changes and will not disappear.
-        // Listening to the input event wouldn't be necessary when the input is using the
-        // FormsModule or ReactiveFormsModule, because Angular forms also listens to input events.
-    };
-    /**
-     * Re-evaluates the error state. This is only relevant with \@angular/forms.
-     * @return {?}
-     */
-    MdInput.prototype._updateErrorState = function () {
-        var /** @type {?} */ oldState = this.errorState;
-        var /** @type {?} */ ngControl = this.ngControl;
-        var /** @type {?} */ parent = this._parentFormGroup || this._parentForm;
-        var /** @type {?} */ newState = ngControl && this.errorStateMatcher(/** @type {?} */ (ngControl.control), parent);
-        if (newState !== oldState) {
-            this.errorState = newState;
-            this.stateChanges.next();
-        }
-    };
-    /**
-     * Does some manual dirty checking on the native input `value` property.
-     * @return {?}
-     */
-    MdInput.prototype._dirtyCheckNativeValue = function () {
-        var /** @type {?} */ newValue = this.value;
-        if (this._previousNativeValue !== newValue) {
-            this._previousNativeValue = newValue;
-            this.stateChanges.next();
-        }
-    };
-    /**
-     * Make sure the input is a supported type.
-     * @return {?}
-     */
-    MdInput.prototype._validateType = function () {
-        if (MD_INPUT_INVALID_TYPES.indexOf(this._type) > -1) {
-            throw getMdInputUnsupportedTypeError(this._type);
-        }
-    };
-    /**
-     * Checks whether the input type is one of the types that are never empty.
-     * @return {?}
-     */
-    MdInput.prototype._isNeverEmpty = function () {
-        return this._neverEmptyInputTypes.indexOf(this._type) > -1;
-    };
-    /**
-     * Checks whether the input is invalid based on the native validation.
-     * @return {?}
-     */
-    MdInput.prototype._isBadInput = function () {
-        // The `validity` property won't be present on platform-server.
-        // let validity = (this._elementRef.nativeElement as HTMLInputElement).validity;
-        // return validity && validity.badInput;
-        return false;
-    };
-    /**
-     * Determines if the component host is a textarea. If not recognizable it returns false.
-     * @return {?}
-     */
-    MdInput.prototype._isTextarea = function () {
-        var /** @type {?} */ nativeElement = this._elementRef.nativeElement;
-        // In Universal, we don't have access to `nodeName`, but the same can be achieved with `name`.
-        // Note that this shouldn't be necessary once Angular switches to an API that resembles the
-        // DOM closer.
-        var /** @type {?} */ nodeName = this._platform.isBrowser ? nativeElement.nodeName : nativeElement.name;
-        return nodeName ? nodeName.toLowerCase() === 'textarea' : false;
-    };
-    Object.defineProperty(MdInput.prototype, "empty", {
-        /**
-         * @return {?}
-         */
-        get: function () {
-            return !this._isNeverEmpty() &&
-                (this.value == null || this.value === '') &&
-                // Check if the input contains bad input. If so, we know that it only appears empty because
-                // the value failed to parse. From the user's perspective it is not empty.
-                // TODO(mmalerba): Add e2e test for bad input case.
-                !this._isBadInput();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @param {?} ids
-     * @return {?}
-     */
-    MdInput.prototype.setDescribedByIds = function (ids) { this._ariaDescribedby = ids.join(' '); };
-    /**
-     * @return {?}
-     */
-    MdInput.prototype.focus = function () { this._elementRef.nativeElement.focus(); };
-    return MdInput;
-}());
-MdInput.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: "input[mdInput], textarea[mdInput], input[matInput], textarea[matInput]",
-                host: {
-                    'class': 'mat-input-element',
-                    // Native input properties that are overwritten by Angular inputs need to be synced with
-                    // the native input element. Otherwise property bindings for those don't work.
-                    '[id]': 'id',
-                    '[placeholder]': 'placeholder',
-                    '[disabled]': 'disabled',
-                    '[required]': 'required',
-                    '[attr.aria-describedby]': '_ariaDescribedby || null',
-                    '[attr.aria-invalid]': 'errorState',
-                    '(blur)': '_focusChanged(false)',
-                    '(focus)': '_focusChanged(true)',
-                    '(input)': '_onInput()',
-                },
-                providers: [{ provide: MdFormFieldControl, useExisting: MdInput }],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdInput.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.Renderer2, },
-    { type: _angular_cdk_platform.Platform, },
-    { type: _angular_forms.NgControl, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Self },] },
-    { type: _angular_forms.NgForm, decorators: [{ type: _angular_core.Optional },] },
-    { type: _angular_forms.FormGroupDirective, decorators: [{ type: _angular_core.Optional },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_ERROR_GLOBAL_OPTIONS,] },] },
-]; };
-MdInput.propDecorators = {
-    'disabled': [{ type: _angular_core.Input },],
-    'id': [{ type: _angular_core.Input },],
-    'placeholder': [{ type: _angular_core.Input },],
-    'required': [{ type: _angular_core.Input },],
-    'type': [{ type: _angular_core.Input },],
-    'errorStateMatcher': [{ type: _angular_core.Input },],
-};
+
 /**
  * Directive to automatically resize a textarea to fit its content.
  */
@@ -11788,7 +12014,7 @@ var MdTextareaAutosize = (function () {
 MdTextareaAutosize.decorators = [
     { type: _angular_core.Directive, args: [{
                 selector: "textarea[md-autosize], textarea[mdTextareaAutosize],\n             textarea[mat-autosize], textarea[matTextareaAutosize]",
-                exportAs: 'mdTextareaAutosize',
+                exportAs: 'mdTextareaAutosize, matTextareaAutosize',
                 host: {
                     // Textarea elements that have the directive applied should have a single row by default.
                     // Browsers normally show two rows by default and therefore this limits the minRows binding.
@@ -11808,6 +12034,382 @@ MdTextareaAutosize.propDecorators = {
     'maxRows': [{ type: _angular_core.Input, args: ['mdAutosizeMaxRows',] },],
     '_matAutosizeMinRows': [{ type: _angular_core.Input, args: ['matAutosizeMinRows',] },],
     '_matAutosizeMaxRows': [{ type: _angular_core.Input, args: ['matAutosizeMaxRows',] },],
+};
+/**
+ * \@docs-private
+ * @param {?} type
+ * @return {?}
+ */
+function getMdInputUnsupportedTypeError(type) {
+    return Error("Input type \"" + type + "\" isn't supported by mdInput.");
+}
+// Invalid input type. Using one of these will throw an MdInputUnsupportedTypeError.
+var MD_INPUT_INVALID_TYPES = [
+    'button',
+    'checkbox',
+    'color',
+    'file',
+    'hidden',
+    'image',
+    'radio',
+    'range',
+    'reset',
+    'submit'
+];
+var nextUniqueId$3 = 0;
+/**
+ * Directive that allows a native input to work inside a `MdFormField`.
+ */
+var MdInput = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _renderer
+     * @param {?} _platform
+     * @param {?} ngControl
+     * @param {?} _parentForm
+     * @param {?} _parentFormGroup
+     * @param {?} errorOptions
+     */
+    function MdInput(_elementRef, _renderer, _platform, ngControl, _parentForm, _parentFormGroup, errorOptions) {
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+        this._platform = _platform;
+        this.ngControl = ngControl;
+        this._parentForm = _parentForm;
+        this._parentFormGroup = _parentFormGroup;
+        /**
+         * Variables used as cache for getters and setters.
+         */
+        this._type = 'text';
+        this._disabled = false;
+        this._required = false;
+        this._uid = "md-input-" + nextUniqueId$3++;
+        this._previousNativeValue = this.value;
+        /**
+         * Whether the input is focused.
+         */
+        this.focused = false;
+        /**
+         * Whether the input is in an error state.
+         */
+        this.errorState = false;
+        /**
+         * Stream that emits whenever the state of the input changes such that the wrapping `MdFormField`
+        needs to run change detection.
+         */
+        this.stateChanges = new rxjs_Subject.Subject();
+        /**
+         * A name for this control that can be used by `md-form-field`.
+         */
+        this.controlType = 'mat-input';
+        /**
+         * Placeholder attribute of the element.
+         */
+        this.placeholder = '';
+        this._neverEmptyInputTypes = [
+            'date',
+            'datetime',
+            'datetime-local',
+            'month',
+            'time',
+            'week'
+        ].filter(function (t) { return _angular_cdk_platform.getSupportedInputTypes().has(t); });
+        // Force setter to be called in case id was not specified.
+        this.id = this.id;
+        this._errorOptions = errorOptions ? errorOptions : {};
+        this.errorStateMatcher = this._errorOptions.errorStateMatcher || defaultErrorStateMatcher;
+        // On some versions of iOS the caret gets stuck in the wrong place when holding down the delete
+        // key. In order to get around this we need to "jiggle" the caret loose. Since this bug only
+        // exists on iOS, we only bother to install the listener on iOS.
+        if (_platform.IOS) {
+            _renderer.listen(_elementRef.nativeElement, 'keyup', function (event) {
+                var el = event.target;
+                if (!el.value && !el.selectionStart && !el.selectionEnd) {
+                    // Note: Just setting `0, 0` doesn't fix the issue. Setting `1, 1` fixes it for the first
+                    // time that you type text and then hold delete. Toggling to `1, 1` and then back to
+                    // `0, 0` seems to completely fix it.
+                    el.setSelectionRange(1, 1);
+                    el.setSelectionRange(0, 0);
+                }
+            });
+        }
+    }
+    Object.defineProperty(MdInput.prototype, "disabled", {
+        /**
+         * Whether the element is disabled.
+         * @return {?}
+         */
+        get: function () { return this.ngControl ? this.ngControl.disabled : this._disabled; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdInput.prototype, "id", {
+        /**
+         * Unique id of the element.
+         * @return {?}
+         */
+        get: function () { return this._id; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._id = value || this._uid; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdInput.prototype, "required", {
+        /**
+         * Whether the element is required.
+         * @return {?}
+         */
+        get: function () { return this._required; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._required = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdInput.prototype, "type", {
+        /**
+         * Input type of the element.
+         * @return {?}
+         */
+        get: function () { return this._type; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._type = value || 'text';
+            this._validateType();
+            // When using Angular inputs, developers are no longer able to set the properties on the native
+            // input element. To ensure that bindings for `type` work, we need to sync the setter
+            // with the native property. Textarea elements don't support the type property or attribute.
+            if (!this._isTextarea() && _angular_cdk_platform.getSupportedInputTypes().has(this._type)) {
+                this._renderer.setProperty(this._elementRef.nativeElement, 'type', this._type);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdInput.prototype, "value", {
+        /**
+         * The input element's value.
+         * @return {?}
+         */
+        get: function () { return this._elementRef.nativeElement.value; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            if (value !== this.value) {
+                this._elementRef.nativeElement.value = value;
+                this.stateChanges.next();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdInput.prototype.ngOnChanges = function () {
+        this.stateChanges.next();
+    };
+    /**
+     * @return {?}
+     */
+    MdInput.prototype.ngOnDestroy = function () {
+        this.stateChanges.complete();
+    };
+    /**
+     * @return {?}
+     */
+    MdInput.prototype.ngDoCheck = function () {
+        if (this.ngControl) {
+            // We need to re-evaluate this on every change detection cycle, because there are some
+            // error triggers that we can't subscribe to (e.g. parent form submissions). This means
+            // that whatever logic is in here has to be super lean or we risk destroying the performance.
+            this._updateErrorState();
+        }
+        else {
+            // When the input isn't used together with `@angular/forms`, we need to check manually for
+            // changes to the native `value` property in order to update the floating label.
+            this._dirtyCheckNativeValue();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdInput.prototype.focus = function () { this._elementRef.nativeElement.focus(); };
+    /**
+     * Callback for the cases where the focused state of the input changes.
+     * @param {?} isFocused
+     * @return {?}
+     */
+    MdInput.prototype._focusChanged = function (isFocused) {
+        if (isFocused !== this.focused) {
+            this.focused = isFocused;
+            this.stateChanges.next();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdInput.prototype._onInput = function () {
+        // This is a noop function and is used to let Angular know whenever the value changes.
+        // Angular will run a new change detection each time the `input` event has been dispatched.
+        // It's necessary that Angular recognizes the value change, because when floatingLabel
+        // is set to false and Angular forms aren't used, the placeholder won't recognize the
+        // value changes and will not disappear.
+        // Listening to the input event wouldn't be necessary when the input is using the
+        // FormsModule or ReactiveFormsModule, because Angular forms also listens to input events.
+    };
+    /**
+     * Re-evaluates the error state. This is only relevant with \@angular/forms.
+     * @return {?}
+     */
+    MdInput.prototype._updateErrorState = function () {
+        var /** @type {?} */ oldState = this.errorState;
+        var /** @type {?} */ ngControl = this.ngControl;
+        var /** @type {?} */ parent = this._parentFormGroup || this._parentForm;
+        var /** @type {?} */ newState = ngControl && this.errorStateMatcher(/** @type {?} */ (ngControl.control), parent);
+        if (newState !== oldState) {
+            this.errorState = newState;
+            this.stateChanges.next();
+        }
+    };
+    /**
+     * Does some manual dirty checking on the native input `value` property.
+     * @return {?}
+     */
+    MdInput.prototype._dirtyCheckNativeValue = function () {
+        var /** @type {?} */ newValue = this.value;
+        if (this._previousNativeValue !== newValue) {
+            this._previousNativeValue = newValue;
+            this.stateChanges.next();
+        }
+    };
+    /**
+     * Make sure the input is a supported type.
+     * @return {?}
+     */
+    MdInput.prototype._validateType = function () {
+        if (MD_INPUT_INVALID_TYPES.indexOf(this._type) > -1) {
+            throw getMdInputUnsupportedTypeError(this._type);
+        }
+    };
+    /**
+     * Checks whether the input type is one of the types that are never empty.
+     * @return {?}
+     */
+    MdInput.prototype._isNeverEmpty = function () {
+        return this._neverEmptyInputTypes.indexOf(this._type) > -1;
+    };
+    /**
+     * Checks whether the input is invalid based on the native validation.
+     * @return {?}
+     */
+    MdInput.prototype._isBadInput = function () {
+        // The `validity` property won't be present on platform-server.
+        // let validity = (this._elementRef.nativeElement as HTMLInputElement).validity;
+        // return validity && validity.badInput;
+        return false;
+    };
+    /**
+     * Determines if the component host is a textarea. If not recognizable it returns false.
+     * @return {?}
+     */
+    MdInput.prototype._isTextarea = function () {
+        var /** @type {?} */ nativeElement = this._elementRef.nativeElement;
+        // In Universal, we don't have access to `nodeName`, but the same can be achieved with `name`.
+        // Note that this shouldn't be necessary once Angular switches to an API that resembles the
+        // DOM closer.
+        var /** @type {?} */ nodeName = this._platform.isBrowser ? nativeElement.nodeName : nativeElement.name;
+        return nodeName ? nodeName.toLowerCase() === 'textarea' : false;
+    };
+    Object.defineProperty(MdInput.prototype, "empty", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return !this._isNeverEmpty() &&
+                (this.value == null || this.value === '') &&
+                // Check if the input contains bad input. If so, we know that it only appears empty because
+                // the value failed to parse. From the user's perspective it is not empty.
+                // TODO(mmalerba): Add e2e test for bad input case.
+                !this._isBadInput();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdInput.prototype, "shouldPlaceholderFloat", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.focused || !this.empty; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} ids
+     * @return {?}
+     */
+    MdInput.prototype.setDescribedByIds = function (ids) { this._ariaDescribedby = ids.join(' '); };
+    /**
+     * @return {?}
+     */
+    MdInput.prototype.onContainerClick = function () { this.focus(); };
+    return MdInput;
+}());
+MdInput.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: "input[mdInput], textarea[mdInput], input[matInput], textarea[matInput]",
+                host: {
+                    'class': 'mat-input-element mat-form-field-autofill-control',
+                    // Native input properties that are overwritten by Angular inputs need to be synced with
+                    // the native input element. Otherwise property bindings for those don't work.
+                    '[attr.id]': 'id',
+                    '[placeholder]': 'placeholder',
+                    '[disabled]': 'disabled',
+                    '[required]': 'required',
+                    '[attr.aria-describedby]': '_ariaDescribedby || null',
+                    '[attr.aria-invalid]': 'errorState',
+                    '(blur)': '_focusChanged(false)',
+                    '(focus)': '_focusChanged(true)',
+                    '(input)': '_onInput()',
+                },
+                providers: [{ provide: MdFormFieldControl, useExisting: MdInput }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdInput.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.Renderer2, },
+    { type: _angular_cdk_platform.Platform, },
+    { type: _angular_forms.NgControl, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Self },] },
+    { type: _angular_forms.NgForm, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_forms.FormGroupDirective, decorators: [{ type: _angular_core.Optional },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_ERROR_GLOBAL_OPTIONS,] },] },
+]; };
+MdInput.propDecorators = {
+    'disabled': [{ type: _angular_core.Input },],
+    'id': [{ type: _angular_core.Input },],
+    'placeholder': [{ type: _angular_core.Input },],
+    'required': [{ type: _angular_core.Input },],
+    'type': [{ type: _angular_core.Input },],
+    'errorStateMatcher': [{ type: _angular_core.Input },],
+    'value': [{ type: _angular_core.Input },],
 };
 var MdInputModule = (function () {
     function MdInputModule() {
@@ -11838,6 +12440,7 @@ MdInputModule.decorators = [
  * @nocollapse
  */
 MdInputModule.ctorParameters = function () { return []; };
+
 /**
  * \@docs-private
  */
@@ -11856,6 +12459,9 @@ var MdListItemBase = (function () {
     return MdListItemBase;
 }());
 var _MdListItemMixinBase = mixinDisableRipple(MdListItemBase);
+/**
+ * Divider between items within a list.
+ */
 var MdListDivider = (function () {
     function MdListDivider() {
     }
@@ -11874,6 +12480,9 @@ MdListDivider.decorators = [
  * @nocollapse
  */
 MdListDivider.ctorParameters = function () { return []; };
+/**
+ * A Material Design list component.
+ */
 var MdList = (function (_super) {
     __extends(MdList, _super);
     function MdList() {
@@ -11885,9 +12494,10 @@ MdList.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-list, mat-list, md-nav-list, mat-nav-list',
                 host: { 'role': 'list' },
                 template: '<ng-content></ng-content>',
-                styles: [".mat-subheader{display:block;box-sizing:border-box;padding:16px}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{margin:0}.mat-list,.mat-nav-list,.mat-selection-list{padding-top:8px;display:block}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{height:48px;line-height:16px}.mat-list .mat-subheader:first-child,.mat-nav-list .mat-subheader:first-child,.mat-selection-list .mat-subheader:first-child{margin-top:-8px}.mat-list .mat-list-item,.mat-nav-list .mat-list-item,.mat-selection-list .mat-list-item{display:block}.mat-list .mat-list-item .mat-list-item-content,.mat-nav-list .mat-list-item .mat-list-item-content,.mat-selection-list .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-item .mat-list-item-content-reverse,.mat-nav-list .mat-list-item .mat-list-item-content-reverse,.mat-selection-list .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-item .mat-list-item-ripple,.mat-nav-list .mat-list-item .mat-list-item-ripple,.mat-selection-list .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-item .mat-list-text,.mat-nav-list .mat-list-item .mat-list-text,.mat-selection-list .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-item .mat-list-text>*,.mat-nav-list .mat-list-item .mat-list-text>*,.mat-selection-list .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-item .mat-list-text:empty,.mat-nav-list .mat-list-item .mat-list-text:empty,.mat-selection-list .mat-list-item .mat-list-text:empty{display:none}.mat-list .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-item .mat-list-avatar,.mat-nav-list .mat-list-item .mat-list-avatar,.mat-selection-list .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-item .mat-list-icon,.mat-nav-list .mat-list-item .mat-list-icon,.mat-selection-list .mat-list-item .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list .mat-list-option,.mat-nav-list .mat-list-option,.mat-selection-list .mat-list-option{display:block}.mat-list .mat-list-option .mat-list-item-content,.mat-nav-list .mat-list-option .mat-list-item-content,.mat-selection-list .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-option .mat-list-item-content-reverse,.mat-nav-list .mat-list-option .mat-list-item-content-reverse,.mat-selection-list .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-option .mat-list-item-ripple,.mat-nav-list .mat-list-option .mat-list-item-ripple,.mat-selection-list .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-option .mat-list-text,.mat-nav-list .mat-list-option .mat-list-text,.mat-selection-list .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-option .mat-list-text>*,.mat-nav-list .mat-list-option .mat-list-text>*,.mat-selection-list .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-option .mat-list-text:empty,.mat-nav-list .mat-list-option .mat-list-text:empty,.mat-selection-list .mat-list-option .mat-list-text:empty{display:none}.mat-list .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-option .mat-list-avatar,.mat-nav-list .mat-list-option .mat-list-avatar,.mat-selection-list .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-option .mat-list-icon,.mat-nav-list .mat-list-option .mat-list-icon,.mat-selection-list .mat-list-option .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense],.mat-nav-list[dense],.mat-selection-list[dense]{padding-top:4px;display:block}.mat-list[dense] .mat-subheader,.mat-nav-list[dense] .mat-subheader,.mat-selection-list[dense] .mat-subheader{height:40px;line-height:8px}.mat-list[dense] .mat-subheader:first-child,.mat-nav-list[dense] .mat-subheader:first-child,.mat-selection-list[dense] .mat-subheader:first-child{margin-top:-4px}.mat-list[dense] .mat-list-item,.mat-nav-list[dense] .mat-list-item,.mat-selection-list[dense] .mat-list-item{display:block}.mat-list[dense] .mat-list-item .mat-list-item-content,.mat-nav-list[dense] .mat-list-item .mat-list-item-content,.mat-selection-list[dense] .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-item .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-item .mat-list-text,.mat-nav-list[dense] .mat-list-item .mat-list-text,.mat-selection-list[dense] .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-item .mat-list-text>*,.mat-nav-list[dense] .mat-list-item .mat-list-text>*,.mat-selection-list[dense] .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-item .mat-list-text:empty,.mat-nav-list[dense] .mat-list-item .mat-list-text:empty,.mat-selection-list[dense] .mat-list-item .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-item .mat-list-avatar,.mat-nav-list[dense] .mat-list-item .mat-list-avatar,.mat-selection-list[dense] .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-item .mat-list-icon,.mat-nav-list[dense] .mat-list-item .mat-list-icon,.mat-selection-list[dense] .mat-list-item .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense] .mat-list-option,.mat-nav-list[dense] .mat-list-option,.mat-selection-list[dense] .mat-list-option{display:block}.mat-list[dense] .mat-list-option .mat-list-item-content,.mat-nav-list[dense] .mat-list-option .mat-list-item-content,.mat-selection-list[dense] .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-option .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-option .mat-list-text,.mat-nav-list[dense] .mat-list-option .mat-list-text,.mat-selection-list[dense] .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-option .mat-list-text>*,.mat-nav-list[dense] .mat-list-option .mat-list-text>*,.mat-selection-list[dense] .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-option .mat-list-text:empty,.mat-nav-list[dense] .mat-list-option .mat-list-text:empty,.mat-selection-list[dense] .mat-list-option .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-option .mat-list-avatar,.mat-nav-list[dense] .mat-list-option .mat-list-avatar,.mat-selection-list[dense] .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-option .mat-list-icon,.mat-nav-list[dense] .mat-list-option .mat-list-icon,.mat-selection-list[dense] .mat-list-option .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-divider{display:block;border-top-style:solid;border-top-width:1px;margin:0}.mat-nav-list a{text-decoration:none;color:inherit}.mat-nav-list .mat-list-item-content{cursor:pointer}.mat-nav-list .mat-list-item-content.mat-list-item-focus,.mat-nav-list .mat-list-item-content:hover{outline:0}"],
+                styles: [".mat-subheader{display:block;box-sizing:border-box;padding:16px}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{margin:0}.mat-list,.mat-nav-list,.mat-selection-list{padding-top:8px;display:block}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{height:48px;line-height:16px}.mat-list .mat-subheader:first-child,.mat-nav-list .mat-subheader:first-child,.mat-selection-list .mat-subheader:first-child{margin-top:-8px}.mat-list .mat-list-item,.mat-nav-list .mat-list-item,.mat-selection-list .mat-list-item{display:block}.mat-list .mat-list-item .mat-list-item-content,.mat-nav-list .mat-list-item .mat-list-item-content,.mat-selection-list .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-item .mat-list-item-content-reverse,.mat-nav-list .mat-list-item .mat-list-item-content-reverse,.mat-selection-list .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-item .mat-list-item-ripple,.mat-nav-list .mat-list-item .mat-list-item-ripple,.mat-selection-list .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-item .mat-list-text,.mat-nav-list .mat-list-item .mat-list-text,.mat-selection-list .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-item .mat-list-text>*,.mat-nav-list .mat-list-item .mat-list-text>*,.mat-selection-list .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-item .mat-list-text:empty,.mat-nav-list .mat-list-item .mat-list-text:empty,.mat-selection-list .mat-list-item .mat-list-text:empty{display:none}.mat-list .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-item .mat-list-avatar,.mat-nav-list .mat-list-item .mat-list-avatar,.mat-selection-list .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-item .mat-list-icon,.mat-nav-list .mat-list-item .mat-list-icon,.mat-selection-list .mat-list-item .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list .mat-list-option,.mat-nav-list .mat-list-option,.mat-selection-list .mat-list-option{display:block}.mat-list .mat-list-option .mat-list-item-content,.mat-nav-list .mat-list-option .mat-list-item-content,.mat-selection-list .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-option .mat-list-item-content-reverse,.mat-nav-list .mat-list-option .mat-list-item-content-reverse,.mat-selection-list .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-option .mat-list-item-ripple,.mat-nav-list .mat-list-option .mat-list-item-ripple,.mat-selection-list .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-option .mat-list-text,.mat-nav-list .mat-list-option .mat-list-text,.mat-selection-list .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-option .mat-list-text>*,.mat-nav-list .mat-list-option .mat-list-text>*,.mat-selection-list .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-option .mat-list-text:empty,.mat-nav-list .mat-list-option .mat-list-text:empty,.mat-selection-list .mat-list-option .mat-list-text:empty{display:none}.mat-list .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-option .mat-list-avatar,.mat-nav-list .mat-list-option .mat-list-avatar,.mat-selection-list .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-option .mat-list-icon,.mat-nav-list .mat-list-option .mat-list-icon,.mat-selection-list .mat-list-option .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense],.mat-nav-list[dense],.mat-selection-list[dense]{padding-top:4px;display:block}.mat-list[dense] .mat-subheader,.mat-nav-list[dense] .mat-subheader,.mat-selection-list[dense] .mat-subheader{height:40px;line-height:8px}.mat-list[dense] .mat-subheader:first-child,.mat-nav-list[dense] .mat-subheader:first-child,.mat-selection-list[dense] .mat-subheader:first-child{margin-top:-4px}.mat-list[dense] .mat-list-item,.mat-nav-list[dense] .mat-list-item,.mat-selection-list[dense] .mat-list-item{display:block}.mat-list[dense] .mat-list-item .mat-list-item-content,.mat-nav-list[dense] .mat-list-item .mat-list-item-content,.mat-selection-list[dense] .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-item .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-item .mat-list-text,.mat-nav-list[dense] .mat-list-item .mat-list-text,.mat-selection-list[dense] .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-item .mat-list-text>*,.mat-nav-list[dense] .mat-list-item .mat-list-text>*,.mat-selection-list[dense] .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-item .mat-list-text:empty,.mat-nav-list[dense] .mat-list-item .mat-list-text:empty,.mat-selection-list[dense] .mat-list-item .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-item .mat-list-avatar,.mat-nav-list[dense] .mat-list-item .mat-list-avatar,.mat-selection-list[dense] .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-item .mat-list-icon,.mat-nav-list[dense] .mat-list-item .mat-list-icon,.mat-selection-list[dense] .mat-list-item .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense] .mat-list-option,.mat-nav-list[dense] .mat-list-option,.mat-selection-list[dense] .mat-list-option{display:block}.mat-list[dense] .mat-list-option .mat-list-item-content,.mat-nav-list[dense] .mat-list-option .mat-list-item-content,.mat-selection-list[dense] .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-option .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-option .mat-list-text,.mat-nav-list[dense] .mat-list-option .mat-list-text,.mat-selection-list[dense] .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-option .mat-list-text>*,.mat-nav-list[dense] .mat-list-option .mat-list-text>*,.mat-selection-list[dense] .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-option .mat-list-text:empty,.mat-nav-list[dense] .mat-list-option .mat-list-text:empty,.mat-selection-list[dense] .mat-list-option .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-option .mat-list-avatar,.mat-nav-list[dense] .mat-list-option .mat-list-avatar,.mat-selection-list[dense] .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-option .mat-list-icon,.mat-nav-list[dense] .mat-list-option .mat-list-icon,.mat-selection-list[dense] .mat-list-option .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-divider{display:block;border-top-style:solid;border-top-width:1px;margin:0}.mat-nav-list a{text-decoration:none;color:inherit}.mat-nav-list .mat-list-item-content{cursor:pointer}.mat-nav-list .mat-list-item-content.mat-list-item-focus,.mat-nav-list .mat-list-item-content:hover{outline:0}.mat-list-option:not([disabled]){cursor:pointer}"],
                 inputs: ['disableRipple'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -12009,6 +12619,9 @@ MdListSubheaderCssMatStyler.decorators = [
  * @nocollapse
  */
 MdListSubheaderCssMatStyler.ctorParameters = function () { return []; };
+/**
+ * An item within a Material Design list.
+ */
 var MdListItem = (function (_super) {
     __extends(MdListItem, _super);
     /**
@@ -12085,9 +12698,11 @@ MdListItem.decorators = [
                     '(blur)': '_handleBlur()',
                 },
                 inputs: ['disableRipple'],
-                template: "<div class=\"mat-list-item-content\"><div class=\"mat-list-item-ripple\" md-ripple [mdRippleTrigger]=\"_getHostElement()\" [mdRippleDisabled]=\"_isRippleDisabled()\"></div><ng-content select=\"[md-list-avatar], [md-list-icon], [mat-list-avatar], [mat-list-icon], [mdListAvatar], [mdListIcon], [matListAvatar], [matListIcon]\"></ng-content><div class=\"mat-list-text\"><ng-content select=\"[md-line], [mat-line], [mdLine], [matLine]\"></ng-content></div><ng-content></ng-content></div>",
+                template: "<div class=\"mat-list-item-content\"><div class=\"mat-list-item-ripple\" mat-ripple [matRippleTrigger]=\"_getHostElement()\" [matRippleDisabled]=\"_isRippleDisabled()\"></div><ng-content select=\"[md-list-avatar], [md-list-icon], [mat-list-avatar], [mat-list-icon], [mdListAvatar], [mdListIcon], [matListAvatar], [matListIcon]\"></ng-content><div class=\"mat-list-text\"><ng-content select=\"[md-line], [mat-line], [mdLine], [matLine]\"></ng-content></div><ng-content></ng-content></div>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -12103,12 +12718,18 @@ MdListItem.propDecorators = {
     '_lines': [{ type: _angular_core.ContentChildren, args: [MdLine,] },],
     '_hasAvatar': [{ type: _angular_core.ContentChild, args: [MdListAvatarCssMatStyler,] },],
 };
+/**
+ * \@docs-private
+ */
 var MdSelectionListBase = (function () {
     function MdSelectionListBase() {
     }
     return MdSelectionListBase;
 }());
 var _MdSelectionListMixinBase = mixinDisableRipple(mixinDisabled(MdSelectionListBase));
+/**
+ * \@docs-private
+ */
 var MdListOptionBase = (function () {
     function MdListOptionBase() {
     }
@@ -12177,29 +12798,17 @@ var MdListOption = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(MdListOption.prototype, "value", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this._value; },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) { this._value = _angular_cdk_coercion.coerceBooleanProperty(val); },
-        enumerable: true,
-        configurable: true
-    });
     Object.defineProperty(MdListOption.prototype, "selected", {
         /**
+         * Whether the option is selected.
          * @return {?}
          */
         get: function () { return this._selected; },
         /**
-         * @param {?} val
+         * @param {?} value
          * @return {?}
          */
-        set: function (val) { this._selected = _angular_cdk_coercion.coerceBooleanProperty(val); },
+        set: function (value) { this._selected = _angular_cdk_coercion.coerceBooleanProperty(value); },
         enumerable: true,
         configurable: true
     });
@@ -12219,6 +12828,7 @@ var MdListOption = (function (_super) {
         this.destroyed.emit({ option: this });
     };
     /**
+     * Toggles the selection state of the option.
      * @return {?}
      */
     MdListOption.prototype.toggle = function () {
@@ -12285,10 +12895,11 @@ MdListOption.decorators = [
                     '[attr.aria-selected]': 'selected.toString()',
                     '[attr.aria-disabled]': 'disabled.toString()',
                 },
-                template: "<div class=\"mat-list-item-content\" [class.mat-list-item-content-reverse]=\"checkboxPosition == 'after'\" [class.mat-list-item-disabled]=\"disabled\"><div md-ripple class=\"mat-list-item-ripple\" [mdRippleTrigger]=\"_getHostElement()\" [mdRippleDisabled]=\"_isRippleDisabled()\"></div><md-pseudo-checkbox #autocheckbox [state]=\"selected ? 'checked' : 'unchecked'\" [disabled]=\"disabled\"></md-pseudo-checkbox><div class=\"mat-list-text\"><ng-content></ng-content></div></div>",
+                template: "<div class=\"mat-list-item-content\" [class.mat-list-item-content-reverse]=\"checkboxPosition == 'after'\" [class.mat-list-item-disabled]=\"disabled\"><div mat-ripple class=\"mat-list-item-ripple\" [matRippleTrigger]=\"_getHostElement()\" [matRippleDisabled]=\"_isRippleDisabled()\"></div><mat-pseudo-checkbox #autocheckbox [state]=\"selected ? 'checked' : 'unchecked'\" [disabled]=\"disabled\"></mat-pseudo-checkbox><div class=\"mat-list-text\"><ng-content></ng-content></div></div>",
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                providers: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: false }],
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -12303,13 +12914,16 @@ MdListOption.ctorParameters = function () { return [
 MdListOption.propDecorators = {
     '_lines': [{ type: _angular_core.ContentChildren, args: [MdLine,] },],
     'checkboxPosition': [{ type: _angular_core.Input },],
-    'disabled': [{ type: _angular_core.Input },],
     'value': [{ type: _angular_core.Input },],
+    'disabled': [{ type: _angular_core.Input },],
     'selected': [{ type: _angular_core.Input },],
     'selectChange': [{ type: _angular_core.Output },],
     'deselected': [{ type: _angular_core.Output },],
     'destroyed': [{ type: _angular_core.Output },],
 };
+/**
+ * Material Design list component where each item is a selectable option. Behaves as a listbox.
+ */
 var MdSelectionList = (function (_super) {
     __extends(MdSelectionList, _super);
     /**
@@ -12331,7 +12945,7 @@ var MdSelectionList = (function (_super) {
          */
         _this._optionDestroyStream = rxjs_Subscription.Subscription.EMPTY;
         /**
-         * options which are selected.
+         * The currently selected options.
          */
         _this.selectedOptions = new _angular_cdk_collections.SelectionModel(true);
         return _this;
@@ -12355,10 +12969,33 @@ var MdSelectionList = (function (_super) {
         this._optionFocusSubscription.unsubscribe();
     };
     /**
+     * Focus the selection-list.
      * @return {?}
      */
     MdSelectionList.prototype.focus = function () {
         this._element.nativeElement.focus();
+    };
+    /**
+     * Selects all of the options.
+     * @return {?}
+     */
+    MdSelectionList.prototype.selectAll = function () {
+        this.options.forEach(function (option) {
+            if (!option.selected) {
+                option.toggle();
+            }
+        });
+    };
+    /**
+     * Deselects all of the options.
+     * @return {?}
+     */
+    MdSelectionList.prototype.deselectAll = function () {
+        this.options.forEach(function (option) {
+            if (option.selected) {
+                option.toggle();
+            }
+        });
     };
     /**
      * Map all the options' destroy event subscriptions and merge them into one stream.
@@ -12453,8 +13090,9 @@ MdSelectionList.decorators = [
                     '[attr.aria-disabled]': 'disabled.toString()'
                 },
                 template: '<ng-content></ng-content>',
-                styles: [".mat-subheader{display:block;box-sizing:border-box;padding:16px}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{margin:0}.mat-list,.mat-nav-list,.mat-selection-list{padding-top:8px;display:block}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{height:48px;line-height:16px}.mat-list .mat-subheader:first-child,.mat-nav-list .mat-subheader:first-child,.mat-selection-list .mat-subheader:first-child{margin-top:-8px}.mat-list .mat-list-item,.mat-nav-list .mat-list-item,.mat-selection-list .mat-list-item{display:block}.mat-list .mat-list-item .mat-list-item-content,.mat-nav-list .mat-list-item .mat-list-item-content,.mat-selection-list .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-item .mat-list-item-content-reverse,.mat-nav-list .mat-list-item .mat-list-item-content-reverse,.mat-selection-list .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-item .mat-list-item-ripple,.mat-nav-list .mat-list-item .mat-list-item-ripple,.mat-selection-list .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-item .mat-list-text,.mat-nav-list .mat-list-item .mat-list-text,.mat-selection-list .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-item .mat-list-text>*,.mat-nav-list .mat-list-item .mat-list-text>*,.mat-selection-list .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-item .mat-list-text:empty,.mat-nav-list .mat-list-item .mat-list-text:empty,.mat-selection-list .mat-list-item .mat-list-text:empty{display:none}.mat-list .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-item .mat-list-avatar,.mat-nav-list .mat-list-item .mat-list-avatar,.mat-selection-list .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-item .mat-list-icon,.mat-nav-list .mat-list-item .mat-list-icon,.mat-selection-list .mat-list-item .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list .mat-list-option,.mat-nav-list .mat-list-option,.mat-selection-list .mat-list-option{display:block}.mat-list .mat-list-option .mat-list-item-content,.mat-nav-list .mat-list-option .mat-list-item-content,.mat-selection-list .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-option .mat-list-item-content-reverse,.mat-nav-list .mat-list-option .mat-list-item-content-reverse,.mat-selection-list .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-option .mat-list-item-ripple,.mat-nav-list .mat-list-option .mat-list-item-ripple,.mat-selection-list .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-option .mat-list-text,.mat-nav-list .mat-list-option .mat-list-text,.mat-selection-list .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-option .mat-list-text>*,.mat-nav-list .mat-list-option .mat-list-text>*,.mat-selection-list .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-option .mat-list-text:empty,.mat-nav-list .mat-list-option .mat-list-text:empty,.mat-selection-list .mat-list-option .mat-list-text:empty{display:none}.mat-list .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-option .mat-list-avatar,.mat-nav-list .mat-list-option .mat-list-avatar,.mat-selection-list .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-option .mat-list-icon,.mat-nav-list .mat-list-option .mat-list-icon,.mat-selection-list .mat-list-option .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense],.mat-nav-list[dense],.mat-selection-list[dense]{padding-top:4px;display:block}.mat-list[dense] .mat-subheader,.mat-nav-list[dense] .mat-subheader,.mat-selection-list[dense] .mat-subheader{height:40px;line-height:8px}.mat-list[dense] .mat-subheader:first-child,.mat-nav-list[dense] .mat-subheader:first-child,.mat-selection-list[dense] .mat-subheader:first-child{margin-top:-4px}.mat-list[dense] .mat-list-item,.mat-nav-list[dense] .mat-list-item,.mat-selection-list[dense] .mat-list-item{display:block}.mat-list[dense] .mat-list-item .mat-list-item-content,.mat-nav-list[dense] .mat-list-item .mat-list-item-content,.mat-selection-list[dense] .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-item .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-item .mat-list-text,.mat-nav-list[dense] .mat-list-item .mat-list-text,.mat-selection-list[dense] .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-item .mat-list-text>*,.mat-nav-list[dense] .mat-list-item .mat-list-text>*,.mat-selection-list[dense] .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-item .mat-list-text:empty,.mat-nav-list[dense] .mat-list-item .mat-list-text:empty,.mat-selection-list[dense] .mat-list-item .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-item .mat-list-avatar,.mat-nav-list[dense] .mat-list-item .mat-list-avatar,.mat-selection-list[dense] .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-item .mat-list-icon,.mat-nav-list[dense] .mat-list-item .mat-list-icon,.mat-selection-list[dense] .mat-list-item .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense] .mat-list-option,.mat-nav-list[dense] .mat-list-option,.mat-selection-list[dense] .mat-list-option{display:block}.mat-list[dense] .mat-list-option .mat-list-item-content,.mat-nav-list[dense] .mat-list-option .mat-list-item-content,.mat-selection-list[dense] .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-option .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-option .mat-list-text,.mat-nav-list[dense] .mat-list-option .mat-list-text,.mat-selection-list[dense] .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-option .mat-list-text>*,.mat-nav-list[dense] .mat-list-option .mat-list-text>*,.mat-selection-list[dense] .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-option .mat-list-text:empty,.mat-nav-list[dense] .mat-list-option .mat-list-text:empty,.mat-selection-list[dense] .mat-list-option .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-option .mat-list-avatar,.mat-nav-list[dense] .mat-list-option .mat-list-avatar,.mat-selection-list[dense] .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-option .mat-list-icon,.mat-nav-list[dense] .mat-list-option .mat-list-icon,.mat-selection-list[dense] .mat-list-option .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-divider{display:block;border-top-style:solid;border-top-width:1px;margin:0}.mat-nav-list a{text-decoration:none;color:inherit}.mat-nav-list .mat-list-item-content{cursor:pointer}.mat-nav-list .mat-list-item-content.mat-list-item-focus,.mat-nav-list .mat-list-item-content:hover{outline:0}"],
+                styles: [".mat-subheader{display:block;box-sizing:border-box;padding:16px}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{margin:0}.mat-list,.mat-nav-list,.mat-selection-list{padding-top:8px;display:block}.mat-list .mat-subheader,.mat-nav-list .mat-subheader,.mat-selection-list .mat-subheader{height:48px;line-height:16px}.mat-list .mat-subheader:first-child,.mat-nav-list .mat-subheader:first-child,.mat-selection-list .mat-subheader:first-child{margin-top:-8px}.mat-list .mat-list-item,.mat-nav-list .mat-list-item,.mat-selection-list .mat-list-item{display:block}.mat-list .mat-list-item .mat-list-item-content,.mat-nav-list .mat-list-item .mat-list-item-content,.mat-selection-list .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-item .mat-list-item-content-reverse,.mat-nav-list .mat-list-item .mat-list-item-content-reverse,.mat-selection-list .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-item .mat-list-item-ripple,.mat-nav-list .mat-list-item .mat-list-item-ripple,.mat-selection-list .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-item .mat-list-text,.mat-nav-list .mat-list-item .mat-list-text,.mat-selection-list .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-item .mat-list-text>*,.mat-nav-list .mat-list-item .mat-list-text>*,.mat-selection-list .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-item .mat-list-text:empty,.mat-nav-list .mat-list-item .mat-list-text:empty,.mat-selection-list .mat-list-item .mat-list-text:empty{display:none}.mat-list .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-item .mat-list-avatar,.mat-nav-list .mat-list-item .mat-list-avatar,.mat-selection-list .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-item .mat-list-icon,.mat-nav-list .mat-list-item .mat-list-icon,.mat-selection-list .mat-list-item .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list .mat-list-option,.mat-nav-list .mat-list-option,.mat-selection-list .mat-list-option{display:block}.mat-list .mat-list-option .mat-list-item-content,.mat-nav-list .mat-list-option .mat-list-item-content,.mat-selection-list .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:48px;padding:0 16px;position:relative}.mat-list .mat-list-option .mat-list-item-content-reverse,.mat-nav-list .mat-list-option .mat-list-item-content-reverse,.mat-selection-list .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list .mat-list-option .mat-list-item-ripple,.mat-nav-list .mat-list-option .mat-list-item-ripple,.mat-selection-list .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:56px}.mat-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-2-line .mat-list-item-content{height:72px}.mat-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-3-line .mat-list-item-content{height:88px}.mat-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list .mat-list-option .mat-list-text,.mat-nav-list .mat-list-option .mat-list-text,.mat-selection-list .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list .mat-list-option .mat-list-text>*,.mat-nav-list .mat-list-option .mat-list-text>*,.mat-selection-list .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list .mat-list-option .mat-list-text:empty,.mat-nav-list .mat-list-option .mat-list-text:empty,.mat-selection-list .mat-list-option .mat-list-text:empty{display:none}.mat-list .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list .mat-list-option .mat-list-avatar,.mat-nav-list .mat-list-option .mat-list-avatar,.mat-selection-list .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list .mat-list-option .mat-list-icon,.mat-nav-list .mat-list-option .mat-list-icon,.mat-selection-list .mat-list-option .mat-list-icon{width:24px;height:24px;font-size:24px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense],.mat-nav-list[dense],.mat-selection-list[dense]{padding-top:4px;display:block}.mat-list[dense] .mat-subheader,.mat-nav-list[dense] .mat-subheader,.mat-selection-list[dense] .mat-subheader{height:40px;line-height:8px}.mat-list[dense] .mat-subheader:first-child,.mat-nav-list[dense] .mat-subheader:first-child,.mat-selection-list[dense] .mat-subheader:first-child{margin-top:-4px}.mat-list[dense] .mat-list-item,.mat-nav-list[dense] .mat-list-item,.mat-selection-list[dense] .mat-list-item{display:block}.mat-list[dense] .mat-list-item .mat-list-item-content,.mat-nav-list[dense] .mat-list-item .mat-list-item-content,.mat-selection-list[dense] .mat-list-item .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-item .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-item .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-item .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-item .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-item .mat-list-text,.mat-nav-list[dense] .mat-list-item .mat-list-text,.mat-selection-list[dense] .mat-list-item .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-item .mat-list-text>*,.mat-nav-list[dense] .mat-list-item .mat-list-text>*,.mat-selection-list[dense] .mat-list-item .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-item .mat-list-text:empty,.mat-nav-list[dense] .mat-list-item .mat-list-text:empty,.mat-selection-list[dense] .mat-list-item .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-item .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-item .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-item .mat-list-avatar,.mat-nav-list[dense] .mat-list-item .mat-list-avatar,.mat-selection-list[dense] .mat-list-item .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-item .mat-list-icon,.mat-nav-list[dense] .mat-list-item .mat-list-icon,.mat-selection-list[dense] .mat-list-item .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-list[dense] .mat-list-option,.mat-nav-list[dense] .mat-list-option,.mat-selection-list[dense] .mat-list-option{display:block}.mat-list[dense] .mat-list-option .mat-list-item-content,.mat-nav-list[dense] .mat-list-option .mat-list-item-content,.mat-selection-list[dense] .mat-list-option .mat-list-item-content{display:flex;flex-direction:row;align-items:center;box-sizing:border-box;height:40px;padding:0 16px;position:relative}.mat-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-nav-list[dense] .mat-list-option .mat-list-item-content-reverse,.mat-selection-list[dense] .mat-list-option .mat-list-item-content-reverse{display:flex;align-items:center;padding:0 16px;flex-direction:row-reverse;justify-content:space-around}.mat-list[dense] .mat-list-option .mat-list-item-ripple,.mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,.mat-selection-list[dense] .mat-list-option .mat-list-item-ripple{top:0;left:0;right:0;bottom:0;position:absolute;pointer-events:none}.mat-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-list-item-avatar .mat-list-item-content{height:48px}.mat-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-2-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-2-line .mat-list-item-content{height:60px}.mat-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-3-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-3-line .mat-list-item-content{height:76px}.mat-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-nav-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,.mat-selection-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content{height:100%;padding:8px 16px}.mat-list[dense] .mat-list-option .mat-list-text,.mat-nav-list[dense] .mat-list-option .mat-list-text,.mat-selection-list[dense] .mat-list-option .mat-list-text{display:flex;flex-direction:column;width:100%;box-sizing:border-box;overflow:hidden;padding:0 16px}.mat-list[dense] .mat-list-option .mat-list-text>*,.mat-nav-list[dense] .mat-list-option .mat-list-text>*,.mat-selection-list[dense] .mat-list-option .mat-list-text>*{margin:0;padding:0;font-weight:400;font-size:inherit}.mat-list[dense] .mat-list-option .mat-list-text:empty,.mat-nav-list[dense] .mat-list-option .mat-list-text:empty,.mat-selection-list[dense] .mat-list-option .mat-list-text:empty{display:none}.mat-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-nav-list[dense] .mat-list-option .mat-list-text:nth-child(2),.mat-selection-list[dense] .mat-list-option .mat-list-text:nth-child(2){padding:0}.mat-list[dense] .mat-list-option .mat-list-avatar,.mat-nav-list[dense] .mat-list-option .mat-list-avatar,.mat-selection-list[dense] .mat-list-option .mat-list-avatar{flex-shrink:0;width:40px;height:40px;border-radius:50%}.mat-list[dense] .mat-list-option .mat-list-icon,.mat-nav-list[dense] .mat-list-option .mat-list-icon,.mat-selection-list[dense] .mat-list-option .mat-list-icon{width:20px;height:20px;font-size:20px;box-sizing:content-box;border-radius:50%;padding:4px}.mat-divider{display:block;border-top-style:solid;border-top-width:1px;margin:0}.mat-nav-list a{text-decoration:none;color:inherit}.mat-nav-list .mat-list-item-content{cursor:pointer}.mat-nav-list .mat-list-item-content.mat-list-item-focus,.mat-nav-list .mat-list-item-content:hover{outline:0}.mat-list-option:not([disabled]){cursor:pointer}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush
             },] },
 ];
@@ -12510,6 +13148,50 @@ MdListModule.decorators = [
  * @nocollapse
  */
 MdListModule.ctorParameters = function () { return []; };
+
+/**
+ * Below are all the animations for the md-menu component.
+ * Animation duration and timing values are based on:
+ * https://material.io/guidelines/components/menus.html#menus-usage
+ */
+/**
+ * This animation controls the menu panel's entry and exit from the page.
+ *
+ * When the menu panel is added to the DOM, it scales in and fades in its border.
+ *
+ * When the menu panel is removed from the DOM, it simply fades out after a brief
+ * delay to display the ripple.
+ */
+// TODO(kara): switch to :enter and :leave once Mobile Safari is sorted out.
+var transformMenu = _angular_animations.trigger('transformMenu', [
+    _angular_animations.state('void', _angular_animations.style({
+        opacity: 0,
+        // This starts off from 0.01, instead of 0, because there's an issue in the Angular animations
+        // as of 4.2, which causes the animation to be skipped if it starts from 0.
+        transform: 'scale(0.01, 0.01)'
+    })),
+    _angular_animations.state('enter-start', _angular_animations.style({
+        opacity: 1,
+        transform: 'scale(1, 0.5)'
+    })),
+    _angular_animations.state('enter', _angular_animations.style({
+        transform: 'scale(1, 1)'
+    })),
+    _angular_animations.transition('void => enter-start', _angular_animations.animate('100ms linear')),
+    _angular_animations.transition('enter-start => enter', _angular_animations.animate('300ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
+    _angular_animations.transition('* => void', _angular_animations.animate('150ms 50ms linear', _angular_animations.style({ opacity: 0 })))
+]);
+/**
+ * This animation fades in the background color and content of the menu panel
+after its containing element is scaled in.
+ */
+var fadeInItems = _angular_animations.trigger('fadeInItems', [
+    _angular_animations.state('showing', _angular_animations.style({ opacity: 1 })),
+    _angular_animations.transition('void => *', [
+        _angular_animations.style({ opacity: 0 }),
+        _angular_animations.animate('400ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)')
+    ])
+]);
 /**
  * Throws an exception for the case when menu trigger doesn't have a valid md-menu instance
 \@docs-private
@@ -12636,8 +13318,10 @@ MdMenuItem.decorators = [
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
-                template: "<ng-content></ng-content><div class=\"mat-menu-ripple\" *ngIf=\"!disabled\" md-ripple [mdRippleTrigger]=\"_getHostElement()\"></div>",
-                exportAs: 'mdMenuItem',
+                preserveWhitespaces: false,
+                template: "<ng-content></ng-content><div class=\"mat-menu-ripple\" *ngIf=\"!disabled\" mat-ripple [matRippleTrigger]=\"_getHostElement()\"></div>",
+                exportAs: 'mdMenuItem, matMenuItem',
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -12646,49 +13330,6 @@ MdMenuItem.decorators = [
 MdMenuItem.ctorParameters = function () { return [
     { type: _angular_core.ElementRef, },
 ]; };
-/**
- * Below are all the animations for the md-menu component.
- * Animation duration and timing values are based on:
- * https://material.io/guidelines/components/menus.html#menus-usage
- */
-/**
- * This animation controls the menu panel's entry and exit from the page.
- *
- * When the menu panel is added to the DOM, it scales in and fades in its border.
- *
- * When the menu panel is removed from the DOM, it simply fades out after a brief
- * delay to display the ripple.
- */
-// TODO(kara): switch to :enter and :leave once Mobile Safari is sorted out.
-var transformMenu = _angular_animations.trigger('transformMenu', [
-    _angular_animations.state('void', _angular_animations.style({
-        opacity: 0,
-        // This starts off from 0.01, instead of 0, because there's an issue in the Angular animations
-        // as of 4.2, which causes the animation to be skipped if it starts from 0.
-        transform: 'scale(0.01, 0.01)'
-    })),
-    _angular_animations.state('enter-start', _angular_animations.style({
-        opacity: 1,
-        transform: 'scale(1, 0.5)'
-    })),
-    _angular_animations.state('enter', _angular_animations.style({
-        transform: 'scale(1, 1)'
-    })),
-    _angular_animations.transition('void => enter-start', _angular_animations.animate('100ms linear')),
-    _angular_animations.transition('enter-start => enter', _angular_animations.animate('300ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
-    _angular_animations.transition('* => void', _angular_animations.animate('150ms 50ms linear', _angular_animations.style({ opacity: 0 })))
-]);
-/**
- * This animation fades in the background color and content of the menu panel
-after its containing element is scaled in.
- */
-var fadeInItems = _angular_animations.trigger('fadeInItems', [
-    _angular_animations.state('showing', _angular_animations.style({ opacity: 1 })),
-    _angular_animations.transition('void => *', [
-        _angular_animations.style({ opacity: 0 }),
-        _angular_animations.animate('400ms 100ms cubic-bezier(0.55, 0, 0.55, 0.2)')
-    ])
-]);
 /**
  * Injection token to be used to override the default options for `md-menu`.
  */
@@ -12916,11 +13557,12 @@ MdMenu.decorators = [
                 styles: [".mat-menu-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;max-height:calc(100vh - 48px);border-radius:2px}.mat-menu-panel:not([class*=mat-elevation-z]){box-shadow:0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12)}.mat-menu-panel.mat-menu-after.mat-menu-below{transform-origin:left top}.mat-menu-panel.mat-menu-after.mat-menu-above{transform-origin:left bottom}.mat-menu-panel.mat-menu-before.mat-menu-below{transform-origin:right top}.mat-menu-panel.mat-menu-before.mat-menu-above{transform-origin:right bottom}[dir=rtl] .mat-menu-panel.mat-menu-after.mat-menu-below{transform-origin:right top}[dir=rtl] .mat-menu-panel.mat-menu-after.mat-menu-above{transform-origin:right bottom}[dir=rtl] .mat-menu-panel.mat-menu-before.mat-menu-below{transform-origin:left top}[dir=rtl] .mat-menu-panel.mat-menu-before.mat-menu-above{transform-origin:left bottom}.mat-menu-panel.ng-animating{pointer-events:none}@media screen and (-ms-high-contrast:active){.mat-menu-panel{outline:solid 1px}}.mat-menu-content{padding-top:8px;padding-bottom:8px}.mat-menu-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;line-height:48px;height:48px;padding:0 16px;text-align:left;text-decoration:none;position:relative}.mat-menu-item[disabled]{cursor:default}[dir=rtl] .mat-menu-item{text-align:right}.mat-menu-item .mat-icon{margin-right:16px}[dir=rtl] .mat-menu-item .mat-icon{margin-left:16px;margin-right:0}.mat-menu-item .mat-icon{vertical-align:middle}.mat-menu-item-submenu-trigger{padding-right:32px}.mat-menu-item-submenu-trigger::after{width:0;height:0;border-style:solid;border-width:5px 0 5px 5px;border-color:transparent transparent transparent currentColor;content:'';display:inline-block;position:absolute;top:50%;right:16px;transform:translateY(-50%)}[dir=rtl] .mat-menu-item-submenu-trigger{padding-right:8px;padding-left:32px}[dir=rtl] .mat-menu-item-submenu-trigger::after{right:auto;left:16px;transform:rotateY(180deg) translateY(-50%)}button.mat-menu-item{width:100%}.mat-menu-ripple{top:0;left:0;right:0;bottom:0;position:absolute}"],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 animations: [
                     transformMenu,
                     fadeInItems
                 ],
-                exportAs: 'mdMenu'
+                exportAs: 'mdMenu, matMenu'
             },] },
 ];
 /**
@@ -13245,11 +13887,11 @@ var MdMenuTrigger = (function () {
     };
     /**
      * This method builds the configuration object needed to create the overlay, the OverlayState.
-    \@returns OverlayState
+    \@returns OverlayConfig
      * @return {?}
      */
     MdMenuTrigger.prototype._getOverlayConfig = function () {
-        return new _angular_cdk_overlay.OverlayState({
+        return new _angular_cdk_overlay.OverlayConfig({
             positionStrategy: this._getPosition(),
             hasBackdrop: !this.triggersSubmenu(),
             backdropClass: 'cdk-overlay-transparent-backdrop',
@@ -13336,6 +13978,12 @@ var MdMenuTrigger = (function () {
     MdMenuTrigger.prototype._handleMousedown = function (event) {
         if (!_angular_cdk_a11y.isFakeMousedownFromScreenReader(event)) {
             this._openedByMouse = true;
+            // Since clicking on the trigger won't close the menu if it opens a sub-menu,
+            // we should prevent focus from moving onto it via click to avoid the
+            // highlight from lingering on the menu item.
+            if (this.triggersSubmenu()) {
+                event.preventDefault();
+            }
         }
     };
     /**
@@ -13376,7 +14024,7 @@ MdMenuTrigger.decorators = [
                     '(keydown)': '_handleKeydown($event)',
                     '(click)': '_handleClick($event)',
                 },
-                exportAs: 'mdMenuTrigger'
+                exportAs: 'mdMenuTrigger, matMenuTrigger'
             },] },
 ];
 /**
@@ -13431,24 +14079,7 @@ MdMenuModule.decorators = [
  * @nocollapse
  */
 MdMenuModule.ctorParameters = function () { return []; };
-/**
- * This animation shrinks the placeholder text to 75% of its normal size and translates
-it to either the top left corner (ltr) or top right corner (rtl) of the trigger,
-depending on the text direction of the application.
- */
-var transformPlaceholder = _angular_animations.trigger('transformPlaceholder', [
-    _angular_animations.state('floating-ltr', _angular_animations.style({
-        top: '-22px',
-        left: '-2px',
-        transform: 'scale(0.75)'
-    })),
-    _angular_animations.state('floating-rtl', _angular_animations.style({
-        top: '-22px',
-        left: '2px',
-        transform: 'scale(0.75)'
-    })),
-    _angular_animations.transition('* => *', _angular_animations.animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)'))
-]);
+
 /**
  * This animation transforms the select's overlay panel on and off the page.
 
@@ -13521,69 +14152,11 @@ actually takes two values and returns a boolean is not checked.
 function getMdSelectNonFunctionValueError() {
     return Error('Cannot assign a non-function value to `compareWith`.');
 }
-/**
- * Mixin to augment a directive with a `tabIndex` property.
- * @template T
- * @param {?} base
- * @param {?=} defaultTabIndex
- * @return {?}
- */
-function mixinTabIndex(base, defaultTabIndex) {
-    if (defaultTabIndex === void 0) { defaultTabIndex = 0; }
-    return (function (_super) {
-        __extends(class_4, _super);
-        /**
-         * @param {...?} args
-         */
-        function class_4() {
-            var args = [];
-            for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-            }
-            var _this = _super.apply(this, args) || this;
-            _this._tabIndex = defaultTabIndex;
-            return _this;
-        }
-        Object.defineProperty(class_4.prototype, "tabIndex", {
-            /**
-             * @return {?}
-             */
-            get: function () { return this.disabled ? -1 : this._tabIndex; },
-            /**
-             * @param {?} value
-             * @return {?}
-             */
-            set: function (value) {
-                // If the specified tabIndex value is null or undefined, fall back to the default value.
-                this._tabIndex = value != null ? value : defaultTabIndex;
-            },
-            enumerable: true,
-            configurable: true
-        });
-        return class_4;
-    }(base));
-}
-/**
- * The fixed height of every option element (option, group header etc.).
- */
-var SELECT_ITEM_HEIGHT = 48;
+var nextUniqueId$4 = 0;
 /**
  * The max height of the select's overlay panel
  */
 var SELECT_PANEL_MAX_HEIGHT = 256;
-/**
- * The max number of options visible at once in the select panel.
- */
-var SELECT_MAX_OPTIONS_DISPLAYED = Math.floor(SELECT_PANEL_MAX_HEIGHT / SELECT_ITEM_HEIGHT);
-/**
- * The fixed height of the select's trigger element.
- */
-var SELECT_TRIGGER_HEIGHT = 30;
-/**
- * Must adjust for the difference in height between the option and the trigger,
-so the text will align on the y axis.
- */
-var SELECT_OPTION_HEIGHT_ADJUSTMENT = (SELECT_ITEM_HEIGHT - SELECT_TRIGGER_HEIGHT) / 2;
 /**
  * The panel's padding on the x-axis
  */
@@ -13593,31 +14166,23 @@ var SELECT_PANEL_PADDING_X = 16;
  */
 var SELECT_PANEL_INDENT_PADDING_X = SELECT_PANEL_PADDING_X * 2;
 /**
+ * The height of the select items in `em` units.
+ */
+var SELECT_ITEM_HEIGHT_EM = 3;
+/**
  * Distance between the panel edge and the option text in
 multi-selection mode.
 
-(SELECT_PADDING * 1.75) + 20 = 48
-The padding is multiplied by 1.75 because the checkbox's margin is half the padding, and
-the browser adds ~4px, because we're using inline elements.
+(SELECT_PANEL_PADDING_X * 1.5) + 20 = 44
+The padding is multiplied by 1.5 because the checkbox's margin is half the padding.
 The checkbox width is 20px.
  */
-var SELECT_MULTIPLE_PANEL_PADDING_X = SELECT_PANEL_PADDING_X * 1.75 + 20;
-/**
- * The panel's padding on the y-axis. This padding indicates there are more
-options available if you scroll.
- */
-var SELECT_PANEL_PADDING_Y = 16;
+var SELECT_MULTIPLE_PANEL_PADDING_X = SELECT_PANEL_PADDING_X * 1.5 + 20;
 /**
  * The select panel will only "fit" inside the viewport if it is positioned at
 this value or more away from the viewport boundary.
  */
 var SELECT_PANEL_VIEWPORT_PADDING = 8;
-/**
- * Default minimum width of the trigger based on the CSS.
-Used as a fallback for server-side rendering.
-\@docs-private
- */
-var SELECT_TRIGGER_MIN_WIDTH = 112;
 /**
  * Injection token that determines the scroll handling while a select is open.
  */
@@ -13666,7 +14231,7 @@ var MdSelectBase = (function () {
     }
     return MdSelectBase;
 }());
-var _MdSelectMixinBase = mixinTabIndex(mixinColor(mixinDisabled(MdSelectBase), 'primary'));
+var _MdSelectMixinBase = mixinTabIndex(mixinDisabled(MdSelectBase));
 /**
  * Allows the user to customize the trigger that is displayed when the select has a value.
  */
@@ -13689,26 +14254,25 @@ var MdSelect = (function (_super) {
     /**
      * @param {?} _viewportRuler
      * @param {?} _changeDetectorRef
-     * @param {?} _platform
+     * @param {?} _ngZone
      * @param {?} renderer
      * @param {?} elementRef
      * @param {?} _dir
      * @param {?} _parentForm
      * @param {?} _parentFormGroup
-     * @param {?} _control
+     * @param {?} ngControl
      * @param {?} tabIndex
-     * @param {?} placeholderOptions
      * @param {?} _scrollStrategyFactory
      */
-    function MdSelect(_viewportRuler, _changeDetectorRef, _platform, renderer, elementRef, _dir, _parentForm, _parentFormGroup, _control, tabIndex, placeholderOptions, _scrollStrategyFactory) {
+    function MdSelect(_viewportRuler, _changeDetectorRef, _ngZone, renderer, elementRef, _dir, _parentForm, _parentFormGroup, ngControl, tabIndex, _scrollStrategyFactory) {
         var _this = _super.call(this, renderer, elementRef) || this;
         _this._viewportRuler = _viewportRuler;
         _this._changeDetectorRef = _changeDetectorRef;
-        _this._platform = _platform;
+        _this._ngZone = _ngZone;
         _this._dir = _dir;
         _this._parentForm = _parentForm;
         _this._parentFormGroup = _parentFormGroup;
-        _this._control = _control;
+        _this.ngControl = ngControl;
         _this._scrollStrategyFactory = _scrollStrategyFactory;
         /**
          * Whether or not the overlay panel is open.
@@ -13743,9 +14307,13 @@ var MdSelect = (function (_super) {
          */
         _this._compareWith = function (o1, o2) { return o1 === o2; };
         /**
-         * The animation state of the placeholder.
+         * Unique id for this input.
          */
-        _this._placeholderState = '';
+        _this._uid = "mat-select-" + nextUniqueId$4++;
+        /**
+         * The cached font-size of the trigger element.
+         */
+        _this._triggerFontSize = 0;
         /**
          * View -> model callback called when value changes
          */
@@ -13796,6 +14364,19 @@ var MdSelect = (function (_super) {
                 overlayY: 'bottom',
             },
         ];
+        /**
+         * Stream that emits whenever the state of the select changes such that the wrapping `MdFormField`
+        needs to run change detection.
+         */
+        _this.stateChanges = new rxjs_Subject.Subject();
+        /**
+         * Whether the select is focused.
+         */
+        _this.focused = false;
+        /**
+         * A name for this control that can be used by `md-form-field`.
+         */
+        _this.controlType = 'mat-select';
         _this._disableRipple = false;
         /**
          * Aria label of the select. If not specified, the placeholder will be used as label.
@@ -13823,12 +14404,12 @@ var MdSelect = (function (_super) {
         \@docs-private
          */
         _this.valueChange = new _angular_core.EventEmitter();
-        if (_this._control) {
-            _this._control.valueAccessor = _this;
+        if (_this.ngControl) {
+            _this.ngControl.valueAccessor = _this;
         }
         _this.tabIndex = parseInt(tabIndex) || 0;
-        _this._placeholderOptions = placeholderOptions ? placeholderOptions : {};
-        _this.floatPlaceholder = _this._placeholderOptions.float || 'auto';
+        // Force setter to be called in case id was not specified.
+        _this.id = _this.id;
         return _this;
     }
     Object.defineProperty(MdSelect.prototype, "placeholder", {
@@ -13842,10 +14423,8 @@ var MdSelect = (function (_super) {
          * @return {?}
          */
         set: function (value) {
-            var _this = this;
             this._placeholder = value;
-            // Must wait to record the trigger width to ensure placeholder width is included.
-            Promise.resolve(null).then(function () { return _this._setTriggerWidth(); });
+            this.stateChanges.next();
         },
         enumerable: true,
         configurable: true
@@ -13860,7 +14439,10 @@ var MdSelect = (function (_super) {
          * @param {?} value
          * @return {?}
          */
-        set: function (value) { this._required = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        set: function (value) {
+            this._required = _angular_cdk_coercion.coerceBooleanProperty(value);
+            this.stateChanges.next();
+        },
         enumerable: true,
         configurable: true
     });
@@ -13908,22 +14490,6 @@ var MdSelect = (function (_super) {
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(MdSelect.prototype, "floatPlaceholder", {
-        /**
-         * Whether to float the placeholder text.
-         * @return {?}
-         */
-        get: function () { return this._floatPlaceholder; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._floatPlaceholder = value || this._placeholderOptions.float || 'auto';
-        },
-        enumerable: true,
-        configurable: true
-    });
     Object.defineProperty(MdSelect.prototype, "value", {
         /**
          * Value of the select control.
@@ -13958,6 +14524,23 @@ var MdSelect = (function (_super) {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(MdSelect.prototype, "id", {
+        /**
+         * Unique id of the element.
+         * @return {?}
+         */
+        get: function () { return this._id; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._id = value || this._uid;
+            this.stateChanges.next();
+        },
+        enumerable: true,
+        configurable: true
+    });
     Object.defineProperty(MdSelect.prototype, "optionSelectionChanges", {
         /**
          * Combined stream of all of the child options' change events.
@@ -13974,6 +14557,7 @@ var MdSelect = (function (_super) {
      */
     MdSelect.prototype.ngOnInit = function () {
         this._selectionModel = new _angular_cdk_collections.SelectionModel(this.multiple, undefined, false);
+        this.stateChanges.next();
     };
     /**
      * @return {?}
@@ -14006,16 +14590,24 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype.open = function () {
+        var _this = this;
         if (this.disabled || !this.options.length) {
             return;
         }
-        if (!this._triggerWidth) {
-            this._setTriggerWidth();
-        }
+        this._triggerRect = this.trigger.nativeElement.getBoundingClientRect();
+        // Note: The computed font-size will be a string pixel value (e.g. "16px").
+        // `parseInt` ignores the trailing 'px' and converts this to a number.
+        this._triggerFontSize = parseInt(getComputedStyle(this.trigger.nativeElement)['font-size']);
         this._calculateOverlayPosition();
-        this._placeholderState = this._floatPlaceholderState();
         this._panelOpen = true;
         this._changeDetectorRef.markForCheck();
+        // Set the font size on the panel element once it exists.
+        _angular_cdk_rxjs.first.call(this._ngZone.onStable).subscribe(function () {
+            if (_this._triggerFontSize && _this.overlayDir.overlayRef &&
+                _this.overlayDir.overlayRef.overlayElement) {
+                _this.overlayDir.overlayRef.overlayElement.style.fontSize = _this._triggerFontSize + "px";
+            }
+        });
     };
     /**
      * Closes the overlay panel and focuses the host element.
@@ -14024,9 +14616,6 @@ var MdSelect = (function (_super) {
     MdSelect.prototype.close = function () {
         if (this._panelOpen) {
             this._panelOpen = false;
-            if (this._selectionModel.isEmpty()) {
-                this._placeholderState = '';
-            }
             this._changeDetectorRef.markForCheck();
             this.focus();
         }
@@ -14079,6 +14668,7 @@ var MdSelect = (function (_super) {
     MdSelect.prototype.setDisabledState = function (isDisabled) {
         this.disabled = isDisabled;
         this._changeDetectorRef.markForCheck();
+        this.stateChanges.next();
     };
     Object.defineProperty(MdSelect.prototype, "panelOpen", {
         /**
@@ -14130,16 +14720,6 @@ var MdSelect = (function (_super) {
      */
     MdSelect.prototype._isRtl = function () {
         return this._dir ? this._dir.value === 'rtl' : false;
-    };
-    /**
-     * Sets the width of the trigger element. This is necessary to match
-    the overlay width to the trigger width.
-     * @return {?}
-     */
-    MdSelect.prototype._setTriggerWidth = function () {
-        this._triggerWidth = this._platform.isBrowser ? this._getTriggerRect().width :
-            SELECT_TRIGGER_MIN_WIDTH;
-        this._changeDetectorRef.markForCheck();
     };
     /**
      * Handles the keyboard interactions of a closed select.
@@ -14199,14 +14779,25 @@ var MdSelect = (function (_super) {
         this._changeDetectorRef.markForCheck();
     };
     /**
+     * @return {?}
+     */
+    MdSelect.prototype._onFocus = function () {
+        if (!this.disabled) {
+            this.focused = true;
+            this.stateChanges.next();
+        }
+    };
+    /**
      * Calls the touched callback only if the panel is closed. Otherwise, the trigger will
     "blur" to the panel when it opens, causing a false positive.
      * @return {?}
      */
     MdSelect.prototype._onBlur = function () {
         if (!this.disabled && !this.panelOpen) {
+            this.focused = false;
             this._onTouched();
             this._changeDetectorRef.markForCheck();
+            this.stateChanges.next();
         }
     };
     /**
@@ -14217,24 +14808,32 @@ var MdSelect = (function (_super) {
         this._calculateOverlayOffsetX();
         this._setScrollTop();
     };
-    /**
-     * Whether the select has a value.
-     * @return {?}
-     */
-    MdSelect.prototype._hasValue = function () {
-        return this._selectionModel && this._selectionModel.hasValue();
-    };
-    /**
-     * Whether the select is in an error state.
-     * @return {?}
-     */
-    MdSelect.prototype._isErrorState = function () {
-        var /** @type {?} */ isInvalid = this._control && this._control.invalid;
-        var /** @type {?} */ isTouched = this._control && this._control.touched;
-        var /** @type {?} */ isSubmitted = (this._parentFormGroup && this._parentFormGroup.submitted) ||
-            (this._parentForm && this._parentForm.submitted);
-        return !!(isInvalid && (isTouched || isSubmitted));
-    };
+    Object.defineProperty(MdSelect.prototype, "empty", {
+        /**
+         * Whether the select has a value.
+         * @return {?}
+         */
+        get: function () {
+            return !this._selectionModel || this._selectionModel.isEmpty();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSelect.prototype, "errorState", {
+        /**
+         * Whether the select is in an error state.
+         * @return {?}
+         */
+        get: function () {
+            var /** @type {?} */ isInvalid = this.ngControl && this.ngControl.invalid;
+            var /** @type {?} */ isTouched = this.ngControl && this.ngControl.touched;
+            var /** @type {?} */ isSubmitted = (this._parentFormGroup && this._parentFormGroup.submitted) ||
+                (this._parentForm && this._parentForm.submitted);
+            return !!(isInvalid && (isTouched || isSubmitted));
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * Sets the scroll position of the scroll container. This must be called after
     the overlay pane is attached or the scroll container element will not yet be
@@ -14253,7 +14852,7 @@ var MdSelect = (function (_super) {
         // Defer setting the value in order to avoid the "Expression
         // has changed after it was checked" errors from Angular.
         Promise.resolve().then(function () {
-            _this._setSelectionByValue(_this._control ? _this._control.value : _this._value);
+            _this._setSelectionByValue(_this.ngControl ? _this.ngControl.value : _this._value);
         });
     };
     /**
@@ -14283,10 +14882,6 @@ var MdSelect = (function (_super) {
                 this._keyManager.setActiveItem(this.options.toArray().indexOf(correspondingOption));
             }
         }
-        this._setValueWidth();
-        if (this._selectionModel.isEmpty()) {
-            this._placeholderState = '';
-        }
         this._changeDetectorRef.markForCheck();
     };
     /**
@@ -14315,6 +14910,7 @@ var MdSelect = (function (_super) {
         if (correspondingOption) {
             isUserInput ? correspondingOption._selectViaInteraction() : correspondingOption.select();
             this._selectionModel.select(correspondingOption);
+            this.stateChanges.next();
         }
         return correspondingOption;
     };
@@ -14331,12 +14927,7 @@ var MdSelect = (function (_super) {
                 option.deselect();
             }
         });
-    };
-    /**
-     * @return {?}
-     */
-    MdSelect.prototype._getTriggerRect = function () {
-        return this.trigger.nativeElement.getBoundingClientRect();
+        this.stateChanges.next();
     };
     /**
      * Sets up a key manager to listen to keyboard events on the overlay panel.
@@ -14366,7 +14957,6 @@ var MdSelect = (function (_super) {
         var _this = this;
         this._optionSubscription = _angular_cdk_rxjs.filter.call(this.optionSelectionChanges, function (event) { return event.isUserInput; }).subscribe(function (event) {
             _this._onSelect(event.source);
-            _this._setValueWidth();
             if (!_this.multiple) {
                 _this.close();
             }
@@ -14382,6 +14972,7 @@ var MdSelect = (function (_super) {
         // TODO(crisbeto): handle blank/null options inside multi-select.
         if (this.multiple) {
             this._selectionModel.toggle(option);
+            this.stateChanges.next();
             wasSelected ? option.deselect() : option.select();
             this._sortValues();
         }
@@ -14392,6 +14983,7 @@ var MdSelect = (function (_super) {
             }
             else {
                 this._selectionModel.select(option);
+                this.stateChanges.next();
             }
         }
         if (wasSelected !== this._selectionModel.isSelected(option)) {
@@ -14412,6 +15004,7 @@ var MdSelect = (function (_super) {
                     _this._selectionModel.select(option);
                 }
             });
+            this.stateChanges.next();
         }
     };
     /**
@@ -14438,6 +15031,7 @@ var MdSelect = (function (_super) {
         this._onChange(valueToEmit);
         this.change.emit(new MdSelectChange(this, valueToEmit));
         this.valueChange.emit(valueToEmit);
+        this._changeDetectorRef.markForCheck();
     };
     /**
      * Records option IDs to pass to the aria-owns property.
@@ -14468,16 +15062,6 @@ var MdSelect = (function (_super) {
         if (this.options) {
             this.options.forEach(function (option) { return option.disableRipple = _this.disableRipple; });
         }
-    };
-    /**
-     * Must set the width of the selected option's value programmatically
-    because it is absolutely positioned and otherwise will not clip
-    overflow. The selection arrow is 9px wide, add 4px of padding = 13
-     * @return {?}
-     */
-    MdSelect.prototype._setValueWidth = function () {
-        this._selectedValueWidth = this._triggerWidth - 13;
-        this._changeDetectorRef.markForCheck();
     };
     /**
      * Focuses the selected item. If no option is selected, it will focus
@@ -14514,29 +15098,20 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._calculateOverlayPosition = function () {
+        var /** @type {?} */ itemHeight = this._triggerFontSize * SELECT_ITEM_HEIGHT_EM;
         var /** @type {?} */ items = this._getItemCount();
-        var /** @type {?} */ panelHeight = Math.min(items * SELECT_ITEM_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
-        var /** @type {?} */ scrollContainerHeight = items * SELECT_ITEM_HEIGHT;
+        var /** @type {?} */ panelHeight = Math.min(items * itemHeight, SELECT_PANEL_MAX_HEIGHT);
+        var /** @type {?} */ scrollContainerHeight = items * itemHeight;
         // The farthest the panel can be scrolled before it hits the bottom
         var /** @type {?} */ maxScroll = scrollContainerHeight - panelHeight;
-        if (this._hasValue()) {
-            var /** @type {?} */ selectedOptionOffset = ((this._getOptionIndex(this._selectionModel.selected[0])));
-            selectedOptionOffset += MdOption.countGroupLabelsBeforeOption(selectedOptionOffset, this.options, this.optionGroups);
-            // We must maintain a scroll buffer so the selected option will be scrolled to the
-            // center of the overlay panel rather than the top.
-            var /** @type {?} */ scrollBuffer = panelHeight / 2;
-            this._scrollTop = this._calculateOverlayScroll(selectedOptionOffset, scrollBuffer, maxScroll);
-            this._offsetY = this._calculateOverlayOffsetY(selectedOptionOffset, scrollBuffer, maxScroll);
-        }
-        else {
-            // If no option is selected, the panel centers on the first option. In this case,
-            // we must only adjust for the height difference between the option element
-            // and the trigger element, then multiply it by -1 to ensure the panel moves
-            // in the correct direction up the page.
-            var /** @type {?} */ groupLabels = MdOption.countGroupLabelsBeforeOption(0, this.options, this.optionGroups);
-            this._offsetY = (SELECT_ITEM_HEIGHT - SELECT_TRIGGER_HEIGHT) / 2 * -1 -
-                (groupLabels * SELECT_ITEM_HEIGHT);
-        }
+        // If no value is selected we open the popup to the first item.
+        var /** @type {?} */ selectedOptionOffset = this.empty ? 0 : ((this._getOptionIndex(this._selectionModel.selected[0])));
+        selectedOptionOffset += MdOption.countGroupLabelsBeforeOption(selectedOptionOffset, this.options, this.optionGroups);
+        // We must maintain a scroll buffer so the selected option will be scrolled to the
+        // center of the overlay panel rather than the top.
+        var /** @type {?} */ scrollBuffer = panelHeight / 2;
+        this._scrollTop = this._calculateOverlayScroll(selectedOptionOffset, scrollBuffer, maxScroll);
+        this._offsetY = this._calculateOverlayOffsetY(selectedOptionOffset, scrollBuffer, maxScroll);
         this._checkOverlayWithinViewport(maxScroll);
     };
     /**
@@ -14551,34 +15126,15 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._calculateOverlayScroll = function (selectedIndex, scrollBuffer, maxScroll) {
-        var /** @type {?} */ optionOffsetFromScrollTop = SELECT_ITEM_HEIGHT * selectedIndex;
-        var /** @type {?} */ halfOptionHeight = SELECT_ITEM_HEIGHT / 2;
+        var /** @type {?} */ itemHeight = this._triggerFontSize * SELECT_ITEM_HEIGHT_EM;
+        var /** @type {?} */ optionOffsetFromScrollTop = itemHeight * selectedIndex;
+        var /** @type {?} */ halfOptionHeight = itemHeight / 2;
         // Starts at the optionOffsetFromScrollTop, which scrolls the option to the top of the
         // scroll container, then subtracts the scroll buffer to scroll the option down to
         // the center of the overlay panel. Half the option height must be re-added to the
         // scrollTop so the option is centered based on its middle, not its top edge.
         var /** @type {?} */ optimalScrollPosition = optionOffsetFromScrollTop - scrollBuffer + halfOptionHeight;
         return clampValue(0, optimalScrollPosition, maxScroll);
-    };
-    /**
-     * Figures out the appropriate animation state for the placeholder.
-     * @return {?}
-     */
-    MdSelect.prototype._getPlaceholderAnimationState = function () {
-        if (this.floatPlaceholder === 'never') {
-            return '';
-        }
-        if (this.floatPlaceholder === 'always') {
-            return this._floatPlaceholderState();
-        }
-        return this._placeholderState;
-    };
-    /**
-     * Determines the CSS `opacity` of the placeholder element.
-     * @return {?}
-     */
-    MdSelect.prototype._getPlaceholderOpacity = function () {
-        return (this.floatPlaceholder !== 'never' || this._selectionModel.isEmpty()) ? '1' : '0';
     };
     Object.defineProperty(MdSelect.prototype, "_ariaLabel", {
         /**
@@ -14646,30 +15202,35 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._calculateOverlayOffsetY = function (selectedIndex, scrollBuffer, maxScroll) {
+        var /** @type {?} */ itemHeight = this._triggerFontSize * SELECT_ITEM_HEIGHT_EM;
+        var /** @type {?} */ optionHeightAdjustment = (itemHeight - this._triggerRect.height) / 2;
+        var /** @type {?} */ maxOptionsDisplayed = Math.floor(SELECT_PANEL_MAX_HEIGHT / itemHeight);
         var /** @type {?} */ optionOffsetFromPanelTop;
         if (this._scrollTop === 0) {
-            optionOffsetFromPanelTop = selectedIndex * SELECT_ITEM_HEIGHT;
+            optionOffsetFromPanelTop = selectedIndex * itemHeight;
         }
         else if (this._scrollTop === maxScroll) {
-            var /** @type {?} */ firstDisplayedIndex = this._getItemCount() - SELECT_MAX_OPTIONS_DISPLAYED;
+            var /** @type {?} */ firstDisplayedIndex = this._getItemCount() - maxOptionsDisplayed;
             var /** @type {?} */ selectedDisplayIndex = selectedIndex - firstDisplayedIndex;
+            // The first item is partially out of the viewport. Therefore we need to calculate what
+            // portion of it is shown in the viewport and account for it in our offset.
+            var /** @type {?} */ partialItemHeight = itemHeight - (this._getItemCount() * itemHeight - SELECT_PANEL_MAX_HEIGHT) % itemHeight;
             // Because the panel height is longer than the height of the options alone,
             // there is always extra padding at the top or bottom of the panel. When
             // scrolled to the very bottom, this padding is at the top of the panel and
             // must be added to the offset.
-            optionOffsetFromPanelTop =
-                selectedDisplayIndex * SELECT_ITEM_HEIGHT + SELECT_PANEL_PADDING_Y;
+            optionOffsetFromPanelTop = selectedDisplayIndex * itemHeight + partialItemHeight;
         }
         else {
             // If the option was scrolled to the middle of the panel using a scroll buffer,
             // its offset will be the scroll buffer minus the half height that was added to
             // center it.
-            optionOffsetFromPanelTop = scrollBuffer - SELECT_ITEM_HEIGHT / 2;
+            optionOffsetFromPanelTop = scrollBuffer - itemHeight / 2;
         }
         // The final offset is the option's offset from the top, adjusted for the height
         // difference, multiplied by -1 to ensure that the overlay moves in the correct
         // direction up the page.
-        return optionOffsetFromPanelTop * -1 - SELECT_OPTION_HEIGHT_ADJUSTMENT;
+        return optionOffsetFromPanelTop * -1 - optionHeightAdjustment;
     };
     /**
      * Checks that the attempted overlay position will fit within the viewport.
@@ -14680,13 +15241,13 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._checkOverlayWithinViewport = function (maxScroll) {
+        var /** @type {?} */ itemHeight = this._triggerFontSize * SELECT_ITEM_HEIGHT_EM;
         var /** @type {?} */ viewportRect = this._viewportRuler.getViewportRect();
-        var /** @type {?} */ triggerRect = this._getTriggerRect();
-        var /** @type {?} */ topSpaceAvailable = triggerRect.top - SELECT_PANEL_VIEWPORT_PADDING;
-        var /** @type {?} */ bottomSpaceAvailable = viewportRect.height - triggerRect.bottom - SELECT_PANEL_VIEWPORT_PADDING;
+        var /** @type {?} */ topSpaceAvailable = this._triggerRect.top - SELECT_PANEL_VIEWPORT_PADDING;
+        var /** @type {?} */ bottomSpaceAvailable = viewportRect.height - this._triggerRect.bottom - SELECT_PANEL_VIEWPORT_PADDING;
         var /** @type {?} */ panelHeightTop = Math.abs(this._offsetY);
-        var /** @type {?} */ totalPanelHeight = Math.min(this._getItemCount() * SELECT_ITEM_HEIGHT, SELECT_PANEL_MAX_HEIGHT);
-        var /** @type {?} */ panelHeightBottom = totalPanelHeight - panelHeightTop - triggerRect.height;
+        var /** @type {?} */ totalPanelHeight = Math.min(this._getItemCount() * itemHeight, SELECT_PANEL_MAX_HEIGHT);
+        var /** @type {?} */ panelHeightBottom = totalPanelHeight - panelHeightTop - this._triggerRect.height;
         if (panelHeightBottom > bottomSpaceAvailable) {
             this._adjustPanelUp(panelHeightBottom, bottomSpaceAvailable);
         }
@@ -14704,7 +15265,8 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._adjustPanelUp = function (panelHeightBottom, bottomSpaceAvailable) {
-        var /** @type {?} */ distanceBelowViewport = panelHeightBottom - bottomSpaceAvailable;
+        // Browsers ignore fractional scroll offsets, so we need to round.
+        var /** @type {?} */ distanceBelowViewport = Math.round(panelHeightBottom - bottomSpaceAvailable);
         // Scrolls the panel up by the distance it was extending past the boundary, then
         // adjusts the offset by that amount to move the panel up into the viewport.
         this._scrollTop -= distanceBelowViewport;
@@ -14727,7 +15289,8 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._adjustPanelDown = function (panelHeightTop, topSpaceAvailable, maxScroll) {
-        var /** @type {?} */ distanceAboveViewport = panelHeightTop - topSpaceAvailable;
+        // Browsers ignore fractional scroll offsets, so we need to round.
+        var /** @type {?} */ distanceAboveViewport = Math.round(panelHeightTop - topSpaceAvailable);
         // Scrolls the panel down by the distance it was extending past the boundary, then
         // adjusts the offset by that amount to move the panel down into the viewport.
         this._scrollTop += distanceAboveViewport;
@@ -14748,15 +15311,10 @@ var MdSelect = (function (_super) {
      * @return {?}
      */
     MdSelect.prototype._getOriginBasedOnOption = function () {
-        var /** @type {?} */ originY = Math.abs(this._offsetY) - SELECT_OPTION_HEIGHT_ADJUSTMENT + SELECT_ITEM_HEIGHT / 2;
+        var /** @type {?} */ itemHeight = this._triggerFontSize * SELECT_ITEM_HEIGHT_EM;
+        var /** @type {?} */ optionHeightAdjustment = (itemHeight - this._triggerRect.height) / 2;
+        var /** @type {?} */ originY = Math.abs(this._offsetY) - optionHeightAdjustment + itemHeight / 2;
         return "50% " + originY + "px 0px";
-    };
-    /**
-     * Figures out the floating placeholder state value.
-     * @return {?}
-     */
-    MdSelect.prototype._floatPlaceholderState = function () {
-        return this._isRtl() ? 'floating-rtl' : 'floating-ltr';
     };
     /**
      * Handles the user pressing the arrow keys on a closed select.
@@ -14790,38 +15348,62 @@ var MdSelect = (function (_super) {
     MdSelect.prototype._getItemCount = function () {
         return this.options.length + this.optionGroups.length;
     };
+    /**
+     * @param {?} ids
+     * @return {?}
+     */
+    MdSelect.prototype.setDescribedByIds = function (ids) { this._ariaDescribedby = ids.join(' '); };
+    /**
+     * @return {?}
+     */
+    MdSelect.prototype.onContainerClick = function () {
+        this.focus();
+        this.open();
+    };
+    Object.defineProperty(MdSelect.prototype, "shouldPlaceholderFloat", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this._panelOpen || !this.empty; },
+        enumerable: true,
+        configurable: true
+    });
     return MdSelect;
 }(_MdSelectMixinBase));
 MdSelect.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-select, mat-select',
-                template: "<div cdk-overlay-origin class=\"mat-select-trigger\" aria-hidden=\"true\" (click)=\"toggle()\" #origin=\"cdkOverlayOrigin\" #trigger><span class=\"mat-select-placeholder\" [class.mat-floating-placeholder]=\"_hasValue()\" [@transformPlaceholder]=\"_getPlaceholderAnimationState()\" [style.opacity]=\"_getPlaceholderOpacity()\" [style.width.px]=\"_selectedValueWidth\">{{ placeholder }} </span><span class=\"mat-select-value\" *ngIf=\"_hasValue()\"><span class=\"mat-select-value-text\" [ngSwitch]=\"!!customTrigger\"><span *ngSwitchDefault>{{ triggerValue }}</span><ng-content select=\"md-select-trigger, mat-select-trigger\" *ngSwitchCase=\"true\"></ng-content></span></span><span class=\"mat-select-arrow\"></span> <span class=\"mat-select-underline\"></span></div><ng-template cdk-connected-overlay hasBackdrop backdropClass=\"cdk-overlay-transparent-backdrop\" [scrollStrategy]=\"_scrollStrategy\" [origin]=\"origin\" [open]=\"panelOpen\" [positions]=\"_positions\" [minWidth]=\"_triggerWidth\" [offsetY]=\"_offsetY\" (backdropClick)=\"close()\" (attach)=\"_onAttached()\" (detach)=\"close()\"><div class=\"mat-select-panel {{ 'mat-' + color }}\" [ngClass]=\"panelClass\" [@transformPanel]=\"multiple ? 'showing-multiple' : 'showing'\" (@transformPanel.done)=\"_onPanelDone()\" (keydown)=\"_handlePanelKeydown($event)\" [style.transformOrigin]=\"_transformOrigin\" [class.mat-select-panel-done-animating]=\"_panelDoneAnimating\"><div class=\"mat-select-content\" [@fadeInContent]=\"'showing'\" (@fadeInContent.done)=\"_onFadeInDone()\"><ng-content></ng-content></div></div></ng-template>",
-                styles: [".mat-select{display:inline-block;outline:0}.mat-select-trigger{display:flex;align-items:center;height:30px;min-width:112px;cursor:pointer;position:relative;box-sizing:border-box}.mat-select-disabled .mat-select-trigger{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.mat-select-underline{position:absolute;bottom:0;left:0;right:0;height:1px}.mat-select:focus .mat-select-underline{height:2px}.mat-select-disabled .mat-select-underline{background-color:transparent;background-position:0 bottom}.mat-select-placeholder{position:relative;padding:0 2px;transform-origin:left top;flex-grow:1}.mat-select-placeholder.mat-floating-placeholder{top:-22px;left:-2px;text-align:left;transform:scale(.75)}[dir=rtl] .mat-select-placeholder{transform-origin:right top}[dir=rtl] .mat-select-placeholder.mat-floating-placeholder{left:2px;text-align:right}.mat-select-required .mat-select-placeholder::after{content:'*'}.mat-select-value{position:absolute;max-width:calc(100% - 18px);flex-grow:1;top:0;left:0;bottom:0;display:flex;align-items:center}[dir=rtl] .mat-select-value{left:auto;right:0}.mat-select-value-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:30px}.mat-select-arrow{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid;margin:0 4px}.mat-select-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;min-width:100%}.mat-select-panel:not([class*=mat-elevation-z]){box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}@media screen and (-ms-high-contrast:active){.mat-select-panel{outline:solid 1px}}"],
-                inputs: ['color', 'disabled', 'tabIndex'],
+                template: "<div cdk-overlay-origin class=\"mat-select-trigger\" aria-hidden=\"true\" (click)=\"toggle()\" #origin=\"cdkOverlayOrigin\" #trigger><div class=\"mat-select-value\"><ng-container *ngIf=\"empty\">{{'\xa0'}}</ng-container><span class=\"mat-select-value-text\" *ngIf=\"!empty\" [ngSwitch]=\"!!customTrigger\"><span *ngSwitchDefault>{{ triggerValue }}</span><ng-content select=\"md-select-trigger, mat-select-trigger\" *ngSwitchCase=\"true\"></ng-content></span></div><div class=\"mat-select-arrow-wrapper\"><div class=\"mat-select-arrow\"></div></div></div><ng-template cdk-connected-overlay hasBackdrop backdropClass=\"cdk-overlay-transparent-backdrop\" [scrollStrategy]=\"_scrollStrategy\" [origin]=\"origin\" [open]=\"panelOpen\" [positions]=\"_positions\" [minWidth]=\"_triggerRect?.width\" [offsetY]=\"_offsetY\" (backdropClick)=\"close()\" (attach)=\"_onAttached()\" (detach)=\"close()\"><div class=\"mat-select-panel {{ 'mat-' + color }}\" [ngClass]=\"panelClass\" [@transformPanel]=\"multiple ? 'showing-multiple' : 'showing'\" (@transformPanel.done)=\"_onPanelDone()\" (keydown)=\"_handlePanelKeydown($event)\" [style.transformOrigin]=\"_transformOrigin\" [class.mat-select-panel-done-animating]=\"_panelDoneAnimating\" [style.font-size.px]=\"_triggerFontSize\"><div class=\"mat-select-content\" [@fadeInContent]=\"'showing'\" (@fadeInContent.done)=\"_onFadeInDone()\"><ng-content></ng-content></div></div></ng-template>",
+                styles: [".mat-select{display:inline-block;width:100%;outline:0}.mat-select-trigger{display:inline-table;cursor:pointer;position:relative;box-sizing:border-box}.mat-select-disabled .mat-select-trigger{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.mat-select-value{display:table-cell;max-width:0;width:100%;overflow:hidden;text-overflow:ellipsis}.mat-select-value-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mat-select-arrow-wrapper{display:table-cell;vertical-align:middle}.mat-select-arrow{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid;margin:0 4px}.mat-select-panel{min-width:112px;max-width:280px;overflow:auto;-webkit-overflow-scrolling:touch;padding-top:0;padding-bottom:0;max-height:256px;min-width:100%}.mat-select-panel:not([class*=mat-elevation-z]){box-shadow:0 5px 5px -3px rgba(0,0,0,.2),0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12)}@media screen and (-ms-high-contrast:active){.mat-select-panel{outline:solid 1px}}.mat-select-panel .mat-optgroup-label,.mat-select-panel .mat-option{font-size:inherit;line-height:3em;height:3em}.mat-form-field-type-mat-select .mat-form-field-flex{cursor:pointer}.mat-form-field-type-mat-select .mat-form-field-placeholder{width:calc(100% - 18px)}"],
+                inputs: ['disabled', 'tabIndex'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: {
                     'role': 'listbox',
+                    '[attr.id]': 'id',
                     '[attr.tabindex]': 'tabIndex',
                     '[attr.aria-label]': '_ariaLabel',
                     '[attr.aria-labelledby]': 'ariaLabelledby',
                     '[attr.aria-required]': 'required.toString()',
                     '[attr.aria-disabled]': 'disabled.toString()',
-                    '[attr.aria-invalid]': '_isErrorState()',
+                    '[attr.aria-invalid]': 'errorState',
                     '[attr.aria-owns]': '_optionIds',
                     '[attr.aria-multiselectable]': 'multiple',
+                    '[attr.aria-describedby]': '_ariaDescribedby || null',
                     '[class.mat-select-disabled]': 'disabled',
-                    '[class.mat-select-invalid]': '_isErrorState()',
+                    '[class.mat-select-invalid]': 'errorState',
                     '[class.mat-select-required]': 'required',
                     'class': 'mat-select',
                     '(keydown)': '_handleClosedKeydown($event)',
+                    '(focus)': '_onFocus()',
                     '(blur)': '_onBlur()',
                 },
                 animations: [
-                    transformPlaceholder,
                     transformPanel,
                     fadeInContent
                 ],
-                exportAs: 'mdSelect',
+                providers: [{ provide: MdFormFieldControl, useExisting: MdSelect }],
+                exportAs: 'mdSelect, matSelect',
             },] },
 ];
 /**
@@ -14830,7 +15412,7 @@ MdSelect.decorators = [
 MdSelect.ctorParameters = function () { return [
     { type: _angular_cdk_overlay.ViewportRuler, },
     { type: _angular_core.ChangeDetectorRef, },
-    { type: _angular_cdk_platform.Platform, },
+    { type: _angular_core.NgZone, },
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ElementRef, },
     { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
@@ -14838,7 +15420,6 @@ MdSelect.ctorParameters = function () { return [
     { type: _angular_forms.FormGroupDirective, decorators: [{ type: _angular_core.Optional },] },
     { type: _angular_forms.NgControl, decorators: [{ type: _angular_core.Self }, { type: _angular_core.Optional },] },
     { type: undefined, decorators: [{ type: _angular_core.Attribute, args: ['tabindex',] },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_PLACEHOLDER_GLOBAL_OPTIONS,] },] },
     { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_SELECT_SCROLL_STRATEGY,] },] },
 ]; };
 MdSelect.propDecorators = {
@@ -14852,11 +15433,11 @@ MdSelect.propDecorators = {
     'required': [{ type: _angular_core.Input },],
     'multiple': [{ type: _angular_core.Input },],
     'compareWith': [{ type: _angular_core.Input },],
-    'floatPlaceholder': [{ type: _angular_core.Input },],
     'value': [{ type: _angular_core.Input },],
     'disableRipple': [{ type: _angular_core.Input },],
     'ariaLabel': [{ type: _angular_core.Input, args: ['aria-label',] },],
     'ariaLabelledby': [{ type: _angular_core.Input, args: ['aria-labelledby',] },],
+    'id': [{ type: _angular_core.Input },],
     'onOpen': [{ type: _angular_core.Output },],
     'onClose': [{ type: _angular_core.Output },],
     'change': [{ type: _angular_core.Output },],
@@ -14894,6 +15475,744 @@ MdSelectModule.decorators = [
  * @nocollapse
  */
 MdSelectModule.ctorParameters = function () { return []; };
+
+/**
+ * Time in ms to delay before changing the tooltip visibility to hidden
+ */
+var TOUCHEND_HIDE_DELAY = 1500;
+/**
+ * Time in ms to throttle repositioning after scroll events.
+ */
+var SCROLL_THROTTLE_MS = 20;
+/**
+ * CSS class that will be attached to the overlay panel.
+ */
+var TOOLTIP_PANEL_CLASS = 'mat-tooltip-panel';
+/**
+ * Creates an error to be thrown if the user supplied an invalid tooltip position.
+ * @param {?} position
+ * @return {?}
+ */
+function getMdTooltipInvalidPositionError(position) {
+    return Error("Tooltip position \"" + position + "\" is invalid.");
+}
+/**
+ * Injection token that determines the scroll handling while a tooltip is visible.
+ */
+var MD_TOOLTIP_SCROLL_STRATEGY = new _angular_core.InjectionToken('md-tooltip-scroll-strategy');
+/**
+ * \@docs-private
+ * @param {?} overlay
+ * @return {?}
+ */
+function MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY(overlay) {
+    return function () { return overlay.scrollStrategies.reposition({ scrollThrottle: SCROLL_THROTTLE_MS }); };
+}
+/**
+ * \@docs-private
+ */
+var MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER = {
+    provide: MD_TOOLTIP_SCROLL_STRATEGY,
+    deps: [_angular_cdk_overlay.Overlay],
+    useFactory: MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY
+};
+/**
+ * Directive that attaches a material design tooltip to the host element. Animates the showing and
+hiding of a tooltip provided position (defaults to below the element).
+
+https://material.google.com/components/tooltips.html
+ */
+var MdTooltip = (function () {
+    /**
+     * @param {?} renderer
+     * @param {?} _overlay
+     * @param {?} _elementRef
+     * @param {?} _scrollDispatcher
+     * @param {?} _viewContainerRef
+     * @param {?} _ngZone
+     * @param {?} _platform
+     * @param {?} _ariaDescriber
+     * @param {?} _scrollStrategy
+     * @param {?} _dir
+     */
+    function MdTooltip(renderer, _overlay, _elementRef, _scrollDispatcher, _viewContainerRef, _ngZone, _platform, _ariaDescriber, _scrollStrategy, _dir) {
+        var _this = this;
+        this._overlay = _overlay;
+        this._elementRef = _elementRef;
+        this._scrollDispatcher = _scrollDispatcher;
+        this._viewContainerRef = _viewContainerRef;
+        this._ngZone = _ngZone;
+        this._platform = _platform;
+        this._ariaDescriber = _ariaDescriber;
+        this._scrollStrategy = _scrollStrategy;
+        this._dir = _dir;
+        this._position = 'below';
+        this._disabled = false;
+        /**
+         * The default delay in ms before showing the tooltip after show is called
+         */
+        this.showDelay = 0;
+        /**
+         * The default delay in ms before hiding the tooltip after hide is called
+         */
+        this.hideDelay = 0;
+        this._message = '';
+        // The mouse events shouldn't be bound on iOS devices, because
+        // they can prevent the first tap from firing its click event.
+        if (!_platform.IOS) {
+            this._enterListener =
+                renderer.listen(_elementRef.nativeElement, 'mouseenter', function () { return _this.show(); });
+            this._leaveListener =
+                renderer.listen(_elementRef.nativeElement, 'mouseleave', function () { return _this.hide(); });
+        }
+    }
+    Object.defineProperty(MdTooltip.prototype, "position", {
+        /**
+         * Allows the user to define the position of the tooltip relative to the parent element
+         * @return {?}
+         */
+        get: function () { return this._position; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            if (value !== this._position) {
+                this._position = value;
+                // TODO(andrewjs): When the overlay's position can be dynamically changed, do not destroy
+                // the tooltip.
+                if (this._tooltipInstance) {
+                    this._disposeTooltip();
+                }
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "disabled", {
+        /**
+         * Disables the display of the tooltip.
+         * @return {?}
+         */
+        get: function () { return this._disabled; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
+            // If tooltip is disabled, hide immediately.
+            if (this._disabled) {
+                this.hide(0);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_positionDeprecated", {
+        /**
+         * @deprecated
+         * @return {?}
+         */
+        get: function () { return this._position; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._position = value; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "message", {
+        /**
+         * The message to be displayed in the tooltip
+         * @return {?}
+         */
+        get: function () { return this._message; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._ariaDescriber.removeDescription(this._elementRef.nativeElement, this._message);
+            // If the message is not a string (e.g. number), convert it to a string and trim it.
+            this._message = value != null ? ("" + value).trim() : '';
+            this._updateTooltipMessage();
+            this._ariaDescriber.describe(this._elementRef.nativeElement, this.message);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "tooltipClass", {
+        /**
+         * Classes to be passed to the tooltip. Supports the same syntax as `ngClass`.
+         * @return {?}
+         */
+        get: function () { return this._tooltipClass; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._tooltipClass = value;
+            if (this._tooltipInstance) {
+                this._setTooltipClass(this._tooltipClass);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_deprecatedMessage", {
+        /**
+         * @deprecated
+         * @return {?}
+         */
+        get: function () { return this.message; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.message = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matMessage", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.message; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.message = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matPosition", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.position; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.position = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matDisabled", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.disabled; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.disabled = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matHideDelay", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.hideDelay; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.hideDelay = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matShowDelay", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.showDelay; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.showDelay = v; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTooltip.prototype, "_matClass", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.tooltipClass; },
+        /**
+         * @param {?} v
+         * @return {?}
+         */
+        set: function (v) { this.tooltipClass = v; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Dispose the tooltip when destroyed.
+     * @return {?}
+     */
+    MdTooltip.prototype.ngOnDestroy = function () {
+        if (this._tooltipInstance) {
+            this._disposeTooltip();
+        }
+        // Clean up the event listeners set in the constructor
+        if (!this._platform.IOS) {
+            this._enterListener();
+            this._leaveListener();
+        }
+        this._ariaDescriber.removeDescription(this._elementRef.nativeElement, this.message);
+    };
+    /**
+     * Shows the tooltip after the delay in ms, defaults to tooltip-delay-show or 0ms if no input
+     * @param {?=} delay
+     * @return {?}
+     */
+    MdTooltip.prototype.show = function (delay) {
+        if (delay === void 0) { delay = this.showDelay; }
+        if (this.disabled || !this.message) {
+            return;
+        }
+        if (!this._tooltipInstance) {
+            this._createTooltip();
+        }
+        this._setTooltipClass(this._tooltipClass);
+        this._updateTooltipMessage(); /** @type {?} */
+        ((this._tooltipInstance)).show(this._position, delay);
+    };
+    /**
+     * Hides the tooltip after the delay in ms, defaults to tooltip-delay-hide or 0ms if no input
+     * @param {?=} delay
+     * @return {?}
+     */
+    MdTooltip.prototype.hide = function (delay) {
+        if (delay === void 0) { delay = this.hideDelay; }
+        if (this._tooltipInstance) {
+            this._tooltipInstance.hide(delay);
+        }
+    };
+    /**
+     * Shows/hides the tooltip
+     * @return {?}
+     */
+    MdTooltip.prototype.toggle = function () {
+        this._isTooltipVisible() ? this.hide() : this.show();
+    };
+    /**
+     * Returns true if the tooltip is currently visible to the user
+     * @return {?}
+     */
+    MdTooltip.prototype._isTooltipVisible = function () {
+        return !!this._tooltipInstance && this._tooltipInstance.isVisible();
+    };
+    /**
+     * Handles the keydown events on the host element.
+     * @param {?} e
+     * @return {?}
+     */
+    MdTooltip.prototype._handleKeydown = function (e) {
+        if (this._isTooltipVisible() && e.keyCode === _angular_cdk_keycodes.ESCAPE) {
+            e.stopPropagation();
+            this.hide(0);
+        }
+    };
+    /**
+     * Create the tooltip to display
+     * @return {?}
+     */
+    MdTooltip.prototype._createTooltip = function () {
+        var _this = this;
+        var /** @type {?} */ overlayRef = this._createOverlay();
+        var /** @type {?} */ portal = new _angular_cdk_portal.ComponentPortal(TooltipComponent, this._viewContainerRef);
+        this._tooltipInstance = overlayRef.attach(portal).instance; /** @type {?} */
+        ((
+        // Dispose the overlay when finished the shown tooltip.
+        this._tooltipInstance)).afterHidden().subscribe(function () {
+            // Check first if the tooltip has already been removed through this components destroy.
+            if (_this._tooltipInstance) {
+                _this._disposeTooltip();
+            }
+        });
+    };
+    /**
+     * Create the overlay config and position strategy
+     * @return {?}
+     */
+    MdTooltip.prototype._createOverlay = function () {
+        var _this = this;
+        var /** @type {?} */ origin = this._getOrigin();
+        var /** @type {?} */ position = this._getOverlayPosition();
+        // Create connected position strategy that listens for scroll events to reposition.
+        // After position changes occur and the overlay is clipped by a parent scrollable then
+        // close the tooltip.
+        var /** @type {?} */ strategy = this._overlay.position().connectedTo(this._elementRef, origin, position);
+        strategy.withScrollableContainers(this._scrollDispatcher.getScrollContainers(this._elementRef));
+        strategy.onPositionChange.subscribe(function (change) {
+            if (change.scrollableViewProperties.isOverlayClipped &&
+                _this._tooltipInstance && _this._tooltipInstance.isVisible()) {
+                _this.hide(0);
+            }
+        });
+        var /** @type {?} */ config = new _angular_cdk_overlay.OverlayConfig({
+            direction: this._dir ? this._dir.value : 'ltr',
+            positionStrategy: strategy,
+            panelClass: TOOLTIP_PANEL_CLASS,
+            scrollStrategy: this._scrollStrategy()
+        });
+        this._overlayRef = this._overlay.create(config);
+        return this._overlayRef;
+    };
+    /**
+     * Disposes the current tooltip and the overlay it is attached to
+     * @return {?}
+     */
+    MdTooltip.prototype._disposeTooltip = function () {
+        if (this._overlayRef) {
+            this._overlayRef.dispose();
+            this._overlayRef = null;
+        }
+        this._tooltipInstance = null;
+    };
+    /**
+     * Returns the origin position based on the user's position preference
+     * @return {?}
+     */
+    MdTooltip.prototype._getOrigin = function () {
+        if (this.position == 'above' || this.position == 'below') {
+            return { originX: 'center', originY: this.position == 'above' ? 'top' : 'bottom' };
+        }
+        var /** @type {?} */ isDirectionLtr = !this._dir || this._dir.value == 'ltr';
+        if (this.position == 'left' ||
+            this.position == 'before' && isDirectionLtr ||
+            this.position == 'after' && !isDirectionLtr) {
+            return { originX: 'start', originY: 'center' };
+        }
+        if (this.position == 'right' ||
+            this.position == 'after' && isDirectionLtr ||
+            this.position == 'before' && !isDirectionLtr) {
+            return { originX: 'end', originY: 'center' };
+        }
+        throw getMdTooltipInvalidPositionError(this.position);
+    };
+    /**
+     * Returns the overlay position based on the user's preference
+     * @return {?}
+     */
+    MdTooltip.prototype._getOverlayPosition = function () {
+        if (this.position == 'above') {
+            return { overlayX: 'center', overlayY: 'bottom' };
+        }
+        if (this.position == 'below') {
+            return { overlayX: 'center', overlayY: 'top' };
+        }
+        var /** @type {?} */ isLtr = !this._dir || this._dir.value == 'ltr';
+        if (this.position == 'left' ||
+            this.position == 'before' && isLtr ||
+            this.position == 'after' && !isLtr) {
+            return { overlayX: 'end', overlayY: 'center' };
+        }
+        if (this.position == 'right' ||
+            this.position == 'after' && isLtr ||
+            this.position == 'before' && !isLtr) {
+            return { overlayX: 'start', overlayY: 'center' };
+        }
+        throw getMdTooltipInvalidPositionError(this.position);
+    };
+    /**
+     * Updates the tooltip message and repositions the overlay according to the new message length
+     * @return {?}
+     */
+    MdTooltip.prototype._updateTooltipMessage = function () {
+        var _this = this;
+        // Must wait for the message to be painted to the tooltip so that the overlay can properly
+        // calculate the correct positioning based on the size of the text.
+        if (this._tooltipInstance) {
+            this._tooltipInstance.message = this.message;
+            this._tooltipInstance._markForCheck();
+            _angular_cdk_rxjs.first.call(this._ngZone.onMicrotaskEmpty.asObservable()).subscribe(function () {
+                if (_this._tooltipInstance) {
+                    ((_this._overlayRef)).updatePosition();
+                }
+            });
+        }
+    };
+    /**
+     * Updates the tooltip class
+     * @param {?} tooltipClass
+     * @return {?}
+     */
+    MdTooltip.prototype._setTooltipClass = function (tooltipClass) {
+        if (this._tooltipInstance) {
+            this._tooltipInstance.tooltipClass = tooltipClass;
+            this._tooltipInstance._markForCheck();
+        }
+    };
+    return MdTooltip;
+}());
+MdTooltip.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: '[md-tooltip], [mdTooltip], [mat-tooltip], [matTooltip]',
+                host: {
+                    '(longpress)': 'show()',
+                    '(focus)': 'show()',
+                    '(blur)': 'hide(0)',
+                    '(keydown)': '_handleKeydown($event)',
+                    '(touchend)': 'hide(' + TOUCHEND_HIDE_DELAY + ')',
+                },
+                exportAs: 'mdTooltip, matTooltip',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdTooltip.ctorParameters = function () { return [
+    { type: _angular_core.Renderer2, },
+    { type: _angular_cdk_overlay.Overlay, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_cdk_scrolling.ScrollDispatcher, },
+    { type: _angular_core.ViewContainerRef, },
+    { type: _angular_core.NgZone, },
+    { type: _angular_cdk_platform.Platform, },
+    { type: _angular_cdk_a11y.AriaDescriber, },
+    { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_TOOLTIP_SCROLL_STRATEGY,] },] },
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+]; };
+MdTooltip.propDecorators = {
+    'position': [{ type: _angular_core.Input, args: ['mdTooltipPosition',] },],
+    'disabled': [{ type: _angular_core.Input, args: ['mdTooltipDisabled',] },],
+    '_positionDeprecated': [{ type: _angular_core.Input, args: ['tooltip-position',] },],
+    'showDelay': [{ type: _angular_core.Input, args: ['mdTooltipShowDelay',] },],
+    'hideDelay': [{ type: _angular_core.Input, args: ['mdTooltipHideDelay',] },],
+    'message': [{ type: _angular_core.Input, args: ['mdTooltip',] },],
+    'tooltipClass': [{ type: _angular_core.Input, args: ['mdTooltipClass',] },],
+    '_deprecatedMessage': [{ type: _angular_core.Input, args: ['md-tooltip',] },],
+    '_matMessage': [{ type: _angular_core.Input, args: ['matTooltip',] },],
+    '_matPosition': [{ type: _angular_core.Input, args: ['matTooltipPosition',] },],
+    '_matDisabled': [{ type: _angular_core.Input, args: ['matTooltipDisabled',] },],
+    '_matHideDelay': [{ type: _angular_core.Input, args: ['matTooltipHideDelay',] },],
+    '_matShowDelay': [{ type: _angular_core.Input, args: ['matTooltipShowDelay',] },],
+    '_matClass': [{ type: _angular_core.Input, args: ['matTooltipClass',] },],
+};
+/**
+ * Internal component that wraps the tooltip's content.
+\@docs-private
+ */
+var TooltipComponent = (function () {
+    /**
+     * @param {?} _dir
+     * @param {?} _changeDetectorRef
+     */
+    function TooltipComponent(_dir, _changeDetectorRef) {
+        this._dir = _dir;
+        this._changeDetectorRef = _changeDetectorRef;
+        /**
+         * Property watched by the animation framework to show or hide the tooltip
+         */
+        this._visibility = 'initial';
+        /**
+         * Whether interactions on the page should close the tooltip
+         */
+        this._closeOnInteraction = false;
+        /**
+         * The transform origin used in the animation for showing and hiding the tooltip
+         */
+        this._transformOrigin = 'bottom';
+        /**
+         * Subject for notifying that the tooltip has been hidden from the view
+         */
+        this._onHide = new rxjs_Subject.Subject();
+    }
+    /**
+     * Shows the tooltip with an animation originating from the provided origin
+    \@param position Position of the tooltip.
+    \@param delay Amount of milliseconds to the delay showing the tooltip.
+     * @param {?} position
+     * @param {?} delay
+     * @return {?}
+     */
+    TooltipComponent.prototype.show = function (position, delay) {
+        var _this = this;
+        // Cancel the delayed hide if it is scheduled
+        if (this._hideTimeoutId) {
+            clearTimeout(this._hideTimeoutId);
+        }
+        this._setTransformOrigin(position);
+        this._showTimeoutId = setTimeout(function () {
+            _this._visibility = 'visible';
+            // Mark for check so if any parent component has set the
+            // ChangeDetectionStrategy to OnPush it will be checked anyways
+            _this._markForCheck();
+        }, delay);
+    };
+    /**
+     * Begins the animation to hide the tooltip after the provided delay in ms.
+    \@param delay Amount of milliseconds to delay showing the tooltip.
+     * @param {?} delay
+     * @return {?}
+     */
+    TooltipComponent.prototype.hide = function (delay) {
+        var _this = this;
+        // Cancel the delayed show if it is scheduled
+        if (this._showTimeoutId) {
+            clearTimeout(this._showTimeoutId);
+        }
+        this._hideTimeoutId = setTimeout(function () {
+            _this._visibility = 'hidden';
+            // Mark for check so if any parent component has set the
+            // ChangeDetectionStrategy to OnPush it will be checked anyways
+            _this._markForCheck();
+        }, delay);
+    };
+    /**
+     * Returns an observable that notifies when the tooltip has been hidden from view
+     * @return {?}
+     */
+    TooltipComponent.prototype.afterHidden = function () {
+        return this._onHide.asObservable();
+    };
+    /**
+     * Whether the tooltip is being displayed
+     * @return {?}
+     */
+    TooltipComponent.prototype.isVisible = function () {
+        return this._visibility === 'visible';
+    };
+    /**
+     * Sets the tooltip transform origin according to the tooltip position
+     * @param {?} value
+     * @return {?}
+     */
+    TooltipComponent.prototype._setTransformOrigin = function (value) {
+        var /** @type {?} */ isLtr = !this._dir || this._dir.value == 'ltr';
+        switch (value) {
+            case 'before':
+                this._transformOrigin = isLtr ? 'right' : 'left';
+                break;
+            case 'after':
+                this._transformOrigin = isLtr ? 'left' : 'right';
+                break;
+            case 'left':
+                this._transformOrigin = 'right';
+                break;
+            case 'right':
+                this._transformOrigin = 'left';
+                break;
+            case 'above':
+                this._transformOrigin = 'bottom';
+                break;
+            case 'below':
+                this._transformOrigin = 'top';
+                break;
+            default: throw getMdTooltipInvalidPositionError(value);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    TooltipComponent.prototype._animationStart = function () {
+        this._closeOnInteraction = false;
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    TooltipComponent.prototype._animationDone = function (event) {
+        var _this = this;
+        var /** @type {?} */ toState = (event.toState);
+        if (toState === 'hidden' && !this.isVisible()) {
+            this._onHide.next();
+        }
+        if (toState === 'visible' || toState === 'hidden') {
+            // Note: as of Angular 4.3, the animations module seems to fire the `start` callback before
+            // the end if animations are disabled. Make this call async to ensure that it still fires
+            // at the appropriate time.
+            Promise.resolve().then(function () { return _this._closeOnInteraction = true; });
+        }
+    };
+    /**
+     * Interactions on the HTML body should close the tooltip immediately as defined in the
+    material design spec.
+    https://material.google.com/components/tooltips.html#tooltips-interaction
+     * @return {?}
+     */
+    TooltipComponent.prototype._handleBodyInteraction = function () {
+        if (this._closeOnInteraction) {
+            this.hide(0);
+        }
+    };
+    /**
+     * Marks that the tooltip needs to be checked in the next change detection run.
+    Mainly used for rendering the initial text before positioning a tooltip, which
+    can be problematic in components with OnPush change detection.
+     * @return {?}
+     */
+    TooltipComponent.prototype._markForCheck = function () {
+        this._changeDetectorRef.markForCheck();
+    };
+    return TooltipComponent;
+}());
+TooltipComponent.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-tooltip-component, mat-tooltip-component',
+                template: "<div class=\"mat-tooltip\" [ngClass]=\"tooltipClass\" [style.transform-origin]=\"_transformOrigin\" [@state]=\"_visibility\" (@state.start)=\"_animationStart()\" (@state.done)=\"_animationDone($event)\">{{message}}</div>",
+                styles: [".mat-tooltip-panel{pointer-events:none!important}.mat-tooltip{color:#fff;border-radius:2px;margin:14px;max-width:250px;padding-left:8px;padding-right:8px}@media screen and (-ms-high-contrast:active){.mat-tooltip{outline:solid 1px}}"],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                animations: [
+                    _angular_animations.trigger('state', [
+                        _angular_animations.state('initial, void, hidden', _angular_animations.style({ transform: 'scale(0)' })),
+                        _angular_animations.state('visible', _angular_animations.style({ transform: 'scale(1)' })),
+                        _angular_animations.transition('* => visible', _angular_animations.animate('150ms cubic-bezier(0.0, 0.0, 0.2, 1)')),
+                        _angular_animations.transition('* => hidden', _angular_animations.animate('150ms cubic-bezier(0.4, 0.0, 1, 1)')),
+                    ])
+                ],
+                host: {
+                    // Forces the element to have a layout in IE and Edge. This fixes issues where the element
+                    // won't be rendered if the animations are disabled or there is no web animations polyfill.
+                    '[style.zoom]': '_visibility === "visible" ? 1 : null',
+                    '(body:click)': 'this._handleBodyInteraction()',
+                    'aria-hidden': 'true',
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+TooltipComponent.ctorParameters = function () { return [
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+var MdTooltipModule = (function () {
+    function MdTooltipModule() {
+    }
+    return MdTooltipModule;
+}());
+MdTooltipModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                imports: [
+                    _angular_common.CommonModule,
+                    _angular_cdk_overlay.OverlayModule,
+                    MdCommonModule,
+                    _angular_cdk_platform.PlatformModule,
+                    _angular_cdk_a11y.A11yModule,
+                ],
+                exports: [MdTooltip, TooltipComponent, MdCommonModule],
+                declarations: [MdTooltip, TooltipComponent],
+                entryComponents: [TooltipComponent],
+                providers: [MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER, _angular_cdk_a11y.ARIA_DESCRIBER_PROVIDER],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdTooltipModule.ctorParameters = function () { return []; };
+
 /**
  * To modify the labels and text displayed, create a new instance of MdPaginatorIntl and
 include it in a custom provider
@@ -15152,16 +16471,15 @@ var MdPaginator = (function () {
 }());
 MdPaginator.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-paginator, mat-paginator',
-                template: "<div class=\"mat-paginator-page-size\"><div class=\"mat-paginator-page-size-label\">{{_intl.itemsPerPageLabel}}</div><md-select *ngIf=\"_displayedPageSizeOptions.length > 1\" class=\"mat-paginator-page-size-select\" [value]=\"pageSize\" [aria-label]=\"_intl.itemsPerPageLabel\" (change)=\"_changePageSize($event.value)\"><md-option *ngFor=\"let pageSizeOption of _displayedPageSizeOptions\" [value]=\"pageSizeOption\">{{pageSizeOption}}</md-option></md-select><div *ngIf=\"_displayedPageSizeOptions.length <= 1\">{{pageSize}}</div></div><div class=\"mat-paginator-range-label\">{{_intl.getRangeLabel(pageIndex, pageSize, length)}}</div><button md-icon-button type=\"button\" class=\"mat-paginator-navigation-previous\" (click)=\"previousPage()\" [attr.aria-label]=\"_intl.previousPageLabel\" [mdTooltip]=\"_intl.previousPageLabel\" [mdTooltipPosition]=\"'above'\" [disabled]=\"!hasPreviousPage()\"><div class=\"mat-paginator-increment\"></div></button> <button md-icon-button type=\"button\" class=\"mat-paginator-navigation-next\" (click)=\"nextPage()\" [attr.aria-label]=\"_intl.nextPageLabel\" [mdTooltip]=\"_intl.nextPageLabel\" [mdTooltipPosition]=\"'above'\" [disabled]=\"!hasNextPage()\"><div class=\"mat-paginator-decrement\"></div></button>",
+                template: "<div class=\"mat-paginator-page-size\"><div class=\"mat-paginator-page-size-label\">{{_intl.itemsPerPageLabel}}</div><mat-form-field *ngIf=\"_displayedPageSizeOptions.length > 1\"><mat-select class=\"mat-paginator-page-size-select\" [value]=\"pageSize\" [aria-label]=\"_intl.itemsPerPageLabel\" (change)=\"_changePageSize($event.value)\"><mat-option *ngFor=\"let pageSizeOption of _displayedPageSizeOptions\" [value]=\"pageSizeOption\">{{pageSizeOption}}</mat-option></mat-select></mat-form-field><div *ngIf=\"_displayedPageSizeOptions.length <= 1\">{{pageSize}}</div></div><div class=\"mat-paginator-range-label\">{{_intl.getRangeLabel(pageIndex, pageSize, length)}}</div><button mat-icon-button type=\"button\" class=\"mat-paginator-navigation-previous\" (click)=\"previousPage()\" [attr.aria-label]=\"_intl.previousPageLabel\" [matTooltip]=\"_intl.previousPageLabel\" [matTooltipPosition]=\"'above'\" [disabled]=\"!hasPreviousPage()\"><div class=\"mat-paginator-increment\"></div></button> <button mat-icon-button type=\"button\" class=\"mat-paginator-navigation-next\" (click)=\"nextPage()\" [attr.aria-label]=\"_intl.nextPageLabel\" [matTooltip]=\"_intl.nextPageLabel\" [matTooltipPosition]=\"'above'\" [disabled]=\"!hasNextPage()\"><div class=\"mat-paginator-decrement\"></div></button>",
                 styles: [".mat-paginator{display:flex;align-items:center;justify-content:flex-end;min-height:56px;padding:0 8px}.mat-paginator-page-size{display:flex;align-items:center}.mat-paginator-page-size-label{margin:0 4px}.mat-paginator-page-size-select{padding-top:0;margin:0 4px}.mat-paginator-page-size-select .mat-select-trigger{min-width:56px}.mat-paginator-range-label{margin:0 32px}.mat-paginator-increment-button+.mat-paginator-increment-button{margin:0 0 0 8px}[dir=rtl] .mat-paginator-increment-button+.mat-paginator-increment-button{margin:0 8px 0 0}.mat-paginator-decrement,.mat-paginator-increment{width:8px;height:8px}.mat-paginator-decrement,[dir=rtl] .mat-paginator-increment{transform:rotate(45deg)}.mat-paginator-increment,[dir=rtl] .mat-paginator-decrement{transform:rotate(225deg)}.mat-paginator-decrement{margin-left:12px}[dir=rtl] .mat-paginator-decrement{margin-right:12px}.mat-paginator-increment{margin-left:16px}[dir=rtl] .mat-paginator-increment{margin-right:16px}"],
                 host: {
                     'class': 'mat-paginator',
                 },
-                providers: [
-                    { provide: MATERIAL_COMPATIBILITY_MODE, useValue: false }
-                ],
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -15178,713 +16496,6 @@ MdPaginator.propDecorators = {
     'pageSizeOptions': [{ type: _angular_core.Input },],
     'page': [{ type: _angular_core.Output },],
 };
-/**
- * Time in ms to delay before changing the tooltip visibility to hidden
- */
-var TOUCHEND_HIDE_DELAY = 1500;
-/**
- * Time in ms to throttle repositioning after scroll events.
- */
-var SCROLL_THROTTLE_MS = 20;
-/**
- * CSS class that will be attached to the overlay panel.
- */
-var TOOLTIP_PANEL_CLASS = 'mat-tooltip-panel';
-/**
- * Creates an error to be thrown if the user supplied an invalid tooltip position.
- * @param {?} position
- * @return {?}
- */
-function getMdTooltipInvalidPositionError(position) {
-    return Error("Tooltip position \"" + position + "\" is invalid.");
-}
-/**
- * Injection token that determines the scroll handling while a tooltip is visible.
- */
-var MD_TOOLTIP_SCROLL_STRATEGY = new _angular_core.InjectionToken('md-tooltip-scroll-strategy');
-/**
- * \@docs-private
- * @param {?} overlay
- * @return {?}
- */
-function MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY(overlay) {
-    return function () { return overlay.scrollStrategies.reposition({ scrollThrottle: SCROLL_THROTTLE_MS }); };
-}
-/**
- * \@docs-private
- */
-var MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER = {
-    provide: MD_TOOLTIP_SCROLL_STRATEGY,
-    deps: [_angular_cdk_overlay.Overlay],
-    useFactory: MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY
-};
-/**
- * Directive that attaches a material design tooltip to the host element. Animates the showing and
-hiding of a tooltip provided position (defaults to below the element).
-
-https://material.google.com/components/tooltips.html
- */
-var MdTooltip = (function () {
-    /**
-     * @param {?} renderer
-     * @param {?} _overlay
-     * @param {?} _elementRef
-     * @param {?} _scrollDispatcher
-     * @param {?} _viewContainerRef
-     * @param {?} _ngZone
-     * @param {?} _platform
-     * @param {?} _scrollStrategy
-     * @param {?} _dir
-     */
-    function MdTooltip(renderer, _overlay, _elementRef, _scrollDispatcher, _viewContainerRef, _ngZone, _platform, _scrollStrategy, _dir) {
-        var _this = this;
-        this._overlay = _overlay;
-        this._elementRef = _elementRef;
-        this._scrollDispatcher = _scrollDispatcher;
-        this._viewContainerRef = _viewContainerRef;
-        this._ngZone = _ngZone;
-        this._platform = _platform;
-        this._scrollStrategy = _scrollStrategy;
-        this._dir = _dir;
-        this._position = 'below';
-        this._disabled = false;
-        /**
-         * The default delay in ms before showing the tooltip after show is called
-         */
-        this.showDelay = 0;
-        /**
-         * The default delay in ms before hiding the tooltip after hide is called
-         */
-        this.hideDelay = 0;
-        // The mouse events shouldn't be bound on iOS devices, because
-        // they can prevent the first tap from firing its click event.
-        if (!_platform.IOS) {
-            this._enterListener =
-                renderer.listen(_elementRef.nativeElement, 'mouseenter', function () { return _this.show(); });
-            this._leaveListener =
-                renderer.listen(_elementRef.nativeElement, 'mouseleave', function () { return _this.hide(); });
-        }
-    }
-    Object.defineProperty(MdTooltip.prototype, "position", {
-        /**
-         * Allows the user to define the position of the tooltip relative to the parent element
-         * @return {?}
-         */
-        get: function () { return this._position; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            if (value !== this._position) {
-                this._position = value;
-                // TODO(andrewjs): When the overlay's position can be dynamically changed, do not destroy
-                // the tooltip.
-                if (this._tooltipInstance) {
-                    this._disposeTooltip();
-                }
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "disabled", {
-        /**
-         * Disables the display of the tooltip.
-         * @return {?}
-         */
-        get: function () { return this._disabled; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disabled = _angular_cdk_coercion.coerceBooleanProperty(value);
-            // If tooltip is disabled, hide immediately.
-            if (this._disabled) {
-                this.hide(0);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_positionDeprecated", {
-        /**
-         * @deprecated
-         * @return {?}
-         */
-        get: function () { return this._position; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._position = value; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "message", {
-        /**
-         * The message to be displayed in the tooltip
-         * @return {?}
-         */
-        get: function () { return this._message; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._message = value;
-            this._setTooltipMessage(this._message);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "tooltipClass", {
-        /**
-         * Classes to be passed to the tooltip. Supports the same syntax as `ngClass`.
-         * @return {?}
-         */
-        get: function () { return this._tooltipClass; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._tooltipClass = value;
-            if (this._tooltipInstance) {
-                this._setTooltipClass(this._tooltipClass);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_deprecatedMessage", {
-        /**
-         * @deprecated
-         * @return {?}
-         */
-        get: function () { return this.message; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.message = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matMessage", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.message; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.message = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matPosition", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.position; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.position = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matDisabled", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.disabled; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.disabled = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matHideDelay", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.hideDelay; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.hideDelay = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matShowDelay", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.showDelay; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.showDelay = v; },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTooltip.prototype, "_matClass", {
-        /**
-         * @return {?}
-         */
-        get: function () { return this.tooltipClass; },
-        /**
-         * @param {?} v
-         * @return {?}
-         */
-        set: function (v) { this.tooltipClass = v; },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Dispose the tooltip when destroyed.
-     * @return {?}
-     */
-    MdTooltip.prototype.ngOnDestroy = function () {
-        if (this._tooltipInstance) {
-            this._disposeTooltip();
-        }
-        // Clean up the event listeners set in the constructor
-        if (!this._platform.IOS) {
-            this._enterListener();
-            this._leaveListener();
-        }
-    };
-    /**
-     * Shows the tooltip after the delay in ms, defaults to tooltip-delay-show or 0ms if no input
-     * @param {?=} delay
-     * @return {?}
-     */
-    MdTooltip.prototype.show = function (delay) {
-        if (delay === void 0) { delay = this.showDelay; }
-        if (this.disabled || !this._message || !this._message.trim()) {
-            return;
-        }
-        if (!this._tooltipInstance) {
-            this._createTooltip();
-        }
-        this._setTooltipClass(this._tooltipClass);
-        this._setTooltipMessage(this._message); /** @type {?} */
-        ((this._tooltipInstance)).show(this._position, delay);
-    };
-    /**
-     * Hides the tooltip after the delay in ms, defaults to tooltip-delay-hide or 0ms if no input
-     * @param {?=} delay
-     * @return {?}
-     */
-    MdTooltip.prototype.hide = function (delay) {
-        if (delay === void 0) { delay = this.hideDelay; }
-        if (this._tooltipInstance) {
-            this._tooltipInstance.hide(delay);
-        }
-    };
-    /**
-     * Shows/hides the tooltip
-     * @return {?}
-     */
-    MdTooltip.prototype.toggle = function () {
-        this._isTooltipVisible() ? this.hide() : this.show();
-    };
-    /**
-     * Returns true if the tooltip is currently visible to the user
-     * @return {?}
-     */
-    MdTooltip.prototype._isTooltipVisible = function () {
-        return !!this._tooltipInstance && this._tooltipInstance.isVisible();
-    };
-    /**
-     * Create the tooltip to display
-     * @return {?}
-     */
-    MdTooltip.prototype._createTooltip = function () {
-        var _this = this;
-        var /** @type {?} */ overlayRef = this._createOverlay();
-        var /** @type {?} */ portal = new _angular_cdk_portal.ComponentPortal(TooltipComponent, this._viewContainerRef);
-        this._tooltipInstance = overlayRef.attach(portal).instance; /** @type {?} */
-        ((
-        // Dispose the overlay when finished the shown tooltip.
-        this._tooltipInstance)).afterHidden().subscribe(function () {
-            // Check first if the tooltip has already been removed through this components destroy.
-            if (_this._tooltipInstance) {
-                _this._disposeTooltip();
-            }
-        });
-    };
-    /**
-     * Create the overlay config and position strategy
-     * @return {?}
-     */
-    MdTooltip.prototype._createOverlay = function () {
-        var _this = this;
-        var /** @type {?} */ origin = this._getOrigin();
-        var /** @type {?} */ position = this._getOverlayPosition();
-        // Create connected position strategy that listens for scroll events to reposition.
-        // After position changes occur and the overlay is clipped by a parent scrollable then
-        // close the tooltip.
-        var /** @type {?} */ strategy = this._overlay.position().connectedTo(this._elementRef, origin, position);
-        strategy.withScrollableContainers(this._scrollDispatcher.getScrollContainers(this._elementRef));
-        strategy.onPositionChange.subscribe(function (change) {
-            if (change.scrollableViewProperties.isOverlayClipped &&
-                _this._tooltipInstance && _this._tooltipInstance.isVisible()) {
-                _this.hide(0);
-            }
-        });
-        var /** @type {?} */ config = new _angular_cdk_overlay.OverlayState({
-            direction: this._dir ? this._dir.value : 'ltr',
-            positionStrategy: strategy,
-            panelClass: TOOLTIP_PANEL_CLASS,
-            scrollStrategy: this._scrollStrategy()
-        });
-        this._overlayRef = this._overlay.create(config);
-        return this._overlayRef;
-    };
-    /**
-     * Disposes the current tooltip and the overlay it is attached to
-     * @return {?}
-     */
-    MdTooltip.prototype._disposeTooltip = function () {
-        if (this._overlayRef) {
-            this._overlayRef.dispose();
-            this._overlayRef = null;
-        }
-        this._tooltipInstance = null;
-    };
-    /**
-     * Returns the origin position based on the user's position preference
-     * @return {?}
-     */
-    MdTooltip.prototype._getOrigin = function () {
-        if (this.position == 'above' || this.position == 'below') {
-            return { originX: 'center', originY: this.position == 'above' ? 'top' : 'bottom' };
-        }
-        var /** @type {?} */ isDirectionLtr = !this._dir || this._dir.value == 'ltr';
-        if (this.position == 'left' ||
-            this.position == 'before' && isDirectionLtr ||
-            this.position == 'after' && !isDirectionLtr) {
-            return { originX: 'start', originY: 'center' };
-        }
-        if (this.position == 'right' ||
-            this.position == 'after' && isDirectionLtr ||
-            this.position == 'before' && !isDirectionLtr) {
-            return { originX: 'end', originY: 'center' };
-        }
-        throw getMdTooltipInvalidPositionError(this.position);
-    };
-    /**
-     * Returns the overlay position based on the user's preference
-     * @return {?}
-     */
-    MdTooltip.prototype._getOverlayPosition = function () {
-        if (this.position == 'above') {
-            return { overlayX: 'center', overlayY: 'bottom' };
-        }
-        if (this.position == 'below') {
-            return { overlayX: 'center', overlayY: 'top' };
-        }
-        var /** @type {?} */ isLtr = !this._dir || this._dir.value == 'ltr';
-        if (this.position == 'left' ||
-            this.position == 'before' && isLtr ||
-            this.position == 'after' && !isLtr) {
-            return { overlayX: 'end', overlayY: 'center' };
-        }
-        if (this.position == 'right' ||
-            this.position == 'after' && isLtr ||
-            this.position == 'before' && !isLtr) {
-            return { overlayX: 'start', overlayY: 'center' };
-        }
-        throw getMdTooltipInvalidPositionError(this.position);
-    };
-    /**
-     * Updates the tooltip message and repositions the overlay according to the new message length
-     * @param {?} message
-     * @return {?}
-     */
-    MdTooltip.prototype._setTooltipMessage = function (message) {
-        var _this = this;
-        // Must wait for the message to be painted to the tooltip so that the overlay can properly
-        // calculate the correct positioning based on the size of the text.
-        if (this._tooltipInstance) {
-            this._tooltipInstance.message = message;
-            this._tooltipInstance._markForCheck();
-            _angular_cdk_rxjs.first.call(this._ngZone.onMicrotaskEmpty).subscribe(function () {
-                if (_this._tooltipInstance) {
-                    ((_this._overlayRef)).updatePosition();
-                }
-            });
-        }
-    };
-    /**
-     * Updates the tooltip class
-     * @param {?} tooltipClass
-     * @return {?}
-     */
-    MdTooltip.prototype._setTooltipClass = function (tooltipClass) {
-        if (this._tooltipInstance) {
-            this._tooltipInstance.tooltipClass = tooltipClass;
-            this._tooltipInstance._markForCheck();
-        }
-    };
-    return MdTooltip;
-}());
-MdTooltip.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[md-tooltip], [mdTooltip], [mat-tooltip], [matTooltip]',
-                host: {
-                    '(longpress)': 'show()',
-                    '(touchend)': 'hide(' + TOUCHEND_HIDE_DELAY + ')',
-                },
-                exportAs: 'mdTooltip',
-            },] },
-];
-/**
- * @nocollapse
- */
-MdTooltip.ctorParameters = function () { return [
-    { type: _angular_core.Renderer2, },
-    { type: _angular_cdk_overlay.Overlay, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_cdk_scrolling.ScrollDispatcher, },
-    { type: _angular_core.ViewContainerRef, },
-    { type: _angular_core.NgZone, },
-    { type: _angular_cdk_platform.Platform, },
-    { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_TOOLTIP_SCROLL_STRATEGY,] },] },
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-]; };
-MdTooltip.propDecorators = {
-    'position': [{ type: _angular_core.Input, args: ['mdTooltipPosition',] },],
-    'disabled': [{ type: _angular_core.Input, args: ['mdTooltipDisabled',] },],
-    '_positionDeprecated': [{ type: _angular_core.Input, args: ['tooltip-position',] },],
-    'showDelay': [{ type: _angular_core.Input, args: ['mdTooltipShowDelay',] },],
-    'hideDelay': [{ type: _angular_core.Input, args: ['mdTooltipHideDelay',] },],
-    'message': [{ type: _angular_core.Input, args: ['mdTooltip',] },],
-    'tooltipClass': [{ type: _angular_core.Input, args: ['mdTooltipClass',] },],
-    '_deprecatedMessage': [{ type: _angular_core.Input, args: ['md-tooltip',] },],
-    '_matMessage': [{ type: _angular_core.Input, args: ['matTooltip',] },],
-    '_matPosition': [{ type: _angular_core.Input, args: ['matTooltipPosition',] },],
-    '_matDisabled': [{ type: _angular_core.Input, args: ['matTooltipDisabled',] },],
-    '_matHideDelay': [{ type: _angular_core.Input, args: ['matTooltipHideDelay',] },],
-    '_matShowDelay': [{ type: _angular_core.Input, args: ['matTooltipShowDelay',] },],
-    '_matClass': [{ type: _angular_core.Input, args: ['matTooltipClass',] },],
-};
-/**
- * Internal component that wraps the tooltip's content.
-\@docs-private
- */
-var TooltipComponent = (function () {
-    /**
-     * @param {?} _dir
-     * @param {?} _changeDetectorRef
-     */
-    function TooltipComponent(_dir, _changeDetectorRef) {
-        this._dir = _dir;
-        this._changeDetectorRef = _changeDetectorRef;
-        /**
-         * Property watched by the animation framework to show or hide the tooltip
-         */
-        this._visibility = 'initial';
-        /**
-         * Whether interactions on the page should close the tooltip
-         */
-        this._closeOnInteraction = false;
-        /**
-         * The transform origin used in the animation for showing and hiding the tooltip
-         */
-        this._transformOrigin = 'bottom';
-        /**
-         * Subject for notifying that the tooltip has been hidden from the view
-         */
-        this._onHide = new rxjs_Subject.Subject();
-    }
-    /**
-     * Shows the tooltip with an animation originating from the provided origin
-    \@param position Position of the tooltip.
-    \@param delay Amount of milliseconds to the delay showing the tooltip.
-     * @param {?} position
-     * @param {?} delay
-     * @return {?}
-     */
-    TooltipComponent.prototype.show = function (position, delay) {
-        var _this = this;
-        // Cancel the delayed hide if it is scheduled
-        if (this._hideTimeoutId) {
-            clearTimeout(this._hideTimeoutId);
-        }
-        // Body interactions should cancel the tooltip if there is a delay in showing.
-        this._closeOnInteraction = true;
-        this._setTransformOrigin(position);
-        this._showTimeoutId = setTimeout(function () {
-            _this._visibility = 'visible';
-            // If this was set to true immediately, then a body click that triggers show() would
-            // trigger interaction and close the tooltip right after it was displayed.
-            _this._closeOnInteraction = false;
-            // Mark for check so if any parent component has set the
-            // ChangeDetectionStrategy to OnPush it will be checked anyways
-            _this._markForCheck();
-            setTimeout(function () { return _this._closeOnInteraction = true; }, 0);
-        }, delay);
-    };
-    /**
-     * Begins the animation to hide the tooltip after the provided delay in ms.
-    \@param delay Amount of milliseconds to delay showing the tooltip.
-     * @param {?} delay
-     * @return {?}
-     */
-    TooltipComponent.prototype.hide = function (delay) {
-        var _this = this;
-        // Cancel the delayed show if it is scheduled
-        if (this._showTimeoutId) {
-            clearTimeout(this._showTimeoutId);
-        }
-        this._hideTimeoutId = setTimeout(function () {
-            _this._visibility = 'hidden';
-            _this._closeOnInteraction = false;
-            // Mark for check so if any parent component has set the
-            // ChangeDetectionStrategy to OnPush it will be checked anyways
-            _this._markForCheck();
-        }, delay);
-    };
-    /**
-     * Returns an observable that notifies when the tooltip has been hidden from view
-     * @return {?}
-     */
-    TooltipComponent.prototype.afterHidden = function () {
-        return this._onHide.asObservable();
-    };
-    /**
-     * Whether the tooltip is being displayed
-     * @return {?}
-     */
-    TooltipComponent.prototype.isVisible = function () {
-        return this._visibility === 'visible';
-    };
-    /**
-     * Sets the tooltip transform origin according to the tooltip position
-     * @param {?} value
-     * @return {?}
-     */
-    TooltipComponent.prototype._setTransformOrigin = function (value) {
-        var /** @type {?} */ isLtr = !this._dir || this._dir.value == 'ltr';
-        switch (value) {
-            case 'before':
-                this._transformOrigin = isLtr ? 'right' : 'left';
-                break;
-            case 'after':
-                this._transformOrigin = isLtr ? 'left' : 'right';
-                break;
-            case 'left':
-                this._transformOrigin = 'right';
-                break;
-            case 'right':
-                this._transformOrigin = 'left';
-                break;
-            case 'above':
-                this._transformOrigin = 'bottom';
-                break;
-            case 'below':
-                this._transformOrigin = 'top';
-                break;
-            default: throw getMdTooltipInvalidPositionError(value);
-        }
-    };
-    /**
-     * @param {?} e
-     * @return {?}
-     */
-    TooltipComponent.prototype._afterVisibilityAnimation = function (e) {
-        if (e.toState === 'hidden' && !this.isVisible()) {
-            this._onHide.next();
-        }
-    };
-    /**
-     * Interactions on the HTML body should close the tooltip immediately as defined in the
-    material design spec.
-    https://material.google.com/components/tooltips.html#tooltips-interaction
-     * @return {?}
-     */
-    TooltipComponent.prototype._handleBodyInteraction = function () {
-        if (this._closeOnInteraction) {
-            this.hide(0);
-        }
-    };
-    /**
-     * Marks that the tooltip needs to be checked in the next change detection run.
-    Mainly used for rendering the initial text before positioning a tooltip, which
-    can be problematic in components with OnPush change detection.
-     * @return {?}
-     */
-    TooltipComponent.prototype._markForCheck = function () {
-        this._changeDetectorRef.markForCheck();
-    };
-    return TooltipComponent;
-}());
-TooltipComponent.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-tooltip-component, mat-tooltip-component',
-                template: "<div class=\"mat-tooltip\" [ngClass]=\"tooltipClass\" [style.transform-origin]=\"_transformOrigin\" [@state]=\"_visibility\" (@state.done)=\"_afterVisibilityAnimation($event)\">{{message}}</div>",
-                styles: [".mat-tooltip-panel{pointer-events:none!important}.mat-tooltip{color:#fff;border-radius:2px;margin:14px;max-width:250px;padding-left:8px;padding-right:8px}@media screen and (-ms-high-contrast:active){.mat-tooltip{outline:solid 1px}}"],
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                animations: [
-                    _angular_animations.trigger('state', [
-                        _angular_animations.state('void', _angular_animations.style({ transform: 'scale(0)' })),
-                        _angular_animations.state('initial', _angular_animations.style({ transform: 'scale(0)' })),
-                        _angular_animations.state('visible', _angular_animations.style({ transform: 'scale(1)' })),
-                        _angular_animations.state('hidden', _angular_animations.style({ transform: 'scale(0)' })),
-                        _angular_animations.transition('* => visible', _angular_animations.animate('150ms cubic-bezier(0.0, 0.0, 0.2, 1)')),
-                        _angular_animations.transition('* => hidden', _angular_animations.animate('150ms cubic-bezier(0.4, 0.0, 1, 1)')),
-                    ])
-                ],
-                host: {
-                    // Forces the element to have a layout in IE and Edge. This fixes issues where the element
-                    // won't be rendered if the animations are disabled or there is no web animations polyfill.
-                    '[style.zoom]': '_visibility === "visible" ? 1 : null',
-                    '(body:click)': 'this._handleBodyInteraction()'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-TooltipComponent.ctorParameters = function () { return [
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-var MdTooltipModule = (function () {
-    function MdTooltipModule() {
-    }
-    return MdTooltipModule;
-}());
-MdTooltipModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [
-                    _angular_common.CommonModule,
-                    _angular_cdk_overlay.OverlayModule,
-                    MdCommonModule,
-                    _angular_cdk_platform.PlatformModule
-                ],
-                exports: [MdTooltip, TooltipComponent, MdCommonModule],
-                declarations: [MdTooltip, TooltipComponent],
-                entryComponents: [TooltipComponent],
-                providers: [MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdTooltipModule.ctorParameters = function () { return []; };
 var MdPaginatorModule = (function () {
     function MdPaginatorModule() {
     }
@@ -15907,6 +16518,7 @@ MdPaginatorModule.decorators = [
  * @nocollapse
  */
 MdPaginatorModule.ctorParameters = function () { return []; };
+
 /**
  * <md-progress-bar> component.
  */
@@ -15990,9 +16602,10 @@ MdProgressBar.decorators = [
                     'class': 'mat-progress-bar',
                 },
                 template: "<div class=\"mat-progress-bar-background mat-progress-bar-element\"></div><div class=\"mat-progress-bar-buffer mat-progress-bar-element\" [ngStyle]=\"_bufferTransform()\"></div><div class=\"mat-progress-bar-primary mat-progress-bar-fill mat-progress-bar-element\" [ngStyle]=\"_primaryTransform()\"></div><div class=\"mat-progress-bar-secondary mat-progress-bar-fill mat-progress-bar-element\"></div>",
-                styles: [".mat-progress-bar{display:block;height:5px;overflow:hidden;position:relative;transform:translateZ(0);transition:opacity 250ms linear;width:100%}.mat-progress-bar .mat-progress-bar-element,.mat-progress-bar .mat-progress-bar-fill::after{height:100%;position:absolute;width:100%}.mat-progress-bar .mat-progress-bar-background{background-repeat:repeat-x;background-size:10px 4px;display:none}.mat-progress-bar .mat-progress-bar-buffer{transform-origin:top left;transition:transform 250ms ease}.mat-progress-bar .mat-progress-bar-secondary{display:none}.mat-progress-bar .mat-progress-bar-fill{animation:none;transform-origin:top left;transition:transform 250ms ease}.mat-progress-bar .mat-progress-bar-fill::after{animation:none;content:'';display:inline-block;left:0}.mat-progress-bar[dir=rtl],[dir=rtl] .mat-progress-bar{transform:rotateY(180deg)}.mat-progress-bar[mode=query]{transform:rotateZ(180deg)}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-fill,.mat-progress-bar[mode=query] .mat-progress-bar-fill{transition:none}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-primary,.mat-progress-bar[mode=query] .mat-progress-bar-primary{animation:mat-progress-bar-primary-indeterminate-translate 2s infinite linear;left:-145.166611%}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-primary.mat-progress-bar-fill::after,.mat-progress-bar[mode=query] .mat-progress-bar-primary.mat-progress-bar-fill::after{animation:mat-progress-bar-primary-indeterminate-scale 2s infinite linear}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-secondary,.mat-progress-bar[mode=query] .mat-progress-bar-secondary{animation:mat-progress-bar-secondary-indeterminate-translate 2s infinite linear;left:-54.888891%;display:block}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-secondary.mat-progress-bar-fill::after,.mat-progress-bar[mode=query] .mat-progress-bar-secondary.mat-progress-bar-fill::after{animation:mat-progress-bar-secondary-indeterminate-scale 2s infinite linear}.mat-progress-bar[mode=buffer] .mat-progress-bar-background{animation:mat-progress-bar-background-scroll 250ms infinite linear;display:block}@keyframes mat-progress-bar-primary-indeterminate-translate{0%{transform:translateX(0)}20%{animation-timing-function:cubic-bezier(.5,0,.70173,.49582);transform:translateX(0)}59.15%{animation-timing-function:cubic-bezier(.30244,.38135,.55,.95635);transform:translateX(83.67142%)}100%{transform:translateX(200.61106%)}}@keyframes mat-progress-bar-primary-indeterminate-scale{0%{transform:scaleX(.08)}36.65%{animation-timing-function:cubic-bezier(.33473,.12482,.78584,1);transform:scaleX(.08)}69.15%{animation-timing-function:cubic-bezier(.06,.11,.6,1);transform:scaleX(.66148)}100%{transform:scaleX(.08)}}@keyframes mat-progress-bar-secondary-indeterminate-translate{0%{animation-timing-function:cubic-bezier(.15,0,.51506,.40969);transform:translateX(0)}25%{animation-timing-function:cubic-bezier(.31033,.28406,.8,.73371);transform:translateX(37.65191%)}48.35%{animation-timing-function:cubic-bezier(.4,.62704,.6,.90203);transform:translateX(84.38617%)}100%{transform:translateX(160.27778%)}}@keyframes mat-progress-bar-secondary-indeterminate-scale{0%{animation-timing-function:cubic-bezier(.15,0,.51506,.40969);transform:scaleX(.08)}19.15%{animation-timing-function:cubic-bezier(.31033,.28406,.8,.73371);transform:scaleX(.4571)}44.15%{animation-timing-function:cubic-bezier(.4,.62704,.6,.90203);transform:scaleX(.72796)}100%{transform:scaleX(.08)}}@keyframes mat-progress-bar-background-scroll{to{transform:translateX(-10px)}}"],
+                styles: [".mat-progress-bar{display:block;height:5px;overflow:hidden;position:relative;transform:translateZ(0);transition:opacity 250ms linear;width:100%}.mat-progress-bar .mat-progress-bar-element,.mat-progress-bar .mat-progress-bar-fill::after{height:100%;position:absolute;width:100%}.mat-progress-bar .mat-progress-bar-background{background-repeat:repeat-x;background-size:10px 4px;display:none}.mat-progress-bar .mat-progress-bar-buffer{transform-origin:top left;transition:transform 250ms ease}.mat-progress-bar .mat-progress-bar-secondary{display:none}.mat-progress-bar .mat-progress-bar-fill{animation:none;transform-origin:top left;transition:transform 250ms ease}.mat-progress-bar .mat-progress-bar-fill::after{animation:none;content:'';display:inline-block;left:0}.mat-progress-bar[dir=rtl],[dir=rtl] .mat-progress-bar{transform:rotateY(180deg)}.mat-progress-bar[mode=query]{transform:rotateZ(180deg)}.mat-progress-bar[mode=query][dir=rtl],[dir=rtl] .mat-progress-bar[mode=query]{transform:rotateZ(180deg) rotateY(180deg)}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-fill,.mat-progress-bar[mode=query] .mat-progress-bar-fill{transition:none}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-primary,.mat-progress-bar[mode=query] .mat-progress-bar-primary{animation:mat-progress-bar-primary-indeterminate-translate 2s infinite linear;left:-145.166611%}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-primary.mat-progress-bar-fill::after,.mat-progress-bar[mode=query] .mat-progress-bar-primary.mat-progress-bar-fill::after{animation:mat-progress-bar-primary-indeterminate-scale 2s infinite linear}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-secondary,.mat-progress-bar[mode=query] .mat-progress-bar-secondary{animation:mat-progress-bar-secondary-indeterminate-translate 2s infinite linear;left:-54.888891%;display:block}.mat-progress-bar[mode=indeterminate] .mat-progress-bar-secondary.mat-progress-bar-fill::after,.mat-progress-bar[mode=query] .mat-progress-bar-secondary.mat-progress-bar-fill::after{animation:mat-progress-bar-secondary-indeterminate-scale 2s infinite linear}.mat-progress-bar[mode=buffer] .mat-progress-bar-background{animation:mat-progress-bar-background-scroll 250ms infinite linear;display:block}@keyframes mat-progress-bar-primary-indeterminate-translate{0%{transform:translateX(0)}20%{animation-timing-function:cubic-bezier(.5,0,.70173,.49582);transform:translateX(0)}59.15%{animation-timing-function:cubic-bezier(.30244,.38135,.55,.95635);transform:translateX(83.67142%)}100%{transform:translateX(200.61106%)}}@keyframes mat-progress-bar-primary-indeterminate-scale{0%{transform:scaleX(.08)}36.65%{animation-timing-function:cubic-bezier(.33473,.12482,.78584,1);transform:scaleX(.08)}69.15%{animation-timing-function:cubic-bezier(.06,.11,.6,1);transform:scaleX(.66148)}100%{transform:scaleX(.08)}}@keyframes mat-progress-bar-secondary-indeterminate-translate{0%{animation-timing-function:cubic-bezier(.15,0,.51506,.40969);transform:translateX(0)}25%{animation-timing-function:cubic-bezier(.31033,.28406,.8,.73371);transform:translateX(37.65191%)}48.35%{animation-timing-function:cubic-bezier(.4,.62704,.6,.90203);transform:translateX(84.38617%)}100%{transform:translateX(160.27778%)}}@keyframes mat-progress-bar-secondary-indeterminate-scale{0%{animation-timing-function:cubic-bezier(.15,0,.51506,.40969);transform:scaleX(.08)}19.15%{animation-timing-function:cubic-bezier(.31033,.28406,.8,.73371);transform:scaleX(.4571)}44.15%{animation-timing-function:cubic-bezier(.4,.62704,.6,.90203);transform:scaleX(.72796)}100%{transform:scaleX(.08)}}@keyframes mat-progress-bar-background-scroll{to{transform:translateX(-10px)}}"],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -16033,6 +16646,7 @@ MdProgressBarModule.decorators = [
  * @nocollapse
  */
 MdProgressBarModule.ctorParameters = function () { return []; };
+
 /**
  * A single degree in radians.
  */
@@ -16337,6 +16951,7 @@ MdProgressSpinner.decorators = [
                 styles: [".mat-progress-spinner{display:block;height:100px;width:100px;overflow:hidden}.mat-progress-spinner svg{height:100%;width:100%;transform-origin:center}.mat-progress-spinner path{fill:transparent;transition:stroke .3s cubic-bezier(.35,0,.25,1)}.mat-progress-spinner[mode=indeterminate] svg{animation-duration:5.25s,2.887s;animation-name:mat-progress-spinner-sporadic-rotate, mat-progress-spinner-linear-rotate;animation-timing-function:cubic-bezier(.35,0,.25,1),linear;animation-iteration-count:infinite;transition:none}@keyframes mat-progress-spinner-linear-rotate{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes mat-progress-spinner-sporadic-rotate{12.5%{transform:rotate(135deg)}25%{transform:rotate(270deg)}37.5%{transform:rotate(405deg)}50%{transform:rotate(540deg)}62.5%{transform:rotate(675deg)}75%{transform:rotate(810deg)}87.5%{transform:rotate(945deg)}100%{transform:rotate(1080deg)}}"],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -16385,6 +17000,7 @@ MdSpinner.decorators = [
                 styles: [".mat-progress-spinner{display:block;height:100px;width:100px;overflow:hidden}.mat-progress-spinner svg{height:100%;width:100%;transform-origin:center}.mat-progress-spinner path{fill:transparent;transition:stroke .3s cubic-bezier(.35,0,.25,1)}.mat-progress-spinner[mode=indeterminate] svg{animation-duration:5.25s,2.887s;animation-name:mat-progress-spinner-sporadic-rotate, mat-progress-spinner-linear-rotate;animation-timing-function:cubic-bezier(.35,0,.25,1),linear;animation-iteration-count:infinite;transition:none}@keyframes mat-progress-spinner-linear-rotate{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes mat-progress-spinner-sporadic-rotate{12.5%{transform:rotate(135deg)}25%{transform:rotate(270deg)}37.5%{transform:rotate(405deg)}50%{transform:rotate(540deg)}62.5%{transform:rotate(675deg)}75%{transform:rotate(810deg)}87.5%{transform:rotate(945deg)}100%{transform:rotate(1080deg)}}"],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -16499,6 +17115,7 @@ MdProgressSpinnerModule.decorators = [
  * @nocollapse
  */
 MdProgressSpinnerModule.ctorParameters = function () { return []; };
+
 // Increasing integer for generating unique ids for radio components.
 var nextUniqueId$5 = 0;
 /**
@@ -16892,13 +17509,13 @@ var MdRadioButton = (function (_super) {
      * @param {?} elementRef
      * @param {?} renderer
      * @param {?} _changeDetector
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      * @param {?} _radioDispatcher
      */
-    function MdRadioButton(radioGroup, elementRef, renderer, _changeDetector, _focusOriginMonitor, _radioDispatcher) {
+    function MdRadioButton(radioGroup, elementRef, renderer, _changeDetector, _focusMonitor, _radioDispatcher) {
         var _this = _super.call(this, renderer, elementRef) || this;
         _this._changeDetector = _changeDetector;
-        _this._focusOriginMonitor = _focusOriginMonitor;
+        _this._focusMonitor = _focusMonitor;
         _this._radioDispatcher = _radioDispatcher;
         _this._uniqueId = "md-radio-" + ++nextUniqueId$5;
         /**
@@ -17085,7 +17702,7 @@ var MdRadioButton = (function (_super) {
      * @return {?}
      */
     MdRadioButton.prototype.focus = function () {
-        this._focusOriginMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
+        this._focusMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
     };
     /**
      * Marks the radio button as needing checking for change detection.
@@ -17114,7 +17731,7 @@ var MdRadioButton = (function (_super) {
      */
     MdRadioButton.prototype.ngAfterViewInit = function () {
         var _this = this;
-        this._focusOriginMonitor
+        this._focusMonitor
             .monitor(this._inputElement.nativeElement, this._renderer, false)
             .subscribe(function (focusOrigin) { return _this._onInputFocusChange(focusOrigin); });
     };
@@ -17122,7 +17739,7 @@ var MdRadioButton = (function (_super) {
      * @return {?}
      */
     MdRadioButton.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._inputElement.nativeElement);
+        this._focusMonitor.stopMonitoring(this._inputElement.nativeElement);
         this._removeUniqueSelectionListener();
     };
     /**
@@ -17200,10 +17817,11 @@ var MdRadioButton = (function (_super) {
 }(_MdRadioButtonMixinBase));
 MdRadioButton.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-radio-button, mat-radio-button',
-                template: "<label [attr.for]=\"inputId\" class=\"mat-radio-label\" #label><div class=\"mat-radio-container\"><div class=\"mat-radio-outer-circle\"></div><div class=\"mat-radio-inner-circle\"></div><div md-ripple class=\"mat-radio-ripple\" [mdRippleTrigger]=\"label\" [mdRippleDisabled]=\"_isRippleDisabled()\" [mdRippleCentered]=\"true\"></div></div><input #input class=\"mat-radio-input cdk-visually-hidden\" type=\"radio\" [id]=\"inputId\" [checked]=\"checked\" [disabled]=\"disabled\" [name]=\"name\" [required]=\"required\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onInputChange($event)\" (click)=\"_onInputClick($event)\"><div class=\"mat-radio-label-content\" [class.mat-radio-label-before]=\"labelPosition == 'before'\"><span style=\"display:none\">&nbsp;</span><ng-content></ng-content></div></label>",
+                template: "<label [attr.for]=\"inputId\" class=\"mat-radio-label\" #label><div class=\"mat-radio-container\"><div class=\"mat-radio-outer-circle\"></div><div class=\"mat-radio-inner-circle\"></div><div mat-ripple class=\"mat-radio-ripple\" [matRippleTrigger]=\"label\" [matRippleDisabled]=\"_isRippleDisabled()\" [matRippleCentered]=\"true\"></div></div><input #input class=\"mat-radio-input cdk-visually-hidden\" type=\"radio\" [id]=\"inputId\" [checked]=\"checked\" [disabled]=\"disabled\" [name]=\"name\" [required]=\"required\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onInputChange($event)\" (click)=\"_onInputClick($event)\"><div class=\"mat-radio-label-content\" [class.mat-radio-label-before]=\"labelPosition == 'before'\"><span style=\"display:none\">&nbsp;</span><ng-content></ng-content></div></label>",
                 styles: [".mat-radio-button{display:inline-block}.mat-radio-label{cursor:pointer;display:inline-flex;align-items:center;white-space:nowrap;vertical-align:middle}.mat-radio-container{box-sizing:border-box;display:inline-block;position:relative;width:20px;height:20px;flex-shrink:0}.mat-radio-outer-circle{box-sizing:border-box;height:20px;left:0;position:absolute;top:0;transition:border-color ease 280ms;width:20px;border-width:2px;border-style:solid;border-radius:50%}.mat-radio-inner-circle{border-radius:50%;box-sizing:border-box;height:20px;left:0;position:absolute;top:0;transition:transform ease 280ms,background-color ease 280ms;width:20px;transform:scale(.001)}.mat-radio-checked .mat-radio-inner-circle{transform:scale(.5)}.mat-radio-label-content{display:inline-block;order:0;line-height:inherit;padding-left:8px;padding-right:0}[dir=rtl] .mat-radio-label-content{padding-right:8px;padding-left:0}.mat-radio-label-content.mat-radio-label-before{order:-1;padding-left:0;padding-right:8px}[dir=rtl] .mat-radio-label-content.mat-radio-label-before{padding-right:0;padding-left:8px}.mat-radio-disabled,.mat-radio-disabled .mat-radio-label{cursor:default}.mat-radio-ripple{position:absolute;left:-15px;top:-15px;right:-15px;bottom:-15px;border-radius:50%;z-index:1;pointer-events:none}"],
                 inputs: ['color', 'disableRipple'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 host: {
                     'class': 'mat-radio-button',
                     '[class.mat-radio-checked]': 'checked',
@@ -17215,6 +17833,7 @@ MdRadioButton.decorators = [
                     '(focus)': '_inputElement.nativeElement.focus()',
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -17225,7 +17844,7 @@ MdRadioButton.ctorParameters = function () { return [
     { type: _angular_core.ElementRef, },
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ChangeDetectorRef, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
     { type: UniqueSelectionDispatcher, },
 ]; };
 MdRadioButton.propDecorators = {
@@ -17250,9 +17869,9 @@ var MdRadioModule = (function () {
 }());
 MdRadioModule.decorators = [
     { type: _angular_core.NgModule, args: [{
-                imports: [_angular_common.CommonModule, MdRippleModule, MdCommonModule],
+                imports: [_angular_common.CommonModule, MdRippleModule, MdCommonModule, _angular_cdk_a11y.A11yModule],
                 exports: [MdRadioGroup, MdRadioButton, MdCommonModule],
-                providers: [UNIQUE_SELECTION_DISPATCHER_PROVIDER, _angular_cdk_overlay.VIEWPORT_RULER_PROVIDER, FocusOriginMonitor],
+                providers: [UNIQUE_SELECTION_DISPATCHER_PROVIDER, _angular_cdk_overlay.VIEWPORT_RULER_PROVIDER],
                 declarations: [MdRadioGroup, MdRadioButton],
             },] },
 ];
@@ -17260,6 +17879,7 @@ MdRadioModule.decorators = [
  * @nocollapse
  */
 MdRadioModule.ctorParameters = function () { return []; };
+
 /**
  * Throws an exception when two MdDrawer are matching the same position.
  * @param {?} position
@@ -17283,6 +17903,53 @@ var MdDrawerToggleResult = (function () {
     }
     return MdDrawerToggleResult;
 }());
+var MdDrawerContent = (function () {
+    /**
+     * @param {?} _changeDetectorRef
+     * @param {?} _container
+     */
+    function MdDrawerContent(_changeDetectorRef, _container) {
+        this._changeDetectorRef = _changeDetectorRef;
+        this._container = _container;
+        /**
+         * Margins to be applied to the content. These are used to push / shrink the drawer content when a
+        drawer is open. We use margin rather than transform even for push mode because transform breaks
+        fixed position elements inside of the transformed element.
+         */
+        this._margins = { left: 0, right: 0 };
+    }
+    /**
+     * @return {?}
+     */
+    MdDrawerContent.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this._container._contentMargins.subscribe(function (margins) {
+            _this._margins = margins;
+            _this._changeDetectorRef.markForCheck();
+        });
+    };
+    return MdDrawerContent;
+}());
+MdDrawerContent.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-drawer-content, mat-drawer-content',
+                template: '<ng-content></ng-content>',
+                host: {
+                    'class': 'mat-drawer-content',
+                    '[style.marginLeft.px]': '_margins.left',
+                    '[style.marginRight.px]': '_margins.right',
+                },
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdDrawerContent.ctorParameters = function () { return [
+    { type: _angular_core.ChangeDetectorRef, },
+    { type: MdDrawerContainer, decorators: [{ type: _angular_core.Inject, args: [_angular_core.forwardRef(function () { return MdDrawerContainer; }),] },] },
+]; };
 /**
  * <md-drawer> component.
 
@@ -17307,10 +17974,7 @@ var MdDrawer = (function () {
          */
         this._enableAnimations = false;
         this._position = 'start';
-        /**
-         * Mode of the drawer; one of 'over', 'push' or 'side'.
-         */
-        this.mode = 'over';
+        this._mode = 'over';
         this._disableClose = false;
         /**
          * Whether the drawer is opened.
@@ -17344,6 +18008,11 @@ var MdDrawer = (function () {
          * @deprecated
          */
         this.onAlignChanged = new _angular_core.EventEmitter();
+        /**
+         * An observable that emits when the drawer mode changes. This is used by the drawer container to
+        to know when to when the mode changes so it can adapt the margins on the content.
+         */
+        this._modeChanged = new rxjs_Subject.Subject();
         this.onOpen.subscribe(function () {
             if (_this._doc) {
                 _this._elementFocusedBeforeDrawerWasOpened = _this._doc.activeElement;
@@ -17390,9 +18059,26 @@ var MdDrawer = (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(MdDrawer.prototype, "mode", {
+        /**
+         * Mode of the drawer; one of 'over', 'push' or 'side'.
+         * @return {?}
+         */
+        get: function () { return this._mode; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._mode = value;
+            this._modeChanged.next();
+        },
+        enumerable: true,
+        configurable: true
+    });
     Object.defineProperty(MdDrawer.prototype, "disableClose", {
         /**
-         * Whether the drawer can be closed with the escape key or not.
+         * Whether the drawer can be closed with the escape key or by clicking on the backdrop.
          * @return {?}
          */
         get: function () { return this._disableClose; },
@@ -17497,7 +18183,7 @@ var MdDrawer = (function () {
                 this._animationState = 'void';
             }
             this._currentTogglePromise = new Promise(function (resolve) {
-                _angular_cdk_rxjs.first.call(isOpen ? _this.onOpen : _this.onClose).subscribe(resolve);
+                rxjs_operator_first.first.call(isOpen ? _this.onOpen : _this.onClose).subscribe(resolve);
             });
             if (this._focusTrap) {
                 this._focusTrap.enabled = this.isFocusTrapEnabled;
@@ -17561,7 +18247,7 @@ var MdDrawer = (function () {
 }());
 MdDrawer.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-drawer, mat-drawer',
-                template: "<ng-content></ng-content>",
+                template: '<ng-content></ng-content>',
                 animations: [
                     _angular_animations.trigger('transform', [
                         _angular_animations.state('open, open-instant', _angular_animations.style({
@@ -17591,6 +18277,7 @@ MdDrawer.decorators = [
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -17637,10 +18324,15 @@ var MdDrawerContainer = (function () {
          * Event emitted when the drawer backdrop is clicked.
          */
         this.backdropClick = new _angular_core.EventEmitter();
+        /**
+         * Subscription to the Directionality change EventEmitter.
+         */
+        this._dirChangeSubscription = rxjs_Subscription.Subscription.EMPTY;
+        this._contentMargins = new rxjs_Subject.Subject();
         // If a `Dir` directive exists up the tree, listen direction changes and update the left/right
         // properties to point to the proper start/end.
         if (_dir != null) {
-            _dir.change.subscribe(function () { return _this._validateDrawers(); });
+            this._dirChangeSubscription = _dir.change.subscribe(function () { return _this._validateDrawers(); });
         }
     }
     Object.defineProperty(MdDrawerContainer.prototype, "start", {
@@ -17666,13 +18358,20 @@ var MdDrawerContainer = (function () {
      */
     MdDrawerContainer.prototype.ngAfterContentInit = function () {
         var _this = this;
-        _angular_cdk_rxjs.startWith.call(this._drawers.changes, null).subscribe(function () {
+        rxjs_operator_startWith.startWith.call(this._drawers.changes, null).subscribe(function () {
             _this._validateDrawers();
             _this._drawers.forEach(function (drawer) {
                 _this._watchDrawerToggle(drawer);
                 _this._watchDrawerPosition(drawer);
+                _this._watchDrawerMode(drawer);
             });
         });
+    };
+    /**
+     * @return {?}
+     */
+    MdDrawerContainer.prototype.ngOnDestroy = function () {
+        this._dirChangeSubscription.unsubscribe();
     };
     /**
      * Calls `open` of both start and end drawers
@@ -17697,15 +18396,15 @@ var MdDrawerContainer = (function () {
      */
     MdDrawerContainer.prototype._watchDrawerToggle = function (drawer) {
         var _this = this;
-        _angular_cdk_rxjs.takeUntil.call(drawer._animationStarted, this._drawers.changes).subscribe(function () {
+        rxjs_operator_takeUntil.takeUntil.call(drawer._animationStarted, this._drawers.changes).subscribe(function () {
             // Set the transition class on the container so that the animations occur. This should not
             // be set initially because animations should only be triggered via a change in state.
             _this._renderer.addClass(_this._element.nativeElement, 'mat-drawer-transition');
-            _this._updateStyles();
+            _this._updateContentMargins();
             _this._changeDetectorRef.markForCheck();
         });
         if (drawer.mode !== 'side') {
-            _angular_cdk_rxjs.takeUntil.call(rxjs_observable_merge.merge(drawer.onOpen, drawer.onClose), this._drawers.changes).subscribe(function () { return _this._setContainerClass(drawer.opened); });
+            rxjs_operator_takeUntil.takeUntil.call(rxjs_observable_merge.merge(drawer.onOpen, drawer.onClose), this._drawers.changes).subscribe(function () { return _this._setContainerClass(drawer.opened); });
         }
     };
     /**
@@ -17721,7 +18420,25 @@ var MdDrawerContainer = (function () {
         }
         // NOTE: We need to wait for the microtask queue to be empty before validating,
         // since both drawers may be swapping positions at the same time.
-        _angular_cdk_rxjs.takeUntil.call(drawer.onPositionChanged, this._drawers.changes).subscribe(function () { return _angular_cdk_rxjs.first.call(_this._ngZone.onMicrotaskEmpty).subscribe(function () { return _this._validateDrawers(); }); });
+        rxjs_operator_takeUntil.takeUntil.call(drawer.onPositionChanged, this._drawers.changes).subscribe(function () {
+            rxjs_operator_first.first.call(_this._ngZone.onMicrotaskEmpty.asObservable()).subscribe(function () {
+                _this._validateDrawers();
+            });
+        });
+    };
+    /**
+     * Subscribes to changes in drawer mode so we can run change detection.
+     * @param {?} drawer
+     * @return {?}
+     */
+    MdDrawerContainer.prototype._watchDrawerMode = function (drawer) {
+        var _this = this;
+        if (drawer) {
+            rxjs_operator_takeUntil.takeUntil.call(drawer._modeChanged, this._drawers.changes).subscribe(function () {
+                _this._updateContentMargins();
+                _this._changeDetectorRef.markForCheck();
+            });
+        }
     };
     /**
      * Toggles the 'mat-drawer-opened' class on the main 'md-drawer-container' element.
@@ -17800,44 +18517,53 @@ var MdDrawerContainer = (function () {
         return drawer != null && drawer.opened;
     };
     /**
-     * Return the width of the drawer, if it's in the proper mode and opened.
-    This may relayout the view, so do not call this often.
-    \@param drawer
-    \@param mode
-     * @param {?} drawer
-     * @param {?} mode
+     * Recalculates and updates the inline styles for the content. Note that this should be used
+    sparingly, because it causes a reflow.
      * @return {?}
      */
-    MdDrawerContainer.prototype._getDrawerEffectiveWidth = function (drawer, mode) {
-        return (this._isDrawerOpen(drawer) && drawer.mode == mode) ? drawer._width : 0;
-    };
-    /**
-     * Recalculates and updates the inline styles. Note that this
-    should be used sparingly, because it causes a reflow.
-     * @return {?}
-     */
-    MdDrawerContainer.prototype._updateStyles = function () {
-        var /** @type {?} */ marginLeft = this._left ? this._getDrawerEffectiveWidth(this._left, 'side') : 0;
-        var /** @type {?} */ marginRight = this._right ? this._getDrawerEffectiveWidth(this._right, 'side') : 0;
-        var /** @type {?} */ leftWidth = this._left ? this._getDrawerEffectiveWidth(this._left, 'push') : 0;
-        var /** @type {?} */ rightWidth = this._right ? this._getDrawerEffectiveWidth(this._right, 'push') : 0;
-        this._styles = {
-            marginLeft: marginLeft + "px",
-            marginRight: marginRight + "px",
-            transform: "translate3d(" + (leftWidth - rightWidth) + "px, 0, 0)"
-        };
+    MdDrawerContainer.prototype._updateContentMargins = function () {
+        // 1. For drawers in `over` mode, they don't affect the content.
+        // 2. For drawers in `side` mode they should shrink the content. We do this by adding to the
+        //    left margin (for left drawer) or right margin (for right the drawer).
+        // 3. For drawers in `push` mode the should shift the content without resizing it. We do this by
+        //    adding to the left or right margin and simultaneously subtracting the same amount of
+        //    margin from the other side.
+        var /** @type {?} */ left = 0;
+        var /** @type {?} */ right = 0;
+        if (this._left && this._left.opened) {
+            if (this._left.mode == 'side') {
+                left += this._left._width;
+            }
+            else if (this._left.mode == 'push') {
+                var /** @type {?} */ width = this._left._width;
+                left += width;
+                right -= width;
+            }
+        }
+        if (this._right && this._right.opened) {
+            if (this._right.mode == 'side') {
+                right += this._right._width;
+            }
+            else if (this._right.mode == 'push') {
+                var /** @type {?} */ width = this._right._width;
+                right += width;
+                left -= width;
+            }
+        }
+        this._contentMargins.next({ left: left, right: right });
     };
     return MdDrawerContainer;
 }());
 MdDrawerContainer.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-drawer-container, mat-drawer-container',
-                template: "<div class=\"mat-drawer-backdrop\" (click)=\"_onBackdropClicked()\" [class.mat-drawer-shown]=\"_isShowingBackdrop()\"></div><ng-content select=\"md-drawer, mat-drawer, md-sidenav, mat-sidenav\"></ng-content><div class=\"mat-drawer-content\" [ngStyle]=\"_styles\" cdk-scrollable><ng-content></ng-content></div>",
-                styles: [".mat-drawer-container{position:relative;transform:translate3d(0,0,0);box-sizing:border-box;-webkit-overflow-scrolling:touch;display:block;overflow:hidden}.mat-drawer-container[fullscreen]{top:0;left:0;right:0;bottom:0;position:absolute}.mat-drawer-container[fullscreen].mat-drawer-opened{overflow:hidden}.mat-drawer-backdrop{top:0;left:0;right:0;bottom:0;position:absolute;display:block;z-index:2;visibility:hidden}.mat-drawer-backdrop.mat-drawer-shown{visibility:visible}@media screen and (-ms-high-contrast:active){.mat-drawer-backdrop{opacity:.5}}.mat-drawer-content{position:relative;transform:translate3d(0,0,0);display:block;height:100%;overflow:auto}.mat-drawer{position:relative;transform:translate3d(0,0,0);display:block;position:absolute;top:0;bottom:0;z-index:3;min-width:5vw;outline:0;box-sizing:border-box;height:100%;overflow-y:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-side{z-index:1}.mat-drawer.mat-drawer-end{right:0;transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer{transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer.mat-drawer-end{left:0;right:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-opened:not(.mat-drawer-side),.mat-drawer.mat-drawer-opening:not(.mat-drawer-side){box-shadow:0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12)} .mat-drawer-transition .mat-drawer-content{transition-duration:.4s;transition-timing-function:cubic-bezier(.25,.8,.25,1);transition-property:transform,margin-left,margin-right}.mat-drawer-transition .mat-drawer-backdrop.mat-drawer-shown{transition:background-color .4s cubic-bezier(.25,.8,.25,1)}"],
+                template: "<div class=\"mat-drawer-backdrop\" (click)=\"_onBackdropClicked()\" [class.mat-drawer-shown]=\"_isShowingBackdrop()\"></div><ng-content select=\"md-drawer, mat-drawer\"></ng-content><ng-content select=\"md-drawer-content, mat-drawer-content\"></ng-content><md-drawer-content *ngIf=\"!_content\"><ng-content></ng-content></md-drawer-content>",
+                styles: [".mat-drawer-container{position:relative;z-index:1;box-sizing:border-box;-webkit-overflow-scrolling:touch;display:block;overflow:hidden}.mat-drawer-container[fullscreen]{top:0;left:0;right:0;bottom:0;position:absolute}.mat-drawer-container[fullscreen].mat-drawer-opened{overflow:hidden}.mat-drawer-backdrop{top:0;left:0;right:0;bottom:0;position:absolute;display:block;z-index:3;visibility:hidden}.mat-drawer-backdrop.mat-drawer-shown{visibility:visible}@media screen and (-ms-high-contrast:active){.mat-drawer-backdrop{opacity:.5}}.mat-drawer-content{position:relative;z-index:1;display:block;height:100%;overflow:auto}.mat-drawer{position:relative;z-index:4;display:block;position:absolute;top:0;bottom:0;z-index:3;min-width:5vw;outline:0;box-sizing:border-box;overflow-y:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-side{z-index:2}.mat-drawer.mat-drawer-end{right:0;transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer{transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer.mat-drawer-end{left:0;right:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-opened:not(.mat-drawer-side),.mat-drawer.mat-drawer-opening:not(.mat-drawer-side){box-shadow:0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12)}.mat-sidenav-fixed{position:fixed} .mat-drawer-transition .mat-drawer-content{transition-duration:.4s;transition-timing-function:cubic-bezier(.25,.8,.25,1);transition-property:margin-left,margin-right}.mat-drawer-transition .mat-drawer-backdrop.mat-drawer-shown{transition:background-color .4s cubic-bezier(.25,.8,.25,1)}"],
                 host: {
                     'class': 'mat-drawer-container',
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -17852,18 +18578,98 @@ MdDrawerContainer.ctorParameters = function () { return [
 ]; };
 MdDrawerContainer.propDecorators = {
     '_drawers': [{ type: _angular_core.ContentChildren, args: [MdDrawer,] },],
+    '_content': [{ type: _angular_core.ContentChild, args: [MdDrawerContent,] },],
     'backdropClick': [{ type: _angular_core.Output },],
 };
+var MdSidenavContent = (function (_super) {
+    __extends(MdSidenavContent, _super);
+    /**
+     * @param {?} changeDetectorRef
+     * @param {?} container
+     */
+    function MdSidenavContent(changeDetectorRef, container) {
+        return _super.call(this, changeDetectorRef, container) || this;
+    }
+    return MdSidenavContent;
+}(MdDrawerContent));
+MdSidenavContent.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-sidenav-content, mat-sidenav-content',
+                template: '<ng-content></ng-content>',
+                host: {
+                    'class': 'mat-drawer-content mat-sidenav-content',
+                    '[style.marginLeft.px]': '_margins.left',
+                    '[style.marginRight.px]': '_margins.right',
+                },
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdSidenavContent.ctorParameters = function () { return [
+    { type: _angular_core.ChangeDetectorRef, },
+    { type: MdSidenavContainer, decorators: [{ type: _angular_core.Inject, args: [_angular_core.forwardRef(function () { return MdSidenavContainer; }),] },] },
+]; };
 var MdSidenav = (function (_super) {
     __extends(MdSidenav, _super);
     function MdSidenav() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super.apply(this, arguments) || this;
+        _this._fixedInViewport = false;
+        _this._fixedTopGap = 0;
+        _this._fixedBottomGap = 0;
+        return _this;
     }
+    Object.defineProperty(MdSidenav.prototype, "fixedInViewport", {
+        /**
+         * Whether the sidenav is fixed in the viewport.
+         * @return {?}
+         */
+        get: function () { return this._fixedInViewport; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._fixedInViewport = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSidenav.prototype, "fixedTopGap", {
+        /**
+         * The gap between the top of the sidenav and the top of the viewport when the sidenav is in fixed
+        mode.
+         * @return {?}
+         */
+        get: function () { return this._fixedTopGap; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._fixedTopGap = _angular_cdk_coercion.coerceNumberProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSidenav.prototype, "fixedBottomGap", {
+        /**
+         * The gap between the bottom of the sidenav and the bottom of the viewport when the sidenav is in
+        fixed mode.
+         * @return {?}
+         */
+        get: function () { return this._fixedBottomGap; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._fixedBottomGap = _angular_cdk_coercion.coerceNumberProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
     return MdSidenav;
 }(MdDrawer));
 MdSidenav.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-sidenav, mat-sidenav',
-                template: "<ng-content></ng-content>",
+                template: '<ng-content></ng-content>',
                 animations: [
                     _angular_animations.trigger('transform', [
                         _angular_animations.state('open, open-instant', _angular_animations.style({
@@ -17879,6 +18685,7 @@ MdSidenav.decorators = [
                 ],
                 host: {
                     'class': 'mat-drawer mat-sidenav',
+                    'tabIndex': '-1',
                     '[@transform]': '_animationState',
                     '(@transform.start)': '_onAnimationStart()',
                     '(@transform.done)': '_onAnimationEnd($event)',
@@ -17889,16 +18696,24 @@ MdSidenav.decorators = [
                     '[class.mat-drawer-over]': 'mode === "over"',
                     '[class.mat-drawer-push]': 'mode === "push"',
                     '[class.mat-drawer-side]': 'mode === "side"',
-                    'tabIndex': '-1',
+                    '[class.mat-sidenav-fixed]': 'fixedInViewport',
+                    '[style.top.px]': 'fixedInViewport ? fixedTopGap : null',
+                    '[style.bottom.px]': 'fixedInViewport ? fixedBottomGap : null',
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
  * @nocollapse
  */
 MdSidenav.ctorParameters = function () { return []; };
+MdSidenav.propDecorators = {
+    'fixedInViewport': [{ type: _angular_core.Input },],
+    'fixedTopGap': [{ type: _angular_core.Input },],
+    'fixedBottomGap': [{ type: _angular_core.Input },],
+};
 var MdSidenavContainer = (function (_super) {
     __extends(MdSidenavContainer, _super);
     function MdSidenavContainer() {
@@ -17908,13 +18723,14 @@ var MdSidenavContainer = (function (_super) {
 }(MdDrawerContainer));
 MdSidenavContainer.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-sidenav-container, mat-sidenav-container',
-                template: "<div class=\"mat-drawer-backdrop\" (click)=\"_onBackdropClicked()\" [class.mat-drawer-shown]=\"_isShowingBackdrop()\"></div><ng-content select=\"md-drawer, mat-drawer, md-sidenav, mat-sidenav\"></ng-content><div class=\"mat-drawer-content\" [ngStyle]=\"_styles\" cdk-scrollable><ng-content></ng-content></div>",
-                styles: [".mat-drawer-container{position:relative;transform:translate3d(0,0,0);box-sizing:border-box;-webkit-overflow-scrolling:touch;display:block;overflow:hidden}.mat-drawer-container[fullscreen]{top:0;left:0;right:0;bottom:0;position:absolute}.mat-drawer-container[fullscreen].mat-drawer-opened{overflow:hidden}.mat-drawer-backdrop{top:0;left:0;right:0;bottom:0;position:absolute;display:block;z-index:2;visibility:hidden}.mat-drawer-backdrop.mat-drawer-shown{visibility:visible}@media screen and (-ms-high-contrast:active){.mat-drawer-backdrop{opacity:.5}}.mat-drawer-content{position:relative;transform:translate3d(0,0,0);display:block;height:100%;overflow:auto}.mat-drawer{position:relative;transform:translate3d(0,0,0);display:block;position:absolute;top:0;bottom:0;z-index:3;min-width:5vw;outline:0;box-sizing:border-box;height:100%;overflow-y:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-side{z-index:1}.mat-drawer.mat-drawer-end{right:0;transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer{transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer.mat-drawer-end{left:0;right:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-opened:not(.mat-drawer-side),.mat-drawer.mat-drawer-opening:not(.mat-drawer-side){box-shadow:0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12)} .mat-drawer-transition .mat-drawer-content{transition-duration:.4s;transition-timing-function:cubic-bezier(.25,.8,.25,1);transition-property:transform,margin-left,margin-right}.mat-drawer-transition .mat-drawer-backdrop.mat-drawer-shown{transition:background-color .4s cubic-bezier(.25,.8,.25,1)}"],
+                template: "<div class=\"mat-drawer-backdrop\" (click)=\"_onBackdropClicked()\" [class.mat-drawer-shown]=\"_isShowingBackdrop()\"></div><ng-content select=\"md-sidenav, mat-sidenav\"></ng-content><ng-content select=\"md-sidenav-content, mat-sidenav-content\"></ng-content><md-sidenav-content *ngIf=\"!_content\"><ng-content></ng-content></md-sidenav-content>",
+                styles: [".mat-drawer-container{position:relative;z-index:1;box-sizing:border-box;-webkit-overflow-scrolling:touch;display:block;overflow:hidden}.mat-drawer-container[fullscreen]{top:0;left:0;right:0;bottom:0;position:absolute}.mat-drawer-container[fullscreen].mat-drawer-opened{overflow:hidden}.mat-drawer-backdrop{top:0;left:0;right:0;bottom:0;position:absolute;display:block;z-index:3;visibility:hidden}.mat-drawer-backdrop.mat-drawer-shown{visibility:visible}@media screen and (-ms-high-contrast:active){.mat-drawer-backdrop{opacity:.5}}.mat-drawer-content{position:relative;z-index:1;display:block;height:100%;overflow:auto}.mat-drawer{position:relative;z-index:4;display:block;position:absolute;top:0;bottom:0;z-index:3;min-width:5vw;outline:0;box-sizing:border-box;overflow-y:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-side{z-index:2}.mat-drawer.mat-drawer-end{right:0;transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer{transform:translate3d(100%,0,0)}[dir=rtl] .mat-drawer.mat-drawer-end{left:0;right:auto;transform:translate3d(-100%,0,0)}.mat-drawer.mat-drawer-opened:not(.mat-drawer-side),.mat-drawer.mat-drawer-opening:not(.mat-drawer-side){box-shadow:0 8px 10px -5px rgba(0,0,0,.2),0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12)}.mat-sidenav-fixed{position:fixed} .mat-drawer-transition .mat-drawer-content{transition-duration:.4s;transition-timing-function:cubic-bezier(.25,.8,.25,1);transition-property:margin-left,margin-right}.mat-drawer-transition .mat-drawer-backdrop.mat-drawer-shown{transition:background-color .4s cubic-bezier(.25,.8,.25,1)}"],
                 host: {
                     'class': 'mat-drawer-container mat-sidenav-container',
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -17923,6 +18739,7 @@ MdSidenavContainer.decorators = [
 MdSidenavContainer.ctorParameters = function () { return []; };
 MdSidenavContainer.propDecorators = {
     '_drawers': [{ type: _angular_core.ContentChildren, args: [MdSidenav,] },],
+    '_content': [{ type: _angular_core.ContentChild, args: [MdSidenavContent,] },],
 };
 var MdSidenavModule = (function () {
     function MdSidenavModule() {
@@ -17932,14 +18749,461 @@ var MdSidenavModule = (function () {
 MdSidenavModule.decorators = [
     { type: _angular_core.NgModule, args: [{
                 imports: [_angular_common.CommonModule, MdCommonModule, _angular_cdk_a11y.A11yModule, _angular_cdk_overlay.OverlayModule],
-                exports: [MdDrawerContainer, MdDrawer, MdSidenavContainer, MdSidenav, MdCommonModule],
-                declarations: [MdDrawerContainer, MdDrawer, MdSidenavContainer, MdSidenav],
+                exports: [
+                    MdCommonModule,
+                    MdDrawer,
+                    MdDrawerContainer,
+                    MdDrawerContent,
+                    MdSidenav,
+                    MdSidenavContainer,
+                    MdSidenavContent,
+                ],
+                declarations: [
+                    MdDrawer,
+                    MdDrawerContainer,
+                    MdDrawerContent,
+                    MdSidenav,
+                    MdSidenavContainer,
+                    MdSidenavContent,
+                ],
             },] },
 ];
 /**
  * @nocollapse
  */
 MdSidenavModule.ctorParameters = function () { return []; };
+
+// Increasing integer for generating unique ids for slide-toggle components.
+var nextUniqueId$6 = 0;
+var MD_SLIDE_TOGGLE_VALUE_ACCESSOR = {
+    provide: _angular_forms.NG_VALUE_ACCESSOR,
+    useExisting: _angular_core.forwardRef(function () { return MdSlideToggle; }),
+    multi: true
+};
+/**
+ * Change event object emitted by a MdSlideToggle.
+ */
+var MdSlideToggleChange = (function () {
+    function MdSlideToggleChange() {
+    }
+    return MdSlideToggleChange;
+}());
+/**
+ * \@docs-private
+ */
+var MdSlideToggleBase = (function () {
+    /**
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     */
+    function MdSlideToggleBase(_renderer, _elementRef) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+    }
+    return MdSlideToggleBase;
+}());
+var _MdSlideToggleMixinBase = mixinTabIndex(mixinColor(mixinDisableRipple(mixinDisabled(MdSlideToggleBase)), 'accent'));
+/**
+ * Represents a slidable "switch" toggle that can be moved between on and off.
+ */
+var MdSlideToggle = (function (_super) {
+    __extends(MdSlideToggle, _super);
+    /**
+     * @param {?} elementRef
+     * @param {?} renderer
+     * @param {?} _platform
+     * @param {?} _focusMonitor
+     * @param {?} _changeDetectorRef
+     * @param {?} tabIndex
+     */
+    function MdSlideToggle(elementRef, renderer, _platform, _focusMonitor, _changeDetectorRef, tabIndex) {
+        var _this = _super.call(this, renderer, elementRef) || this;
+        _this._platform = _platform;
+        _this._focusMonitor = _focusMonitor;
+        _this._changeDetectorRef = _changeDetectorRef;
+        _this.onChange = function (_) { };
+        _this.onTouched = function () { };
+        _this._uniqueId = "md-slide-toggle-" + ++nextUniqueId$6;
+        _this._required = false;
+        _this._checked = false;
+        /**
+         * Name value will be applied to the input element if present
+         */
+        _this.name = null;
+        /**
+         * A unique id for the slide-toggle input. If none is supplied, it will be auto-generated.
+         */
+        _this.id = _this._uniqueId;
+        /**
+         * Whether the label should appear after or before the slide-toggle. Defaults to 'after'
+         */
+        _this.labelPosition = 'after';
+        /**
+         * Used to set the aria-label attribute on the underlying input element.
+         */
+        _this.ariaLabel = null;
+        /**
+         * Used to set the aria-labelledby attribute on the underlying input element.
+         */
+        _this.ariaLabelledby = null;
+        /**
+         * An event will be dispatched each time the slide-toggle changes its value.
+         */
+        _this.change = new _angular_core.EventEmitter();
+        _this.tabIndex = parseInt(tabIndex) || 0;
+        return _this;
+    }
+    Object.defineProperty(MdSlideToggle.prototype, "required", {
+        /**
+         * Whether the slide-toggle is required.
+         * @return {?}
+         */
+        get: function () { return this._required; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) { this._required = _angular_cdk_coercion.coerceBooleanProperty(value); },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSlideToggle.prototype, "checked", {
+        /**
+         * Whether the slide-toggle element is checked or not
+         * @return {?}
+         */
+        get: function () { return this._checked; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._checked = !!value;
+            this._changeDetectorRef.markForCheck();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdSlideToggle.prototype, "inputId", {
+        /**
+         * Returns the unique id for the visual hidden input.
+         * @return {?}
+         */
+        get: function () { return (this.id || this._uniqueId) + "-input"; },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdSlideToggle.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this._slideRenderer = new SlideToggleRenderer(this._elementRef, this._platform);
+        this._focusMonitor
+            .monitor(this._inputElement.nativeElement, this._renderer, false)
+            .subscribe(function (focusOrigin) { return _this._onInputFocusChange(focusOrigin); });
+    };
+    /**
+     * @return {?}
+     */
+    MdSlideToggle.prototype.ngOnDestroy = function () {
+        this._focusMonitor.stopMonitoring(this._inputElement.nativeElement);
+    };
+    /**
+     * This function will called if the underlying input changed its value through user interaction.
+     * @param {?} event
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onChangeEvent = function (event) {
+        // We always have to stop propagation on the change event.
+        // Otherwise the change event, from the input element, will bubble up and
+        // emit its event object to the component's `change` output.
+        event.stopPropagation();
+        // Sync the value from the underlying input element with the slide-toggle component.
+        this.checked = this._inputElement.nativeElement.checked;
+        // Emit our custom change event if the native input emitted one.
+        // It is important to only emit it, if the native input triggered one, because we don't want
+        // to trigger a change event, when the `checked` variable changes programmatically.
+        this._emitChangeEvent();
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onInputClick = function (event) {
+        // In some situations the user will release the mouse on the label element. The label element
+        // redirects the click to the underlying input element and will result in a value change.
+        // Prevent the default behavior if dragging, because the value will be set after drag.
+        if (this._slideRenderer.dragging) {
+            event.preventDefault();
+        }
+        // We have to stop propagation for click events on the visual hidden input element.
+        // By default, when a user clicks on a label element, a generated click event will be
+        // dispatched on the associated input element. Since we are using a label element as our
+        // root container, the click event on the `slide-toggle` will be executed twice.
+        // The real click event will bubble up, and the generated click event also tries to bubble up.
+        // This will lead to multiple click events.
+        // Preventing bubbling for the second event will solve that issue.
+        event.stopPropagation();
+    };
+    /**
+     * Implemented as part of ControlValueAccessor.
+     * @param {?} value
+     * @return {?}
+     */
+    MdSlideToggle.prototype.writeValue = function (value) {
+        this.checked = !!value;
+    };
+    /**
+     * Implemented as part of ControlValueAccessor.
+     * @param {?} fn
+     * @return {?}
+     */
+    MdSlideToggle.prototype.registerOnChange = function (fn) {
+        this.onChange = fn;
+    };
+    /**
+     * Implemented as part of ControlValueAccessor.
+     * @param {?} fn
+     * @return {?}
+     */
+    MdSlideToggle.prototype.registerOnTouched = function (fn) {
+        this.onTouched = fn;
+    };
+    /**
+     * Implemented as a part of ControlValueAccessor.
+     * @param {?} isDisabled
+     * @return {?}
+     */
+    MdSlideToggle.prototype.setDisabledState = function (isDisabled) {
+        this.disabled = isDisabled;
+        this._changeDetectorRef.markForCheck();
+    };
+    /**
+     * Focuses the slide-toggle.
+     * @return {?}
+     */
+    MdSlideToggle.prototype.focus = function () {
+        this._focusMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
+    };
+    /**
+     * Toggles the checked state of the slide-toggle.
+     * @return {?}
+     */
+    MdSlideToggle.prototype.toggle = function () {
+        this.checked = !this.checked;
+    };
+    /**
+     * Function is called whenever the focus changes for the input element.
+     * @param {?} focusOrigin
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onInputFocusChange = function (focusOrigin) {
+        if (!this._focusRipple && focusOrigin === 'keyboard') {
+            // For keyboard focus show a persistent ripple as focus indicator.
+            this._focusRipple = this._ripple.launch(0, 0, { persistent: true, centered: true });
+        }
+        else if (!focusOrigin) {
+            this.onTouched();
+            // Fade out and clear the focus ripple if one is currently present.
+            if (this._focusRipple) {
+                this._focusRipple.fadeOut();
+                this._focusRipple = null;
+            }
+        }
+    };
+    /**
+     * Emits a change event on the `change` output. Also notifies the FormControl about the change.
+     * @return {?}
+     */
+    MdSlideToggle.prototype._emitChangeEvent = function () {
+        var /** @type {?} */ event = new MdSlideToggleChange();
+        event.source = this;
+        event.checked = this.checked;
+        this.change.emit(event);
+        this.onChange(this.checked);
+    };
+    /**
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onDragStart = function () {
+        if (!this.disabled) {
+            this._slideRenderer.startThumbDrag(this.checked);
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onDrag = function (event) {
+        if (this._slideRenderer.dragging) {
+            this._slideRenderer.updateThumbPosition(event.deltaX);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onDragEnd = function () {
+        var _this = this;
+        if (this._slideRenderer.dragging) {
+            var /** @type {?} */ _previousChecked = this.checked;
+            this.checked = this._slideRenderer.dragPercentage > 50;
+            if (_previousChecked !== this.checked) {
+                this._emitChangeEvent();
+            }
+            // The drag should be stopped outside of the current event handler, because otherwise the
+            // click event will be fired before and will revert the drag change.
+            setTimeout(function () { return _this._slideRenderer.stopThumbDrag(); });
+        }
+    };
+    /**
+     * Method being called whenever the label text changes.
+     * @return {?}
+     */
+    MdSlideToggle.prototype._onLabelTextChange = function () {
+        // This method is getting called whenever the label of the slide-toggle changes.
+        // Since the slide-toggle uses the OnPush strategy we need to notify it about the change
+        // that has been recognized by the cdkObserveContent directive.
+        this._changeDetectorRef.markForCheck();
+    };
+    return MdSlideToggle;
+}(_MdSlideToggleMixinBase));
+MdSlideToggle.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-slide-toggle, mat-slide-toggle',
+                host: {
+                    'class': 'mat-slide-toggle',
+                    '[id]': 'id',
+                    '[class.mat-checked]': 'checked',
+                    '[class.mat-disabled]': 'disabled',
+                    '[class.mat-slide-toggle-label-before]': 'labelPosition == "before"',
+                },
+                template: "<label class=\"mat-slide-toggle-label\" #label><div class=\"mat-slide-toggle-bar\" [class.mat-slide-toggle-bar-no-side-margin]=\"!labelContent.textContent || !labelContent.textContent.trim()\"><input #input class=\"mat-slide-toggle-input cdk-visually-hidden\" type=\"checkbox\" [id]=\"inputId\" [required]=\"required\" [tabIndex]=\"tabIndex\" [checked]=\"checked\" [disabled]=\"disabled\" [attr.name]=\"name\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onChangeEvent($event)\" (click)=\"_onInputClick($event)\"><div class=\"mat-slide-toggle-thumb-container\" (slidestart)=\"_onDragStart()\" (slide)=\"_onDrag($event)\" (slideend)=\"_onDragEnd()\"><div class=\"mat-slide-toggle-thumb\"></div><div class=\"mat-slide-toggle-ripple\" mat-ripple [matRippleTrigger]=\"label\" [matRippleCentered]=\"true\" [matRippleDisabled]=\"disableRipple || disabled\"></div></div></div><span class=\"mat-slide-toggle-content\" #labelContent (cdkObserveContent)=\"_onLabelTextChange()\"><ng-content></ng-content></span></label>",
+                styles: [".mat-slide-toggle{display:inline-block;height:24px;line-height:24px;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;outline:0}.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb-container{transform:translate3d(16px,0,0)}.mat-slide-toggle.mat-disabled .mat-slide-toggle-label,.mat-slide-toggle.mat-disabled .mat-slide-toggle-thumb-container{cursor:default}.mat-slide-toggle-label{display:flex;flex:1;flex-direction:row;align-items:center;cursor:pointer}.mat-slide-toggle-label-before .mat-slide-toggle-label{order:1}.mat-slide-toggle-label-before .mat-slide-toggle-bar{order:2}.mat-slide-toggle-bar,[dir=rtl] .mat-slide-toggle-label-before .mat-slide-toggle-bar{margin-right:8px;margin-left:0}.mat-slide-toggle-label-before .mat-slide-toggle-bar,[dir=rtl] .mat-slide-toggle-bar{margin-left:8px;margin-right:0}.mat-slide-toggle-bar-no-side-margin{margin-left:0;margin-right:0}.mat-slide-toggle-thumb-container{position:absolute;z-index:1;width:20px;height:20px;top:-3px;left:0;transform:translate3d(0,0,0);transition:all 80ms linear;transition-property:transform;cursor:-webkit-grab;cursor:grab}.mat-slide-toggle-thumb-container.mat-dragging,.mat-slide-toggle-thumb-container:active{cursor:-webkit-grabbing;cursor:grabbing;transition-duration:0s}.mat-slide-toggle-thumb{height:20px;width:20px;border-radius:50%;box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12)}@media screen and (-ms-high-contrast:active){.mat-slide-toggle-thumb{background:#fff;border:solid 1px #000}}.mat-slide-toggle-bar{position:relative;width:36px;height:14px;border-radius:8px}@media screen and (-ms-high-contrast:active){.mat-slide-toggle-bar{background:#fff}}.mat-slide-toggle-input{bottom:0;left:10px}.mat-slide-toggle-bar,.mat-slide-toggle-thumb{transition:all 80ms linear;transition-property:background-color;transition-delay:50ms}.mat-slide-toggle-ripple{position:absolute;top:-13px;left:-13px;height:46px;width:46px;border-radius:50%;z-index:1;pointer-events:none}"],
+                providers: [MD_SLIDE_TOGGLE_VALUE_ACCESSOR],
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+                inputs: ['disabled', 'disableRipple', 'color', 'tabIndex'],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdSlideToggle.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.Renderer2, },
+    { type: _angular_cdk_platform.Platform, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
+    { type: _angular_core.ChangeDetectorRef, },
+    { type: undefined, decorators: [{ type: _angular_core.Attribute, args: ['tabindex',] },] },
+]; };
+MdSlideToggle.propDecorators = {
+    'name': [{ type: _angular_core.Input },],
+    'id': [{ type: _angular_core.Input },],
+    'labelPosition': [{ type: _angular_core.Input },],
+    'ariaLabel': [{ type: _angular_core.Input, args: ['aria-label',] },],
+    'ariaLabelledby': [{ type: _angular_core.Input, args: ['aria-labelledby',] },],
+    'required': [{ type: _angular_core.Input },],
+    'checked': [{ type: _angular_core.Input },],
+    'change': [{ type: _angular_core.Output },],
+    '_inputElement': [{ type: _angular_core.ViewChild, args: ['input',] },],
+    '_ripple': [{ type: _angular_core.ViewChild, args: [MdRipple,] },],
+};
+/**
+ * Renderer for the Slide Toggle component, which separates DOM modification in its own class
+ */
+var SlideToggleRenderer = (function () {
+    /**
+     * @param {?} elementRef
+     * @param {?} platform
+     */
+    function SlideToggleRenderer(elementRef, platform) {
+        /**
+         * Whether the thumb is currently being dragged.
+         */
+        this.dragging = false;
+        // We only need to interact with these elements when we're on the browser, so only grab
+        // the reference in that case.
+        if (platform.isBrowser) {
+            this._thumbEl = elementRef.nativeElement.querySelector('.mat-slide-toggle-thumb-container');
+            this._thumbBarEl = elementRef.nativeElement.querySelector('.mat-slide-toggle-bar');
+        }
+    }
+    /**
+     * Initializes the drag of the slide-toggle.
+     * @param {?} checked
+     * @return {?}
+     */
+    SlideToggleRenderer.prototype.startThumbDrag = function (checked) {
+        if (this.dragging) {
+            return;
+        }
+        this._thumbBarWidth = this._thumbBarEl.clientWidth - this._thumbEl.clientWidth;
+        this._thumbEl.classList.add('mat-dragging');
+        this._previousChecked = checked;
+        this.dragging = true;
+    };
+    /**
+     * Resets the current drag and returns the new checked value.
+     * @return {?}
+     */
+    SlideToggleRenderer.prototype.stopThumbDrag = function () {
+        if (!this.dragging) {
+            return false;
+        }
+        this.dragging = false;
+        this._thumbEl.classList.remove('mat-dragging');
+        // Reset the transform because the component will take care of the thumb position after drag.
+        applyCssTransform(this._thumbEl, '');
+        return this.dragPercentage > 50;
+    };
+    /**
+     * Updates the thumb containers position from the specified distance.
+     * @param {?} distance
+     * @return {?}
+     */
+    SlideToggleRenderer.prototype.updateThumbPosition = function (distance) {
+        this.dragPercentage = this._getDragPercentage(distance);
+        // Calculate the moved distance based on the thumb bar width.
+        var /** @type {?} */ dragX = (this.dragPercentage / 100) * this._thumbBarWidth;
+        applyCssTransform(this._thumbEl, "translate3d(" + dragX + "px, 0, 0)");
+    };
+    /**
+     * Retrieves the percentage of thumb from the moved distance. Percentage as fraction of 100.
+     * @param {?} distance
+     * @return {?}
+     */
+    SlideToggleRenderer.prototype._getDragPercentage = function (distance) {
+        var /** @type {?} */ percentage = (distance / this._thumbBarWidth) * 100;
+        // When the toggle was initially checked, then we have to start the drag at the end.
+        if (this._previousChecked) {
+            percentage += 100;
+        }
+        return Math.max(0, Math.min(percentage, 100));
+    };
+    return SlideToggleRenderer;
+}());
+var MdSlideToggleModule = (function () {
+    function MdSlideToggleModule() {
+    }
+    return MdSlideToggleModule;
+}());
+MdSlideToggleModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                imports: [MdRippleModule, MdCommonModule, _angular_cdk_platform.PlatformModule, _angular_cdk_observers.ObserversModule, _angular_cdk_a11y.A11yModule],
+                exports: [MdSlideToggle, MdCommonModule],
+                declarations: [MdSlideToggle],
+                providers: [
+                    { provide: _angular_platformBrowser.HAMMER_GESTURE_CONFIG, useClass: GestureConfig }
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdSlideToggleModule.ctorParameters = function () { return []; };
+
 /**
  * Visually, a 30px separation between tick marks looks best. This is very subjective but it is
 the default separation we chose.
@@ -17998,13 +19262,13 @@ var MdSlider = (function (_super) {
     /**
      * @param {?} renderer
      * @param {?} elementRef
-     * @param {?} _focusOriginMonitor
+     * @param {?} _focusMonitor
      * @param {?} _changeDetectorRef
      * @param {?} _dir
      */
-    function MdSlider(renderer, elementRef, _focusOriginMonitor, _changeDetectorRef, _dir) {
+    function MdSlider(renderer, elementRef, _focusMonitor, _changeDetectorRef, _dir) {
         var _this = _super.call(this, renderer, elementRef) || this;
-        _this._focusOriginMonitor = _focusOriginMonitor;
+        _this._focusMonitor = _focusMonitor;
         _this._changeDetectorRef = _changeDetectorRef;
         _this._dir = _dir;
         _this._invert = false;
@@ -18047,6 +19311,10 @@ var MdSlider = (function (_super) {
          */
         _this._sliderDimensions = null;
         _this._controlValueAccessorChangeFn = function () { };
+        /**
+         * Subscription to the Directionality change EventEmitter.
+         */
+        _this._dirChangeSubscription = rxjs_Subscription.Subscription.EMPTY;
         return _this;
     }
     Object.defineProperty(MdSlider.prototype, "invert", {
@@ -18430,24 +19698,24 @@ var MdSlider = (function (_super) {
      */
     MdSlider.prototype.ngOnInit = function () {
         var _this = this;
-        this._focusOriginMonitor
+        this._focusMonitor
             .monitor(this._elementRef.nativeElement, this._renderer, true)
             .subscribe(function (origin) {
             _this._isActive = !!origin && origin !== 'keyboard';
             _this._changeDetectorRef.detectChanges();
         });
         if (this._dir) {
-            this._dir.change.subscribe(function () { return _this._changeDetectorRef.markForCheck(); });
+            this._dirChangeSubscription = this._dir.change.subscribe(function () {
+                _this._changeDetectorRef.markForCheck();
+            });
         }
     };
     /**
      * @return {?}
      */
     MdSlider.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._elementRef.nativeElement);
-        if (this._dir) {
-            this._dir.change.unsubscribe();
-        }
+        this._focusMonitor.stopMonitoring(this._elementRef.nativeElement);
+        this._dirChangeSubscription.unsubscribe();
     };
     /**
      * @return {?}
@@ -18803,6 +20071,7 @@ MdSlider.decorators = [
                 styles: [".mat-slider{display:inline-block;position:relative;box-sizing:border-box;padding:8px;outline:0;vertical-align:middle}.mat-slider-wrapper{position:absolute}.mat-slider-track-wrapper{position:absolute;top:0;left:0;overflow:hidden}.mat-slider-track-fill{position:absolute;transform-origin:0 0;transition:transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-track-background{position:absolute;transform-origin:100% 100%;transition:transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-ticks-container{position:absolute;left:0;top:0;overflow:hidden}.mat-slider-ticks{background-repeat:repeat;background-clip:content-box;box-sizing:border-box;opacity:0;transition:opacity .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-thumb-container{position:absolute;z-index:1;transition:transform .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-focus-ring{position:absolute;width:30px;height:30px;border-radius:50%;transform:scale(0);opacity:0;transition:transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),opacity .4s cubic-bezier(.25,.8,.25,1)}.cdk-keyboard-focused .mat-slider-focus-ring{transform:scale(1);opacity:1}.mat-slider:not(.mat-slider-disabled) .mat-slider-thumb,.mat-slider:not(.mat-slider-disabled) .mat-slider-thumb-label{cursor:-webkit-grab;cursor:grab}.mat-slider-sliding:not(.mat-slider-disabled) .mat-slider-thumb,.mat-slider-sliding:not(.mat-slider-disabled) .mat-slider-thumb-label,.mat-slider:not(.mat-slider-disabled) .mat-slider-thumb-label:active,.mat-slider:not(.mat-slider-disabled) .mat-slider-thumb:active{cursor:-webkit-grabbing;cursor:grabbing}.mat-slider-thumb{position:absolute;right:-10px;bottom:-10px;box-sizing:border-box;width:20px;height:20px;border:3px solid transparent;border-radius:50%;transform:scale(.7);transition:transform .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1),border-color .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-thumb-label{display:none;align-items:center;justify-content:center;position:absolute;width:28px;height:28px;border-radius:50%;transition:transform .4s cubic-bezier(.25,.8,.25,1),border-radius .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-thumb-label-text{z-index:1;opacity:0;transition:opacity .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-sliding .mat-slider-thumb-container,.mat-slider-sliding .mat-slider-track-background,.mat-slider-sliding .mat-slider-track-fill{transition-duration:0s}.mat-slider-has-ticks .mat-slider-wrapper::after{content:'';position:absolute;border-width:0;border-style:solid;opacity:0;transition:opacity .4s cubic-bezier(.25,.8,.25,1)}.mat-slider-has-ticks.cdk-focused:not(.mat-slider-hide-last-tick) .mat-slider-wrapper::after,.mat-slider-has-ticks:hover:not(.mat-slider-hide-last-tick) .mat-slider-wrapper::after{opacity:1}.mat-slider-has-ticks.cdk-focused:not(.mat-slider-disabled) .mat-slider-ticks,.mat-slider-has-ticks:hover:not(.mat-slider-disabled) .mat-slider-ticks{opacity:1}.mat-slider-thumb-label-showing .mat-slider-focus-ring{transform:scale(0);opacity:0}.mat-slider-thumb-label-showing .mat-slider-thumb-label{display:flex}.mat-slider-axis-inverted .mat-slider-track-fill{transform-origin:100% 100%}.mat-slider-axis-inverted .mat-slider-track-background{transform-origin:0 0}.mat-slider:not(.mat-slider-disabled).cdk-focused.mat-slider-thumb-label-showing .mat-slider-thumb{transform:scale(0)}.mat-slider:not(.mat-slider-disabled).cdk-focused .mat-slider-thumb-label{border-radius:50% 50% 0}.mat-slider:not(.mat-slider-disabled).cdk-focused .mat-slider-thumb-label-text{opacity:1}.mat-slider:not(.mat-slider-disabled).cdk-mouse-focused .mat-slider-thumb,.mat-slider:not(.mat-slider-disabled).cdk-program-focused .mat-slider-thumb,.mat-slider:not(.mat-slider-disabled).cdk-touch-focused .mat-slider-thumb{border-width:2px;transform:scale(1)}.mat-slider-disabled .mat-slider-focus-ring{transform:scale(0);opacity:0}.mat-slider-disabled .mat-slider-thumb{border-width:4px;transform:scale(.5)}.mat-slider-disabled .mat-slider-thumb-label{display:none}.mat-slider-horizontal{height:48px;min-width:128px}.mat-slider-horizontal .mat-slider-wrapper{height:2px;top:23px;left:8px;right:8px}.mat-slider-horizontal .mat-slider-wrapper::after{height:2px;border-left-width:2px;right:0;top:0}.mat-slider-horizontal .mat-slider-track-wrapper{height:2px;width:100%}.mat-slider-horizontal .mat-slider-track-fill{height:2px;width:100%;transform:scaleX(0)}.mat-slider-horizontal .mat-slider-track-background{height:2px;width:100%;transform:scaleX(1)}.mat-slider-horizontal .mat-slider-ticks-container{height:2px;width:100%}.mat-slider-horizontal .mat-slider-ticks{height:2px;width:100%}.mat-slider-horizontal .mat-slider-thumb-container{width:100%;height:0;top:50%}.mat-slider-horizontal .mat-slider-focus-ring{top:-15px;right:-15px}.mat-slider-horizontal .mat-slider-thumb-label{right:-14px;top:-40px;transform:translateY(26px) scale(.01) rotate(45deg)}.mat-slider-horizontal .mat-slider-thumb-label-text{transform:rotate(-45deg)}.mat-slider-horizontal.cdk-focused .mat-slider-thumb-label{transform:rotate(45deg)}.mat-slider-vertical{width:48px;min-height:128px}.mat-slider-vertical .mat-slider-wrapper{width:2px;top:8px;bottom:8px;left:23px}.mat-slider-vertical .mat-slider-wrapper::after{width:2px;border-top-width:2px;bottom:0;left:0}.mat-slider-vertical .mat-slider-track-wrapper{height:100%;width:2px}.mat-slider-vertical .mat-slider-track-fill{height:100%;width:2px;transform:scaleY(0)}.mat-slider-vertical .mat-slider-track-background{height:100%;width:2px;transform:scaleY(1)}.mat-slider-vertical .mat-slider-ticks-container{width:2px;height:100%}.mat-slider-vertical .mat-slider-focus-ring{bottom:-15px;left:-15px}.mat-slider-vertical .mat-slider-ticks{width:2px;height:100%}.mat-slider-vertical .mat-slider-thumb-container{height:100%;width:0;left:50%}.mat-slider-vertical .mat-slider-thumb-label{bottom:-14px;left:-40px;transform:translateX(26px) scale(.01) rotate(-45deg)}.mat-slider-vertical .mat-slider-thumb-label-text{transform:rotate(45deg)}.mat-slider-vertical.cdk-focused .mat-slider-thumb-label{transform:rotate(-45deg)}[dir=rtl] .mat-slider-wrapper::after{left:0;right:auto}[dir=rtl] .mat-slider-horizontal .mat-slider-track-fill{transform-origin:100% 100%}[dir=rtl] .mat-slider-horizontal .mat-slider-track-background{transform-origin:0 0}[dir=rtl] .mat-slider-horizontal.mat-slider-axis-inverted .mat-slider-track-fill{transform-origin:0 0}[dir=rtl] .mat-slider-horizontal.mat-slider-axis-inverted .mat-slider-track-background{transform-origin:100% 100%}"],
                 inputs: ['disabled', 'color'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -18812,7 +20081,7 @@ MdSlider.decorators = [
 MdSlider.ctorParameters = function () { return [
     { type: _angular_core.Renderer2, },
     { type: _angular_core.ElementRef, },
-    { type: FocusOriginMonitor, },
+    { type: _angular_cdk_a11y.FocusMonitor, },
     { type: _angular_core.ChangeDetectorRef, },
     { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
 ]; };
@@ -18838,7 +20107,7 @@ var MdSliderModule = (function () {
 }());
 MdSliderModule.decorators = [
     { type: _angular_core.NgModule, args: [{
-                imports: [_angular_common.CommonModule, MdCommonModule, StyleModule, _angular_cdk_bidi.BidiModule],
+                imports: [_angular_common.CommonModule, MdCommonModule, _angular_cdk_bidi.BidiModule, _angular_cdk_a11y.A11yModule],
                 exports: [MdSlider, MdCommonModule],
                 declarations: [MdSlider],
                 providers: [{ provide: _angular_platformBrowser.HAMMER_GESTURE_CONFIG, useClass: GestureConfig }]
@@ -18848,454 +20117,7 @@ MdSliderModule.decorators = [
  * @nocollapse
  */
 MdSliderModule.ctorParameters = function () { return []; };
-// Increasing integer for generating unique ids for slide-toggle components.
-var nextUniqueId$6 = 0;
-var MD_SLIDE_TOGGLE_VALUE_ACCESSOR = {
-    provide: _angular_forms.NG_VALUE_ACCESSOR,
-    useExisting: _angular_core.forwardRef(function () { return MdSlideToggle; }),
-    multi: true
-};
-/**
- * Change event object emitted by a MdSlideToggle.
- */
-var MdSlideToggleChange = (function () {
-    function MdSlideToggleChange() {
-    }
-    return MdSlideToggleChange;
-}());
-/**
- * \@docs-private
- */
-var MdSlideToggleBase = (function () {
-    /**
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     */
-    function MdSlideToggleBase(_renderer, _elementRef) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-    }
-    return MdSlideToggleBase;
-}());
-var _MdSlideToggleMixinBase = mixinTabIndex(mixinColor(mixinDisableRipple(mixinDisabled(MdSlideToggleBase)), 'accent'));
-/**
- * Represents a slidable "switch" toggle that can be moved between on and off.
- */
-var MdSlideToggle = (function (_super) {
-    __extends(MdSlideToggle, _super);
-    /**
-     * @param {?} elementRef
-     * @param {?} renderer
-     * @param {?} _platform
-     * @param {?} _focusOriginMonitor
-     * @param {?} _changeDetectorRef
-     * @param {?} tabIndex
-     */
-    function MdSlideToggle(elementRef, renderer, _platform, _focusOriginMonitor, _changeDetectorRef, tabIndex) {
-        var _this = _super.call(this, renderer, elementRef) || this;
-        _this._platform = _platform;
-        _this._focusOriginMonitor = _focusOriginMonitor;
-        _this._changeDetectorRef = _changeDetectorRef;
-        _this.onChange = function (_) { };
-        _this.onTouched = function () { };
-        _this._uniqueId = "md-slide-toggle-" + ++nextUniqueId$6;
-        _this._required = false;
-        _this._checked = false;
-        /**
-         * Name value will be applied to the input element if present
-         */
-        _this.name = null;
-        /**
-         * A unique id for the slide-toggle input. If none is supplied, it will be auto-generated.
-         */
-        _this.id = _this._uniqueId;
-        /**
-         * Whether the label should appear after or before the slide-toggle. Defaults to 'after'
-         */
-        _this.labelPosition = 'after';
-        /**
-         * Used to set the aria-label attribute on the underlying input element.
-         */
-        _this.ariaLabel = null;
-        /**
-         * Used to set the aria-labelledby attribute on the underlying input element.
-         */
-        _this.ariaLabelledby = null;
-        /**
-         * An event will be dispatched each time the slide-toggle changes its value.
-         */
-        _this.change = new _angular_core.EventEmitter();
-        _this.tabIndex = parseInt(tabIndex) || 0;
-        return _this;
-    }
-    Object.defineProperty(MdSlideToggle.prototype, "required", {
-        /**
-         * Whether the slide-toggle is required.
-         * @return {?}
-         */
-        get: function () { return this._required; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) { this._required = _angular_cdk_coercion.coerceBooleanProperty(value); },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdSlideToggle.prototype, "checked", {
-        /**
-         * Whether the slide-toggle element is checked or not
-         * @return {?}
-         */
-        get: function () { return this._checked; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._checked = !!value;
-            this._changeDetectorRef.markForCheck();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdSlideToggle.prototype, "inputId", {
-        /**
-         * Returns the unique id for the visual hidden input.
-         * @return {?}
-         */
-        get: function () { return (this.id || this._uniqueId) + "-input"; },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdSlideToggle.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        this._slideRenderer = new SlideToggleRenderer(this._elementRef, this._platform);
-        this._focusOriginMonitor
-            .monitor(this._inputElement.nativeElement, this._renderer, false)
-            .subscribe(function (focusOrigin) { return _this._onInputFocusChange(focusOrigin); });
-    };
-    /**
-     * @return {?}
-     */
-    MdSlideToggle.prototype.ngOnDestroy = function () {
-        this._focusOriginMonitor.stopMonitoring(this._inputElement.nativeElement);
-    };
-    /**
-     * This function will called if the underlying input changed its value through user interaction.
-     * @param {?} event
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onChangeEvent = function (event) {
-        // We always have to stop propagation on the change event.
-        // Otherwise the change event, from the input element, will bubble up and
-        // emit its event object to the component's `change` output.
-        event.stopPropagation();
-        // Sync the value from the underlying input element with the slide-toggle component.
-        this.checked = this._inputElement.nativeElement.checked;
-        // Emit our custom change event if the native input emitted one.
-        // It is important to only emit it, if the native input triggered one, because we don't want
-        // to trigger a change event, when the `checked` variable changes programmatically.
-        this._emitChangeEvent();
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onInputClick = function (event) {
-        // In some situations the user will release the mouse on the label element. The label element
-        // redirects the click to the underlying input element and will result in a value change.
-        // Prevent the default behavior if dragging, because the value will be set after drag.
-        if (this._slideRenderer.dragging) {
-            event.preventDefault();
-        }
-        // We have to stop propagation for click events on the visual hidden input element.
-        // By default, when a user clicks on a label element, a generated click event will be
-        // dispatched on the associated input element. Since we are using a label element as our
-        // root container, the click event on the `slide-toggle` will be executed twice.
-        // The real click event will bubble up, and the generated click event also tries to bubble up.
-        // This will lead to multiple click events.
-        // Preventing bubbling for the second event will solve that issue.
-        event.stopPropagation();
-    };
-    /**
-     * Implemented as part of ControlValueAccessor.
-     * @param {?} value
-     * @return {?}
-     */
-    MdSlideToggle.prototype.writeValue = function (value) {
-        this.checked = !!value;
-    };
-    /**
-     * Implemented as part of ControlValueAccessor.
-     * @param {?} fn
-     * @return {?}
-     */
-    MdSlideToggle.prototype.registerOnChange = function (fn) {
-        this.onChange = fn;
-    };
-    /**
-     * Implemented as part of ControlValueAccessor.
-     * @param {?} fn
-     * @return {?}
-     */
-    MdSlideToggle.prototype.registerOnTouched = function (fn) {
-        this.onTouched = fn;
-    };
-    /**
-     * Implemented as a part of ControlValueAccessor.
-     * @param {?} isDisabled
-     * @return {?}
-     */
-    MdSlideToggle.prototype.setDisabledState = function (isDisabled) {
-        this.disabled = isDisabled;
-        this._changeDetectorRef.markForCheck();
-    };
-    /**
-     * Focuses the slide-toggle.
-     * @return {?}
-     */
-    MdSlideToggle.prototype.focus = function () {
-        this._focusOriginMonitor.focusVia(this._inputElement.nativeElement, 'keyboard');
-    };
-    /**
-     * Toggles the checked state of the slide-toggle.
-     * @return {?}
-     */
-    MdSlideToggle.prototype.toggle = function () {
-        this.checked = !this.checked;
-    };
-    /**
-     * Function is called whenever the focus changes for the input element.
-     * @param {?} focusOrigin
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onInputFocusChange = function (focusOrigin) {
-        if (!this._focusRipple && focusOrigin === 'keyboard') {
-            // For keyboard focus show a persistent ripple as focus indicator.
-            this._focusRipple = this._ripple.launch(0, 0, { persistent: true, centered: true });
-        }
-        else if (!focusOrigin) {
-            this.onTouched();
-            // Fade out and clear the focus ripple if one is currently present.
-            if (this._focusRipple) {
-                this._focusRipple.fadeOut();
-                this._focusRipple = null;
-            }
-        }
-    };
-    /**
-     * Emits a change event on the `change` output. Also notifies the FormControl about the change.
-     * @return {?}
-     */
-    MdSlideToggle.prototype._emitChangeEvent = function () {
-        var /** @type {?} */ event = new MdSlideToggleChange();
-        event.source = this;
-        event.checked = this.checked;
-        this.change.emit(event);
-        this.onChange(this.checked);
-    };
-    /**
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onDragStart = function () {
-        if (!this.disabled) {
-            this._slideRenderer.startThumbDrag(this.checked);
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onDrag = function (event) {
-        if (this._slideRenderer.dragging) {
-            this._slideRenderer.updateThumbPosition(event.deltaX);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdSlideToggle.prototype._onDragEnd = function () {
-        var _this = this;
-        if (this._slideRenderer.dragging) {
-            var /** @type {?} */ _previousChecked = this.checked;
-            this.checked = this._slideRenderer.dragPercentage > 50;
-            if (_previousChecked !== this.checked) {
-                this._emitChangeEvent();
-            }
-            // The drag should be stopped outside of the current event handler, because otherwise the
-            // click event will be fired before and will revert the drag change.
-            setTimeout(function () { return _this._slideRenderer.stopThumbDrag(); });
-        }
-    };
-    return MdSlideToggle;
-}(_MdSlideToggleMixinBase));
-MdSlideToggle.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-slide-toggle, mat-slide-toggle',
-                host: {
-                    'class': 'mat-slide-toggle',
-                    '[id]': 'id',
-                    '[class.mat-checked]': 'checked',
-                    '[class.mat-disabled]': 'disabled',
-                    '[class.mat-slide-toggle-label-before]': 'labelPosition == "before"',
-                },
-                template: "<label class=\"mat-slide-toggle-label\" #label><div class=\"mat-slide-toggle-bar\"><input #input class=\"mat-slide-toggle-input cdk-visually-hidden\" type=\"checkbox\" [id]=\"inputId\" [required]=\"required\" [tabIndex]=\"tabIndex\" [checked]=\"checked\" [disabled]=\"disabled\" [attr.name]=\"name\" [attr.aria-label]=\"ariaLabel\" [attr.aria-labelledby]=\"ariaLabelledby\" (change)=\"_onChangeEvent($event)\" (click)=\"_onInputClick($event)\"><div class=\"mat-slide-toggle-thumb-container\" (slidestart)=\"_onDragStart()\" (slide)=\"_onDrag($event)\" (slideend)=\"_onDragEnd()\"><div class=\"mat-slide-toggle-thumb\"></div><div class=\"mat-slide-toggle-ripple\" md-ripple [mdRippleTrigger]=\"label\" [mdRippleCentered]=\"true\" [mdRippleDisabled]=\"disableRipple || disabled\"></div></div></div><span class=\"mat-slide-toggle-content\"><ng-content></ng-content></span></label>",
-                styles: [".mat-slide-toggle{display:inline-block;height:24px;line-height:24px;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;outline:0}.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb-container{transform:translate3d(16px,0,0)}.mat-slide-toggle.mat-disabled .mat-slide-toggle-label,.mat-slide-toggle.mat-disabled .mat-slide-toggle-thumb-container{cursor:default}.mat-slide-toggle-label{display:flex;flex:1;flex-direction:row;align-items:center;cursor:pointer}.mat-slide-toggle-label-before .mat-slide-toggle-label{order:1}.mat-slide-toggle-label-before .mat-slide-toggle-bar{order:2}.mat-slide-toggle-bar,[dir=rtl] .mat-slide-toggle-label-before .mat-slide-toggle-bar{margin-right:8px;margin-left:0}.mat-slide-toggle-label-before .mat-slide-toggle-bar,[dir=rtl] .mat-slide-toggle-bar{margin-left:8px;margin-right:0}.mat-slide-toggle-thumb-container{position:absolute;z-index:1;width:20px;height:20px;top:-3px;left:0;transform:translate3d(0,0,0);transition:all 80ms linear;transition-property:transform;cursor:-webkit-grab;cursor:grab}.mat-slide-toggle-thumb-container.mat-dragging,.mat-slide-toggle-thumb-container:active{cursor:-webkit-grabbing;cursor:grabbing;transition-duration:0s}.mat-slide-toggle-thumb{height:20px;width:20px;border-radius:50%;box-shadow:0 2px 1px -1px rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 1px 3px 0 rgba(0,0,0,.12)}@media screen and (-ms-high-contrast:active){.mat-slide-toggle-thumb{background:#fff;border:solid 1px #000}}.mat-slide-toggle-bar{position:relative;width:36px;height:14px;border-radius:8px}@media screen and (-ms-high-contrast:active){.mat-slide-toggle-bar{background:#fff}}.mat-slide-toggle-input{bottom:0;left:10px}.mat-slide-toggle-bar,.mat-slide-toggle-thumb{transition:all 80ms linear;transition-property:background-color;transition-delay:50ms}.mat-slide-toggle-ripple{position:absolute;top:-13px;left:-13px;height:46px;width:46px;border-radius:50%;z-index:1;pointer-events:none}"],
-                providers: [MD_SLIDE_TOGGLE_VALUE_ACCESSOR],
-                inputs: ['disabled', 'disableRipple', 'color', 'tabIndex'],
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush
-            },] },
-];
-/**
- * @nocollapse
- */
-MdSlideToggle.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.Renderer2, },
-    { type: _angular_cdk_platform.Platform, },
-    { type: FocusOriginMonitor, },
-    { type: _angular_core.ChangeDetectorRef, },
-    { type: undefined, decorators: [{ type: _angular_core.Attribute, args: ['tabindex',] },] },
-]; };
-MdSlideToggle.propDecorators = {
-    'name': [{ type: _angular_core.Input },],
-    'id': [{ type: _angular_core.Input },],
-    'labelPosition': [{ type: _angular_core.Input },],
-    'ariaLabel': [{ type: _angular_core.Input, args: ['aria-label',] },],
-    'ariaLabelledby': [{ type: _angular_core.Input, args: ['aria-labelledby',] },],
-    'required': [{ type: _angular_core.Input },],
-    'checked': [{ type: _angular_core.Input },],
-    'change': [{ type: _angular_core.Output },],
-    '_inputElement': [{ type: _angular_core.ViewChild, args: ['input',] },],
-    '_ripple': [{ type: _angular_core.ViewChild, args: [MdRipple,] },],
-};
-/**
- * Renderer for the Slide Toggle component, which separates DOM modification in its own class
- */
-var SlideToggleRenderer = (function () {
-    /**
-     * @param {?} elementRef
-     * @param {?} platform
-     */
-    function SlideToggleRenderer(elementRef, platform) {
-        /**
-         * Whether the thumb is currently being dragged.
-         */
-        this.dragging = false;
-        // We only need to interact with these elements when we're on the browser, so only grab
-        // the reference in that case.
-        if (platform.isBrowser) {
-            this._thumbEl = elementRef.nativeElement.querySelector('.mat-slide-toggle-thumb-container');
-            this._thumbBarEl = elementRef.nativeElement.querySelector('.mat-slide-toggle-bar');
-        }
-    }
-    /**
-     * Initializes the drag of the slide-toggle.
-     * @param {?} checked
-     * @return {?}
-     */
-    SlideToggleRenderer.prototype.startThumbDrag = function (checked) {
-        if (this.dragging) {
-            return;
-        }
-        this._thumbBarWidth = this._thumbBarEl.clientWidth - this._thumbEl.clientWidth;
-        this._thumbEl.classList.add('mat-dragging');
-        this._previousChecked = checked;
-        this.dragging = true;
-    };
-    /**
-     * Resets the current drag and returns the new checked value.
-     * @return {?}
-     */
-    SlideToggleRenderer.prototype.stopThumbDrag = function () {
-        if (!this.dragging) {
-            return false;
-        }
-        this.dragging = false;
-        this._thumbEl.classList.remove('mat-dragging');
-        // Reset the transform because the component will take care of the thumb position after drag.
-        applyCssTransform(this._thumbEl, '');
-        return this.dragPercentage > 50;
-    };
-    /**
-     * Updates the thumb containers position from the specified distance.
-     * @param {?} distance
-     * @return {?}
-     */
-    SlideToggleRenderer.prototype.updateThumbPosition = function (distance) {
-        this.dragPercentage = this._getDragPercentage(distance);
-        // Calculate the moved distance based on the thumb bar width.
-        var /** @type {?} */ dragX = (this.dragPercentage / 100) * this._thumbBarWidth;
-        applyCssTransform(this._thumbEl, "translate3d(" + dragX + "px, 0, 0)");
-    };
-    /**
-     * Retrieves the percentage of thumb from the moved distance. Percentage as fraction of 100.
-     * @param {?} distance
-     * @return {?}
-     */
-    SlideToggleRenderer.prototype._getDragPercentage = function (distance) {
-        var /** @type {?} */ percentage = (distance / this._thumbBarWidth) * 100;
-        // When the toggle was initially checked, then we have to start the drag at the end.
-        if (this._previousChecked) {
-            percentage += 100;
-        }
-        return Math.max(0, Math.min(percentage, 100));
-    };
-    return SlideToggleRenderer;
-}());
-var MdSlideToggleModule = (function () {
-    function MdSlideToggleModule() {
-    }
-    return MdSlideToggleModule;
-}());
-MdSlideToggleModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [MdRippleModule, MdCommonModule, _angular_cdk_platform.PlatformModule],
-                exports: [MdSlideToggle, MdCommonModule],
-                declarations: [MdSlideToggle],
-                providers: [
-                    FOCUS_ORIGIN_MONITOR_PROVIDER,
-                    { provide: _angular_platformBrowser.HAMMER_GESTURE_CONFIG, useClass: GestureConfig }
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdSlideToggleModule.ctorParameters = function () { return []; };
-var MD_SNACK_BAR_DATA = new _angular_core.InjectionToken('MdSnackBarData');
-/**
- * Configuration used when opening a snack-bar.
- */
-var MdSnackBarConfig = (function () {
-    function MdSnackBarConfig() {
-        /**
-         * The politeness level for the MdAriaLiveAnnouncer announcement.
-         */
-        this.politeness = 'assertive';
-        /**
-         * Message to be announced by the MdAriaLiveAnnouncer
-         */
-        this.announcementMessage = '';
-        /**
-         * The length of time in milliseconds to wait before automatically dismissing the snack bar.
-         */
-        this.duration = 0;
-        /**
-         * Text layout direction for the snack bar.
-         */
-        this.direction = 'ltr';
-        /**
-         * Data being injected into the child component.
-         */
-        this.data = null;
-    }
-    return MdSnackBarConfig;
-}());
+
 /**
  * Reference to a snack bar dispatched from the snack bar service.
  */
@@ -19395,168 +20217,43 @@ var MdSnackBarRef = (function () {
     };
     return MdSnackBarRef;
 }());
-// TODO(jelbourn): we can't use constants from animation.ts here because you can't use
-// a text interpolation in anything that is analyzed statically with ngc (for AoT compile).
-var SHOW_ANIMATION = '225ms cubic-bezier(0.4,0.0,1,1)';
-var HIDE_ANIMATION = '195ms cubic-bezier(0.0,0.0,0.2,1)';
+var MD_SNACK_BAR_DATA = new _angular_core.InjectionToken('MdSnackBarData');
 /**
- * Internal component that wraps user-provided snack bar content.
-\@docs-private
+ * Configuration used when opening a snack-bar.
  */
-var MdSnackBarContainer = (function (_super) {
-    __extends(MdSnackBarContainer, _super);
-    /**
-     * @param {?} _ngZone
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     * @param {?} _changeDetectorRef
-     */
-    function MdSnackBarContainer(_ngZone, _renderer, _elementRef, _changeDetectorRef) {
-        var _this = _super.call(this) || this;
-        _this._ngZone = _ngZone;
-        _this._renderer = _renderer;
-        _this._elementRef = _elementRef;
-        _this._changeDetectorRef = _changeDetectorRef;
+var MdSnackBarConfig = (function () {
+    function MdSnackBarConfig() {
         /**
-         * Whether the component has been destroyed.
+         * The politeness level for the MdAriaLiveAnnouncer announcement.
          */
-        _this._destroyed = false;
+        this.politeness = 'assertive';
         /**
-         * Subject for notifying that the snack bar has exited from view.
+         * Message to be announced by the MdAriaLiveAnnouncer
          */
-        _this._onExit = new rxjs_Subject.Subject();
+        this.announcementMessage = '';
         /**
-         * Subject for notifying that the snack bar has finished entering the view.
+         * The length of time in milliseconds to wait before automatically dismissing the snack bar.
          */
-        _this._onEnter = new rxjs_Subject.Subject();
+        this.duration = 0;
         /**
-         * The state of the snack bar animations.
+         * Text layout direction for the snack bar.
          */
-        _this.animationState = 'initial';
-        return _this;
+        this.direction = 'ltr';
+        /**
+         * Data being injected into the child component.
+         */
+        this.data = null;
+        /**
+         * The horizontal position to place the snack bar.
+         */
+        this.horizontalPosition = 'center';
+        /**
+         * The vertical position to place the snack bar.
+         */
+        this.verticalPosition = 'bottom';
     }
-    /**
-     * Attach a component portal as content to this snack bar container.
-     * @template T
-     * @param {?} portal
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.attachComponentPortal = function (portal) {
-        if (this._portalHost.hasAttached()) {
-            throw Error('Attempting to attach snack bar content after content is already attached');
-        }
-        if (this.snackBarConfig.extraClasses) {
-            // Not the most efficient way of adding classes, but the renderer doesn't allow us
-            // to pass in an array or a space-separated list.
-            for (var _i = 0, _a = this.snackBarConfig.extraClasses; _i < _a.length; _i++) {
-                var cssClass = _a[_i];
-                this._renderer.addClass(this._elementRef.nativeElement, cssClass);
-            }
-        }
-        return this._portalHost.attachComponentPortal(portal);
-    };
-    /**
-     * Attach a template portal as content to this snack bar container.
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.attachTemplatePortal = function () {
-        throw Error('Not yet implemented');
-    };
-    /**
-     * Handle end of animations, updating the state of the snackbar.
-     * @param {?} event
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.onAnimationEnd = function (event) {
-        if (event.toState === 'void' || event.toState === 'complete') {
-            this._completeExit();
-        }
-        if (event.toState === 'visible') {
-            // Note: we shouldn't use `this` inside the zone callback,
-            // because it can cause a memory leak.
-            var /** @type {?} */ onEnter_1 = this._onEnter;
-            this._ngZone.run(function () {
-                onEnter_1.next();
-                onEnter_1.complete();
-            });
-        }
-    };
-    /**
-     * Begin animation of snack bar entrance into view.
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.enter = function () {
-        if (!this._destroyed) {
-            this.animationState = 'visible';
-            this._changeDetectorRef.detectChanges();
-        }
-    };
-    /**
-     * Begin animation of the snack bar exiting from view.
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.exit = function () {
-        this.animationState = 'complete';
-        return this._onExit;
-    };
-    /**
-     * Makes sure the exit callbacks have been invoked when the element is destroyed.
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype.ngOnDestroy = function () {
-        this._destroyed = true;
-        this._completeExit();
-    };
-    /**
-     * Waits for the zone to settle before removing the element. Helps prevent
-    errors where we end up removing an element which is in the middle of an animation.
-     * @return {?}
-     */
-    MdSnackBarContainer.prototype._completeExit = function () {
-        // Note: we shouldn't use `this` inside the zone callback,
-        // because it can cause a memory leak.
-        var /** @type {?} */ onExit = this._onExit;
-        _angular_cdk_rxjs.first.call(this._ngZone.onMicrotaskEmpty).subscribe(function () {
-            onExit.next();
-            onExit.complete();
-        });
-    };
-    return MdSnackBarContainer;
-}(_angular_cdk_portal.BasePortalHost));
-MdSnackBarContainer.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'snack-bar-container',
-                template: "<ng-template cdkPortalHost></ng-template>",
-                styles: [".mat-snack-bar-container{border-radius:2px;box-sizing:content-box;display:block;max-width:568px;min-width:288px;padding:14px 24px;transform:translateY(100%)}@media screen and (-ms-high-contrast:active){.mat-snack-bar-container{border:solid 1px}}"],
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                host: {
-                    'role': 'alert',
-                    'class': 'mat-snack-bar-container',
-                    '[@state]': 'animationState',
-                    '(@state.done)': 'onAnimationEnd($event)'
-                },
-                animations: [
-                    _angular_animations.trigger('state', [
-                        _angular_animations.state('void, initial, complete', _angular_animations.style({ transform: 'translateY(100%)' })),
-                        _angular_animations.state('visible', _angular_animations.style({ transform: 'translateY(0%)' })),
-                        _angular_animations.transition('visible => complete', _angular_animations.animate(HIDE_ANIMATION)),
-                        _angular_animations.transition('initial => visible, void => visible', _angular_animations.animate(SHOW_ANIMATION)),
-                    ])
-                ],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdSnackBarContainer.ctorParameters = function () { return [
-    { type: _angular_core.NgZone, },
-    { type: _angular_core.Renderer2, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-MdSnackBarContainer.propDecorators = {
-    '_portalHost': [{ type: _angular_core.ViewChild, args: [_angular_cdk_portal.PortalHostDirective,] },],
-};
+    return MdSnackBarConfig;
+}());
 /**
  * A component used to open as the default snack bar, matching material spec.
 This should only be used internally by the snack bar service.
@@ -19595,6 +20292,7 @@ SimpleSnackBar.decorators = [
                 template: "{{data.message}} <button class=\"mat-simple-snackbar-action\" *ngIf=\"hasAction\" (click)=\"action()\">{{data.action}}</button>",
                 styles: [".mat-simple-snackbar{display:flex;justify-content:space-between;line-height:20px}.mat-simple-snackbar-action{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;background:0 0;flex-shrink:0;margin-left:48px}[dir=rtl] .mat-simple-snackbar-action{margin-right:48px;margin-left:0}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: {
                     'class': 'mat-simple-snackbar',
@@ -19608,6 +20306,183 @@ SimpleSnackBar.ctorParameters = function () { return [
     { type: MdSnackBarRef, },
     { type: undefined, decorators: [{ type: _angular_core.Inject, args: [MD_SNACK_BAR_DATA,] },] },
 ]; };
+// TODO(jelbourn): we can't use constants from animation.ts here because you can't use
+// a text interpolation in anything that is analyzed statically with ngc (for AoT compile).
+var SHOW_ANIMATION = '225ms cubic-bezier(0.4,0.0,1,1)';
+var HIDE_ANIMATION = '195ms cubic-bezier(0.0,0.0,0.2,1)';
+/**
+ * Internal component that wraps user-provided snack bar content.
+\@docs-private
+ */
+var MdSnackBarContainer = (function (_super) {
+    __extends(MdSnackBarContainer, _super);
+    /**
+     * @param {?} _ngZone
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     * @param {?} _changeDetectorRef
+     */
+    function MdSnackBarContainer(_ngZone, _renderer, _elementRef, _changeDetectorRef) {
+        var _this = _super.call(this) || this;
+        _this._ngZone = _ngZone;
+        _this._renderer = _renderer;
+        _this._elementRef = _elementRef;
+        _this._changeDetectorRef = _changeDetectorRef;
+        /**
+         * Whether the component has been destroyed.
+         */
+        _this._destroyed = false;
+        /**
+         * Subject for notifying that the snack bar has exited from view.
+         */
+        _this._onExit = new rxjs_Subject.Subject();
+        /**
+         * Subject for notifying that the snack bar has finished entering the view.
+         */
+        _this._onEnter = new rxjs_Subject.Subject();
+        return _this;
+    }
+    /**
+     * Gets the current animation state both combining one of the possibilities from
+    SnackBarState and the vertical location.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.getAnimationState = function () {
+        return this._animationState + "-" + this.snackBarConfig.verticalPosition;
+    };
+    /**
+     * Attach a component portal as content to this snack bar container.
+     * @template T
+     * @param {?} portal
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.attachComponentPortal = function (portal) {
+        if (this._portalHost.hasAttached()) {
+            throw Error('Attempting to attach snack bar content after content is already attached');
+        }
+        if (this.snackBarConfig.extraClasses) {
+            // Not the most efficient way of adding classes, but the renderer doesn't allow us
+            // to pass in an array or a space-separated list.
+            for (var _i = 0, _a = this.snackBarConfig.extraClasses; _i < _a.length; _i++) {
+                var cssClass = _a[_i];
+                this._renderer.addClass(this._elementRef.nativeElement, cssClass);
+            }
+        }
+        if (this.snackBarConfig.horizontalPosition === 'center') {
+            this._renderer.addClass(this._elementRef.nativeElement, 'mat-snack-bar-center');
+        }
+        if (this.snackBarConfig.verticalPosition === 'top') {
+            this._renderer.addClass(this._elementRef.nativeElement, 'mat-snack-bar-top');
+        }
+        return this._portalHost.attachComponentPortal(portal);
+    };
+    /**
+     * Attach a template portal as content to this snack bar container.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.attachTemplatePortal = function () {
+        throw Error('Not yet implemented');
+    };
+    /**
+     * Handle end of animations, updating the state of the snackbar.
+     * @param {?} event
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.onAnimationEnd = function (event) {
+        if (event.toState === 'void' || event.toState.startsWith('hidden')) {
+            this._completeExit();
+        }
+        if (event.toState.startsWith('visible')) {
+            // Note: we shouldn't use `this` inside the zone callback,
+            // because it can cause a memory leak.
+            var /** @type {?} */ onEnter_1 = this._onEnter;
+            this._ngZone.run(function () {
+                onEnter_1.next();
+                onEnter_1.complete();
+            });
+        }
+    };
+    /**
+     * Begin animation of snack bar entrance into view.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.enter = function () {
+        if (!this._destroyed) {
+            this._animationState = 'visible';
+            this._changeDetectorRef.detectChanges();
+        }
+    };
+    /**
+     * Begin animation of the snack bar exiting from view.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.exit = function () {
+        this._animationState = 'hidden';
+        return this._onExit;
+    };
+    /**
+     * Makes sure the exit callbacks have been invoked when the element is destroyed.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype.ngOnDestroy = function () {
+        this._destroyed = true;
+        this._completeExit();
+    };
+    /**
+     * Waits for the zone to settle before removing the element. Helps prevent
+    errors where we end up removing an element which is in the middle of an animation.
+     * @return {?}
+     */
+    MdSnackBarContainer.prototype._completeExit = function () {
+        var _this = this;
+        _angular_cdk_rxjs.first.call(this._ngZone.onMicrotaskEmpty.asObservable()).subscribe(function () {
+            _this._onExit.next();
+            _this._onExit.complete();
+        });
+    };
+    return MdSnackBarContainer;
+}(_angular_cdk_portal.BasePortalHost));
+MdSnackBarContainer.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'snack-bar-container',
+                template: "<ng-template cdkPortalHost></ng-template>",
+                styles: [".mat-snack-bar-container{border-radius:2px;box-sizing:content-box;display:block;margin:24px;max-width:568px;min-width:288px;padding:14px 24px;transform:translateY(100%)}.mat-snack-bar-container.mat-snack-bar-center{margin:0}.mat-snack-bar-container.mat-snack-bar-top{transform:translateY(-100%)}@media screen and (-ms-high-contrast:active){.mat-snack-bar-container{border:solid 1px}}"],
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                host: {
+                    'role': 'alert',
+                    'class': 'mat-snack-bar-container',
+                    '[@state]': 'getAnimationState()',
+                    '(@state.done)': 'onAnimationEnd($event)'
+                },
+                animations: [
+                    _angular_animations.trigger('state', [
+                        // Animation from top.
+                        _angular_animations.state('visible-top', _angular_animations.style({ transform: 'translateY(0%)' })),
+                        _angular_animations.state('hidden-top', _angular_animations.style({ transform: 'translateY(-100%)' })),
+                        _angular_animations.transition('visible-top => hidden-top', _angular_animations.animate(HIDE_ANIMATION)),
+                        _angular_animations.transition('void => visible-top', _angular_animations.animate(SHOW_ANIMATION)),
+                        // Animation from bottom.
+                        _angular_animations.state('visible-bottom', _angular_animations.style({ transform: 'translateY(0%)' })),
+                        _angular_animations.state('hidden-bottom', _angular_animations.style({ transform: 'translateY(100%)' })),
+                        _angular_animations.transition('visible-bottom => hidden-bottom', _angular_animations.animate(HIDE_ANIMATION)),
+                        _angular_animations.transition('void => visible-bottom', _angular_animations.animate(SHOW_ANIMATION)),
+                    ])
+                ],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdSnackBarContainer.ctorParameters = function () { return [
+    { type: _angular_core.NgZone, },
+    { type: _angular_core.Renderer2, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+MdSnackBarContainer.propDecorators = {
+    '_portalHost': [{ type: _angular_core.ViewChild, args: [_angular_cdk_portal.PortalHostDirective,] },],
+};
 /**
  * Service to dispatch Material Design snack bar messages.
  */
@@ -19763,10 +20638,32 @@ var MdSnackBar = (function () {
      * @return {?}
      */
     MdSnackBar.prototype._createOverlay = function (config) {
-        var /** @type {?} */ state$$1 = new _angular_cdk_overlay.OverlayState({
-            direction: config.direction,
-            positionStrategy: this._overlay.position().global().centerHorizontally().bottom('0')
-        });
+        var /** @type {?} */ state$$1 = new _angular_cdk_overlay.OverlayConfig();
+        state$$1.direction = config.direction;
+        var /** @type {?} */ positionStrategy = this._overlay.position().global();
+        // Set horizontal position.
+        var /** @type {?} */ isRtl = config.direction === 'rtl';
+        var /** @type {?} */ isLeft = (config.horizontalPosition === 'left' ||
+            (config.horizontalPosition === 'start' && !isRtl) ||
+            (config.horizontalPosition === 'end' && isRtl));
+        var /** @type {?} */ isRight = !isLeft && config.horizontalPosition !== 'center';
+        if (isLeft) {
+            positionStrategy.left('0');
+        }
+        else if (isRight) {
+            positionStrategy.right('0');
+        }
+        else {
+            positionStrategy.centerHorizontally();
+        }
+        // Set horizontal position.
+        if (config.verticalPosition === 'top') {
+            positionStrategy.top('0');
+        }
+        else {
+            positionStrategy.bottom('0');
+        }
+        state$$1.positionStrategy = positionStrategy;
         return this._overlay.create(state$$1);
     };
     /**
@@ -19783,7 +20680,7 @@ var MdSnackBar = (function () {
         var /** @type {?} */ injectionTokens = new WeakMap();
         injectionTokens.set(MdSnackBarRef, snackBarRef);
         injectionTokens.set(MD_SNACK_BAR_DATA, config.data);
-        return new PortalInjector(userInjector || this._injector, injectionTokens);
+        return new _angular_cdk_portal.PortalInjector(userInjector || this._injector, injectionTokens);
     };
     return MdSnackBar;
 }());
@@ -19832,6 +20729,7 @@ MdSnackBarModule.decorators = [
  * @nocollapse
  */
 MdSnackBarModule.ctorParameters = function () { return []; };
+
 /**
  * \@docs-private
  * @param {?} id
@@ -19875,7 +20773,7 @@ var MdSort = (function () {
         /**
          * Event emitted when the user changes either the active sort or sort direction.
          */
-        this.mdSortChange = new _angular_core.EventEmitter();
+        this.sortChange = new _angular_core.EventEmitter();
     }
     Object.defineProperty(MdSort.prototype, "disableClear", {
         /**
@@ -19944,6 +20842,14 @@ var MdSort = (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(MdSort.prototype, "_matSortChange", {
+        /**
+         * @return {?}
+         */
+        get: function () { return this.sortChange; },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * Register function to be used by the contained MdSortables. Adds the MdSortable to the
     collection of MdSortables.
@@ -19981,7 +20887,7 @@ var MdSort = (function () {
         else {
             this.direction = this.getNextSortDirection(sortable);
         }
-        this.mdSortChange.next({ active: this.active, direction: this.direction });
+        this.sortChange.next({ active: this.active, direction: this.direction });
     };
     /**
      * Returns the next sort direction of the active sortable, checking for potential overrides.
@@ -20022,7 +20928,8 @@ MdSort.propDecorators = {
     '_matSortStart': [{ type: _angular_core.Input, args: ['matSortStart',] },],
     '_matSortDirection': [{ type: _angular_core.Input, args: ['matSortDirection',] },],
     '_matSortDisableClear': [{ type: _angular_core.Input, args: ['matSortDisableClear',] },],
-    'mdSortChange': [{ type: _angular_core.Output },],
+    'sortChange': [{ type: _angular_core.Output, args: ['mdSortChange',] },],
+    '_matSortChange': [{ type: _angular_core.Output, args: ['matSortChange',] },],
 };
 /**
  * Returns the sort direction cycle to use given the provided parameters of order and clear.
@@ -20073,6 +20980,7 @@ MdSortHeaderIntl.decorators = [
  * @nocollapse
  */
 MdSortHeaderIntl.ctorParameters = function () { return []; };
+var SORT_ANIMATION_TRANSITION = AnimationDurations.ENTERING + ' ' + AnimationCurves.STANDARD_CURVE;
 /**
  * Applies sorting behavior (click to change sort) and styles to an element, including an
 arrow to display the current sort direction.
@@ -20100,7 +21008,7 @@ var MdSortHeader = (function () {
         if (!_sort) {
             throw getMdSortHeaderNotContainedWithinMdSortError();
         }
-        this._rerenderSubscription = rxjs_observable_merge.merge(_sort.mdSortChange, _intl.changes).subscribe(function () {
+        this._rerenderSubscription = rxjs_observable_merge.merge(_sort.sortChange, _intl.changes).subscribe(function () {
             changeDetectorRef.markForCheck();
         });
     }
@@ -20158,19 +21066,31 @@ var MdSortHeader = (function () {
 }());
 MdSortHeader.decorators = [
     { type: _angular_core.Component, args: [{ selector: '[md-sort-header], [mat-sort-header]',
-                template: "<div class=\"mat-sort-header-container\" [class.mat-sort-header-position-before]=\"arrowPosition == 'before'\"><button class=\"mat-sort-header-button\" type=\"button\" [attr.aria-label]=\"_intl.sortButtonLabel(id)\"><ng-content></ng-content></button><div *ngIf=\"_isSorted()\" class=\"mat-sort-header-arrow\" [@indicatorRotate]=\"_sort.direction\"><div class=\"mat-sort-header-stem\"></div><div class=\"mat-sort-header-pointer-left\"></div><div class=\"mat-sort-header-pointer-right\"></div></div></div><span class=\"cdk-visually-hidden\" *ngIf=\"_isSorted()\">{{_intl.sortDescriptionLabel(id, _sort.direction)}}</span>",
-                styles: [".mat-sort-header-container{display:flex;cursor:pointer}.mat-sort-header-position-before{flex-direction:row-reverse}.mat-sort-header-button{border:none;background:0 0;display:flex;align-items:center;padding:0;cursor:pointer;outline:0;font:inherit;color:currentColor}.mat-sort-header-arrow{height:10px;width:10px;position:relative;margin:0 0 0 6px;transform:rotate(45deg)}.mat-sort-header-position-before .mat-sort-header-arrow{margin:0 6px 0 0}.mat-sort-header-stem{background:currentColor;transform:rotate(135deg);height:10px;width:2px;margin:auto}.mat-sort-header-pointer-left{background:currentColor;width:2px;height:8px;position:absolute;bottom:0;right:0}.mat-sort-header-pointer-right{background:currentColor;width:8px;height:2px;position:absolute;bottom:0;right:0}"],
+                template: "<div class=\"mat-sort-header-container\" [class.mat-sort-header-position-before]=\"arrowPosition == 'before'\"><button class=\"mat-sort-header-button\" type=\"button\" [attr.aria-label]=\"_intl.sortButtonLabel(id)\"><ng-content></ng-content></button><div *ngIf=\"_isSorted()\" class=\"mat-sort-header-arrow\"><div class=\"mat-sort-header-stem\"></div><div class=\"mat-sort-header-indicator\" [@indicator]=\"_sort.direction\"><div class=\"mat-sort-header-pointer-left\" [@leftPointer]=\"_sort.direction\"></div><div class=\"mat-sort-header-pointer-right\" [@rightPointer]=\"_sort.direction\"></div><div class=\"mat-sort-header-pointer-middle\"></div></div></div></div><span class=\"cdk-visually-hidden\" *ngIf=\"_isSorted()\">{{_intl.sortDescriptionLabel(id, _sort.direction)}}</span>",
+                styles: [".mat-sort-header-container{display:flex;cursor:pointer}.mat-sort-header-position-before{flex-direction:row-reverse}.mat-sort-header-button{border:none;background:0 0;display:flex;align-items:center;padding:0;cursor:pointer;outline:0;font:inherit;color:currentColor}.mat-sort-header-arrow{height:12px;width:12px;margin:0 0 0 6px;position:relative;display:flex}.mat-sort-header-position-before .mat-sort-header-arrow{margin:0 6px 0 0}.mat-sort-header-stem{background:currentColor;height:10px;width:2px;margin:auto;display:flex;align-items:center}.mat-sort-header-indicator{width:100%;height:2px;display:flex;align-items:center;position:absolute;top:0;transition:225ms cubic-bezier(.4,0,.2,1)}.mat-sort-header-pointer-middle{margin:auto;height:2px;width:2px;background:currentColor;transform:rotate(45deg)}.mat-sort-header-pointer-left,.mat-sort-header-pointer-right{background:currentColor;width:6px;height:2px;transition:225ms cubic-bezier(.4,0,.2,1);position:absolute}.mat-sort-header-pointer-left{transform-origin:right;left:0}.mat-sort-header-pointer-right{transform-origin:left;right:0}"],
                 host: {
                     '(click)': '_sort.sort(this)',
                     '[class.mat-sort-header-sorted]': '_isSorted()',
                 },
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 animations: [
-                    _angular_animations.trigger('indicatorRotate', [
+                    _angular_animations.trigger('indicator', [
+                        _angular_animations.state('asc', _angular_animations.style({ transform: 'translateY(0px)' })),
+                        // 10px is the height of the sort indicator, minus the width of the pointers
+                        _angular_animations.state('desc', _angular_animations.style({ transform: 'translateY(10px)' })),
+                        _angular_animations.transition('asc <=> desc', _angular_animations.animate(SORT_ANIMATION_TRANSITION))
+                    ]),
+                    _angular_animations.trigger('leftPointer', [
+                        _angular_animations.state('asc', _angular_animations.style({ transform: 'rotate(-45deg)' })),
+                        _angular_animations.state('desc', _angular_animations.style({ transform: 'rotate(45deg)' })),
+                        _angular_animations.transition('asc <=> desc', _angular_animations.animate(SORT_ANIMATION_TRANSITION))
+                    ]),
+                    _angular_animations.trigger('rightPointer', [
                         _angular_animations.state('asc', _angular_animations.style({ transform: 'rotate(45deg)' })),
-                        _angular_animations.state('desc', _angular_animations.style({ transform: 'rotate(225deg)' })),
-                        _angular_animations.transition('asc <=> desc', _angular_animations.animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)'))
+                        _angular_animations.state('desc', _angular_animations.style({ transform: 'rotate(-45deg)' })),
+                        _angular_animations.transition('asc <=> desc', _angular_animations.animate(SORT_ANIMATION_TRANSITION))
                     ])
                 ]
             },] },
@@ -20208,6 +21128,362 @@ MdSortModule.decorators = [
  * @nocollapse
  */
 MdSortModule.ctorParameters = function () { return []; };
+
+/**
+ * Workaround for https://github.com/angular/angular/issues/17849
+ */
+var _MdStepLabel = _angular_cdk_stepper.CdkStepLabel;
+var MdStepLabel = (function (_super) {
+    __extends(MdStepLabel, _super);
+    /**
+     * @param {?} template
+     */
+    function MdStepLabel(template) {
+        return _super.call(this, template) || this;
+    }
+    return MdStepLabel;
+}(_MdStepLabel));
+MdStepLabel.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: '[mdStepLabel], [matStepLabel]',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepLabel.ctorParameters = function () { return [
+    { type: _angular_core.TemplateRef, },
+]; };
+var MdStepHeader = (function () {
+    function MdStepHeader() {
+    }
+    Object.defineProperty(MdStepHeader.prototype, "index", {
+        /**
+         * Index of the given step.
+         * @return {?}
+         */
+        get: function () { return this._index; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._index = _angular_cdk_coercion.coerceNumberProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdStepHeader.prototype, "selected", {
+        /**
+         * Whether the given step is selected.
+         * @return {?}
+         */
+        get: function () { return this._selected; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._selected = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdStepHeader.prototype, "active", {
+        /**
+         * Whether the given step label is active.
+         * @return {?}
+         */
+        get: function () { return this._active; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._active = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdStepHeader.prototype, "optional", {
+        /**
+         * Whether the given step is optional.
+         * @return {?}
+         */
+        get: function () { return this._optional; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._optional = _angular_cdk_coercion.coerceBooleanProperty(value);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Returns string label of given step if it is a text label.
+     * @return {?}
+     */
+    MdStepHeader.prototype._stringLabel = function () {
+        return this.label instanceof MdStepLabel ? null : this.label;
+    };
+    /**
+     * Returns MdStepLabel if the label of given step is a template label.
+     * @return {?}
+     */
+    MdStepHeader.prototype._templateLabel = function () {
+        return this.label instanceof MdStepLabel ? this.label : null;
+    };
+    return MdStepHeader;
+}());
+MdStepHeader.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-step-header, mat-step-header',
+                template: "<div [class.mat-step-icon]=\"icon !== 'number' || selected\" [class.mat-step-icon-not-touched]=\"icon == 'number' && !selected\" [ngSwitch]=\"icon\"><span *ngSwitchCase=\"'number'\">{{index + 1}}</span><mat-icon *ngSwitchCase=\"'edit'\">create</mat-icon><mat-icon *ngSwitchCase=\"'done'\">done</mat-icon></div><div class=\"mat-step-label\" [class.mat-step-label-active]=\"active\"><ng-container *ngIf=\"_templateLabel()\" [ngTemplateOutlet]=\"label.template\"></ng-container><div class=\"mat-step-text-label\" *ngIf=\"_stringLabel()\">{{label}}</div><div class=\"mat-step-optional\" *ngIf=\"optional\">Optional</div></div>",
+                styles: [".mat-step-optional{font-size:12px}.mat-step-icon,.mat-step-icon-not-touched{border-radius:50%;height:24px;width:24px;align-items:center;justify-content:center;display:flex}.mat-step-icon .mat-icon{font-size:16px;height:16px;width:16px}.mat-step-label{display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:50px;vertical-align:middle}.mat-step-text-label{text-overflow:ellipsis;overflow:hidden}"],
+                host: {
+                    'class': 'mat-step-header',
+                    'role': 'tab',
+                },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepHeader.ctorParameters = function () { return []; };
+MdStepHeader.propDecorators = {
+    'icon': [{ type: _angular_core.Input },],
+    'label': [{ type: _angular_core.Input },],
+    'index': [{ type: _angular_core.Input },],
+    'selected': [{ type: _angular_core.Input },],
+    'active': [{ type: _angular_core.Input },],
+    'optional': [{ type: _angular_core.Input },],
+};
+/**
+ * Workaround for https://github.com/angular/angular/issues/17849
+ */
+var _MdStep = _angular_cdk_stepper.CdkStep;
+var _MdStepper = _angular_cdk_stepper.CdkStepper;
+var MdStep = (function (_super) {
+    __extends(MdStep, _super);
+    /**
+     * @param {?} mdStepper
+     * @param {?} errorOptions
+     */
+    function MdStep(mdStepper, errorOptions) {
+        var _this = _super.call(this, mdStepper) || this;
+        /**
+         * Custom error state matcher that additionally checks for validity of interacted form.
+         */
+        _this.errorStateMatcher = function (control, form) {
+            var originalErrorState = _this._originalErrorStateMatcher(control, form);
+            // Custom error state checks for the validity of form that is not submitted or touched
+            // since user can trigger a form change by calling for another step without directly
+            // interacting with the current form.
+            var customErrorState = control.invalid && _this.interacted;
+            return originalErrorState || customErrorState;
+        };
+        if (errorOptions && errorOptions.errorStateMatcher) {
+            _this._originalErrorStateMatcher = errorOptions.errorStateMatcher;
+        }
+        else {
+            _this._originalErrorStateMatcher = defaultErrorStateMatcher;
+        }
+        return _this;
+    }
+    return MdStep;
+}(_MdStep));
+MdStep.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-step, mat-step',
+                template: "<ng-template><ng-content></ng-content></ng-template>",
+                providers: [{ provide: MD_ERROR_GLOBAL_OPTIONS, useExisting: MdStep }],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStep.ctorParameters = function () { return [
+    { type: MdStepper, decorators: [{ type: _angular_core.Inject, args: [_angular_core.forwardRef(function () { return MdStepper; }),] },] },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.SkipSelf }, { type: _angular_core.Inject, args: [MD_ERROR_GLOBAL_OPTIONS,] },] },
+]; };
+MdStep.propDecorators = {
+    'stepLabel': [{ type: _angular_core.ContentChild, args: [MdStepLabel,] },],
+};
+var MdStepper = (function (_super) {
+    __extends(MdStepper, _super);
+    function MdStepper() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MdStepper;
+}(_MdStepper));
+MdStepper.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: '[mdStepper]'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepper.ctorParameters = function () { return []; };
+MdStepper.propDecorators = {
+    '_stepHeader': [{ type: _angular_core.ViewChildren, args: [MdStepHeader, { read: _angular_core.ElementRef },] },],
+    '_steps': [{ type: _angular_core.ContentChildren, args: [MdStep,] },],
+};
+var MdHorizontalStepper = (function (_super) {
+    __extends(MdHorizontalStepper, _super);
+    function MdHorizontalStepper() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MdHorizontalStepper;
+}(MdStepper));
+MdHorizontalStepper.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-horizontal-stepper, mat-horizontal-stepper',
+                template: "<div class=\"mat-horizontal-stepper-header-container\"><ng-container *ngFor=\"let step of _steps; let i = index; let isLast = last\"><mat-step-header class=\"mat-horizontal-stepper-header\" (click)=\"step.select()\" (keydown)=\"_onKeydown($event)\" [tabIndex]=\"_focusIndex === i ? 0 : -1\" [id]=\"_getStepLabelId(i)\" [attr.aria-controls]=\"_getStepContentId(i)\" [attr.aria-selected]=\"selectedIndex == i\" [index]=\"i\" [icon]=\"_getIndicatorType(i)\" [label]=\"step.stepLabel || step.label\" [selected]=\"selectedIndex === i\" [active]=\"step.completed || selectedIndex === i\" [optional]=\"step.optional\"></mat-step-header><div *ngIf=\"!isLast\" class=\"mat-stepper-horizontal-line\"></div></ng-container></div><div class=\"mat-horizontal-content-container\"><div *ngFor=\"let step of _steps; let i = index\" class=\"mat-horizontal-stepper-content\" role=\"tabpanel\" [@stepTransition]=\"_getAnimationDirection(i)\" [id]=\"_getStepContentId(i)\" [attr.aria-labelledby]=\"_getStepLabelId(i)\" [attr.aria-expanded]=\"selectedIndex === i\"><ng-container [ngTemplateOutlet]=\"step.content\"></ng-container></div></div>",
+                styles: [".mat-stepper-horizontal,.mat-stepper-vertical{display:block}.mat-step-header{overflow:hidden;outline:0}.mat-horizontal-stepper-header-container{white-space:nowrap;display:flex;align-items:center}.mat-stepper-horizontal-line{border-top-width:1px;border-top-style:solid;flex:auto;height:0;margin:0 -16px;min-width:32px}.mat-horizontal-stepper-header{display:flex;height:72px;overflow:hidden;align-items:center;padding:0 24px}.mat-horizontal-stepper-header .mat-step-icon,.mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:8px;flex:none}[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon,[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:8px}.mat-vertical-stepper-header{display:flex;align-items:center;padding:24px;max-height:24px}.mat-vertical-stepper-header .mat-step-icon,.mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:12px}[dir=rtl] .mat-vertical-stepper-header .mat-step-icon,[dir=rtl] .mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:12px}.mat-horizontal-stepper-content{overflow:hidden}.mat-horizontal-stepper-content[aria-expanded=false]{height:0}.mat-horizontal-content-container{overflow:hidden;padding:0 24px 24px 24px}.mat-vertical-content-container{margin-left:36px;border:0;position:relative}[dir=rtl] .mat-vertical-content-container{margin-left:0;margin-right:36px}.mat-stepper-vertical-line::before{content:'';position:absolute;top:-16px;bottom:-16px;left:0;border-left-width:1px;border-left-style:solid}[dir=rtl] .mat-stepper-vertical-line::before{left:auto;right:0}.mat-vertical-stepper-content{overflow:hidden}.mat-vertical-content{padding:0 24px 24px 24px}.mat-step:last-child .mat-vertical-content-container{border:none}"],
+                inputs: ['selectedIndex'],
+                host: {
+                    'class': 'mat-stepper-horizontal',
+                    'role': 'tablist',
+                },
+                animations: [
+                    _angular_animations.trigger('stepTransition', [
+                        _angular_animations.state('previous', _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)', visibility: 'hidden' })),
+                        _angular_animations.state('current', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)', visibility: 'visible' })),
+                        _angular_animations.state('next', _angular_animations.style({ transform: 'translate3d(100%, 0, 0)', visibility: 'hidden' })),
+                        _angular_animations.transition('* => *', _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)'))
+                    ])
+                ],
+                providers: [{ provide: MdStepper, useExisting: MdHorizontalStepper }],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdHorizontalStepper.ctorParameters = function () { return []; };
+var MdVerticalStepper = (function (_super) {
+    __extends(MdVerticalStepper, _super);
+    function MdVerticalStepper() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MdVerticalStepper;
+}(MdStepper));
+MdVerticalStepper.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-vertical-stepper, mat-vertical-stepper',
+                template: "<div class=\"mat-step\" *ngFor=\"let step of _steps; let i = index; let isLast = last\"><mat-step-header class=\"mat-vertical-stepper-header\" (click)=\"step.select()\" (keydown)=\"_onKeydown($event)\" [tabIndex]=\"_focusIndex == i ? 0 : -1\" [id]=\"_getStepLabelId(i)\" [attr.aria-controls]=\"_getStepContentId(i)\" [attr.aria-selected]=\"selectedIndex === i\" [index]=\"i\" [icon]=\"_getIndicatorType(i)\" [label]=\"step.stepLabel || step.label\" [selected]=\"selectedIndex === i\" [active]=\"step.completed || selectedIndex === i\" [optional]=\"step.optional\"></mat-step-header><div class=\"mat-vertical-content-container\" [class.mat-stepper-vertical-line]=\"!isLast\"><div class=\"mat-vertical-stepper-content\" role=\"tabpanel\" [@stepTransition]=\"_getAnimationDirection(i)\" [id]=\"_getStepContentId(i)\" [attr.aria-labelledby]=\"_getStepLabelId(i)\" [attr.aria-expanded]=\"selectedIndex === i\"><div class=\"mat-vertical-content\"><ng-container [ngTemplateOutlet]=\"step.content\"></ng-container></div></div></div></div>",
+                styles: [".mat-stepper-horizontal,.mat-stepper-vertical{display:block}.mat-step-header{overflow:hidden;outline:0}.mat-horizontal-stepper-header-container{white-space:nowrap;display:flex;align-items:center}.mat-stepper-horizontal-line{border-top-width:1px;border-top-style:solid;flex:auto;height:0;margin:0 -16px;min-width:32px}.mat-horizontal-stepper-header{display:flex;height:72px;overflow:hidden;align-items:center;padding:0 24px}.mat-horizontal-stepper-header .mat-step-icon,.mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:8px;flex:none}[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon,[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:8px}.mat-vertical-stepper-header{display:flex;align-items:center;padding:24px;max-height:24px}.mat-vertical-stepper-header .mat-step-icon,.mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:12px}[dir=rtl] .mat-vertical-stepper-header .mat-step-icon,[dir=rtl] .mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:12px}.mat-horizontal-stepper-content{overflow:hidden}.mat-horizontal-stepper-content[aria-expanded=false]{height:0}.mat-horizontal-content-container{overflow:hidden;padding:0 24px 24px 24px}.mat-vertical-content-container{margin-left:36px;border:0;position:relative}[dir=rtl] .mat-vertical-content-container{margin-left:0;margin-right:36px}.mat-stepper-vertical-line::before{content:'';position:absolute;top:-16px;bottom:-16px;left:0;border-left-width:1px;border-left-style:solid}[dir=rtl] .mat-stepper-vertical-line::before{left:auto;right:0}.mat-vertical-stepper-content{overflow:hidden}.mat-vertical-content{padding:0 24px 24px 24px}.mat-step:last-child .mat-vertical-content-container{border:none}"],
+                inputs: ['selectedIndex'],
+                host: {
+                    'class': 'mat-stepper-vertical',
+                    'role': 'tablist',
+                },
+                animations: [
+                    _angular_animations.trigger('stepTransition', [
+                        _angular_animations.state('previous', _angular_animations.style({ height: '0px', visibility: 'hidden' })),
+                        _angular_animations.state('next', _angular_animations.style({ height: '0px', visibility: 'hidden' })),
+                        _angular_animations.state('current', _angular_animations.style({ height: '*', visibility: 'visible' })),
+                        _angular_animations.transition('* <=> current', _angular_animations.animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)'))
+                    ])
+                ],
+                providers: [{ provide: MdStepper, useExisting: MdVerticalStepper }],
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdVerticalStepper.ctorParameters = function () { return []; };
+/**
+ * Workaround for https://github.com/angular/angular/issues/17849
+ */
+var _MdStepperNext = _angular_cdk_stepper.CdkStepperNext;
+var _MdStepperPrevious = _angular_cdk_stepper.CdkStepperPrevious;
+/**
+ * Button that moves to the next step in a stepper workflow.
+ */
+var MdStepperNext = (function (_super) {
+    __extends(MdStepperNext, _super);
+    function MdStepperNext() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MdStepperNext;
+}(_MdStepperNext));
+MdStepperNext.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: 'button[mdStepperNext], button[matStepperNext]',
+                host: { '(click)': '_stepper.next()' },
+                providers: [{ provide: _angular_cdk_stepper.CdkStepper, useExisting: MdStepper }]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepperNext.ctorParameters = function () { return []; };
+/**
+ * Button that moves to the previous step in a stepper workflow.
+ */
+var MdStepperPrevious = (function (_super) {
+    __extends(MdStepperPrevious, _super);
+    function MdStepperPrevious() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return MdStepperPrevious;
+}(_MdStepperPrevious));
+MdStepperPrevious.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: 'button[mdStepperPrevious], button[matStepperPrevious]',
+                host: { '(click)': '_stepper.previous()' },
+                providers: [{ provide: _angular_cdk_stepper.CdkStepper, useExisting: MdStepper }]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepperPrevious.ctorParameters = function () { return []; };
+var MdStepperModule = (function () {
+    function MdStepperModule() {
+    }
+    return MdStepperModule;
+}());
+MdStepperModule.decorators = [
+    { type: _angular_core.NgModule, args: [{
+                imports: [
+                    MdCommonModule,
+                    _angular_common.CommonModule,
+                    _angular_cdk_portal.PortalModule,
+                    MdButtonModule,
+                    _angular_cdk_stepper.CdkStepperModule,
+                    MdIconModule
+                ],
+                exports: [
+                    MdCommonModule,
+                    MdHorizontalStepper,
+                    MdVerticalStepper,
+                    MdStep,
+                    MdStepLabel,
+                    MdStepper,
+                    MdStepperNext,
+                    MdStepperPrevious,
+                    MdStepHeader
+                ],
+                declarations: [MdHorizontalStepper, MdVerticalStepper, MdStep, MdStepLabel, MdStepper,
+                    MdStepperNext, MdStepperPrevious, MdStepHeader],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdStepperModule.ctorParameters = function () { return []; };
+
 /**
  * Workaround for https://github.com/angular/angular/issues/17849
  */
@@ -20230,6 +21506,7 @@ MdTable.decorators = [
                     'class': 'mat-table',
                 },
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
             },] },
 ];
@@ -20505,6 +21782,7 @@ MdHeaderRow.decorators = [
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -20530,6 +21808,7 @@ MdRow.decorators = [
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
             },] },
 ];
 /**
@@ -20558,6 +21837,85 @@ MdTableModule.decorators = [
  * @nocollapse
  */
 MdTableModule.ctorParameters = function () { return []; };
+
+/**
+ * The ink-bar is used to display and animate the line underneath the current active tab label.
+\@docs-private
+ */
+var MdInkBar = (function () {
+    /**
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     * @param {?} _ngZone
+     */
+    function MdInkBar(_renderer, _elementRef, _ngZone) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._ngZone = _ngZone;
+    }
+    /**
+     * Calculates the styles from the provided element in order to align the ink-bar to that element.
+    Shows the ink bar if previously set as hidden.
+    \@param element
+     * @param {?} element
+     * @return {?}
+     */
+    MdInkBar.prototype.alignToElement = function (element) {
+        var _this = this;
+        this.show();
+        if (typeof requestAnimationFrame !== 'undefined') {
+            this._ngZone.runOutsideAngular(function () {
+                requestAnimationFrame(function () { return _this._setStyles(element); });
+            });
+        }
+        else {
+            this._setStyles(element);
+        }
+    };
+    /**
+     * Shows the ink bar.
+     * @return {?}
+     */
+    MdInkBar.prototype.show = function () {
+        this._renderer.setStyle(this._elementRef.nativeElement, 'visibility', 'visible');
+    };
+    /**
+     * Hides the ink bar.
+     * @return {?}
+     */
+    MdInkBar.prototype.hide = function () {
+        this._renderer.setStyle(this._elementRef.nativeElement, 'visibility', 'hidden');
+    };
+    /**
+     * Sets the proper styles to the ink bar element.
+    \@param element
+     * @param {?} element
+     * @return {?}
+     */
+    MdInkBar.prototype._setStyles = function (element) {
+        var /** @type {?} */ left = element ? (element.offsetLeft || 0) + 'px' : '0';
+        var /** @type {?} */ width = element ? (element.offsetWidth || 0) + 'px' : '0';
+        this._renderer.setStyle(this._elementRef.nativeElement, 'left', left);
+        this._renderer.setStyle(this._elementRef.nativeElement, 'width', width);
+    };
+    return MdInkBar;
+}());
+MdInkBar.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: 'md-ink-bar, mat-ink-bar',
+                host: {
+                    'class': 'mat-ink-bar',
+                },
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdInkBar.ctorParameters = function () { return [
+    { type: _angular_core.Renderer2, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.NgZone, },
+]; };
 /**
  * Workaround for https://github.com/angular/angular/issues/17849
  */
@@ -20678,7 +22036,8 @@ MdTab.decorators = [
                 inputs: ['disabled'],
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 encapsulation: _angular_core.ViewEncapsulation.None,
-                exportAs: 'mdTab',
+                preserveWhitespaces: false,
+                exportAs: 'mdTab, matTab',
             },] },
 ];
 /**
@@ -20693,9 +22052,178 @@ MdTab.propDecorators = {
     'textLabel': [{ type: _angular_core.Input, args: ['label',] },],
 };
 /**
+ * Wrapper for the contents of a tab.
+\@docs-private
+ */
+var MdTabBody = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _dir
+     */
+    function MdTabBody(_elementRef, _dir) {
+        this._elementRef = _elementRef;
+        this._dir = _dir;
+        /**
+         * Event emitted when the tab begins to animate towards the center as the active tab.
+         */
+        this.onCentering = new _angular_core.EventEmitter();
+        /**
+         * Event emitted when the tab completes its animation towards the center.
+         */
+        this.onCentered = new _angular_core.EventEmitter(true);
+    }
+    Object.defineProperty(MdTabBody.prototype, "position", {
+        /**
+         * @param {?} position
+         * @return {?}
+         */
+        set: function (position) {
+            if (position < 0) {
+                this._position = this._getLayoutDirection() == 'ltr' ? 'left' : 'right';
+            }
+            else if (position > 0) {
+                this._position = this._getLayoutDirection() == 'ltr' ? 'right' : 'left';
+            }
+            else {
+                this._position = 'center';
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTabBody.prototype, "origin", {
+        /**
+         * The origin position from which this tab should appear when it is centered into view.
+         * @param {?} origin
+         * @return {?}
+         */
+        set: function (origin) {
+            if (origin == null) {
+                return;
+            }
+            var /** @type {?} */ dir = this._getLayoutDirection();
+            if ((dir == 'ltr' && origin <= 0) || (dir == 'rtl' && origin > 0)) {
+                this._origin = 'left';
+            }
+            else {
+                this._origin = 'right';
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * After initialized, check if the content is centered and has an origin. If so, set the
+    special position states that transition the tab from the left or right before centering.
+     * @return {?}
+     */
+    MdTabBody.prototype.ngOnInit = function () {
+        if (this._position == 'center' && this._origin) {
+            this._position = this._origin == 'left' ? 'left-origin-center' : 'right-origin-center';
+        }
+    };
+    /**
+     * After the view has been set, check if the tab content is set to the center and attach the
+    content if it is not already attached.
+     * @return {?}
+     */
+    MdTabBody.prototype.ngAfterViewChecked = function () {
+        if (this._isCenterPosition(this._position) && !this._portalHost.hasAttached()) {
+            this._portalHost.attach(this._content);
+        }
+    };
+    /**
+     * @param {?} e
+     * @return {?}
+     */
+    MdTabBody.prototype._onTranslateTabStarted = function (e) {
+        if (this._isCenterPosition(e.toState)) {
+            this.onCentering.emit(this._elementRef.nativeElement.clientHeight);
+        }
+    };
+    /**
+     * @param {?} e
+     * @return {?}
+     */
+    MdTabBody.prototype._onTranslateTabComplete = function (e) {
+        // If the end state is that the tab is not centered, then detach the content.
+        if (!this._isCenterPosition(e.toState) && !this._isCenterPosition(this._position)) {
+            this._portalHost.detach();
+        }
+        // If the transition to the center is complete, emit an event.
+        if (this._isCenterPosition(e.toState) && this._isCenterPosition(this._position)) {
+            this.onCentered.emit();
+        }
+    };
+    /**
+     * The text direction of the containing app.
+     * @return {?}
+     */
+    MdTabBody.prototype._getLayoutDirection = function () {
+        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
+    };
+    /**
+     * Whether the provided position state is considered center, regardless of origin.
+     * @param {?} position
+     * @return {?}
+     */
+    MdTabBody.prototype._isCenterPosition = function (position) {
+        return position == 'center' ||
+            position == 'left-origin-center' ||
+            position == 'right-origin-center';
+    };
+    return MdTabBody;
+}());
+MdTabBody.decorators = [
+    { type: _angular_core.Component, args: [{ selector: 'md-tab-body, mat-tab-body',
+                template: "<div class=\"mat-tab-body-content\" #content [@translateTab]=\"_position\" (@translateTab.start)=\"_onTranslateTabStarted($event)\" (@translateTab.done)=\"_onTranslateTabComplete($event)\"><ng-template cdkPortalHost></ng-template></div>",
+                styles: [".mat-tab-body-content{height:100%;overflow:auto}.mat-tab-group-dynamic-height .mat-tab-body-content{overflow:hidden}"],
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                host: {
+                    'class': 'mat-tab-body',
+                },
+                animations: [
+                    _angular_animations.trigger('translateTab', [
+                        _angular_animations.state('void', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
+                        _angular_animations.state('left', _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)' })),
+                        _angular_animations.state('left-origin-center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
+                        _angular_animations.state('right-origin-center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
+                        _angular_animations.state('center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
+                        _angular_animations.state('right', _angular_animations.style({ transform: 'translate3d(100%, 0, 0)' })),
+                        _angular_animations.transition('* => left, * => right, left => center, right => center', _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')),
+                        _angular_animations.transition('void => left-origin-center', [
+                            _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)' }),
+                            _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')
+                        ]),
+                        _angular_animations.transition('void => right-origin-center', [
+                            _angular_animations.style({ transform: 'translate3d(100%, 0, 0)' }),
+                            _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')
+                        ])
+                    ])
+                ]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdTabBody.ctorParameters = function () { return [
+    { type: _angular_core.ElementRef, },
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+]; };
+MdTabBody.propDecorators = {
+    '_portalHost': [{ type: _angular_core.ViewChild, args: [_angular_cdk_portal.PortalHostDirective,] },],
+    'onCentering': [{ type: _angular_core.Output },],
+    'onCentered': [{ type: _angular_core.Output },],
+    '_content': [{ type: _angular_core.Input, args: ['content',] },],
+    'position': [{ type: _angular_core.Input, args: ['position',] },],
+    'origin': [{ type: _angular_core.Input, args: ['origin',] },],
+};
+/**
  * Used to generate unique ID's for each tab component
  */
-var nextId$2 = 0;
+var nextId$1$1 = 0;
 /**
  * A simple change event emitted on focus or selection changes.
  */
@@ -20772,7 +22300,7 @@ var MdTabGroup = (function (_super) {
          * Event emitted when the tab selection has changed.
          */
         _this.selectChange = new _angular_core.EventEmitter(true);
-        _this._groupId = nextId$2++;
+        _this._groupId = nextId$1$1++;
         return _this;
     }
     Object.defineProperty(MdTabGroup.prototype, "dynamicHeight", {
@@ -20984,16 +22512,18 @@ var MdTabGroup = (function (_super) {
 }(_MdTabGroupMixinBase));
 MdTabGroup.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-tab-group, mat-tab-group',
-                template: "<md-tab-header #tabHeader [selectedIndex]=\"selectedIndex\" [disableRipple]=\"disableRipple\" (indexFocused)=\"_focusChanged($event)\" (selectFocusedIndex)=\"selectedIndex = $event\"><div class=\"mat-tab-label\" role=\"tab\" mdTabLabelWrapper md-ripple *ngFor=\"let tab of _tabs; let i = index\" [id]=\"_getTabLabelId(i)\" [tabIndex]=\"selectedIndex == i ? 0 : -1\" [attr.aria-controls]=\"_getTabContentId(i)\" [attr.aria-selected]=\"selectedIndex == i\" [class.mat-tab-label-active]=\"selectedIndex == i\" [disabled]=\"tab.disabled\" [mdRippleDisabled]=\"disableRipple\" (click)=\"tabHeader.focusIndex = selectedIndex = i\"><ng-template [ngIf]=\"tab.templateLabel\"><ng-template [cdkPortalHost]=\"tab.templateLabel\"></ng-template></ng-template><ng-template [ngIf]=\"!tab.templateLabel\">{{tab.textLabel}}</ng-template></div></md-tab-header><div class=\"mat-tab-body-wrapper\" #tabBodyWrapper><md-tab-body role=\"tabpanel\" *ngFor=\"let tab of _tabs; let i = index\" [id]=\"_getTabContentId(i)\" [attr.aria-labelledby]=\"_getTabLabelId(i)\" [class.mat-tab-body-active]=\"selectedIndex == i\" [content]=\"tab.content\" [position]=\"tab.position\" [origin]=\"tab.origin\" (onCentered)=\"_removeTabBodyWrapperHeight()\" (onCentering)=\"_setTabBodyWrapperHeight($event)\"></md-tab-body></div>",
+                template: "<mat-tab-header #tabHeader [selectedIndex]=\"selectedIndex\" [disableRipple]=\"disableRipple\" (indexFocused)=\"_focusChanged($event)\" (selectFocusedIndex)=\"selectedIndex = $event\"><div class=\"mat-tab-label\" role=\"tab\" matTabLabelWrapper mat-ripple *ngFor=\"let tab of _tabs; let i = index\" [id]=\"_getTabLabelId(i)\" [tabIndex]=\"selectedIndex == i ? 0 : -1\" [attr.aria-controls]=\"_getTabContentId(i)\" [attr.aria-selected]=\"selectedIndex == i\" [class.mat-tab-label-active]=\"selectedIndex == i\" [disabled]=\"tab.disabled\" [matRippleDisabled]=\"disableRipple\" (click)=\"tabHeader.focusIndex = selectedIndex = i\"><ng-template [ngIf]=\"tab.templateLabel\"><ng-template [cdkPortalHost]=\"tab.templateLabel\"></ng-template></ng-template><ng-template [ngIf]=\"!tab.templateLabel\">{{tab.textLabel}}</ng-template></div></mat-tab-header><div class=\"mat-tab-body-wrapper\" #tabBodyWrapper><mat-tab-body role=\"tabpanel\" *ngFor=\"let tab of _tabs; let i = index\" [id]=\"_getTabContentId(i)\" [attr.aria-labelledby]=\"_getTabLabelId(i)\" [class.mat-tab-body-active]=\"selectedIndex == i\" [content]=\"tab.content\" [position]=\"tab.position\" [origin]=\"tab.origin\" (onCentered)=\"_removeTabBodyWrapperHeight()\" (onCentering)=\"_setTabBodyWrapperHeight($event)\"></mat-tab-body></div>",
                 styles: [".mat-tab-group{display:flex;flex-direction:column}.mat-tab-group.mat-tab-group-inverted-header{flex-direction:column-reverse}.mat-tab-label{height:48px;padding:0 24px;cursor:pointer;box-sizing:border-box;opacity:.6;min-width:160px;text-align:center;display:inline-flex;justify-content:center;align-items:center;white-space:nowrap;position:relative}.mat-tab-label:focus{outline:0;opacity:1}.mat-tab-label.mat-tab-disabled{cursor:default;pointer-events:none}@media (max-width:600px){.mat-tab-label{padding:0 12px}}@media (max-width:960px){.mat-tab-label{padding:0 12px}}.mat-tab-group[mat-stretch-tabs] .mat-tab-label,.mat-tab-group[md-stretch-tabs] .mat-tab-label{flex-basis:0;flex-grow:1}.mat-tab-body-wrapper{position:relative;overflow:hidden;display:flex;transition:height .5s cubic-bezier(.35,0,.25,1)}.mat-tab-body{top:0;left:0;right:0;bottom:0;position:absolute;display:block;overflow:hidden}.mat-tab-body.mat-tab-body-active{position:relative;overflow-x:hidden;overflow-y:auto;z-index:1;flex-grow:1}.mat-tab-group.mat-tab-group-dynamic-height .mat-tab-body.mat-tab-body-active{overflow-y:hidden}"],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 inputs: ['color', 'disableRipple'],
                 host: {
                     'class': 'mat-tab-group',
                     '[class.mat-tab-group-dynamic-height]': 'dynamicHeight',
                     '[class.mat-tab-group-inverted-header]': 'headerPosition === "below"',
-                }
+                },
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -21075,541 +22605,6 @@ MdTabLabelWrapper.decorators = [
 MdTabLabelWrapper.ctorParameters = function () { return [
     { type: _angular_core.ElementRef, },
 ]; };
-/**
- * The ink-bar is used to display and animate the line underneath the current active tab label.
-\@docs-private
- */
-var MdInkBar = (function () {
-    /**
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     * @param {?} _ngZone
-     */
-    function MdInkBar(_renderer, _elementRef, _ngZone) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-        this._ngZone = _ngZone;
-    }
-    /**
-     * Calculates the styles from the provided element in order to align the ink-bar to that element.
-    Shows the ink bar if previously set as hidden.
-    \@param element
-     * @param {?} element
-     * @return {?}
-     */
-    MdInkBar.prototype.alignToElement = function (element) {
-        var _this = this;
-        this.show();
-        if (typeof requestAnimationFrame !== 'undefined') {
-            this._ngZone.runOutsideAngular(function () {
-                requestAnimationFrame(function () { return _this._setStyles(element); });
-            });
-        }
-        else {
-            this._setStyles(element);
-        }
-    };
-    /**
-     * Shows the ink bar.
-     * @return {?}
-     */
-    MdInkBar.prototype.show = function () {
-        this._renderer.setStyle(this._elementRef.nativeElement, 'visibility', 'visible');
-    };
-    /**
-     * Hides the ink bar.
-     * @return {?}
-     */
-    MdInkBar.prototype.hide = function () {
-        this._renderer.setStyle(this._elementRef.nativeElement, 'visibility', 'hidden');
-    };
-    /**
-     * Sets the proper styles to the ink bar element.
-    \@param element
-     * @param {?} element
-     * @return {?}
-     */
-    MdInkBar.prototype._setStyles = function (element) {
-        var /** @type {?} */ left = element ? (element.offsetLeft || 0) + 'px' : '0';
-        var /** @type {?} */ width = element ? (element.offsetWidth || 0) + 'px' : '0';
-        this._renderer.setStyle(this._elementRef.nativeElement, 'left', left);
-        this._renderer.setStyle(this._elementRef.nativeElement, 'width', width);
-    };
-    return MdInkBar;
-}());
-MdInkBar.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: 'md-ink-bar, mat-ink-bar',
-                host: {
-                    'class': 'mat-ink-bar',
-                },
-            },] },
-];
-/**
- * @nocollapse
- */
-MdInkBar.ctorParameters = function () { return [
-    { type: _angular_core.Renderer2, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.NgZone, },
-]; };
-/**
- * \@docs-private
- */
-var MdTabNavBase = (function () {
-    /**
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     */
-    function MdTabNavBase(_renderer, _elementRef) {
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-    }
-    return MdTabNavBase;
-}());
-var _MdTabNavMixinBase = mixinDisableRipple(mixinColor(MdTabNavBase, 'primary'));
-/**
- * Navigation component matching the styles of the tab group header.
-Provides anchored navigation with animated ink bar.
- */
-var MdTabNav = (function (_super) {
-    __extends(MdTabNav, _super);
-    /**
-     * @param {?} renderer
-     * @param {?} elementRef
-     * @param {?} _dir
-     * @param {?} _ngZone
-     * @param {?} _changeDetectorRef
-     */
-    function MdTabNav(renderer, elementRef, _dir, _ngZone, _changeDetectorRef) {
-        var _this = _super.call(this, renderer, elementRef) || this;
-        _this._dir = _dir;
-        _this._ngZone = _ngZone;
-        _this._changeDetectorRef = _changeDetectorRef;
-        /**
-         * Subject that emits when the component has been destroyed.
-         */
-        _this._onDestroy = new rxjs_Subject.Subject();
-        _this._disableRipple = false;
-        return _this;
-    }
-    Object.defineProperty(MdTabNav.prototype, "backgroundColor", {
-        /**
-         * Background color of the tab nav.
-         * @return {?}
-         */
-        get: function () { return this._backgroundColor; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            var /** @type {?} */ nativeElement = this._elementRef.nativeElement;
-            this._renderer.removeClass(nativeElement, "mat-background-" + this.backgroundColor);
-            if (value) {
-                this._renderer.addClass(nativeElement, "mat-background-" + value);
-            }
-            this._backgroundColor = value;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTabNav.prototype, "disableRipple", {
-        /**
-         * Whether ripples should be disabled for all links or not.
-         * @return {?}
-         */
-        get: function () { return this._disableRipple; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disableRipple = _angular_cdk_coercion.coerceBooleanProperty(value);
-            this._setLinkDisableRipple();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Notifies the component that the active link has been changed.
-     * @param {?} element
-     * @return {?}
-     */
-    MdTabNav.prototype.updateActiveLink = function (element) {
-        this._activeLinkChanged = this._activeLinkElement != element;
-        this._activeLinkElement = element;
-        if (this._activeLinkChanged) {
-            this._changeDetectorRef.markForCheck();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdTabNav.prototype.ngAfterContentInit = function () {
-        var _this = this;
-        this._ngZone.runOutsideAngular(function () {
-            var /** @type {?} */ dirChange = _this._dir ? _this._dir.change : rxjs_observable_of.of(null);
-            var /** @type {?} */ resize = typeof window !== 'undefined' ?
-                _angular_cdk_rxjs.auditTime.call(rxjs_observable_fromEvent.fromEvent(window, 'resize'), 10) :
-                rxjs_observable_of.of(null);
-            return _angular_cdk_rxjs.takeUntil.call(rxjs_observable_merge.merge(dirChange, resize), _this._onDestroy).subscribe(function () {
-                _this._alignInkBar();
-            });
-        });
-        this._setLinkDisableRipple();
-    };
-    /**
-     * Checks if the active link has been changed and, if so, will update the ink bar.
-     * @return {?}
-     */
-    MdTabNav.prototype.ngAfterContentChecked = function () {
-        if (this._activeLinkChanged) {
-            this._alignInkBar();
-            this._activeLinkChanged = false;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    MdTabNav.prototype.ngOnDestroy = function () {
-        this._onDestroy.next();
-        this._onDestroy.complete();
-    };
-    /**
-     * Aligns the ink bar to the active link.
-     * @return {?}
-     */
-    MdTabNav.prototype._alignInkBar = function () {
-        if (this._activeLinkElement) {
-            this._inkBar.alignToElement(this._activeLinkElement.nativeElement);
-        }
-    };
-    /**
-     * Sets the `disableRipple` property on each link of the navigation bar.
-     * @return {?}
-     */
-    MdTabNav.prototype._setLinkDisableRipple = function () {
-        var _this = this;
-        if (this._tabLinks) {
-            this._tabLinks.forEach(function (link) { return link.disableRipple = _this.disableRipple; });
-        }
-    };
-    return MdTabNav;
-}(_MdTabNavMixinBase));
-MdTabNav.decorators = [
-    { type: _angular_core.Component, args: [{ selector: '[md-tab-nav-bar], [mat-tab-nav-bar]',
-                inputs: ['color', 'disableRipple'],
-                template: "<div class=\"mat-tab-links\" (cdkObserveContent)=\"_alignInkBar()\"><ng-content></ng-content><md-ink-bar></md-ink-bar></div>",
-                styles: [".mat-tab-nav-bar{overflow:hidden;position:relative;flex-shrink:0}.mat-tab-links{position:relative}.mat-tab-link{height:48px;padding:0 24px;cursor:pointer;box-sizing:border-box;opacity:.6;min-width:160px;text-align:center;display:inline-flex;justify-content:center;align-items:center;white-space:nowrap;vertical-align:top;text-decoration:none;position:relative;overflow:hidden}.mat-tab-link:focus{outline:0;opacity:1}.mat-tab-link.mat-tab-disabled{cursor:default;pointer-events:none}@media (max-width:600px){.mat-tab-link{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}"],
-                host: { 'class': 'mat-tab-nav-bar' },
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-MdTabNav.ctorParameters = function () { return [
-    { type: _angular_core.Renderer2, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-    { type: _angular_core.NgZone, },
-    { type: _angular_core.ChangeDetectorRef, },
-]; };
-MdTabNav.propDecorators = {
-    '_inkBar': [{ type: _angular_core.ViewChild, args: [MdInkBar,] },],
-    '_tabLinks': [{ type: _angular_core.ContentChildren, args: [_angular_core.forwardRef(function () { return MdTabLink; }), { descendants: true },] },],
-    'backgroundColor': [{ type: _angular_core.Input },],
-};
-var MdTabLinkBase = (function () {
-    function MdTabLinkBase() {
-    }
-    return MdTabLinkBase;
-}());
-var _MdTabLinkMixinBase = mixinDisabled(MdTabLinkBase);
-/**
- * Link inside of a `md-tab-nav-bar`.
- */
-var MdTabLink = (function (_super) {
-    __extends(MdTabLink, _super);
-    /**
-     * @param {?} _mdTabNavBar
-     * @param {?} _elementRef
-     * @param {?} ngZone
-     * @param {?} ruler
-     * @param {?} platform
-     * @param {?} globalOptions
-     */
-    function MdTabLink(_mdTabNavBar, _elementRef, ngZone, ruler, platform, globalOptions) {
-        var _this = _super.call(this) || this;
-        _this._mdTabNavBar = _mdTabNavBar;
-        _this._elementRef = _elementRef;
-        /**
-         * Whether the tab link is active or not.
-         */
-        _this._isActive = false;
-        /**
-         * Whether the ripples for this tab should be disabled or not.
-         */
-        _this._disableRipple = false;
-        // Manually create a ripple instance that uses the tab link element as trigger element.
-        // Notice that the lifecycle hooks for the ripple config won't be called anymore.
-        _this._tabLinkRipple = new MdRipple(_elementRef, ngZone, ruler, platform, globalOptions);
-        return _this;
-    }
-    Object.defineProperty(MdTabLink.prototype, "active", {
-        /**
-         * Whether the link is active.
-         * @return {?}
-         */
-        get: function () { return this._isActive; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._isActive = value;
-            if (value) {
-                this._mdTabNavBar.updateActiveLink(this._elementRef);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTabLink.prototype, "disableRipple", {
-        /**
-         * Whether ripples should be disabled or not.
-         * @return {?}
-         */
-        get: function () { return this._disableRipple; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._disableRipple = value;
-            this._tabLinkRipple.disabled = this.disableRipple;
-            this._tabLinkRipple._updateRippleRenderer();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTabLink.prototype, "tabIndex", {
-        /**
-         * \@docs-private
-         * @return {?}
-         */
-        get: function () {
-            return this.disabled ? -1 : 0;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    MdTabLink.prototype.ngOnDestroy = function () {
-        // Manually call the ngOnDestroy lifecycle hook of the ripple instance because it won't be
-        // called automatically since its instance is not created by Angular.
-        this._tabLinkRipple.ngOnDestroy();
-    };
-    return MdTabLink;
-}(_MdTabLinkMixinBase));
-MdTabLink.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[md-tab-link], [mat-tab-link], [mdTabLink], [matTabLink]',
-                inputs: ['disabled'],
-                host: {
-                    'class': 'mat-tab-link',
-                    '[attr.aria-disabled]': 'disabled.toString()',
-                    '[attr.tabindex]': 'tabIndex',
-                    '[class.mat-tab-disabled]': 'disabled'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-MdTabLink.ctorParameters = function () { return [
-    { type: MdTabNav, },
-    { type: _angular_core.ElementRef, },
-    { type: _angular_core.NgZone, },
-    { type: _angular_cdk_scrolling.ViewportRuler, },
-    { type: _angular_cdk_platform.Platform, },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_RIPPLE_GLOBAL_OPTIONS,] },] },
-]; };
-MdTabLink.propDecorators = {
-    'active': [{ type: _angular_core.Input },],
-};
-/**
- * Wrapper for the contents of a tab.
-\@docs-private
- */
-var MdTabBody = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _dir
-     */
-    function MdTabBody(_elementRef, _dir) {
-        this._elementRef = _elementRef;
-        this._dir = _dir;
-        /**
-         * Event emitted when the tab begins to animate towards the center as the active tab.
-         */
-        this.onCentering = new _angular_core.EventEmitter();
-        /**
-         * Event emitted when the tab completes its animation towards the center.
-         */
-        this.onCentered = new _angular_core.EventEmitter(true);
-    }
-    Object.defineProperty(MdTabBody.prototype, "position", {
-        /**
-         * @param {?} position
-         * @return {?}
-         */
-        set: function (position) {
-            if (position < 0) {
-                this._position = this._getLayoutDirection() == 'ltr' ? 'left' : 'right';
-            }
-            else if (position > 0) {
-                this._position = this._getLayoutDirection() == 'ltr' ? 'right' : 'left';
-            }
-            else {
-                this._position = 'center';
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdTabBody.prototype, "origin", {
-        /**
-         * The origin position from which this tab should appear when it is centered into view.
-         * @param {?} origin
-         * @return {?}
-         */
-        set: function (origin) {
-            if (origin == null) {
-                return;
-            }
-            var /** @type {?} */ dir = this._getLayoutDirection();
-            if ((dir == 'ltr' && origin <= 0) || (dir == 'rtl' && origin > 0)) {
-                this._origin = 'left';
-            }
-            else {
-                this._origin = 'right';
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * After initialized, check if the content is centered and has an origin. If so, set the
-    special position states that transition the tab from the left or right before centering.
-     * @return {?}
-     */
-    MdTabBody.prototype.ngOnInit = function () {
-        if (this._position == 'center' && this._origin) {
-            this._position = this._origin == 'left' ? 'left-origin-center' : 'right-origin-center';
-        }
-    };
-    /**
-     * After the view has been set, check if the tab content is set to the center and attach the
-    content if it is not already attached.
-     * @return {?}
-     */
-    MdTabBody.prototype.ngAfterViewChecked = function () {
-        if (this._isCenterPosition(this._position) && !this._portalHost.hasAttached()) {
-            this._portalHost.attach(this._content);
-        }
-    };
-    /**
-     * @param {?} e
-     * @return {?}
-     */
-    MdTabBody.prototype._onTranslateTabStarted = function (e) {
-        if (this._isCenterPosition(e.toState)) {
-            this.onCentering.emit(this._elementRef.nativeElement.clientHeight);
-        }
-    };
-    /**
-     * @param {?} e
-     * @return {?}
-     */
-    MdTabBody.prototype._onTranslateTabComplete = function (e) {
-        // If the end state is that the tab is not centered, then detach the content.
-        if (!this._isCenterPosition(e.toState) && !this._isCenterPosition(this._position)) {
-            this._portalHost.detach();
-        }
-        // If the transition to the center is complete, emit an event.
-        if (this._isCenterPosition(e.toState) && this._isCenterPosition(this._position)) {
-            this.onCentered.emit();
-        }
-    };
-    /**
-     * The text direction of the containing app.
-     * @return {?}
-     */
-    MdTabBody.prototype._getLayoutDirection = function () {
-        return this._dir && this._dir.value === 'rtl' ? 'rtl' : 'ltr';
-    };
-    /**
-     * Whether the provided position state is considered center, regardless of origin.
-     * @param {?} position
-     * @return {?}
-     */
-    MdTabBody.prototype._isCenterPosition = function (position) {
-        return position == 'center' ||
-            position == 'left-origin-center' ||
-            position == 'right-origin-center';
-    };
-    return MdTabBody;
-}());
-MdTabBody.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-tab-body, mat-tab-body',
-                template: "<div class=\"mat-tab-body-content\" #content [@translateTab]=\"_position\" (@translateTab.start)=\"_onTranslateTabStarted($event)\" (@translateTab.done)=\"_onTranslateTabComplete($event)\"><ng-template cdkPortalHost></ng-template></div>",
-                styles: [".mat-tab-body-content{height:100%;overflow:auto}.mat-tab-group-dynamic-height .mat-tab-body-content{overflow:hidden}"],
-                encapsulation: _angular_core.ViewEncapsulation.None,
-                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                host: {
-                    'class': 'mat-tab-body',
-                },
-                animations: [
-                    _angular_animations.trigger('translateTab', [
-                        _angular_animations.state('void', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
-                        _angular_animations.state('left', _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)' })),
-                        _angular_animations.state('left-origin-center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
-                        _angular_animations.state('right-origin-center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
-                        _angular_animations.state('center', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)' })),
-                        _angular_animations.state('right', _angular_animations.style({ transform: 'translate3d(100%, 0, 0)' })),
-                        _angular_animations.transition('* => left, * => right, left => center, right => center', _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')),
-                        _angular_animations.transition('void => left-origin-center', [
-                            _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)' }),
-                            _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')
-                        ]),
-                        _angular_animations.transition('void => right-origin-center', [
-                            _angular_animations.style({ transform: 'translate3d(100%, 0, 0)' }),
-                            _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)')
-                        ])
-                    ])
-                ]
-            },] },
-];
-/**
- * @nocollapse
- */
-MdTabBody.ctorParameters = function () { return [
-    { type: _angular_core.ElementRef, },
-    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
-]; };
-MdTabBody.propDecorators = {
-    '_portalHost': [{ type: _angular_core.ViewChild, args: [_angular_cdk_portal.PortalHostDirective,] },],
-    'onCentering': [{ type: _angular_core.Output },],
-    'onCentered': [{ type: _angular_core.Output },],
-    '_content': [{ type: _angular_core.Input, args: ['content',] },],
-    'position': [{ type: _angular_core.Input, args: ['position',] },],
-    'origin': [{ type: _angular_core.Input, args: ['origin',] },],
-};
 /**
  * The distance in pixels that will be overshot when scrolling a tab label into view. This helps
 provide a small affordance to the label next to it.
@@ -22026,16 +23021,18 @@ var MdTabHeader = (function (_super) {
 }(_MdTabHeaderMixinBase));
 MdTabHeader.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-tab-header, mat-tab-header',
-                template: "<div class=\"mat-tab-header-pagination mat-tab-header-pagination-before mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollBefore || disableRipple\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollBefore\" (click)=\"_scrollHeader('before')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div><div class=\"mat-tab-label-container\" #tabListContainer (keydown)=\"_handleKeydown($event)\"><div class=\"mat-tab-list\" #tabList role=\"tablist\" (cdkObserveContent)=\"_onContentChanges()\"><div class=\"mat-tab-labels\"><ng-content></ng-content></div><md-ink-bar></md-ink-bar></div></div><div class=\"mat-tab-header-pagination mat-tab-header-pagination-after mat-elevation-z4\" aria-hidden=\"true\" md-ripple [mdRippleDisabled]=\"_disableScrollAfter || disableRipple\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollAfter\" (click)=\"_scrollHeader('after')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div>",
+                template: "<div class=\"mat-tab-header-pagination mat-tab-header-pagination-before mat-elevation-z4\" aria-hidden=\"true\" mat-ripple [matRippleDisabled]=\"_disableScrollBefore || disableRipple\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollBefore\" (click)=\"_scrollHeader('before')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div><div class=\"mat-tab-label-container\" #tabListContainer (keydown)=\"_handleKeydown($event)\"><div class=\"mat-tab-list\" #tabList role=\"tablist\" (cdkObserveContent)=\"_onContentChanges()\"><div class=\"mat-tab-labels\"><ng-content></ng-content></div><mat-ink-bar></mat-ink-bar></div></div><div class=\"mat-tab-header-pagination mat-tab-header-pagination-after mat-elevation-z4\" aria-hidden=\"true\" mat-ripple [matRippleDisabled]=\"_disableScrollAfter || disableRipple\" [class.mat-tab-header-pagination-disabled]=\"_disableScrollAfter\" (click)=\"_scrollHeader('after')\"><div class=\"mat-tab-header-pagination-chevron\"></div></div>",
                 styles: [".mat-tab-header{display:flex;overflow:hidden;position:relative;flex-shrink:0}.mat-tab-label{height:48px;padding:0 24px;cursor:pointer;box-sizing:border-box;opacity:.6;min-width:160px;text-align:center;display:inline-flex;justify-content:center;align-items:center;white-space:nowrap;position:relative}.mat-tab-label:focus{outline:0;opacity:1}.mat-tab-label.mat-tab-disabled{cursor:default;pointer-events:none}@media (max-width:600px){.mat-tab-label{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}.mat-tab-header-pagination{position:relative;display:none;justify-content:center;align-items:center;min-width:32px;cursor:pointer;z-index:2}.mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination{display:flex}.mat-tab-header-pagination-before,.mat-tab-header-rtl .mat-tab-header-pagination-after{padding-left:4px}.mat-tab-header-pagination-before .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-after .mat-tab-header-pagination-chevron{transform:rotate(-135deg)}.mat-tab-header-pagination-after,.mat-tab-header-rtl .mat-tab-header-pagination-before{padding-right:4px}.mat-tab-header-pagination-after .mat-tab-header-pagination-chevron,.mat-tab-header-rtl .mat-tab-header-pagination-before .mat-tab-header-pagination-chevron{transform:rotate(45deg)}.mat-tab-header-pagination-chevron{border-style:solid;border-width:2px 2px 0 0;content:'';height:8px;width:8px}.mat-tab-header-pagination-disabled{box-shadow:none;cursor:default}.mat-tab-label-container{display:flex;flex-grow:1;overflow:hidden;z-index:1}.mat-tab-list{flex-grow:1;position:relative;transition:transform .5s cubic-bezier(.35,0,.25,1)}.mat-tab-labels{display:flex}"],
                 inputs: ['disableRipple'],
                 encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
                 host: {
                     'class': 'mat-tab-header',
                     '[class.mat-tab-header-pagination-controls-enabled]': '_showPaginationControls',
                     '[class.mat-tab-header-rtl]': "_getLayoutDirection() == 'rtl'",
-                }
+                },
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -22055,6 +23052,297 @@ MdTabHeader.propDecorators = {
     'selectedIndex': [{ type: _angular_core.Input },],
     'selectFocusedIndex': [{ type: _angular_core.Output },],
     'indexFocused': [{ type: _angular_core.Output },],
+};
+/**
+ * \@docs-private
+ */
+var MdTabNavBase = (function () {
+    /**
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     */
+    function MdTabNavBase(_renderer, _elementRef) {
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+    }
+    return MdTabNavBase;
+}());
+var _MdTabNavMixinBase = mixinDisableRipple(mixinColor(MdTabNavBase, 'primary'));
+/**
+ * Navigation component matching the styles of the tab group header.
+Provides anchored navigation with animated ink bar.
+ */
+var MdTabNav = (function (_super) {
+    __extends(MdTabNav, _super);
+    /**
+     * @param {?} renderer
+     * @param {?} elementRef
+     * @param {?} _dir
+     * @param {?} _ngZone
+     * @param {?} _changeDetectorRef
+     */
+    function MdTabNav(renderer, elementRef, _dir, _ngZone, _changeDetectorRef) {
+        var _this = _super.call(this, renderer, elementRef) || this;
+        _this._dir = _dir;
+        _this._ngZone = _ngZone;
+        _this._changeDetectorRef = _changeDetectorRef;
+        /**
+         * Subject that emits when the component has been destroyed.
+         */
+        _this._onDestroy = new rxjs_Subject.Subject();
+        _this._disableRipple = false;
+        return _this;
+    }
+    Object.defineProperty(MdTabNav.prototype, "backgroundColor", {
+        /**
+         * Background color of the tab nav.
+         * @return {?}
+         */
+        get: function () { return this._backgroundColor; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            var /** @type {?} */ nativeElement = this._elementRef.nativeElement;
+            this._renderer.removeClass(nativeElement, "mat-background-" + this.backgroundColor);
+            if (value) {
+                this._renderer.addClass(nativeElement, "mat-background-" + value);
+            }
+            this._backgroundColor = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTabNav.prototype, "disableRipple", {
+        /**
+         * Whether ripples should be disabled for all links or not.
+         * @return {?}
+         */
+        get: function () { return this._disableRipple; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._disableRipple = _angular_cdk_coercion.coerceBooleanProperty(value);
+            this._setLinkDisableRipple();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * Notifies the component that the active link has been changed.
+     * @param {?} element
+     * @return {?}
+     */
+    MdTabNav.prototype.updateActiveLink = function (element) {
+        this._activeLinkChanged = this._activeLinkElement != element;
+        this._activeLinkElement = element;
+        if (this._activeLinkChanged) {
+            this._changeDetectorRef.markForCheck();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdTabNav.prototype.ngAfterContentInit = function () {
+        var _this = this;
+        this._ngZone.runOutsideAngular(function () {
+            var /** @type {?} */ dirChange = _this._dir ? _this._dir.change : rxjs_observable_of.of(null);
+            var /** @type {?} */ resize = typeof window !== 'undefined' ?
+                _angular_cdk_rxjs.auditTime.call(rxjs_observable_fromEvent.fromEvent(window, 'resize'), 10) :
+                rxjs_observable_of.of(null);
+            return _angular_cdk_rxjs.takeUntil.call(rxjs_observable_merge.merge(dirChange, resize), _this._onDestroy).subscribe(function () {
+                _this._alignInkBar();
+            });
+        });
+        this._setLinkDisableRipple();
+    };
+    /**
+     * Checks if the active link has been changed and, if so, will update the ink bar.
+     * @return {?}
+     */
+    MdTabNav.prototype.ngAfterContentChecked = function () {
+        if (this._activeLinkChanged) {
+            this._alignInkBar();
+            this._activeLinkChanged = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    MdTabNav.prototype.ngOnDestroy = function () {
+        this._onDestroy.next();
+        this._onDestroy.complete();
+    };
+    /**
+     * Aligns the ink bar to the active link.
+     * @return {?}
+     */
+    MdTabNav.prototype._alignInkBar = function () {
+        if (this._activeLinkElement) {
+            this._inkBar.alignToElement(this._activeLinkElement.nativeElement);
+        }
+    };
+    /**
+     * Sets the `disableRipple` property on each link of the navigation bar.
+     * @return {?}
+     */
+    MdTabNav.prototype._setLinkDisableRipple = function () {
+        var _this = this;
+        if (this._tabLinks) {
+            this._tabLinks.forEach(function (link) { return link.disableRipple = _this.disableRipple; });
+        }
+    };
+    return MdTabNav;
+}(_MdTabNavMixinBase));
+MdTabNav.decorators = [
+    { type: _angular_core.Component, args: [{ selector: '[md-tab-nav-bar], [mat-tab-nav-bar]',
+                inputs: ['color', 'disableRipple'],
+                template: "<div class=\"mat-tab-links\" (cdkObserveContent)=\"_alignInkBar()\"><ng-content></ng-content><mat-ink-bar></mat-ink-bar></div>",
+                styles: [".mat-tab-nav-bar{overflow:hidden;position:relative;flex-shrink:0}.mat-tab-links{position:relative}.mat-tab-link{height:48px;padding:0 24px;cursor:pointer;box-sizing:border-box;opacity:.6;min-width:160px;text-align:center;display:inline-flex;justify-content:center;align-items:center;white-space:nowrap;vertical-align:top;text-decoration:none;position:relative;overflow:hidden}.mat-tab-link:focus{outline:0;opacity:1}.mat-tab-link.mat-tab-disabled{cursor:default;pointer-events:none}@media (max-width:600px){.mat-tab-link{min-width:72px}}.mat-ink-bar{position:absolute;bottom:0;height:2px;transition:.5s cubic-bezier(.35,0,.25,1)}.mat-tab-group-inverted-header .mat-ink-bar{bottom:auto;top:0}"],
+                host: { 'class': 'mat-tab-nav-bar' },
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdTabNav.ctorParameters = function () { return [
+    { type: _angular_core.Renderer2, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_cdk_bidi.Directionality, decorators: [{ type: _angular_core.Optional },] },
+    { type: _angular_core.NgZone, },
+    { type: _angular_core.ChangeDetectorRef, },
+]; };
+MdTabNav.propDecorators = {
+    '_inkBar': [{ type: _angular_core.ViewChild, args: [MdInkBar,] },],
+    '_tabLinks': [{ type: _angular_core.ContentChildren, args: [_angular_core.forwardRef(function () { return MdTabLink; }), { descendants: true },] },],
+    'backgroundColor': [{ type: _angular_core.Input },],
+};
+var MdTabLinkBase = (function () {
+    function MdTabLinkBase() {
+    }
+    return MdTabLinkBase;
+}());
+var _MdTabLinkMixinBase = mixinDisabled(MdTabLinkBase);
+/**
+ * Link inside of a `md-tab-nav-bar`.
+ */
+var MdTabLink = (function (_super) {
+    __extends(MdTabLink, _super);
+    /**
+     * @param {?} _mdTabNavBar
+     * @param {?} _elementRef
+     * @param {?} ngZone
+     * @param {?} ruler
+     * @param {?} platform
+     * @param {?} globalOptions
+     */
+    function MdTabLink(_mdTabNavBar, _elementRef, ngZone, ruler, platform, globalOptions) {
+        var _this = _super.call(this) || this;
+        _this._mdTabNavBar = _mdTabNavBar;
+        _this._elementRef = _elementRef;
+        /**
+         * Whether the tab link is active or not.
+         */
+        _this._isActive = false;
+        /**
+         * Whether the ripples for this tab should be disabled or not.
+         */
+        _this._disableRipple = false;
+        // Manually create a ripple instance that uses the tab link element as trigger element.
+        // Notice that the lifecycle hooks for the ripple config won't be called anymore.
+        _this._tabLinkRipple = new MdRipple(_elementRef, ngZone, ruler, platform, globalOptions);
+        return _this;
+    }
+    Object.defineProperty(MdTabLink.prototype, "active", {
+        /**
+         * Whether the link is active.
+         * @return {?}
+         */
+        get: function () { return this._isActive; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._isActive = value;
+            if (value) {
+                this._mdTabNavBar.updateActiveLink(this._elementRef);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTabLink.prototype, "disableRipple", {
+        /**
+         * Whether ripples should be disabled or not.
+         * @return {?}
+         */
+        get: function () { return this._disableRipple; },
+        /**
+         * @param {?} value
+         * @return {?}
+         */
+        set: function (value) {
+            this._disableRipple = value;
+            this._tabLinkRipple.disabled = this.disableRipple;
+            this._tabLinkRipple._updateRippleRenderer();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(MdTabLink.prototype, "tabIndex", {
+        /**
+         * \@docs-private
+         * @return {?}
+         */
+        get: function () {
+            return this.disabled ? -1 : 0;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    MdTabLink.prototype.ngOnDestroy = function () {
+        // Manually call the ngOnDestroy lifecycle hook of the ripple instance because it won't be
+        // called automatically since its instance is not created by Angular.
+        this._tabLinkRipple.ngOnDestroy();
+    };
+    return MdTabLink;
+}(_MdTabLinkMixinBase));
+MdTabLink.decorators = [
+    { type: _angular_core.Directive, args: [{
+                selector: '[md-tab-link], [mat-tab-link], [mdTabLink], [matTabLink]',
+                inputs: ['disabled'],
+                host: {
+                    'class': 'mat-tab-link',
+                    '[attr.aria-disabled]': 'disabled.toString()',
+                    '[attr.tabindex]': 'tabIndex',
+                    '[class.mat-tab-disabled]': 'disabled'
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+MdTabLink.ctorParameters = function () { return [
+    { type: MdTabNav, },
+    { type: _angular_core.ElementRef, },
+    { type: _angular_core.NgZone, },
+    { type: _angular_cdk_scrolling.ViewportRuler, },
+    { type: _angular_cdk_platform.Platform, },
+    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.Inject, args: [MD_RIPPLE_GLOBAL_OPTIONS,] },] },
+]; };
+MdTabLink.propDecorators = {
+    'active': [{ type: _angular_core.Input },],
 };
 var MdTabsModule = (function () {
     function MdTabsModule() {
@@ -22098,6 +23386,7 @@ MdTabsModule.decorators = [
  * @nocollapse
  */
 MdTabsModule.ctorParameters = function () { return []; };
+
 var MdToolbarRow = (function () {
     function MdToolbarRow() {
     }
@@ -22141,7 +23430,7 @@ var MdToolbar = (function (_super) {
 }(_MdToolbarMixinBase));
 MdToolbar.decorators = [
     { type: _angular_core.Component, args: [{ selector: 'md-toolbar, mat-toolbar',
-                template: "<div class=\"mat-toolbar-layout\"><md-toolbar-row><ng-content></ng-content></md-toolbar-row><ng-content select=\"md-toolbar-row, mat-toolbar-row\"></ng-content></div>",
+                template: "<div class=\"mat-toolbar-layout\"><mat-toolbar-row><ng-content></ng-content></mat-toolbar-row><ng-content select=\"md-toolbar-row, mat-toolbar-row\"></ng-content></div>",
                 styles: [".mat-toolbar{display:flex;box-sizing:border-box;width:100%;padding:0 16px;flex-direction:column}.mat-toolbar .mat-toolbar-row{display:flex;box-sizing:border-box;width:100%;flex-direction:row;align-items:center;white-space:nowrap}.mat-toolbar{min-height:64px}.mat-toolbar-row{height:64px}@media (max-width:600px){.mat-toolbar{min-height:56px}.mat-toolbar-row{height:56px}}"],
                 inputs: ['color'],
                 host: {
@@ -22149,7 +23438,9 @@ MdToolbar.decorators = [
                     'role': 'toolbar'
                 },
                 changeDetection: _angular_core.ChangeDetectionStrategy.OnPush,
-                encapsulation: _angular_core.ViewEncapsulation.None
+                encapsulation: _angular_core.ViewEncapsulation.None,
+                preserveWhitespaces: false,
+                viewProviders: [{ provide: MATERIAL_COMPATIBILITY_MODE, useValue: true }],
             },] },
 ];
 /**
@@ -22175,479 +23466,16 @@ MdToolbarModule.decorators = [
  * @nocollapse
  */
 MdToolbarModule.ctorParameters = function () { return []; };
+
 /**
- * Workaround for https://github.com/angular/angular/issues/17849
+ * Current version of Angular Material.
  */
-var _MdStepLabel = _angular_cdk_stepper.CdkStepLabel;
-var MdStepLabel = (function (_super) {
-    __extends(MdStepLabel, _super);
-    /**
-     * @param {?} template
-     */
-    function MdStepLabel(template) {
-        return _super.call(this, template) || this;
-    }
-    return MdStepLabel;
-}(_MdStepLabel));
-MdStepLabel.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[mdStepLabel], [matStepLabel]',
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepLabel.ctorParameters = function () { return [
-    { type: _angular_core.TemplateRef, },
-]; };
-var MdStepHeader = (function () {
-    function MdStepHeader() {
-    }
-    Object.defineProperty(MdStepHeader.prototype, "index", {
-        /**
-         * Index of the given step.
-         * @return {?}
-         */
-        get: function () { return this._index; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._index = _angular_cdk_coercion.coerceNumberProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdStepHeader.prototype, "selected", {
-        /**
-         * Whether the given step is selected.
-         * @return {?}
-         */
-        get: function () { return this._selected; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._selected = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdStepHeader.prototype, "active", {
-        /**
-         * Whether the given step label is active.
-         * @return {?}
-         */
-        get: function () { return this._active; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._active = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(MdStepHeader.prototype, "optional", {
-        /**
-         * Whether the given step is optional.
-         * @return {?}
-         */
-        get: function () { return this._optional; },
-        /**
-         * @param {?} value
-         * @return {?}
-         */
-        set: function (value) {
-            this._optional = _angular_cdk_coercion.coerceBooleanProperty(value);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * Returns string label of given step if it is a text label.
-     * @return {?}
-     */
-    MdStepHeader.prototype._stringLabel = function () {
-        return this.label instanceof MdStepLabel ? null : this.label;
-    };
-    /**
-     * Returns MdStepLabel if the label of given step is a template label.
-     * @return {?}
-     */
-    MdStepHeader.prototype._templateLabel = function () {
-        return this.label instanceof MdStepLabel ? this.label : null;
-    };
-    return MdStepHeader;
-}());
-MdStepHeader.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-step-header, mat-step-header',
-                template: "<div [class.mat-step-icon]=\"icon !== 'number' || selected\" [class.mat-step-icon-not-touched]=\"icon == 'number' && !selected\" [ngSwitch]=\"icon\"><span *ngSwitchCase=\"'number'\">{{index + 1}}</span><md-icon *ngSwitchCase=\"'edit'\">create</md-icon><md-icon *ngSwitchCase=\"'done'\">done</md-icon></div><div class=\"mat-step-label\" [class.mat-step-label-active]=\"active\"><ng-container *ngIf=\"_templateLabel()\" [ngTemplateOutlet]=\"label.template\"></ng-container><div class=\"mat-step-text-label\" *ngIf=\"_stringLabel()\">{{label}}</div><div class=\"mat-step-optional\" *ngIf=\"optional\">Optional</div></div>",
-                styles: [".mat-step-optional{font-size:12px}.mat-step-icon,.mat-step-icon-not-touched{border-radius:50%;height:24px;width:24px;align-items:center;justify-content:center;display:flex}.mat-step-icon .mat-icon{font-size:16px;height:16px;width:16px}.mat-step-label{display:inline-block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:50px;vertical-align:middle}.mat-step-text-label{text-overflow:ellipsis;overflow:hidden}"],
-                host: {
-                    'class': 'mat-step-header',
-                    'role': 'tab',
-                },
-                encapsulation: _angular_core.ViewEncapsulation.None
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepHeader.ctorParameters = function () { return []; };
-MdStepHeader.propDecorators = {
-    'icon': [{ type: _angular_core.Input },],
-    'label': [{ type: _angular_core.Input },],
-    'index': [{ type: _angular_core.Input },],
-    'selected': [{ type: _angular_core.Input },],
-    'active': [{ type: _angular_core.Input },],
-    'optional': [{ type: _angular_core.Input },],
-};
-/**
- * Workaround for https://github.com/angular/angular/issues/17849
- */
-var _MdStep = _angular_cdk_stepper.CdkStep;
-var _MdStepper = _angular_cdk_stepper.CdkStepper;
-var MdStep = (function (_super) {
-    __extends(MdStep, _super);
-    /**
-     * @param {?} mdStepper
-     * @param {?} errorOptions
-     */
-    function MdStep(mdStepper, errorOptions) {
-        var _this = _super.call(this, mdStepper) || this;
-        /**
-         * Custom error state matcher that additionally checks for validity of interacted form.
-         */
-        _this.errorStateMatcher = function (control, form) {
-            var originalErrorState = _this._originalErrorStateMatcher(control, form);
-            // Custom error state checks for the validity of form that is not submitted or touched
-            // since user can trigger a form change by calling for another step without directly
-            // interacting with the current form.
-            var customErrorState = control.invalid && _this.interacted;
-            return originalErrorState || customErrorState;
-        };
-        if (errorOptions && errorOptions.errorStateMatcher) {
-            _this._originalErrorStateMatcher = errorOptions.errorStateMatcher;
-        }
-        else {
-            _this._originalErrorStateMatcher = defaultErrorStateMatcher;
-        }
-        return _this;
-    }
-    return MdStep;
-}(_MdStep));
-MdStep.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-step, mat-step',
-                template: "<ng-template><ng-content></ng-content></ng-template>",
-                providers: [{ provide: MD_ERROR_GLOBAL_OPTIONS, useExisting: MdStep }],
-                encapsulation: _angular_core.ViewEncapsulation.None
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStep.ctorParameters = function () { return [
-    { type: MdStepper, decorators: [{ type: _angular_core.Inject, args: [_angular_core.forwardRef(function () { return MdStepper; }),] },] },
-    { type: undefined, decorators: [{ type: _angular_core.Optional }, { type: _angular_core.SkipSelf }, { type: _angular_core.Inject, args: [MD_ERROR_GLOBAL_OPTIONS,] },] },
-]; };
-MdStep.propDecorators = {
-    'stepLabel': [{ type: _angular_core.ContentChild, args: [MdStepLabel,] },],
-};
-var MdStepper = (function (_super) {
-    __extends(MdStepper, _super);
-    function MdStepper() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MdStepper;
-}(_MdStepper));
-MdStepper.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: '[mdStepper]'
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepper.ctorParameters = function () { return []; };
-MdStepper.propDecorators = {
-    '_stepHeader': [{ type: _angular_core.ViewChildren, args: [MdStepHeader, { read: _angular_core.ElementRef },] },],
-    '_steps': [{ type: _angular_core.ContentChildren, args: [MdStep,] },],
-};
-var MdHorizontalStepper = (function (_super) {
-    __extends(MdHorizontalStepper, _super);
-    function MdHorizontalStepper() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MdHorizontalStepper;
-}(MdStepper));
-MdHorizontalStepper.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-horizontal-stepper, mat-horizontal-stepper',
-                template: "<div class=\"mat-horizontal-stepper-header-container\"><ng-container *ngFor=\"let step of _steps; let i = index; let isLast = last\"><md-step-header class=\"mat-horizontal-stepper-header\" (click)=\"step.select()\" (keydown)=\"_onKeydown($event)\" [tabIndex]=\"_focusIndex === i ? 0 : -1\" [id]=\"_getStepLabelId(i)\" [attr.aria-controls]=\"_getStepContentId(i)\" [attr.aria-selected]=\"selectedIndex == i\" [index]=\"i\" [icon]=\"_getIndicatorType(i)\" [label]=\"step.stepLabel || step.label\" [selected]=\"selectedIndex === i\" [active]=\"step.completed || selectedIndex === i\" [optional]=\"step.optional\"></md-step-header><div *ngIf=\"!isLast\" class=\"mat-stepper-horizontal-line\"></div></ng-container></div><div class=\"mat-horizontal-content-container\"><div *ngFor=\"let step of _steps; let i = index\" class=\"mat-horizontal-stepper-content\" role=\"tabpanel\" [@stepTransition]=\"_getAnimationDirection(i)\" [id]=\"_getStepContentId(i)\" [attr.aria-labelledby]=\"_getStepLabelId(i)\" [attr.aria-expanded]=\"selectedIndex === i\"><ng-container [ngTemplateOutlet]=\"step.content\"></ng-container></div></div>",
-                styles: [".mat-stepper-horizontal,.mat-stepper-vertical{display:block}.mat-step-header{overflow:hidden;outline:0}.mat-horizontal-stepper-header-container{white-space:nowrap;display:flex;align-items:center}.mat-stepper-horizontal-line{border-top-width:1px;border-top-style:solid;flex:auto;height:0;margin:0 -16px;min-width:32px}.mat-horizontal-stepper-header{display:flex;height:72px;overflow:hidden;align-items:center;padding:0 24px}.mat-horizontal-stepper-header .mat-step-icon,.mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:8px;flex:none}[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon,[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:8px}.mat-vertical-stepper-header{display:flex;align-items:center;padding:24px;max-height:24px}.mat-vertical-stepper-header .mat-step-icon,.mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:12px}[dir=rtl] .mat-vertical-stepper-header .mat-step-icon,[dir=rtl] .mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:12px}.mat-horizontal-stepper-content{overflow:hidden}.mat-horizontal-stepper-content[aria-expanded=false]{height:0}.mat-horizontal-content-container{overflow:hidden;padding:0 24px 24px 24px}.mat-vertical-content-container{margin-left:36px;border:0;position:relative}[dir=rtl] .mat-vertical-content-container{margin-left:0;margin-right:36px}.mat-stepper-vertical-line::before{content:'';position:absolute;top:-16px;bottom:-16px;left:0;border-left-width:1px;border-left-style:solid}[dir=rtl] .mat-stepper-vertical-line::before{left:auto;right:0}.mat-vertical-stepper-content{overflow:hidden}.mat-vertical-content{padding:0 24px 24px 24px}.mat-step:last-child .mat-vertical-content-container{border:none}"],
-                inputs: ['selectedIndex'],
-                host: {
-                    'class': 'mat-stepper-horizontal',
-                    'role': 'tablist',
-                },
-                animations: [
-                    _angular_animations.trigger('stepTransition', [
-                        _angular_animations.state('previous', _angular_animations.style({ transform: 'translate3d(-100%, 0, 0)', visibility: 'hidden' })),
-                        _angular_animations.state('current', _angular_animations.style({ transform: 'translate3d(0%, 0, 0)', visibility: 'visible' })),
-                        _angular_animations.state('next', _angular_animations.style({ transform: 'translate3d(100%, 0, 0)', visibility: 'hidden' })),
-                        _angular_animations.transition('* => *', _angular_animations.animate('500ms cubic-bezier(0.35, 0, 0.25, 1)'))
-                    ])
-                ],
-                providers: [{ provide: MdStepper, useExisting: MdHorizontalStepper }],
-                encapsulation: _angular_core.ViewEncapsulation.None
-            },] },
-];
-/**
- * @nocollapse
- */
-MdHorizontalStepper.ctorParameters = function () { return []; };
-var MdVerticalStepper = (function (_super) {
-    __extends(MdVerticalStepper, _super);
-    function MdVerticalStepper() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MdVerticalStepper;
-}(MdStepper));
-MdVerticalStepper.decorators = [
-    { type: _angular_core.Component, args: [{ selector: 'md-vertical-stepper, mat-vertical-stepper',
-                template: "<div class=\"mat-step\" *ngFor=\"let step of _steps; let i = index; let isLast = last\"><md-step-header class=\"mat-vertical-stepper-header\" (click)=\"step.select()\" (keydown)=\"_onKeydown($event)\" [tabIndex]=\"_focusIndex == i ? 0 : -1\" [id]=\"_getStepLabelId(i)\" [attr.aria-controls]=\"_getStepContentId(i)\" [attr.aria-selected]=\"selectedIndex === i\" [index]=\"i\" [icon]=\"_getIndicatorType(i)\" [label]=\"step.stepLabel || step.label\" [selected]=\"selectedIndex === i\" [active]=\"step.completed || selectedIndex === i\" [optional]=\"step.optional\"></md-step-header><div class=\"mat-vertical-content-container\" [class.mat-stepper-vertical-line]=\"!isLast\"><div class=\"mat-vertical-stepper-content\" role=\"tabpanel\" [@stepTransition]=\"_getAnimationDirection(i)\" [id]=\"_getStepContentId(i)\" [attr.aria-labelledby]=\"_getStepLabelId(i)\" [attr.aria-expanded]=\"selectedIndex === i\"><div class=\"mat-vertical-content\"><ng-container [ngTemplateOutlet]=\"step.content\"></ng-container></div></div></div></div>",
-                styles: [".mat-stepper-horizontal,.mat-stepper-vertical{display:block}.mat-step-header{overflow:hidden;outline:0}.mat-horizontal-stepper-header-container{white-space:nowrap;display:flex;align-items:center}.mat-stepper-horizontal-line{border-top-width:1px;border-top-style:solid;flex:auto;height:0;margin:0 -16px;min-width:32px}.mat-horizontal-stepper-header{display:flex;height:72px;overflow:hidden;align-items:center;padding:0 24px}.mat-horizontal-stepper-header .mat-step-icon,.mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:8px;flex:none}[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon,[dir=rtl] .mat-horizontal-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:8px}.mat-vertical-stepper-header{display:flex;align-items:center;padding:24px;max-height:24px}.mat-vertical-stepper-header .mat-step-icon,.mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:12px}[dir=rtl] .mat-vertical-stepper-header .mat-step-icon,[dir=rtl] .mat-vertical-stepper-header .mat-step-icon-not-touched{margin-right:0;margin-left:12px}.mat-horizontal-stepper-content{overflow:hidden}.mat-horizontal-stepper-content[aria-expanded=false]{height:0}.mat-horizontal-content-container{overflow:hidden;padding:0 24px 24px 24px}.mat-vertical-content-container{margin-left:36px;border:0;position:relative}[dir=rtl] .mat-vertical-content-container{margin-left:0;margin-right:36px}.mat-stepper-vertical-line::before{content:'';position:absolute;top:-16px;bottom:-16px;left:0;border-left-width:1px;border-left-style:solid}[dir=rtl] .mat-stepper-vertical-line::before{left:auto;right:0}.mat-vertical-stepper-content{overflow:hidden}.mat-vertical-content{padding:0 24px 24px 24px}.mat-step:last-child .mat-vertical-content-container{border:none}"],
-                inputs: ['selectedIndex'],
-                host: {
-                    'class': 'mat-stepper-vertical',
-                    'role': 'tablist',
-                },
-                animations: [
-                    _angular_animations.trigger('stepTransition', [
-                        _angular_animations.state('previous', _angular_animations.style({ height: '0px', visibility: 'hidden' })),
-                        _angular_animations.state('next', _angular_animations.style({ height: '0px', visibility: 'hidden' })),
-                        _angular_animations.state('current', _angular_animations.style({ height: '*', visibility: 'visible' })),
-                        _angular_animations.transition('* <=> current', _angular_animations.animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)'))
-                    ])
-                ],
-                providers: [{ provide: MdStepper, useExisting: MdVerticalStepper }],
-                encapsulation: _angular_core.ViewEncapsulation.None
-            },] },
-];
-/**
- * @nocollapse
- */
-MdVerticalStepper.ctorParameters = function () { return []; };
-/**
- * Workaround for https://github.com/angular/angular/issues/17849
- */
-var _MdStepperNext = _angular_cdk_stepper.CdkStepperNext;
-var _MdStepperPrevious = _angular_cdk_stepper.CdkStepperPrevious;
-/**
- * Button that moves to the next step in a stepper workflow.
- */
-var MdStepperNext = (function (_super) {
-    __extends(MdStepperNext, _super);
-    function MdStepperNext() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MdStepperNext;
-}(_MdStepperNext));
-MdStepperNext.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: 'button[mdStepperNext], button[matStepperNext]',
-                host: { '(click)': '_stepper.next()' },
-                providers: [{ provide: _angular_cdk_stepper.CdkStepper, useExisting: MdStepper }]
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepperNext.ctorParameters = function () { return []; };
-/**
- * Button that moves to the previous step in a stepper workflow.
- */
-var MdStepperPrevious = (function (_super) {
-    __extends(MdStepperPrevious, _super);
-    function MdStepperPrevious() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return MdStepperPrevious;
-}(_MdStepperPrevious));
-MdStepperPrevious.decorators = [
-    { type: _angular_core.Directive, args: [{
-                selector: 'button[mdStepperPrevious], button[matStepperPrevious]',
-                host: { '(click)': '_stepper.previous()' },
-                providers: [{ provide: _angular_cdk_stepper.CdkStepper, useExisting: MdStepper }]
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepperPrevious.ctorParameters = function () { return []; };
-var MdStepperModule = (function () {
-    function MdStepperModule() {
-    }
-    return MdStepperModule;
-}());
-MdStepperModule.decorators = [
-    { type: _angular_core.NgModule, args: [{
-                imports: [
-                    MdCommonModule,
-                    _angular_common.CommonModule,
-                    _angular_cdk_portal.PortalModule,
-                    MdButtonModule,
-                    _angular_cdk_stepper.CdkStepperModule,
-                    MdIconModule
-                ],
-                exports: [
-                    MdCommonModule,
-                    MdHorizontalStepper,
-                    MdVerticalStepper,
-                    MdStep,
-                    MdStepLabel,
-                    MdStepper,
-                    MdStepperNext,
-                    MdStepperPrevious,
-                    MdStepHeader
-                ],
-                declarations: [MdHorizontalStepper, MdVerticalStepper, MdStep, MdStepLabel, MdStepper,
-                    MdStepperNext, MdStepperPrevious, MdStepHeader],
-            },] },
-];
-/**
- * @nocollapse
- */
-MdStepperModule.ctorParameters = function () { return []; };
+var VERSION = new _angular_core.Version('2.0.0-beta.11');
 
 exports.VERSION = VERSION;
-exports.coerceBooleanProperty = _angular_cdk_coercion.coerceBooleanProperty;
-exports.coerceNumberProperty = _angular_cdk_coercion.coerceNumberProperty;
-exports.ObserversModule = _angular_cdk_observers.ObserversModule;
-exports.ObserveContent = _angular_cdk_observers.ObserveContent;
-exports.SelectionModel = _angular_cdk_collections.SelectionModel;
-exports.Dir = _angular_cdk_bidi.Dir;
-exports.Directionality = _angular_cdk_bidi.Directionality;
-exports.BidiModule = _angular_cdk_bidi.BidiModule;
-exports.Portal = _angular_cdk_portal.Portal;
-exports.BasePortalHost = _angular_cdk_portal.BasePortalHost;
-exports.ComponentPortal = _angular_cdk_portal.ComponentPortal;
-exports.TemplatePortal = _angular_cdk_portal.TemplatePortal;
-exports.PortalHostDirective = _angular_cdk_portal.PortalHostDirective;
-exports.TemplatePortalDirective = _angular_cdk_portal.TemplatePortalDirective;
-exports.PortalModule = _angular_cdk_portal.PortalModule;
-exports.DomPortalHost = _angular_cdk_portal.DomPortalHost;
-exports.GestureConfig = GestureConfig;
-exports.LiveAnnouncer = _angular_cdk_a11y.LiveAnnouncer;
-exports.LIVE_ANNOUNCER_ELEMENT_TOKEN = _angular_cdk_a11y.LIVE_ANNOUNCER_ELEMENT_TOKEN;
-exports.LIVE_ANNOUNCER_PROVIDER = _angular_cdk_a11y.LIVE_ANNOUNCER_PROVIDER;
-exports.InteractivityChecker = _angular_cdk_a11y.InteractivityChecker;
-exports.FocusTrap = _angular_cdk_a11y.FocusTrap;
-exports.FocusTrapFactory = _angular_cdk_a11y.FocusTrapFactory;
-exports.FocusTrapDeprecatedDirective = _angular_cdk_a11y.FocusTrapDeprecatedDirective;
-exports.FocusTrapDirective = _angular_cdk_a11y.FocusTrapDirective;
-exports.isFakeMousedownFromScreenReader = _angular_cdk_a11y.isFakeMousedownFromScreenReader;
-exports.A11yModule = _angular_cdk_a11y.A11yModule;
-exports.UniqueSelectionDispatcher = UniqueSelectionDispatcher;
-exports.UNIQUE_SELECTION_DISPATCHER_PROVIDER = UNIQUE_SELECTION_DISPATCHER_PROVIDER;
-exports.MdLineModule = MdLineModule;
-exports.MdLine = MdLine;
-exports.MdLineSetter = MdLineSetter;
-exports.CompatibilityModule = CompatibilityModule;
-exports.NoConflictStyleCompatibilityMode = NoConflictStyleCompatibilityMode;
-exports.MdCommonModule = MdCommonModule;
-exports.MATERIAL_SANITY_CHECKS = MATERIAL_SANITY_CHECKS;
-exports.MD_PLACEHOLDER_GLOBAL_OPTIONS = MD_PLACEHOLDER_GLOBAL_OPTIONS;
-exports.MD_ERROR_GLOBAL_OPTIONS = MD_ERROR_GLOBAL_OPTIONS;
-exports.defaultErrorStateMatcher = defaultErrorStateMatcher;
-exports.showOnDirtyErrorStateMatcher = showOnDirtyErrorStateMatcher;
-exports.MdCoreModule = MdCoreModule;
-exports.MdOptionModule = MdOptionModule;
-exports.MdOptionSelectionChange = MdOptionSelectionChange;
-exports.MdOption = MdOption;
-exports.MdOptgroupBase = MdOptgroupBase;
-exports._MdOptgroupMixinBase = _MdOptgroupMixinBase;
-exports.MdOptgroup = MdOptgroup;
-exports.PlatformModule = _angular_cdk_platform.PlatformModule;
-exports.Platform = _angular_cdk_platform.Platform;
-exports.getSupportedInputTypes = _angular_cdk_platform.getSupportedInputTypes;
-exports.OVERLAY_PROVIDERS = _angular_cdk_overlay.OVERLAY_PROVIDERS;
-exports.OverlayModule = _angular_cdk_overlay.OverlayModule;
-exports.Overlay = _angular_cdk_overlay.Overlay;
-exports.OverlayContainer = _angular_cdk_overlay.OverlayContainer;
-exports.FullscreenOverlayContainer = _angular_cdk_overlay.FullscreenOverlayContainer;
-exports.OverlayRef = _angular_cdk_overlay.OverlayRef;
-exports.OverlayState = _angular_cdk_overlay.OverlayState;
-exports.ConnectedOverlayDirective = _angular_cdk_overlay.ConnectedOverlayDirective;
-exports.OverlayOrigin = _angular_cdk_overlay.OverlayOrigin;
-exports.ViewportRuler = _angular_cdk_overlay.ViewportRuler;
-exports.GlobalPositionStrategy = _angular_cdk_overlay.GlobalPositionStrategy;
-exports.ConnectedPositionStrategy = _angular_cdk_overlay.ConnectedPositionStrategy;
-exports.VIEWPORT_RULER_PROVIDER = _angular_cdk_overlay.VIEWPORT_RULER_PROVIDER;
-exports.ConnectionPositionPair = _angular_cdk_overlay.ConnectionPositionPair;
-exports.ScrollingVisibility = _angular_cdk_overlay.ScrollingVisibility;
-exports.ConnectedOverlayPositionChange = _angular_cdk_overlay.ConnectedOverlayPositionChange;
-exports.Scrollable = _angular_cdk_overlay.Scrollable;
-exports.ScrollDispatcher = _angular_cdk_overlay.ScrollDispatcher;
-exports.ScrollStrategyOptions = _angular_cdk_overlay.ScrollStrategyOptions;
-exports.RepositionScrollStrategy = _angular_cdk_overlay.RepositionScrollStrategy;
-exports.CloseScrollStrategy = _angular_cdk_overlay.CloseScrollStrategy;
-exports.NoopScrollStrategy = _angular_cdk_overlay.NoopScrollStrategy;
-exports.BlockScrollStrategy = _angular_cdk_overlay.BlockScrollStrategy;
-exports.MdRipple = MdRipple;
-exports.MD_RIPPLE_GLOBAL_OPTIONS = MD_RIPPLE_GLOBAL_OPTIONS;
-exports.RippleRef = RippleRef;
-exports.RippleState = RippleState;
-exports.RIPPLE_FADE_IN_DURATION = RIPPLE_FADE_IN_DURATION;
-exports.RIPPLE_FADE_OUT_DURATION = RIPPLE_FADE_OUT_DURATION;
-exports.MdRippleModule = MdRippleModule;
-exports.StyleModule = StyleModule;
-exports.TOUCH_BUFFER_MS = TOUCH_BUFFER_MS;
-exports.FocusOriginMonitor = FocusOriginMonitor;
-exports.CdkMonitorFocus = CdkMonitorFocus;
-exports.FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY = FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY;
-exports.FOCUS_ORIGIN_MONITOR_PROVIDER = FOCUS_ORIGIN_MONITOR_PROVIDER;
-exports.applyCssTransform = applyCssTransform;
-exports.UP_ARROW = _angular_cdk_keycodes.UP_ARROW;
-exports.DOWN_ARROW = _angular_cdk_keycodes.DOWN_ARROW;
-exports.RIGHT_ARROW = _angular_cdk_keycodes.RIGHT_ARROW;
-exports.LEFT_ARROW = _angular_cdk_keycodes.LEFT_ARROW;
-exports.PAGE_UP = _angular_cdk_keycodes.PAGE_UP;
-exports.PAGE_DOWN = _angular_cdk_keycodes.PAGE_DOWN;
-exports.HOME = _angular_cdk_keycodes.HOME;
-exports.END = _angular_cdk_keycodes.END;
-exports.ENTER = _angular_cdk_keycodes.ENTER;
-exports.SPACE = _angular_cdk_keycodes.SPACE;
-exports.TAB = _angular_cdk_keycodes.TAB;
-exports.ESCAPE = _angular_cdk_keycodes.ESCAPE;
-exports.BACKSPACE = _angular_cdk_keycodes.BACKSPACE;
-exports.DELETE = _angular_cdk_keycodes.DELETE;
-exports.A = _angular_cdk_keycodes.A;
-exports.Z = _angular_cdk_keycodes.Z;
-exports.MATERIAL_COMPATIBILITY_MODE = MATERIAL_COMPATIBILITY_MODE;
-exports.getMdCompatibilityInvalidPrefixError = getMdCompatibilityInvalidPrefixError;
-exports.MAT_ELEMENTS_SELECTOR = MAT_ELEMENTS_SELECTOR;
-exports.MD_ELEMENTS_SELECTOR = MD_ELEMENTS_SELECTOR;
-exports.MatPrefixRejector = MatPrefixRejector;
-exports.MdPrefixRejector = MdPrefixRejector;
-exports.AnimationCurves = AnimationCurves;
-exports.AnimationDurations = AnimationDurations;
-exports.MdPseudoCheckboxModule = MdPseudoCheckboxModule;
-exports.MdPseudoCheckbox = MdPseudoCheckbox;
-exports.NativeDateModule = NativeDateModule;
-exports.MdNativeDateModule = MdNativeDateModule;
-exports.MAT_DATE_LOCALE = MAT_DATE_LOCALE;
-exports.MAT_DATE_LOCALE_PROVIDER = MAT_DATE_LOCALE_PROVIDER;
-exports.DateAdapter = DateAdapter;
-exports.MD_DATE_FORMATS = MD_DATE_FORMATS;
-exports.NativeDateAdapter = NativeDateAdapter;
-exports.MD_NATIVE_DATE_FORMATS = MD_NATIVE_DATE_FORMATS;
-exports.MdAutocompleteModule = MdAutocompleteModule;
 exports.MdAutocompleteSelectedEvent = MdAutocompleteSelectedEvent;
 exports.MdAutocomplete = MdAutocomplete;
+exports.MdAutocompleteModule = MdAutocompleteModule;
 exports.AUTOCOMPLETE_OPTION_HEIGHT = AUTOCOMPLETE_OPTION_HEIGHT;
 exports.AUTOCOMPLETE_PANEL_HEIGHT = AUTOCOMPLETE_PANEL_HEIGHT;
 exports.MD_AUTOCOMPLETE_SCROLL_STRATEGY = MD_AUTOCOMPLETE_SCROLL_STRATEGY;
@@ -22656,6 +23484,13 @@ exports.MD_AUTOCOMPLETE_SCROLL_STRATEGY_PROVIDER = MD_AUTOCOMPLETE_SCROLL_STRATE
 exports.MD_AUTOCOMPLETE_VALUE_ACCESSOR = MD_AUTOCOMPLETE_VALUE_ACCESSOR;
 exports.getMdAutocompleteMissingPanelError = getMdAutocompleteMissingPanelError;
 exports.MdAutocompleteTrigger = MdAutocompleteTrigger;
+exports.MAT_AUTOCOMPLETE_SCROLL_STRATEGY = MD_AUTOCOMPLETE_SCROLL_STRATEGY;
+exports.MAT_AUTOCOMPLETE_SCROLL_STRATEGY_PROVIDER = MD_AUTOCOMPLETE_SCROLL_STRATEGY_PROVIDER;
+exports.MAT_AUTOCOMPLETE_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_AUTOCOMPLETE_SCROLL_STRATEGY_PROVIDER_FACTORY;
+exports.MAT_AUTOCOMPLETE_VALUE_ACCESSOR = MD_AUTOCOMPLETE_VALUE_ACCESSOR;
+exports.MatAutocomplete = MdAutocomplete;
+exports.MatAutocompleteModule = MdAutocompleteModule;
+exports.MatAutocompleteTrigger = MdAutocompleteTrigger;
 exports.MdButtonModule = MdButtonModule;
 exports.MdButtonCssMatStyler = MdButtonCssMatStyler;
 exports.MdRaisedButtonCssMatStyler = MdRaisedButtonCssMatStyler;
@@ -22666,7 +23501,15 @@ exports.MdButtonBase = MdButtonBase;
 exports._MdButtonMixinBase = _MdButtonMixinBase;
 exports.MdButton = MdButton;
 exports.MdAnchor = MdAnchor;
-exports.MdButtonToggleModule = MdButtonToggleModule;
+exports.MatButton = MdButton;
+exports.MatButtonBase = MdButtonBase;
+exports.MatButtonCssMatStyler = MdButtonCssMatStyler;
+exports.MatButtonModule = MdButtonModule;
+exports.MatAnchor = MdAnchor;
+exports.MatIconButtonCssMatStyler = MdIconButtonCssMatStyler;
+exports.MatFab = MdFab;
+exports.MatMiniFab = MdMiniFab;
+exports.MatRaisedButtonCssMatStyler = MdRaisedButtonCssMatStyler;
 exports.MdButtonToggleGroupBase = MdButtonToggleGroupBase;
 exports._MdButtonToggleGroupMixinBase = _MdButtonToggleGroupMixinBase;
 exports.MD_BUTTON_TOGGLE_GROUP_VALUE_ACCESSOR = MD_BUTTON_TOGGLE_GROUP_VALUE_ACCESSOR;
@@ -22674,7 +23517,14 @@ exports.MdButtonToggleChange = MdButtonToggleChange;
 exports.MdButtonToggleGroup = MdButtonToggleGroup;
 exports.MdButtonToggleGroupMultiple = MdButtonToggleGroupMultiple;
 exports.MdButtonToggle = MdButtonToggle;
-exports.MdCardModule = MdCardModule;
+exports.MdButtonToggleModule = MdButtonToggleModule;
+exports.MAT_BUTTON_TOGGLE_GROUP_VALUE_ACCESSOR = MD_BUTTON_TOGGLE_GROUP_VALUE_ACCESSOR;
+exports.MatButtonToggle = MdButtonToggle;
+exports.MatButtonToggleChange = MdButtonToggleChange;
+exports.MatButtonToggleGroup = MdButtonToggleGroup;
+exports.MatButtonToggleGroupBase = MdButtonToggleGroupBase;
+exports.MatButtonToggleGroupMultiple = MdButtonToggleGroupMultiple;
+exports.MatButtonToggleModule = MdButtonToggleModule;
 exports.MdCardContent = MdCardContent;
 exports.MdCardTitle = MdCardTitle;
 exports.MdCardSubtitle = MdCardSubtitle;
@@ -22689,28 +23539,145 @@ exports.MdCardAvatar = MdCardAvatar;
 exports.MdCard = MdCard;
 exports.MdCardHeader = MdCardHeader;
 exports.MdCardTitleGroup = MdCardTitleGroup;
-exports.MdChipsModule = MdChipsModule;
-exports.MdChipList = MdChipList;
-exports.MdChipBase = MdChipBase;
-exports._MdChipMixinBase = _MdChipMixinBase;
-exports.MdBasicChip = MdBasicChip;
-exports.MdChip = MdChip;
-exports.MdChipRemove = MdChipRemove;
-exports.MdChipInput = MdChipInput;
-exports.MdCheckboxModule = MdCheckboxModule;
+exports.MdCardModule = MdCardModule;
+exports.MatCard = MdCard;
+exports.MatCardActions = MdCardActions;
+exports.MatCardAvatar = MdCardAvatar;
+exports.MatCardContent = MdCardContent;
+exports.MatCardFooter = MdCardFooter;
+exports.MatCardHeader = MdCardHeader;
+exports.MatCardImage = MdCardImage;
+exports.MatCardLgImage = MdCardLgImage;
+exports.MatCardMatImage = MdCardMdImage;
+exports.MatCardModule = MdCardModule;
+exports.MatCardSmImage = MdCardSmImage;
+exports.MatCardSubtitle = MdCardSubtitle;
+exports.MatCardTitle = MdCardTitle;
+exports.MatCardTitleGroup = MdCardTitleGroup;
+exports.MatCardXlImage = MdCardXlImage;
 exports.MD_CHECKBOX_CONTROL_VALUE_ACCESSOR = MD_CHECKBOX_CONTROL_VALUE_ACCESSOR;
 exports.TransitionCheckState = TransitionCheckState;
 exports.MdCheckboxChange = MdCheckboxChange;
 exports.MdCheckboxBase = MdCheckboxBase;
 exports._MdCheckboxMixinBase = _MdCheckboxMixinBase;
 exports.MdCheckbox = MdCheckbox;
+exports.MdCheckboxModule = MdCheckboxModule;
 exports._MdCheckboxRequiredValidator = _MdCheckboxRequiredValidator;
 exports.MD_CHECKBOX_REQUIRED_VALIDATOR = MD_CHECKBOX_REQUIRED_VALIDATOR;
 exports.MdCheckboxRequiredValidator = MdCheckboxRequiredValidator;
+exports.MAT_CHECKBOX_CONTROL_VALUE_ACCESSOR = MD_CHECKBOX_CONTROL_VALUE_ACCESSOR;
+exports.MAT_CHECKBOX_REQUIRED_VALIDATOR = MD_CHECKBOX_REQUIRED_VALIDATOR;
+exports.MatCheckbox = MdCheckbox;
+exports.MatCheckboxBase = MdCheckboxBase;
+exports.MatCheckboxChange = MdCheckboxChange;
+exports.MatCheckboxModule = MdCheckboxModule;
+exports.MatCheckboxRequiredValidator = MdCheckboxRequiredValidator;
+exports.MdChipsModule = MdChipsModule;
+exports.MdChipListChange = MdChipListChange;
+exports.MdChipList = MdChipList;
+exports.MdChipSelectionChange = MdChipSelectionChange;
+exports.MdChipBase = MdChipBase;
+exports._MdChipMixinBase = _MdChipMixinBase;
+exports.MdBasicChip = MdBasicChip;
+exports.MdChip = MdChip;
+exports.MdChipRemove = MdChipRemove;
+exports.MdChipInput = MdChipInput;
+exports.MatBasicChip = MdBasicChip;
+exports.MatChip = MdChip;
+exports.MatChipBase = MdChipBase;
+exports.MatChipInput = MdChipInput;
+exports.MatChipListChange = MdChipListChange;
+exports.MatChipList = MdChipList;
+exports.MatChipRemove = MdChipRemove;
+exports.MatChipsModule = MdChipsModule;
+exports.AnimationCurves = AnimationCurves;
+exports.AnimationDurations = AnimationDurations;
+exports.MdCommonModule = MdCommonModule;
+exports.MATERIAL_SANITY_CHECKS = MATERIAL_SANITY_CHECKS;
+exports.mixinDisabled = mixinDisabled;
+exports.mixinColor = mixinColor;
+exports.mixinDisableRipple = mixinDisableRipple;
+exports.mixinTabIndex = mixinTabIndex;
+exports.MATERIAL_COMPATIBILITY_MODE = MATERIAL_COMPATIBILITY_MODE;
+exports.getMdCompatibilityInvalidPrefixError = getMdCompatibilityInvalidPrefixError;
+exports.MAT_ELEMENTS_SELECTOR = MAT_ELEMENTS_SELECTOR;
+exports.MD_ELEMENTS_SELECTOR = MD_ELEMENTS_SELECTOR;
+exports.MatPrefixRejector = MatPrefixRejector;
+exports.MdPrefixRejector = MdPrefixRejector;
+exports.CompatibilityModule = CompatibilityModule;
+exports.NoConflictStyleCompatibilityMode = NoConflictStyleCompatibilityMode;
+exports.UniqueSelectionDispatcher = UniqueSelectionDispatcher;
+exports.UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY = UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY;
+exports.UNIQUE_SELECTION_DISPATCHER_PROVIDER = UNIQUE_SELECTION_DISPATCHER_PROVIDER;
+exports.NativeDateModule = NativeDateModule;
+exports.MdNativeDateModule = MdNativeDateModule;
+exports.MAT_DATE_LOCALE = MAT_DATE_LOCALE;
+exports.MAT_DATE_LOCALE_PROVIDER = MAT_DATE_LOCALE_PROVIDER;
+exports.DateAdapter = DateAdapter;
+exports.MD_DATE_FORMATS = MD_DATE_FORMATS;
+exports.NativeDateAdapter = NativeDateAdapter;
+exports.MD_NATIVE_DATE_FORMATS = MD_NATIVE_DATE_FORMATS;
+exports.MD_ERROR_GLOBAL_OPTIONS = MD_ERROR_GLOBAL_OPTIONS;
+exports.defaultErrorStateMatcher = defaultErrorStateMatcher;
+exports.showOnDirtyErrorStateMatcher = showOnDirtyErrorStateMatcher;
+exports.GestureConfig = GestureConfig;
+exports.MdLine = MdLine;
+exports.MdLineSetter = MdLineSetter;
+exports.MdLineModule = MdLineModule;
+exports.MdOptionModule = MdOptionModule;
+exports.MdOptionSelectionChange = MdOptionSelectionChange;
+exports.MdOption = MdOption;
+exports.MdOptgroupBase = MdOptgroupBase;
+exports._MdOptgroupMixinBase = _MdOptgroupMixinBase;
+exports.MdOptgroup = MdOptgroup;
+exports.MD_PLACEHOLDER_GLOBAL_OPTIONS = MD_PLACEHOLDER_GLOBAL_OPTIONS;
+exports.MdRipple = MdRipple;
+exports.MD_RIPPLE_GLOBAL_OPTIONS = MD_RIPPLE_GLOBAL_OPTIONS;
+exports.RippleRef = RippleRef;
+exports.RippleState = RippleState;
+exports.RIPPLE_FADE_IN_DURATION = RIPPLE_FADE_IN_DURATION;
+exports.RIPPLE_FADE_OUT_DURATION = RIPPLE_FADE_OUT_DURATION;
+exports.MdRippleModule = MdRippleModule;
+exports.MdPseudoCheckboxModule = MdPseudoCheckboxModule;
+exports.MdPseudoCheckbox = MdPseudoCheckbox;
+exports.applyCssTransform = applyCssTransform;
+exports.extendObject = extendObject;
+exports.MAT_DATE_FORMATS = MD_DATE_FORMATS;
+exports.MAT_RIPPLE_GLOBAL_OPTIONS = MD_RIPPLE_GLOBAL_OPTIONS;
+exports.MAT_NATIVE_DATE_FORMATS = MD_NATIVE_DATE_FORMATS;
+exports.MAT_PLACEHOLDER_GLOBAL_OPTIONS = MD_PLACEHOLDER_GLOBAL_OPTIONS;
+exports.MAT_ERROR_GLOBAL_OPTIONS = MD_ERROR_GLOBAL_OPTIONS;
+exports.MatCommonModule = MdCommonModule;
+exports.MatLine = MdLine;
+exports.MatLineModule = MdLineModule;
+exports.MatLineSetter = MdLineSetter;
+exports.MatOptgroup = MdOptgroup;
+exports.MatOptgroupBase = MdOptgroupBase;
+exports.MatOption = MdOption;
+exports.MatOptionModule = MdOptionModule;
+exports.MatOptionSelectionChange = MdOptionSelectionChange;
+exports.MatNativeDateModule = MdNativeDateModule;
+exports.MatPseudoCheckbox = MdPseudoCheckbox;
+exports.MatPseudoCheckboxModule = MdPseudoCheckboxModule;
+exports.MatRipple = MdRipple;
+exports.MatRippleModule = MdRippleModule;
+exports.JAN = JAN;
+exports.FEB = FEB;
+exports.MAR = MAR;
+exports.APR = APR;
+exports.MAY = MAY;
+exports.JUN = JUN;
+exports.JUL = JUL;
+exports.AUG = AUG;
+exports.SEP = SEP;
+exports.OCT = OCT;
+exports.NOV = NOV;
+exports.DEC = DEC;
 exports.MdDatepickerModule = MdDatepickerModule;
 exports.MdCalendar = MdCalendar;
 exports.MdCalendarCell = MdCalendarCell;
 exports.MdCalendarBody = MdCalendarBody;
+exports.coerceDateProperty = coerceDateProperty;
 exports.MD_DATEPICKER_SCROLL_STRATEGY = MD_DATEPICKER_SCROLL_STRATEGY;
 exports.MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY;
 exports.MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER = MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER;
@@ -22724,6 +23691,23 @@ exports.MdDatepickerIntl = MdDatepickerIntl;
 exports.MdDatepickerToggle = MdDatepickerToggle;
 exports.MdMonthView = MdMonthView;
 exports.MdYearView = MdYearView;
+exports.MAT_DATEPICKER_SCROLL_STRATEGY = MD_DATEPICKER_SCROLL_STRATEGY;
+exports.MAT_DATEPICKER_SCROLL_STRATEGY_PROVIDER = MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER;
+exports.MAT_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_DATEPICKER_SCROLL_STRATEGY_PROVIDER_FACTORY;
+exports.MAT_DATEPICKER_VALIDATORS = MD_DATEPICKER_VALIDATORS;
+exports.MAT_DATEPICKER_VALUE_ACCESSOR = MD_DATEPICKER_VALUE_ACCESSOR;
+exports.MatCalendar = MdCalendar;
+exports.MatCalendarBody = MdCalendarBody;
+exports.MatCalendarCell = MdCalendarCell;
+exports.MatDatepicker = MdDatepicker;
+exports.MatDatepickerContent = MdDatepickerContent;
+exports.MatDatepickerInput = MdDatepickerInput;
+exports.MatDatepickerInputEvent = MdDatepickerInputEvent;
+exports.MatDatepickerIntl = MdDatepickerIntl;
+exports.MatDatepickerModule = MdDatepickerModule;
+exports.MatDatepickerToggle = MdDatepickerToggle;
+exports.MatMonthView = MdMonthView;
+exports.MatYearView = MdYearView;
 exports.MdDialogModule = MdDialogModule;
 exports.MD_DIALOG_DATA = MD_DIALOG_DATA;
 exports.MD_DIALOG_SCROLL_STRATEGY = MD_DIALOG_SCROLL_STRATEGY;
@@ -22738,7 +23722,19 @@ exports.MdDialogContent = MdDialogContent;
 exports.MdDialogActions = MdDialogActions;
 exports.MdDialogConfig = MdDialogConfig;
 exports.MdDialogRef = MdDialogRef;
-exports.MdExpansionModule = MdExpansionModule;
+exports.MAT_DIALOG_DATA = MD_DIALOG_DATA;
+exports.MAT_DIALOG_SCROLL_STRATEGY = MD_DIALOG_SCROLL_STRATEGY;
+exports.MAT_DIALOG_SCROLL_STRATEGY_PROVIDER = MD_DIALOG_SCROLL_STRATEGY_PROVIDER;
+exports.MAT_DIALOG_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_DIALOG_SCROLL_STRATEGY_PROVIDER_FACTORY;
+exports.MatDialog = MdDialog;
+exports.MatDialogActions = MdDialogActions;
+exports.MatDialogClose = MdDialogClose;
+exports.MatDialogConfig = MdDialogConfig;
+exports.MatDialogContainer = MdDialogContainer;
+exports.MatDialogContent = MdDialogContent;
+exports.MatDialogModule = MdDialogModule;
+exports.MatDialogRef = MdDialogRef;
+exports.MatDialogTitle = MdDialogTitle;
 exports.CdkAccordion = CdkAccordion;
 exports.MdAccordion = MdAccordion;
 exports.AccordionItem = AccordionItem;
@@ -22747,6 +23743,14 @@ exports.MdExpansionPanelActionRow = MdExpansionPanelActionRow;
 exports.MdExpansionPanelHeader = MdExpansionPanelHeader;
 exports.MdExpansionPanelDescription = MdExpansionPanelDescription;
 exports.MdExpansionPanelTitle = MdExpansionPanelTitle;
+exports.MdExpansionModule = MdExpansionModule;
+exports.MatAccordion = MdAccordion;
+exports.MatExpansionModule = MdExpansionModule;
+exports.MatExpansionPanel = MdExpansionPanel;
+exports.MatExpansionPanelActionRow = MdExpansionPanelActionRow;
+exports.MatExpansionPanelDescription = MdExpansionPanelDescription;
+exports.MatExpansionPanelHeader = MdExpansionPanelHeader;
+exports.MatExpansionPanelTitle = MdExpansionPanelTitle;
 exports.MdFormFieldModule = MdFormFieldModule;
 exports.MdError = MdError;
 exports.MdFormField = MdFormField;
@@ -22758,9 +23762,20 @@ exports.MdHint = MdHint;
 exports.MdPlaceholder = MdPlaceholder;
 exports.MdPrefix = MdPrefix;
 exports.MdSuffix = MdSuffix;
-exports.MdGridListModule = MdGridListModule;
+exports.MatFormFieldModule = MdFormFieldModule;
+exports.MatError = MdError;
+exports.MatFormField = MdFormField;
+exports.MatFormFieldControl = MdFormFieldControl;
+exports.MatHint = MdHint;
+exports.MatPlaceholder = MdPlaceholder;
+exports.MatPrefix = MdPrefix;
+exports.MatSuffix = MdSuffix;
 exports.MdGridTile = MdGridTile;
+exports.MdGridListModule = MdGridListModule;
 exports.MdGridList = MdGridList;
+exports.MatGridList = MdGridList;
+exports.MatGridListModule = MdGridListModule;
+exports.MatGridTile = MdGridTile;
 exports.MdIconModule = MdIconModule;
 exports.MdIconBase = MdIconBase;
 exports._MdIconMixinBase = _MdIconMixinBase;
@@ -22771,10 +23786,17 @@ exports.getMdIconFailedToSanitizeError = getMdIconFailedToSanitizeError;
 exports.MdIconRegistry = MdIconRegistry;
 exports.ICON_REGISTRY_PROVIDER_FACTORY = ICON_REGISTRY_PROVIDER_FACTORY;
 exports.ICON_REGISTRY_PROVIDER = ICON_REGISTRY_PROVIDER;
+exports.MatIcon = MdIcon;
+exports.MatIconBase = MdIconBase;
+exports.MatIconModule = MdIconModule;
+exports.MatIconRegistry = MdIconRegistry;
 exports.MdInputModule = MdInputModule;
 exports.MdTextareaAutosize = MdTextareaAutosize;
 exports.MdInput = MdInput;
 exports.getMdInputUnsupportedTypeError = getMdInputUnsupportedTypeError;
+exports.MatInput = MdInput;
+exports.MatInputModule = MdInputModule;
+exports.MatTextareaAutosize = MdTextareaAutosize;
 exports.MdListModule = MdListModule;
 exports.MdListBase = MdListBase;
 exports._MdListMixinBase = _MdListMixinBase;
@@ -22795,19 +23817,46 @@ exports.MdListOptionBase = MdListOptionBase;
 exports._MdListOptionMixinBase = _MdListOptionMixinBase;
 exports.MdListOption = MdListOption;
 exports.MdSelectionList = MdSelectionList;
-exports.MdMenuModule = MdMenuModule;
+exports.MatDividerCssMatStyler = MdDividerCssMatStyler;
+exports.MatList = MdList;
+exports.MatListAvatarCssMatStyler = MdListAvatarCssMatStyler;
+exports.MatListBase = MdListBase;
+exports.MatListCssMatStyler = MdListCssMatStyler;
+exports.MatListDivider = MdListDivider;
+exports.MatListIconCssMatStyler = MdListIconCssMatStyler;
+exports.MatListItem = MdListItem;
+exports.MatListItemBase = MdListItemBase;
+exports.MatListModule = MdListModule;
+exports.MatListOption = MdListOption;
+exports.MatListOptionBase = MdListOptionBase;
+exports.MatListSubheaderCssMatStyler = MdListSubheaderCssMatStyler;
+exports.MatNavListCssMatStyler = MdNavListCssMatStyler;
+exports.MatSelectionList = MdSelectionList;
+exports.MatSelectionListBase = MdSelectionListBase;
+exports.MD_MENU_SCROLL_STRATEGY = MD_MENU_SCROLL_STRATEGY;
 exports.fadeInItems = fadeInItems;
 exports.transformMenu = transformMenu;
+exports.MdMenuModule = MdMenuModule;
 exports.MdMenu = MdMenu;
 exports.MD_MENU_DEFAULT_OPTIONS = MD_MENU_DEFAULT_OPTIONS;
 exports.MdMenuItem = MdMenuItem;
 exports.MdMenuTrigger = MdMenuTrigger;
+exports.MAT_MENU_DEFAULT_OPTIONS = MD_MENU_DEFAULT_OPTIONS;
+exports.MatMenu = MdMenu;
+exports.MatMenuItem = MdMenuItem;
+exports.MatMenuModule = MdMenuModule;
+exports.MatMenuTrigger = MdMenuTrigger;
 exports.MdPaginatorModule = MdPaginatorModule;
 exports.PageEvent = PageEvent;
 exports.MdPaginator = MdPaginator;
 exports.MdPaginatorIntl = MdPaginatorIntl;
+exports.MatPaginator = MdPaginator;
+exports.MatPaginatorIntl = MdPaginatorIntl;
+exports.MatPaginatorModule = MdPaginatorModule;
 exports.MdProgressBarModule = MdProgressBarModule;
 exports.MdProgressBar = MdProgressBar;
+exports.MatProgressBar = MdProgressBar;
+exports.MatProgressBarModule = MdProgressBarModule;
 exports.MdProgressSpinnerModule = MdProgressSpinnerModule;
 exports.PROGRESS_SPINNER_STROKE_WIDTH = PROGRESS_SPINNER_STROKE_WIDTH;
 exports.MdProgressSpinnerCssMatStyler = MdProgressSpinnerCssMatStyler;
@@ -22815,6 +23864,11 @@ exports.MdProgressSpinnerBase = MdProgressSpinnerBase;
 exports._MdProgressSpinnerMixinBase = _MdProgressSpinnerMixinBase;
 exports.MdProgressSpinner = MdProgressSpinner;
 exports.MdSpinner = MdSpinner;
+exports.MatProgressSpinner = MdProgressSpinner;
+exports.MatProgressSpinnerBase = MdProgressSpinnerBase;
+exports.MatProgressSpinnerCssMatStyler = MdProgressSpinnerCssMatStyler;
+exports.MatProgressSpinnerModule = MdProgressSpinnerModule;
+exports.MatSpinner = MdSpinner;
 exports.MdRadioModule = MdRadioModule;
 exports.MD_RADIO_GROUP_CONTROL_VALUE_ACCESSOR = MD_RADIO_GROUP_CONTROL_VALUE_ACCESSOR;
 exports.MdRadioChange = MdRadioChange;
@@ -22824,19 +23878,19 @@ exports.MdRadioGroup = MdRadioGroup;
 exports.MdRadioButtonBase = MdRadioButtonBase;
 exports._MdRadioButtonMixinBase = _MdRadioButtonMixinBase;
 exports.MdRadioButton = MdRadioButton;
+exports.MAT_RADIO_GROUP_CONTROL_VALUE_ACCESSOR = MD_RADIO_GROUP_CONTROL_VALUE_ACCESSOR;
+exports.MatRadioButton = MdRadioButton;
+exports.MatRadioButtonBase = MdRadioButtonBase;
+exports.MatRadioChange = MdRadioChange;
+exports.MatRadioGroup = MdRadioGroup;
+exports.MatRadioGroupBase = MdRadioGroupBase;
+exports.MatRadioModule = MdRadioModule;
 exports.MdSelectModule = MdSelectModule;
-exports.fadeInContent = fadeInContent;
-exports.transformPanel = transformPanel;
-exports.transformPlaceholder = transformPlaceholder;
-exports.SELECT_ITEM_HEIGHT = SELECT_ITEM_HEIGHT;
 exports.SELECT_PANEL_MAX_HEIGHT = SELECT_PANEL_MAX_HEIGHT;
-exports.SELECT_MAX_OPTIONS_DISPLAYED = SELECT_MAX_OPTIONS_DISPLAYED;
-exports.SELECT_TRIGGER_HEIGHT = SELECT_TRIGGER_HEIGHT;
-exports.SELECT_OPTION_HEIGHT_ADJUSTMENT = SELECT_OPTION_HEIGHT_ADJUSTMENT;
 exports.SELECT_PANEL_PADDING_X = SELECT_PANEL_PADDING_X;
 exports.SELECT_PANEL_INDENT_PADDING_X = SELECT_PANEL_INDENT_PADDING_X;
+exports.SELECT_ITEM_HEIGHT_EM = SELECT_ITEM_HEIGHT_EM;
 exports.SELECT_MULTIPLE_PANEL_PADDING_X = SELECT_MULTIPLE_PANEL_PADDING_X;
-exports.SELECT_PANEL_PADDING_Y = SELECT_PANEL_PADDING_Y;
 exports.SELECT_PANEL_VIEWPORT_PADDING = SELECT_PANEL_VIEWPORT_PADDING;
 exports.MD_SELECT_SCROLL_STRATEGY = MD_SELECT_SCROLL_STRATEGY;
 exports.MD_SELECT_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_SELECT_SCROLL_STRATEGY_PROVIDER_FACTORY;
@@ -22846,25 +23900,53 @@ exports.MdSelectBase = MdSelectBase;
 exports._MdSelectMixinBase = _MdSelectMixinBase;
 exports.MdSelectTrigger = MdSelectTrigger;
 exports.MdSelect = MdSelect;
+exports.transformPanel = transformPanel;
+exports.fadeInContent = fadeInContent;
+exports.MAT_SELECT_SCROLL_STRATEGY = MD_SELECT_SCROLL_STRATEGY;
+exports.MAT_SELECT_SCROLL_STRATEGY_PROVIDER = MD_SELECT_SCROLL_STRATEGY_PROVIDER;
+exports.MAT_SELECT_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_SELECT_SCROLL_STRATEGY_PROVIDER_FACTORY;
+exports.MatSelect = MdSelect;
+exports.MatSelectBase = MdSelectBase;
+exports.MatSelectChange = MdSelectChange;
+exports.MatSelectModule = MdSelectModule;
+exports.MatSelectTrigger = MdSelectTrigger;
 exports.MdSidenavModule = MdSidenavModule;
 exports.throwMdDuplicatedDrawerError = throwMdDuplicatedDrawerError;
 exports.MdDrawerToggleResult = MdDrawerToggleResult;
+exports.MdDrawerContent = MdDrawerContent;
 exports.MdDrawer = MdDrawer;
 exports.MdDrawerContainer = MdDrawerContainer;
+exports.MdSidenavContent = MdSidenavContent;
 exports.MdSidenav = MdSidenav;
 exports.MdSidenavContainer = MdSidenavContainer;
-exports.MdSliderModule = MdSliderModule;
-exports.MD_SLIDER_VALUE_ACCESSOR = MD_SLIDER_VALUE_ACCESSOR;
-exports.MdSliderChange = MdSliderChange;
-exports.MdSliderBase = MdSliderBase;
-exports._MdSliderMixinBase = _MdSliderMixinBase;
-exports.MdSlider = MdSlider;
+exports.MatDrawerToggleResult = MdDrawerToggleResult;
+exports.MatDrawer = MdDrawer;
+exports.MatDrawerContainer = MdDrawerContainer;
+exports.MatSidenav = MdSidenav;
+exports.MatSidenavContainer = MdSidenavContainer;
+exports.MatSidenavModule = MdSidenavModule;
 exports.MdSlideToggleModule = MdSlideToggleModule;
 exports.MD_SLIDE_TOGGLE_VALUE_ACCESSOR = MD_SLIDE_TOGGLE_VALUE_ACCESSOR;
 exports.MdSlideToggleChange = MdSlideToggleChange;
 exports.MdSlideToggleBase = MdSlideToggleBase;
 exports._MdSlideToggleMixinBase = _MdSlideToggleMixinBase;
 exports.MdSlideToggle = MdSlideToggle;
+exports.MAT_SLIDE_TOGGLE_VALUE_ACCESSOR = MD_SLIDE_TOGGLE_VALUE_ACCESSOR;
+exports.MatSlideToggle = MdSlideToggle;
+exports.MatSlideToggleBase = MdSlideToggleBase;
+exports.MatSlideToggleChange = MdSlideToggleChange;
+exports.MatSlideToggleModule = MdSlideToggleModule;
+exports.MdSliderModule = MdSliderModule;
+exports.MD_SLIDER_VALUE_ACCESSOR = MD_SLIDER_VALUE_ACCESSOR;
+exports.MdSliderChange = MdSliderChange;
+exports.MdSliderBase = MdSliderBase;
+exports._MdSliderMixinBase = _MdSliderMixinBase;
+exports.MdSlider = MdSlider;
+exports.MAT_SLIDER_VALUE_ACCESSOR = MD_SLIDER_VALUE_ACCESSOR;
+exports.MatSlider = MdSlider;
+exports.MatSliderBase = MdSliderBase;
+exports.MatSliderChange = MdSliderChange;
+exports.MatSliderModule = MdSliderModule;
 exports.MdSnackBarModule = MdSnackBarModule;
 exports.MdSnackBar = MdSnackBar;
 exports.SHOW_ANIMATION = SHOW_ANIMATION;
@@ -22874,10 +23956,43 @@ exports.MD_SNACK_BAR_DATA = MD_SNACK_BAR_DATA;
 exports.MdSnackBarConfig = MdSnackBarConfig;
 exports.MdSnackBarRef = MdSnackBarRef;
 exports.SimpleSnackBar = SimpleSnackBar;
+exports.MAT_SNACK_BAR_DATA = MD_SNACK_BAR_DATA;
+exports.MatSnackBar = MdSnackBar;
+exports.MatSnackBarConfig = MdSnackBarConfig;
+exports.MatSnackBarContainer = MdSnackBarContainer;
+exports.MatSnackBarModule = MdSnackBarModule;
+exports.MatSnackBarRef = MdSnackBarRef;
 exports.MdSortModule = MdSortModule;
 exports.MdSortHeader = MdSortHeader;
 exports.MdSortHeaderIntl = MdSortHeaderIntl;
 exports.MdSort = MdSort;
+exports.MatSort = MdSort;
+exports.MatSortHeader = MdSortHeader;
+exports.MatSortHeaderIntl = MdSortHeaderIntl;
+exports.MatSortModule = MdSortModule;
+exports.MdStepperModule = MdStepperModule;
+exports._MdStepLabel = _MdStepLabel;
+exports.MdStepLabel = MdStepLabel;
+exports._MdStep = _MdStep;
+exports._MdStepper = _MdStepper;
+exports.MdStep = MdStep;
+exports.MdStepper = MdStepper;
+exports.MdHorizontalStepper = MdHorizontalStepper;
+exports.MdVerticalStepper = MdVerticalStepper;
+exports._MdStepperNext = _MdStepperNext;
+exports._MdStepperPrevious = _MdStepperPrevious;
+exports.MdStepperNext = MdStepperNext;
+exports.MdStepperPrevious = MdStepperPrevious;
+exports.MdStepHeader = MdStepHeader;
+exports.MatStep = MdStep;
+exports.MatStepHeader = MdStepHeader;
+exports.MatStepLabel = MdStepLabel;
+exports.MatStepper = MdStepper;
+exports.MatHorizontalStepper = MdHorizontalStepper;
+exports.MatStepperModule = MdStepperModule;
+exports.MatVerticalStepper = MdVerticalStepper;
+exports.MatStepperPrevious = MdStepperPrevious;
+exports.MatStepperNext = MdStepperNext;
 exports.MdTableModule = MdTableModule;
 exports._MdCellDef = _MdCellDef;
 exports._MdHeaderCellDef = _MdHeaderCellDef;
@@ -22901,7 +24016,15 @@ exports.MdRowDef = MdRowDef;
 exports.MatRowDef = MatRowDef;
 exports.MdHeaderRow = MdHeaderRow;
 exports.MdRow = MdRow;
-exports.MdTabsModule = MdTabsModule;
+exports.MatCell = MdCell;
+exports.MatCellDef = MdCellDef;
+exports.MatColumnDef = MdColumnDef;
+exports.MatHeaderCell = MdHeaderCell;
+exports.MatHeaderCellDef = MdHeaderCellDef;
+exports.MatHeaderRow = MdHeaderRow;
+exports.MatRow = MdRow;
+exports.MatTable = MdTable;
+exports.MatTableModule = MdTableModule;
 exports.MdInkBar = MdInkBar;
 exports.MdTabBody = MdTabBody;
 exports.MdTabHeader = MdTabHeader;
@@ -22910,19 +24033,32 @@ exports.MdTab = MdTab;
 exports.MdTabLabel = MdTabLabel;
 exports.MdTabNav = MdTabNav;
 exports.MdTabLink = MdTabLink;
+exports.MdTabsModule = MdTabsModule;
 exports.MdTabChangeEvent = MdTabChangeEvent;
 exports.MdTabGroupBase = MdTabGroupBase;
 exports._MdTabGroupMixinBase = _MdTabGroupMixinBase;
 exports.MdTabGroup = MdTabGroup;
-exports.MdTabNavBase = MdTabNavBase;
-exports._MdTabNavMixinBase = _MdTabNavMixinBase;
-exports.MdTabLinkBase = MdTabLinkBase;
-exports._MdTabLinkMixinBase = _MdTabLinkMixinBase;
+exports.MatInkBar = MdInkBar;
+exports.MatTab = MdTab;
+exports.MatTabBody = MdTabBody;
+exports.MatTabChangeEvent = MdTabChangeEvent;
+exports.MatTabGroup = MdTabGroup;
+exports.MatTabGroupBase = MdTabGroupBase;
+exports.MatTabHeader = MdTabHeader;
+exports.MatTabLabel = MdTabLabel;
+exports.MatTabLabelWrapper = MdTabLabelWrapper;
+exports.MatTabLink = MdTabLink;
+exports.MatTabNav = MdTabNav;
+exports.MatTabsModule = MdTabsModule;
 exports.MdToolbarModule = MdToolbarModule;
 exports.MdToolbarRow = MdToolbarRow;
 exports.MdToolbarBase = MdToolbarBase;
 exports._MdToolbarMixinBase = _MdToolbarMixinBase;
 exports.MdToolbar = MdToolbar;
+exports.MatToolbar = MdToolbar;
+exports.MatToolbarBase = MdToolbarBase;
+exports.MatToolbarModule = MdToolbarModule;
+exports.MatToolbarRow = MdToolbarRow;
 exports.MdTooltipModule = MdTooltipModule;
 exports.TOUCHEND_HIDE_DELAY = TOUCHEND_HIDE_DELAY;
 exports.SCROLL_THROTTLE_MS = SCROLL_THROTTLE_MS;
@@ -22933,44 +24069,11 @@ exports.MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_TOOLTIP_SCROLL_STRATEGY
 exports.MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER = MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER;
 exports.MdTooltip = MdTooltip;
 exports.TooltipComponent = TooltipComponent;
-exports.MdStepperModule = MdStepperModule;
-exports._MdStepLabel = _MdStepLabel;
-exports.MdStepLabel = MdStepLabel;
-exports._MdStep = _MdStep;
-exports._MdStepper = _MdStepper;
-exports.MdStep = MdStep;
-exports.MdStepper = MdStepper;
-exports.MdHorizontalStepper = MdHorizontalStepper;
-exports.MdVerticalStepper = MdVerticalStepper;
-exports._MdStepperNext = _MdStepperNext;
-exports._MdStepperPrevious = _MdStepperPrevious;
-exports.MdStepperNext = MdStepperNext;
-exports.MdStepperPrevious = MdStepperPrevious;
-exports.MdStepHeader = MdStepHeader;
-exports.ɵv = mixinColor;
-exports.ɵw = mixinDisableRipple;
-exports.ɵu = mixinDisabled;
-exports.ɵy = mixinTabIndex;
-exports.ɵb = UNIQUE_SELECTION_DISPATCHER_PROVIDER_FACTORY;
-exports.ɵa = RippleRenderer;
-exports.ɵc = AccordionItemBase;
-exports.ɵd = _AccordionItemMixinBase;
-exports.ɵe = EXPANSION_PANEL_ANIMATION_TIMING;
-exports.ɵg = MdGridAvatarCssMatStyler;
-exports.ɵi = MdGridTileFooterCssMatStyler;
-exports.ɵh = MdGridTileHeaderCssMatStyler;
-exports.ɵf = MdGridTileText;
-exports.ɵj = MdMenuItemBase;
-exports.ɵk = _MdMenuItemMixinBase;
-exports.ɵl = MD_MENU_SCROLL_STRATEGY;
-exports.ɵn = MD_MENU_SCROLL_STRATEGY_PROVIDER;
-exports.ɵm = MD_MENU_SCROLL_STRATEGY_PROVIDER_FACTORY;
-exports.ɵs = MdTabBase;
-exports.ɵt = _MdTabMixinBase;
-exports.ɵo = MdTabHeaderBase;
-exports.ɵp = _MdTabHeaderMixinBase;
-exports.ɵq = MdTabLabelWrapperBase;
-exports.ɵr = _MdTabLabelWrapperMixinBase;
+exports.MatTooltip = MdTooltip;
+exports.MatTooltipModule = MdTooltipModule;
+exports.MAT_TOOLTIP_SCROLL_STRATEGY = MD_TOOLTIP_SCROLL_STRATEGY;
+exports.MAT_TOOLTIP_SCROLL_STRATEGY_PROVIDER = MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER;
+exports.MAT_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY = MD_TOOLTIP_SCROLL_STRATEGY_PROVIDER_FACTORY;
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
